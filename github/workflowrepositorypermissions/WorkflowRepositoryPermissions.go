@@ -5,14 +5,14 @@ package workflowrepositorypermissions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/workflowrepositorypermissions/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/workflowrepositorypermissions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/workflow_repository_permissions github_workflow_repository_permissions}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/workflow_repository_permissions github_workflow_repository_permissions}.
 type WorkflowRepositoryPermissions interface {
 	cdktf.TerraformResource
 	CanApprovePullRequestReviews() interface{}
@@ -381,7 +381,7 @@ func (j *jsiiProxy_WorkflowRepositoryPermissions) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/workflow_repository_permissions github_workflow_repository_permissions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/workflow_repository_permissions github_workflow_repository_permissions} Resource.
 func NewWorkflowRepositoryPermissions(scope constructs.Construct, id *string, config *WorkflowRepositoryPermissionsConfig) WorkflowRepositoryPermissions {
 	_init_.Initialize()
 
@@ -391,7 +391,7 @@ func NewWorkflowRepositoryPermissions(scope constructs.Construct, id *string, co
 	j := jsiiProxy_WorkflowRepositoryPermissions{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.workflowRepositoryPermissions.WorkflowRepositoryPermissions",
+		"@cdktn/provider-github.workflowRepositoryPermissions.WorkflowRepositoryPermissions",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -399,12 +399,12 @@ func NewWorkflowRepositoryPermissions(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/workflow_repository_permissions github_workflow_repository_permissions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/workflow_repository_permissions github_workflow_repository_permissions} Resource.
 func NewWorkflowRepositoryPermissions_Override(w WorkflowRepositoryPermissions, scope constructs.Construct, id *string, config *WorkflowRepositoryPermissionsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.workflowRepositoryPermissions.WorkflowRepositoryPermissions",
+		"@cdktn/provider-github.workflowRepositoryPermissions.WorkflowRepositoryPermissions",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -532,7 +532,7 @@ func WorkflowRepositoryPermissions_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.workflowRepositoryPermissions.WorkflowRepositoryPermissions",
+		"@cdktn/provider-github.workflowRepositoryPermissions.WorkflowRepositoryPermissions",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -567,7 +567,7 @@ func WorkflowRepositoryPermissions_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.workflowRepositoryPermissions.WorkflowRepositoryPermissions",
+		"@cdktn/provider-github.workflowRepositoryPermissions.WorkflowRepositoryPermissions",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -586,7 +586,7 @@ func WorkflowRepositoryPermissions_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.workflowRepositoryPermissions.WorkflowRepositoryPermissions",
+		"@cdktn/provider-github.workflowRepositoryPermissions.WorkflowRepositoryPermissions",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -605,7 +605,7 @@ func WorkflowRepositoryPermissions_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.workflowRepositoryPermissions.WorkflowRepositoryPermissions",
+		"@cdktn/provider-github.workflowRepositoryPermissions.WorkflowRepositoryPermissions",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -618,7 +618,7 @@ func WorkflowRepositoryPermissions_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.workflowRepositoryPermissions.WorkflowRepositoryPermissions",
+		"@cdktn/provider-github.workflowRepositoryPermissions.WorkflowRepositoryPermissions",
 		"tfResourceType",
 		&returns,
 	)

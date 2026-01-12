@@ -5,14 +5,14 @@ package datagithubactionsenvironmentsecrets
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubactionsenvironmentsecrets/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubactionsenvironmentsecrets/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/actions_environment_secrets github_actions_environment_secrets}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/actions_environment_secrets github_actions_environment_secrets}.
 type DataGithubActionsEnvironmentSecrets interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -347,7 +347,7 @@ func (j *jsiiProxy_DataGithubActionsEnvironmentSecrets) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/actions_environment_secrets github_actions_environment_secrets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/actions_environment_secrets github_actions_environment_secrets} Data Source.
 func NewDataGithubActionsEnvironmentSecrets(scope constructs.Construct, id *string, config *DataGithubActionsEnvironmentSecretsConfig) DataGithubActionsEnvironmentSecrets {
 	_init_.Initialize()
 
@@ -357,7 +357,7 @@ func NewDataGithubActionsEnvironmentSecrets(scope constructs.Construct, id *stri
 	j := jsiiProxy_DataGithubActionsEnvironmentSecrets{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubActionsEnvironmentSecrets.DataGithubActionsEnvironmentSecrets",
+		"@cdktn/provider-github.dataGithubActionsEnvironmentSecrets.DataGithubActionsEnvironmentSecrets",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -365,12 +365,12 @@ func NewDataGithubActionsEnvironmentSecrets(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/actions_environment_secrets github_actions_environment_secrets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/actions_environment_secrets github_actions_environment_secrets} Data Source.
 func NewDataGithubActionsEnvironmentSecrets_Override(d DataGithubActionsEnvironmentSecrets, scope constructs.Construct, id *string, config *DataGithubActionsEnvironmentSecretsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubActionsEnvironmentSecrets.DataGithubActionsEnvironmentSecrets",
+		"@cdktn/provider-github.dataGithubActionsEnvironmentSecrets.DataGithubActionsEnvironmentSecrets",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -476,7 +476,7 @@ func DataGithubActionsEnvironmentSecrets_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubActionsEnvironmentSecrets.DataGithubActionsEnvironmentSecrets",
+		"@cdktn/provider-github.dataGithubActionsEnvironmentSecrets.DataGithubActionsEnvironmentSecrets",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -511,7 +511,7 @@ func DataGithubActionsEnvironmentSecrets_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubActionsEnvironmentSecrets.DataGithubActionsEnvironmentSecrets",
+		"@cdktn/provider-github.dataGithubActionsEnvironmentSecrets.DataGithubActionsEnvironmentSecrets",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -530,7 +530,7 @@ func DataGithubActionsEnvironmentSecrets_IsTerraformDataSource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubActionsEnvironmentSecrets.DataGithubActionsEnvironmentSecrets",
+		"@cdktn/provider-github.dataGithubActionsEnvironmentSecrets.DataGithubActionsEnvironmentSecrets",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -549,7 +549,7 @@ func DataGithubActionsEnvironmentSecrets_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubActionsEnvironmentSecrets.DataGithubActionsEnvironmentSecrets",
+		"@cdktn/provider-github.dataGithubActionsEnvironmentSecrets.DataGithubActionsEnvironmentSecrets",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -562,7 +562,7 @@ func DataGithubActionsEnvironmentSecrets_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubActionsEnvironmentSecrets.DataGithubActionsEnvironmentSecrets",
+		"@cdktn/provider-github.dataGithubActionsEnvironmentSecrets.DataGithubActionsEnvironmentSecrets",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package datagithubactionsenvironmentvariables
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubactionsenvironmentvariables/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubactionsenvironmentvariables/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/actions_environment_variables github_actions_environment_variables}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/actions_environment_variables github_actions_environment_variables}.
 type DataGithubActionsEnvironmentVariables interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -347,7 +347,7 @@ func (j *jsiiProxy_DataGithubActionsEnvironmentVariables) Variables() DataGithub
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/actions_environment_variables github_actions_environment_variables} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/actions_environment_variables github_actions_environment_variables} Data Source.
 func NewDataGithubActionsEnvironmentVariables(scope constructs.Construct, id *string, config *DataGithubActionsEnvironmentVariablesConfig) DataGithubActionsEnvironmentVariables {
 	_init_.Initialize()
 
@@ -357,7 +357,7 @@ func NewDataGithubActionsEnvironmentVariables(scope constructs.Construct, id *st
 	j := jsiiProxy_DataGithubActionsEnvironmentVariables{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubActionsEnvironmentVariables.DataGithubActionsEnvironmentVariables",
+		"@cdktn/provider-github.dataGithubActionsEnvironmentVariables.DataGithubActionsEnvironmentVariables",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -365,12 +365,12 @@ func NewDataGithubActionsEnvironmentVariables(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/actions_environment_variables github_actions_environment_variables} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/actions_environment_variables github_actions_environment_variables} Data Source.
 func NewDataGithubActionsEnvironmentVariables_Override(d DataGithubActionsEnvironmentVariables, scope constructs.Construct, id *string, config *DataGithubActionsEnvironmentVariablesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubActionsEnvironmentVariables.DataGithubActionsEnvironmentVariables",
+		"@cdktn/provider-github.dataGithubActionsEnvironmentVariables.DataGithubActionsEnvironmentVariables",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -476,7 +476,7 @@ func DataGithubActionsEnvironmentVariables_GenerateConfigForImport(scope constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubActionsEnvironmentVariables.DataGithubActionsEnvironmentVariables",
+		"@cdktn/provider-github.dataGithubActionsEnvironmentVariables.DataGithubActionsEnvironmentVariables",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -511,7 +511,7 @@ func DataGithubActionsEnvironmentVariables_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubActionsEnvironmentVariables.DataGithubActionsEnvironmentVariables",
+		"@cdktn/provider-github.dataGithubActionsEnvironmentVariables.DataGithubActionsEnvironmentVariables",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -530,7 +530,7 @@ func DataGithubActionsEnvironmentVariables_IsTerraformDataSource(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubActionsEnvironmentVariables.DataGithubActionsEnvironmentVariables",
+		"@cdktn/provider-github.dataGithubActionsEnvironmentVariables.DataGithubActionsEnvironmentVariables",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -549,7 +549,7 @@ func DataGithubActionsEnvironmentVariables_IsTerraformElement(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubActionsEnvironmentVariables.DataGithubActionsEnvironmentVariables",
+		"@cdktn/provider-github.dataGithubActionsEnvironmentVariables.DataGithubActionsEnvironmentVariables",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -562,7 +562,7 @@ func DataGithubActionsEnvironmentVariables_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubActionsEnvironmentVariables.DataGithubActionsEnvironmentVariables",
+		"@cdktn/provider-github.dataGithubActionsEnvironmentVariables.DataGithubActionsEnvironmentVariables",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRuleset",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRuleset",
 		reflect.TypeOf((*RepositoryRuleset)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,11 +88,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetBypassActors",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActors",
 		reflect.TypeOf((*RepositoryRulesetBypassActors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsList",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsList",
 		reflect.TypeOf((*RepositoryRulesetBypassActorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -114,7 +114,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsOutputReference",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsOutputReference",
 		reflect.TypeOf((*RepositoryRulesetBypassActorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actorId", GoGetter: "ActorId"},
@@ -153,11 +153,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetConditions",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConditions",
 		reflect.TypeOf((*RepositoryRulesetConditions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetConditionsOutputReference",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConditionsOutputReference",
 		reflect.TypeOf((*RepositoryRulesetConditionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -192,11 +192,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetConditionsRefName",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConditionsRefName",
 		reflect.TypeOf((*RepositoryRulesetConditionsRefName)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetConditionsRefNameOutputReference",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConditionsRefNameOutputReference",
 		reflect.TypeOf((*RepositoryRulesetConditionsRefNameOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -232,19 +232,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetConfig",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig",
 		reflect.TypeOf((*RepositoryRulesetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRules",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules",
 		reflect.TypeOf((*RepositoryRulesetRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePattern",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePattern",
 		reflect.TypeOf((*RepositoryRulesetRulesBranchNamePattern)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePatternOutputReference",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePatternOutputReference",
 		reflect.TypeOf((*RepositoryRulesetRulesBranchNamePatternOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -286,11 +286,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPattern",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPattern",
 		reflect.TypeOf((*RepositoryRulesetRulesCommitAuthorEmailPattern)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference",
 		reflect.TypeOf((*RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -332,11 +332,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePattern",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePattern",
 		reflect.TypeOf((*RepositoryRulesetRulesCommitMessagePattern)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePatternOutputReference",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePatternOutputReference",
 		reflect.TypeOf((*RepositoryRulesetRulesCommitMessagePatternOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -378,11 +378,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPattern",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPattern",
 		reflect.TypeOf((*RepositoryRulesetRulesCommitterEmailPattern)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPatternOutputReference",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPatternOutputReference",
 		reflect.TypeOf((*RepositoryRulesetRulesCommitterEmailPatternOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -424,11 +424,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesFileExtensionRestriction",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFileExtensionRestriction",
 		reflect.TypeOf((*RepositoryRulesetRulesFileExtensionRestriction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesFileExtensionRestrictionOutputReference",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFileExtensionRestrictionOutputReference",
 		reflect.TypeOf((*RepositoryRulesetRulesFileExtensionRestrictionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -462,11 +462,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesFilePathRestriction",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFilePathRestriction",
 		reflect.TypeOf((*RepositoryRulesetRulesFilePathRestriction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesFilePathRestrictionOutputReference",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFilePathRestrictionOutputReference",
 		reflect.TypeOf((*RepositoryRulesetRulesFilePathRestrictionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -500,11 +500,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFilePathLength",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFilePathLength",
 		reflect.TypeOf((*RepositoryRulesetRulesMaxFilePathLength)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFilePathLengthOutputReference",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFilePathLengthOutputReference",
 		reflect.TypeOf((*RepositoryRulesetRulesMaxFilePathLengthOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -538,11 +538,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFileSize",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFileSize",
 		reflect.TypeOf((*RepositoryRulesetRulesMaxFileSize)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFileSizeOutputReference",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFileSizeOutputReference",
 		reflect.TypeOf((*RepositoryRulesetRulesMaxFileSizeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -576,11 +576,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesMergeQueue",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMergeQueue",
 		reflect.TypeOf((*RepositoryRulesetRulesMergeQueue)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesMergeQueueOutputReference",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMergeQueueOutputReference",
 		reflect.TypeOf((*RepositoryRulesetRulesMergeQueueOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "checkResponseTimeoutMinutes", GoGetter: "CheckResponseTimeoutMinutes"},
@@ -633,7 +633,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference",
 		reflect.TypeOf((*RepositoryRulesetRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "branchNamePattern", GoGetter: "BranchNamePattern"},
@@ -742,11 +742,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest",
 		reflect.TypeOf((*RepositoryRulesetRulesPullRequest)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference",
 		reflect.TypeOf((*RepositoryRulesetRulesPullRequestOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -793,11 +793,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanning",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanning",
 		reflect.TypeOf((*RepositoryRulesetRulesRequiredCodeScanning)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningOutputReference",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningOutputReference",
 		reflect.TypeOf((*RepositoryRulesetRulesRequiredCodeScanningOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -832,11 +832,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool",
 		reflect.TypeOf((*RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList",
 		reflect.TypeOf((*RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -858,7 +858,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolOutputReference",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolOutputReference",
 		reflect.TypeOf((*RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "alertsThreshold", GoGetter: "AlertsThreshold"},
@@ -896,11 +896,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredDeployments",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredDeployments",
 		reflect.TypeOf((*RepositoryRulesetRulesRequiredDeployments)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredDeploymentsOutputReference",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredDeploymentsOutputReference",
 		reflect.TypeOf((*RepositoryRulesetRulesRequiredDeploymentsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -934,11 +934,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecks",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecks",
 		reflect.TypeOf((*RepositoryRulesetRulesRequiredStatusChecks)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksOutputReference",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksOutputReference",
 		reflect.TypeOf((*RepositoryRulesetRulesRequiredStatusChecksOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -979,11 +979,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheck",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheck",
 		reflect.TypeOf((*RepositoryRulesetRulesRequiredStatusChecksRequiredCheck)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckList",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckList",
 		reflect.TypeOf((*RepositoryRulesetRulesRequiredStatusChecksRequiredCheckList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1005,7 +1005,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckOutputReference",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckOutputReference",
 		reflect.TypeOf((*RepositoryRulesetRulesRequiredStatusChecksRequiredCheckOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1042,11 +1042,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePattern",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePattern",
 		reflect.TypeOf((*RepositoryRulesetRulesTagNamePattern)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePatternOutputReference",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePatternOutputReference",
 		reflect.TypeOf((*RepositoryRulesetRulesTagNamePatternOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

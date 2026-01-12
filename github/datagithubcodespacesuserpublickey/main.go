@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubCodespacesUserPublicKey.DataGithubCodespacesUserPublicKey",
+		"@cdktn/provider-github.dataGithubCodespacesUserPublicKey.DataGithubCodespacesUserPublicKey",
 		reflect.TypeOf((*DataGithubCodespacesUserPublicKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -60,7 +60,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubCodespacesUserPublicKey.DataGithubCodespacesUserPublicKeyConfig",
+		"@cdktn/provider-github.dataGithubCodespacesUserPublicKey.DataGithubCodespacesUserPublicKeyConfig",
 		reflect.TypeOf((*DataGithubCodespacesUserPublicKeyConfig)(nil)).Elem(),
 	)
 }

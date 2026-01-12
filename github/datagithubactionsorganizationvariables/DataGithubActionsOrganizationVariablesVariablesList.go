@@ -5,9 +5,9 @@ package datagithubactionsorganizationvariables
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubactionsorganizationvariables/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubactionsorganizationvariables/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataGithubActionsOrganizationVariablesVariablesList(terraformResource cd
 	j := jsiiProxy_DataGithubActionsOrganizationVariablesVariablesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariablesVariablesList",
+		"@cdktn/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariablesVariablesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataGithubActionsOrganizationVariablesVariablesList_Override(d DataGithu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariablesVariablesList",
+		"@cdktn/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariablesVariablesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

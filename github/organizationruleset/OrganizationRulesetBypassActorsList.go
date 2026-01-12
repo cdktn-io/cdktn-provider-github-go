@@ -5,9 +5,9 @@ package organizationruleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/organizationruleset/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationruleset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewOrganizationRulesetBypassActorsList(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_OrganizationRulesetBypassActorsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.organizationRuleset.OrganizationRulesetBypassActorsList",
+		"@cdktn/provider-github.organizationRuleset.OrganizationRulesetBypassActorsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewOrganizationRulesetBypassActorsList_Override(o OrganizationRulesetBypass
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.organizationRuleset.OrganizationRulesetBypassActorsList",
+		"@cdktn/provider-github.organizationRuleset.OrganizationRulesetBypassActorsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		o,
 	)

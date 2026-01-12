@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.actionsRunnerGroup.ActionsRunnerGroup",
+		"@cdktn/provider-github.actionsRunnerGroup.ActionsRunnerGroup",
 		reflect.TypeOf((*ActionsRunnerGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,7 +85,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.actionsRunnerGroup.ActionsRunnerGroupConfig",
+		"@cdktn/provider-github.actionsRunnerGroup.ActionsRunnerGroupConfig",
 		reflect.TypeOf((*ActionsRunnerGroupConfig)(nil)).Elem(),
 	)
 }

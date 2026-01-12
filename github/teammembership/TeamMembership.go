@@ -5,14 +5,14 @@ package teammembership
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/teammembership/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/teammembership/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team_membership github_team_membership}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team_membership github_team_membership}.
 type TeamMembership interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -391,7 +391,7 @@ func (j *jsiiProxy_TeamMembership) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team_membership github_team_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team_membership github_team_membership} Resource.
 func NewTeamMembership(scope constructs.Construct, id *string, config *TeamMembershipConfig) TeamMembership {
 	_init_.Initialize()
 
@@ -401,7 +401,7 @@ func NewTeamMembership(scope constructs.Construct, id *string, config *TeamMembe
 	j := jsiiProxy_TeamMembership{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.teamMembership.TeamMembership",
+		"@cdktn/provider-github.teamMembership.TeamMembership",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -409,12 +409,12 @@ func NewTeamMembership(scope constructs.Construct, id *string, config *TeamMembe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team_membership github_team_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team_membership github_team_membership} Resource.
 func NewTeamMembership_Override(t TeamMembership, scope constructs.Construct, id *string, config *TeamMembershipConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.teamMembership.TeamMembership",
+		"@cdktn/provider-github.teamMembership.TeamMembership",
 		[]interface{}{scope, id, config},
 		t,
 	)
@@ -542,7 +542,7 @@ func TeamMembership_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.teamMembership.TeamMembership",
+		"@cdktn/provider-github.teamMembership.TeamMembership",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func TeamMembership_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.teamMembership.TeamMembership",
+		"@cdktn/provider-github.teamMembership.TeamMembership",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func TeamMembership_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.teamMembership.TeamMembership",
+		"@cdktn/provider-github.teamMembership.TeamMembership",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func TeamMembership_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.teamMembership.TeamMembership",
+		"@cdktn/provider-github.teamMembership.TeamMembership",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func TeamMembership_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.teamMembership.TeamMembership",
+		"@cdktn/provider-github.teamMembership.TeamMembership",
 		"tfResourceType",
 		&returns,
 	)

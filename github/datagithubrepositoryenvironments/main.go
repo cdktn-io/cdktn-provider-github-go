@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepositoryEnvironments.DataGithubRepositoryEnvironments",
+		"@cdktn/provider-github.dataGithubRepositoryEnvironments.DataGithubRepositoryEnvironments",
 		reflect.TypeOf((*DataGithubRepositoryEnvironments)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -61,15 +61,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubRepositoryEnvironments.DataGithubRepositoryEnvironmentsConfig",
+		"@cdktn/provider-github.dataGithubRepositoryEnvironments.DataGithubRepositoryEnvironmentsConfig",
 		reflect.TypeOf((*DataGithubRepositoryEnvironmentsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubRepositoryEnvironments.DataGithubRepositoryEnvironmentsEnvironments",
+		"@cdktn/provider-github.dataGithubRepositoryEnvironments.DataGithubRepositoryEnvironmentsEnvironments",
 		reflect.TypeOf((*DataGithubRepositoryEnvironmentsEnvironments)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepositoryEnvironments.DataGithubRepositoryEnvironmentsEnvironmentsList",
+		"@cdktn/provider-github.dataGithubRepositoryEnvironments.DataGithubRepositoryEnvironmentsEnvironmentsList",
 		reflect.TypeOf((*DataGithubRepositoryEnvironmentsEnvironmentsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -90,7 +90,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepositoryEnvironments.DataGithubRepositoryEnvironmentsEnvironmentsOutputReference",
+		"@cdktn/provider-github.dataGithubRepositoryEnvironments.DataGithubRepositoryEnvironmentsEnvironmentsOutputReference",
 		reflect.TypeOf((*DataGithubRepositoryEnvironmentsEnvironmentsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

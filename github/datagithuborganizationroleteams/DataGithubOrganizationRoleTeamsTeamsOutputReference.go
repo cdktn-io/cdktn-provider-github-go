@@ -5,9 +5,9 @@ package datagithuborganizationroleteams
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithuborganizationroleteams/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithuborganizationroleteams/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -203,7 +203,7 @@ func NewDataGithubOrganizationRoleTeamsTeamsOutputReference(terraformResource cd
 	j := jsiiProxy_DataGithubOrganizationRoleTeamsTeamsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubOrganizationRoleTeams.DataGithubOrganizationRoleTeamsTeamsOutputReference",
+		"@cdktn/provider-github.dataGithubOrganizationRoleTeams.DataGithubOrganizationRoleTeamsTeamsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -215,7 +215,7 @@ func NewDataGithubOrganizationRoleTeamsTeamsOutputReference_Override(d DataGithu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubOrganizationRoleTeams.DataGithubOrganizationRoleTeamsTeamsOutputReference",
+		"@cdktn/provider-github.dataGithubOrganizationRoleTeams.DataGithubOrganizationRoleTeamsTeamsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

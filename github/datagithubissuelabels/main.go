@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubIssueLabels.DataGithubIssueLabels",
+		"@cdktn/provider-github.dataGithubIssueLabels.DataGithubIssueLabels",
 		reflect.TypeOf((*DataGithubIssueLabels)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -61,15 +61,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubIssueLabels.DataGithubIssueLabelsConfig",
+		"@cdktn/provider-github.dataGithubIssueLabels.DataGithubIssueLabelsConfig",
 		reflect.TypeOf((*DataGithubIssueLabelsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubIssueLabels.DataGithubIssueLabelsLabels",
+		"@cdktn/provider-github.dataGithubIssueLabels.DataGithubIssueLabelsLabels",
 		reflect.TypeOf((*DataGithubIssueLabelsLabels)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubIssueLabels.DataGithubIssueLabelsLabelsList",
+		"@cdktn/provider-github.dataGithubIssueLabels.DataGithubIssueLabelsLabelsList",
 		reflect.TypeOf((*DataGithubIssueLabelsLabelsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -90,7 +90,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubIssueLabels.DataGithubIssueLabelsLabelsOutputReference",
+		"@cdktn/provider-github.dataGithubIssueLabels.DataGithubIssueLabelsLabelsOutputReference",
 		reflect.TypeOf((*DataGithubIssueLabelsLabelsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},

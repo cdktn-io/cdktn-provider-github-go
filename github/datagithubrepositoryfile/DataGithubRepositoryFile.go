@@ -5,14 +5,14 @@ package datagithubrepositoryfile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubrepositoryfile/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepositoryfile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/repository_file github_repository_file}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/repository_file github_repository_file}.
 type DataGithubRepositoryFile interface {
 	cdktf.TerraformDataSource
 	Branch() *string
@@ -412,7 +412,7 @@ func (j *jsiiProxy_DataGithubRepositoryFile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/repository_file github_repository_file} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/repository_file github_repository_file} Data Source.
 func NewDataGithubRepositoryFile(scope constructs.Construct, id *string, config *DataGithubRepositoryFileConfig) DataGithubRepositoryFile {
 	_init_.Initialize()
 
@@ -422,7 +422,7 @@ func NewDataGithubRepositoryFile(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataGithubRepositoryFile{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubRepositoryFile.DataGithubRepositoryFile",
+		"@cdktn/provider-github.dataGithubRepositoryFile.DataGithubRepositoryFile",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -430,12 +430,12 @@ func NewDataGithubRepositoryFile(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/repository_file github_repository_file} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/repository_file github_repository_file} Data Source.
 func NewDataGithubRepositoryFile_Override(d DataGithubRepositoryFile, scope constructs.Construct, id *string, config *DataGithubRepositoryFileConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubRepositoryFile.DataGithubRepositoryFile",
+		"@cdktn/provider-github.dataGithubRepositoryFile.DataGithubRepositoryFile",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -541,7 +541,7 @@ func DataGithubRepositoryFile_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubRepositoryFile.DataGithubRepositoryFile",
+		"@cdktn/provider-github.dataGithubRepositoryFile.DataGithubRepositoryFile",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -576,7 +576,7 @@ func DataGithubRepositoryFile_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubRepositoryFile.DataGithubRepositoryFile",
+		"@cdktn/provider-github.dataGithubRepositoryFile.DataGithubRepositoryFile",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -595,7 +595,7 @@ func DataGithubRepositoryFile_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubRepositoryFile.DataGithubRepositoryFile",
+		"@cdktn/provider-github.dataGithubRepositoryFile.DataGithubRepositoryFile",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -614,7 +614,7 @@ func DataGithubRepositoryFile_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubRepositoryFile.DataGithubRepositoryFile",
+		"@cdktn/provider-github.dataGithubRepositoryFile.DataGithubRepositoryFile",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func DataGithubRepositoryFile_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubRepositoryFile.DataGithubRepositoryFile",
+		"@cdktn/provider-github.dataGithubRepositoryFile.DataGithubRepositoryFile",
 		"tfResourceType",
 		&returns,
 	)

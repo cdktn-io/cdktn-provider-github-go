@@ -5,9 +5,9 @@ package datagithuborganizationteams
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithuborganizationteams/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithuborganizationteams/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataGithubOrganizationTeamsTeamsList(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_DataGithubOrganizationTeamsTeamsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeamsTeamsList",
+		"@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeamsTeamsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataGithubOrganizationTeamsTeamsList_Override(d DataGithubOrganizationTe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeamsTeamsList",
+		"@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeamsTeamsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

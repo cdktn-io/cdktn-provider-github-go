@@ -5,9 +5,9 @@ package datagithubactionsorganizationsecrets
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubactionsorganizationsecrets/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubactionsorganizationsecrets/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataGithubActionsOrganizationSecretsSecretsList(terraformResource cdktf.
 	j := jsiiProxy_DataGithubActionsOrganizationSecretsSecretsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubActionsOrganizationSecrets.DataGithubActionsOrganizationSecretsSecretsList",
+		"@cdktn/provider-github.dataGithubActionsOrganizationSecrets.DataGithubActionsOrganizationSecretsSecretsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataGithubActionsOrganizationSecretsSecretsList_Override(d DataGithubAct
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubActionsOrganizationSecrets.DataGithubActionsOrganizationSecretsSecretsList",
+		"@cdktn/provider-github.dataGithubActionsOrganizationSecrets.DataGithubActionsOrganizationSecretsSecretsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

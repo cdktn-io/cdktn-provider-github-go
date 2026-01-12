@@ -5,14 +5,14 @@ package emugroupmapping
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/emugroupmapping/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/emugroupmapping/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/emu_group_mapping github_emu_group_mapping}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/emu_group_mapping github_emu_group_mapping}.
 type EmuGroupMapping interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -367,7 +367,7 @@ func (j *jsiiProxy_EmuGroupMapping) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/emu_group_mapping github_emu_group_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/emu_group_mapping github_emu_group_mapping} Resource.
 func NewEmuGroupMapping(scope constructs.Construct, id *string, config *EmuGroupMappingConfig) EmuGroupMapping {
 	_init_.Initialize()
 
@@ -377,7 +377,7 @@ func NewEmuGroupMapping(scope constructs.Construct, id *string, config *EmuGroup
 	j := jsiiProxy_EmuGroupMapping{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.emuGroupMapping.EmuGroupMapping",
+		"@cdktn/provider-github.emuGroupMapping.EmuGroupMapping",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -385,12 +385,12 @@ func NewEmuGroupMapping(scope constructs.Construct, id *string, config *EmuGroup
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/emu_group_mapping github_emu_group_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/emu_group_mapping github_emu_group_mapping} Resource.
 func NewEmuGroupMapping_Override(e EmuGroupMapping, scope constructs.Construct, id *string, config *EmuGroupMappingConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.emuGroupMapping.EmuGroupMapping",
+		"@cdktn/provider-github.emuGroupMapping.EmuGroupMapping",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -507,7 +507,7 @@ func EmuGroupMapping_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.emuGroupMapping.EmuGroupMapping",
+		"@cdktn/provider-github.emuGroupMapping.EmuGroupMapping",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -542,7 +542,7 @@ func EmuGroupMapping_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.emuGroupMapping.EmuGroupMapping",
+		"@cdktn/provider-github.emuGroupMapping.EmuGroupMapping",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -561,7 +561,7 @@ func EmuGroupMapping_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.emuGroupMapping.EmuGroupMapping",
+		"@cdktn/provider-github.emuGroupMapping.EmuGroupMapping",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -580,7 +580,7 @@ func EmuGroupMapping_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.emuGroupMapping.EmuGroupMapping",
+		"@cdktn/provider-github.emuGroupMapping.EmuGroupMapping",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func EmuGroupMapping_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.emuGroupMapping.EmuGroupMapping",
+		"@cdktn/provider-github.emuGroupMapping.EmuGroupMapping",
 		"tfResourceType",
 		&returns,
 	)

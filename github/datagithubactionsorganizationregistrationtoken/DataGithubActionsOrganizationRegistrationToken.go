@@ -5,14 +5,14 @@ package datagithubactionsorganizationregistrationtoken
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubactionsorganizationregistrationtoken/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubactionsorganizationregistrationtoken/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/actions_organization_registration_token github_actions_organization_registration_token}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/actions_organization_registration_token github_actions_organization_registration_token}.
 type DataGithubActionsOrganizationRegistrationToken interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -287,7 +287,7 @@ func (j *jsiiProxy_DataGithubActionsOrganizationRegistrationToken) Token() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/actions_organization_registration_token github_actions_organization_registration_token} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/actions_organization_registration_token github_actions_organization_registration_token} Data Source.
 func NewDataGithubActionsOrganizationRegistrationToken(scope constructs.Construct, id *string, config *DataGithubActionsOrganizationRegistrationTokenConfig) DataGithubActionsOrganizationRegistrationToken {
 	_init_.Initialize()
 
@@ -297,7 +297,7 @@ func NewDataGithubActionsOrganizationRegistrationToken(scope constructs.Construc
 	j := jsiiProxy_DataGithubActionsOrganizationRegistrationToken{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubActionsOrganizationRegistrationToken.DataGithubActionsOrganizationRegistrationToken",
+		"@cdktn/provider-github.dataGithubActionsOrganizationRegistrationToken.DataGithubActionsOrganizationRegistrationToken",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -305,12 +305,12 @@ func NewDataGithubActionsOrganizationRegistrationToken(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/actions_organization_registration_token github_actions_organization_registration_token} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/actions_organization_registration_token github_actions_organization_registration_token} Data Source.
 func NewDataGithubActionsOrganizationRegistrationToken_Override(d DataGithubActionsOrganizationRegistrationToken, scope constructs.Construct, id *string, config *DataGithubActionsOrganizationRegistrationTokenConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubActionsOrganizationRegistrationToken.DataGithubActionsOrganizationRegistrationToken",
+		"@cdktn/provider-github.dataGithubActionsOrganizationRegistrationToken.DataGithubActionsOrganizationRegistrationToken",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -383,7 +383,7 @@ func DataGithubActionsOrganizationRegistrationToken_GenerateConfigForImport(scop
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubActionsOrganizationRegistrationToken.DataGithubActionsOrganizationRegistrationToken",
+		"@cdktn/provider-github.dataGithubActionsOrganizationRegistrationToken.DataGithubActionsOrganizationRegistrationToken",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -418,7 +418,7 @@ func DataGithubActionsOrganizationRegistrationToken_IsConstruct(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubActionsOrganizationRegistrationToken.DataGithubActionsOrganizationRegistrationToken",
+		"@cdktn/provider-github.dataGithubActionsOrganizationRegistrationToken.DataGithubActionsOrganizationRegistrationToken",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -437,7 +437,7 @@ func DataGithubActionsOrganizationRegistrationToken_IsTerraformDataSource(x inte
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubActionsOrganizationRegistrationToken.DataGithubActionsOrganizationRegistrationToken",
+		"@cdktn/provider-github.dataGithubActionsOrganizationRegistrationToken.DataGithubActionsOrganizationRegistrationToken",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -456,7 +456,7 @@ func DataGithubActionsOrganizationRegistrationToken_IsTerraformElement(x interfa
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubActionsOrganizationRegistrationToken.DataGithubActionsOrganizationRegistrationToken",
+		"@cdktn/provider-github.dataGithubActionsOrganizationRegistrationToken.DataGithubActionsOrganizationRegistrationToken",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -469,7 +469,7 @@ func DataGithubActionsOrganizationRegistrationToken_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubActionsOrganizationRegistrationToken.DataGithubActionsOrganizationRegistrationToken",
+		"@cdktn/provider-github.dataGithubActionsOrganizationRegistrationToken.DataGithubActionsOrganizationRegistrationToken",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package repositorydeploymentbranchpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/repositorydeploymentbranchpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/repositorydeploymentbranchpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_deployment_branch_policy github_repository_deployment_branch_policy}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_deployment_branch_policy github_repository_deployment_branch_policy}.
 type RepositoryDeploymentBranchPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -403,7 +403,7 @@ func (j *jsiiProxy_RepositoryDeploymentBranchPolicy) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_deployment_branch_policy github_repository_deployment_branch_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_deployment_branch_policy github_repository_deployment_branch_policy} Resource.
 func NewRepositoryDeploymentBranchPolicy(scope constructs.Construct, id *string, config *RepositoryDeploymentBranchPolicyConfig) RepositoryDeploymentBranchPolicy {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewRepositoryDeploymentBranchPolicy(scope constructs.Construct, id *string,
 	j := jsiiProxy_RepositoryDeploymentBranchPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryDeploymentBranchPolicy.RepositoryDeploymentBranchPolicy",
+		"@cdktn/provider-github.repositoryDeploymentBranchPolicy.RepositoryDeploymentBranchPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewRepositoryDeploymentBranchPolicy(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_deployment_branch_policy github_repository_deployment_branch_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_deployment_branch_policy github_repository_deployment_branch_policy} Resource.
 func NewRepositoryDeploymentBranchPolicy_Override(r RepositoryDeploymentBranchPolicy, scope constructs.Construct, id *string, config *RepositoryDeploymentBranchPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryDeploymentBranchPolicy.RepositoryDeploymentBranchPolicy",
+		"@cdktn/provider-github.repositoryDeploymentBranchPolicy.RepositoryDeploymentBranchPolicy",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -565,7 +565,7 @@ func RepositoryDeploymentBranchPolicy_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryDeploymentBranchPolicy.RepositoryDeploymentBranchPolicy",
+		"@cdktn/provider-github.repositoryDeploymentBranchPolicy.RepositoryDeploymentBranchPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -600,7 +600,7 @@ func RepositoryDeploymentBranchPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryDeploymentBranchPolicy.RepositoryDeploymentBranchPolicy",
+		"@cdktn/provider-github.repositoryDeploymentBranchPolicy.RepositoryDeploymentBranchPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func RepositoryDeploymentBranchPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryDeploymentBranchPolicy.RepositoryDeploymentBranchPolicy",
+		"@cdktn/provider-github.repositoryDeploymentBranchPolicy.RepositoryDeploymentBranchPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func RepositoryDeploymentBranchPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryDeploymentBranchPolicy.RepositoryDeploymentBranchPolicy",
+		"@cdktn/provider-github.repositoryDeploymentBranchPolicy.RepositoryDeploymentBranchPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func RepositoryDeploymentBranchPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.repositoryDeploymentBranchPolicy.RepositoryDeploymentBranchPolicy",
+		"@cdktn/provider-github.repositoryDeploymentBranchPolicy.RepositoryDeploymentBranchPolicy",
 		"tfResourceType",
 		&returns,
 	)

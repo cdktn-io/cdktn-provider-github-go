@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties",
+		"@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties",
 		reflect.TypeOf((*OrganizationCustomProperties)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,7 +86,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig",
+		"@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig",
 		reflect.TypeOf((*OrganizationCustomPropertiesConfig)(nil)).Elem(),
 	)
 }

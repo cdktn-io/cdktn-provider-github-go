@@ -5,9 +5,9 @@ package datagithubrepositoryenvironmentdeploymentpolicies
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubrepositoryenvironmentdeploymentpolicies/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepositoryenvironmentdeploymentpolicies/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataGithubRepositoryEnvironmentDeploymentPoliciesPoliciesList(terraformR
 	j := jsiiProxy_DataGithubRepositoryEnvironmentDeploymentPoliciesPoliciesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubRepositoryEnvironmentDeploymentPolicies.DataGithubRepositoryEnvironmentDeploymentPoliciesPoliciesList",
+		"@cdktn/provider-github.dataGithubRepositoryEnvironmentDeploymentPolicies.DataGithubRepositoryEnvironmentDeploymentPoliciesPoliciesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataGithubRepositoryEnvironmentDeploymentPoliciesPoliciesList_Override(d
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubRepositoryEnvironmentDeploymentPolicies.DataGithubRepositoryEnvironmentDeploymentPoliciesPoliciesList",
+		"@cdktn/provider-github.dataGithubRepositoryEnvironmentDeploymentPolicies.DataGithubRepositoryEnvironmentDeploymentPoliciesPoliciesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

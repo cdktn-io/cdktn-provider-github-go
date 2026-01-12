@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.teamMembers.TeamMembers",
+		"@cdktn/provider-github.teamMembers.TeamMembers",
 		reflect.TypeOf((*TeamMembers)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,15 +71,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.teamMembers.TeamMembersConfig",
+		"@cdktn/provider-github.teamMembers.TeamMembersConfig",
 		reflect.TypeOf((*TeamMembersConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.teamMembers.TeamMembersMembers",
+		"@cdktn/provider-github.teamMembers.TeamMembersMembers",
 		reflect.TypeOf((*TeamMembersMembers)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.teamMembers.TeamMembersMembersList",
+		"@cdktn/provider-github.teamMembers.TeamMembersMembersList",
 		reflect.TypeOf((*TeamMembersMembersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -101,7 +101,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.teamMembers.TeamMembersMembersOutputReference",
+		"@cdktn/provider-github.teamMembers.TeamMembersMembersOutputReference",
 		reflect.TypeOf((*TeamMembersMembersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

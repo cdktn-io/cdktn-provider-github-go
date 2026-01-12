@@ -5,9 +5,9 @@ package issuelabels
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/issuelabels/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/issuelabels/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewIssueLabelsLabelList(terraformResource cdktf.IInterpolatingParent, terra
 	j := jsiiProxy_IssueLabelsLabelList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.issueLabels.IssueLabelsLabelList",
+		"@cdktn/provider-github.issueLabels.IssueLabelsLabelList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewIssueLabelsLabelList_Override(i IssueLabelsLabelList, terraformResource 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.issueLabels.IssueLabelsLabelList",
+		"@cdktn/provider-github.issueLabels.IssueLabelsLabelList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		i,
 	)

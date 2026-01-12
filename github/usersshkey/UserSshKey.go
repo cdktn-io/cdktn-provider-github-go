@@ -5,14 +5,14 @@ package usersshkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/usersshkey/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/usersshkey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/user_ssh_key github_user_ssh_key}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/user_ssh_key github_user_ssh_key}.
 type UserSshKey interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -378,7 +378,7 @@ func (j *jsiiProxy_UserSshKey) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/user_ssh_key github_user_ssh_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/user_ssh_key github_user_ssh_key} Resource.
 func NewUserSshKey(scope constructs.Construct, id *string, config *UserSshKeyConfig) UserSshKey {
 	_init_.Initialize()
 
@@ -388,7 +388,7 @@ func NewUserSshKey(scope constructs.Construct, id *string, config *UserSshKeyCon
 	j := jsiiProxy_UserSshKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.userSshKey.UserSshKey",
+		"@cdktn/provider-github.userSshKey.UserSshKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -396,12 +396,12 @@ func NewUserSshKey(scope constructs.Construct, id *string, config *UserSshKeyCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/user_ssh_key github_user_ssh_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/user_ssh_key github_user_ssh_key} Resource.
 func NewUserSshKey_Override(u UserSshKey, scope constructs.Construct, id *string, config *UserSshKeyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.userSshKey.UserSshKey",
+		"@cdktn/provider-github.userSshKey.UserSshKey",
 		[]interface{}{scope, id, config},
 		u,
 	)
@@ -518,7 +518,7 @@ func UserSshKey_GenerateConfigForImport(scope constructs.Construct, importToId *
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.userSshKey.UserSshKey",
+		"@cdktn/provider-github.userSshKey.UserSshKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -553,7 +553,7 @@ func UserSshKey_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.userSshKey.UserSshKey",
+		"@cdktn/provider-github.userSshKey.UserSshKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -572,7 +572,7 @@ func UserSshKey_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.userSshKey.UserSshKey",
+		"@cdktn/provider-github.userSshKey.UserSshKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -591,7 +591,7 @@ func UserSshKey_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.userSshKey.UserSshKey",
+		"@cdktn/provider-github.userSshKey.UserSshKey",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func UserSshKey_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.userSshKey.UserSshKey",
+		"@cdktn/provider-github.userSshKey.UserSshKey",
 		"tfResourceType",
 		&returns,
 	)

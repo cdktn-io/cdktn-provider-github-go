@@ -5,14 +5,14 @@ package datagithubactionsorganizationvariables
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubactionsorganizationvariables/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubactionsorganizationvariables/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/actions_organization_variables github_actions_organization_variables}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/actions_organization_variables github_actions_organization_variables}.
 type DataGithubActionsOrganizationVariables interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataGithubActionsOrganizationVariables) Variables() DataGithu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/actions_organization_variables github_actions_organization_variables} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/actions_organization_variables github_actions_organization_variables} Data Source.
 func NewDataGithubActionsOrganizationVariables(scope constructs.Construct, id *string, config *DataGithubActionsOrganizationVariablesConfig) DataGithubActionsOrganizationVariables {
 	_init_.Initialize()
 
@@ -286,7 +286,7 @@ func NewDataGithubActionsOrganizationVariables(scope constructs.Construct, id *s
 	j := jsiiProxy_DataGithubActionsOrganizationVariables{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariables",
+		"@cdktn/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariables",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -294,12 +294,12 @@ func NewDataGithubActionsOrganizationVariables(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/actions_organization_variables github_actions_organization_variables} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/actions_organization_variables github_actions_organization_variables} Data Source.
 func NewDataGithubActionsOrganizationVariables_Override(d DataGithubActionsOrganizationVariables, scope constructs.Construct, id *string, config *DataGithubActionsOrganizationVariablesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariables",
+		"@cdktn/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariables",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -372,7 +372,7 @@ func DataGithubActionsOrganizationVariables_GenerateConfigForImport(scope constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariables",
+		"@cdktn/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariables",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -407,7 +407,7 @@ func DataGithubActionsOrganizationVariables_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariables",
+		"@cdktn/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariables",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -426,7 +426,7 @@ func DataGithubActionsOrganizationVariables_IsTerraformDataSource(x interface{})
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariables",
+		"@cdktn/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariables",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -445,7 +445,7 @@ func DataGithubActionsOrganizationVariables_IsTerraformElement(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariables",
+		"@cdktn/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariables",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -458,7 +458,7 @@ func DataGithubActionsOrganizationVariables_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariables",
+		"@cdktn/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariables",
 		"tfResourceType",
 		&returns,
 	)

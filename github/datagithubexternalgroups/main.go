@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubExternalGroups.DataGithubExternalGroups",
+		"@cdktn/provider-github.dataGithubExternalGroups.DataGithubExternalGroups",
 		reflect.TypeOf((*DataGithubExternalGroups)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -59,15 +59,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubExternalGroups.DataGithubExternalGroupsConfig",
+		"@cdktn/provider-github.dataGithubExternalGroups.DataGithubExternalGroupsConfig",
 		reflect.TypeOf((*DataGithubExternalGroupsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubExternalGroups.DataGithubExternalGroupsExternalGroups",
+		"@cdktn/provider-github.dataGithubExternalGroups.DataGithubExternalGroupsExternalGroups",
 		reflect.TypeOf((*DataGithubExternalGroupsExternalGroups)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubExternalGroups.DataGithubExternalGroupsExternalGroupsList",
+		"@cdktn/provider-github.dataGithubExternalGroups.DataGithubExternalGroupsExternalGroupsList",
 		reflect.TypeOf((*DataGithubExternalGroupsExternalGroupsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -88,7 +88,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubExternalGroups.DataGithubExternalGroupsExternalGroupsOutputReference",
+		"@cdktn/provider-github.dataGithubExternalGroups.DataGithubExternalGroupsExternalGroupsOutputReference",
 		reflect.TypeOf((*DataGithubExternalGroupsExternalGroupsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

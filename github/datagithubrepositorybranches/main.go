@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepositoryBranches.DataGithubRepositoryBranches",
+		"@cdktn/provider-github.dataGithubRepositoryBranches.DataGithubRepositoryBranches",
 		reflect.TypeOf((*DataGithubRepositoryBranches)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -67,11 +67,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubRepositoryBranches.DataGithubRepositoryBranchesBranches",
+		"@cdktn/provider-github.dataGithubRepositoryBranches.DataGithubRepositoryBranchesBranches",
 		reflect.TypeOf((*DataGithubRepositoryBranchesBranches)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepositoryBranches.DataGithubRepositoryBranchesBranchesList",
+		"@cdktn/provider-github.dataGithubRepositoryBranches.DataGithubRepositoryBranchesBranchesList",
 		reflect.TypeOf((*DataGithubRepositoryBranchesBranchesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -92,7 +92,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepositoryBranches.DataGithubRepositoryBranchesBranchesOutputReference",
+		"@cdktn/provider-github.dataGithubRepositoryBranches.DataGithubRepositoryBranchesBranchesOutputReference",
 		reflect.TypeOf((*DataGithubRepositoryBranchesBranchesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubRepositoryBranches.DataGithubRepositoryBranchesConfig",
+		"@cdktn/provider-github.dataGithubRepositoryBranches.DataGithubRepositoryBranchesConfig",
 		reflect.TypeOf((*DataGithubRepositoryBranchesConfig)(nil)).Elem(),
 	)
 }

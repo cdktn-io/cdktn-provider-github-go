@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.projectColumn.ProjectColumn",
+		"@cdktn/provider-github.projectColumn.ProjectColumn",
 		reflect.TypeOf((*ProjectColumn)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -72,7 +72,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.projectColumn.ProjectColumnConfig",
+		"@cdktn/provider-github.projectColumn.ProjectColumnConfig",
 		reflect.TypeOf((*ProjectColumnConfig)(nil)).Elem(),
 	)
 }

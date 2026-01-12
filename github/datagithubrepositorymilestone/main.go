@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepositoryMilestone.DataGithubRepositoryMilestone",
+		"@cdktn/provider-github.dataGithubRepositoryMilestone.DataGithubRepositoryMilestone",
 		reflect.TypeOf((*DataGithubRepositoryMilestone)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,7 +68,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubRepositoryMilestone.DataGithubRepositoryMilestoneConfig",
+		"@cdktn/provider-github.dataGithubRepositoryMilestone.DataGithubRepositoryMilestoneConfig",
 		reflect.TypeOf((*DataGithubRepositoryMilestoneConfig)(nil)).Elem(),
 	)
 }

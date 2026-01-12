@@ -5,14 +5,14 @@ package organizationroleteamassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/organizationroleteamassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationroleteamassignment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_role_team_assignment github_organization_role_team_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_role_team_assignment github_organization_role_team_assignment}.
 type OrganizationRoleTeamAssignment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_OrganizationRoleTeamAssignment) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_role_team_assignment github_organization_role_team_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_role_team_assignment github_organization_role_team_assignment} Resource.
 func NewOrganizationRoleTeamAssignment(scope constructs.Construct, id *string, config *OrganizationRoleTeamAssignmentConfig) OrganizationRoleTeamAssignment {
 	_init_.Initialize()
 
@@ -366,7 +366,7 @@ func NewOrganizationRoleTeamAssignment(scope constructs.Construct, id *string, c
 	j := jsiiProxy_OrganizationRoleTeamAssignment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignment",
+		"@cdktn/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -374,12 +374,12 @@ func NewOrganizationRoleTeamAssignment(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_role_team_assignment github_organization_role_team_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_role_team_assignment github_organization_role_team_assignment} Resource.
 func NewOrganizationRoleTeamAssignment_Override(o OrganizationRoleTeamAssignment, scope constructs.Construct, id *string, config *OrganizationRoleTeamAssignmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignment",
+		"@cdktn/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignment",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -496,7 +496,7 @@ func OrganizationRoleTeamAssignment_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignment",
+		"@cdktn/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -531,7 +531,7 @@ func OrganizationRoleTeamAssignment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignment",
+		"@cdktn/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func OrganizationRoleTeamAssignment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignment",
+		"@cdktn/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -569,7 +569,7 @@ func OrganizationRoleTeamAssignment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignment",
+		"@cdktn/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -582,7 +582,7 @@ func OrganizationRoleTeamAssignment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignment",
+		"@cdktn/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignment",
 		"tfResourceType",
 		&returns,
 	)

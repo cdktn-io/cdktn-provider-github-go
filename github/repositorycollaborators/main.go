@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators",
+		"@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators",
 		reflect.TypeOf((*RepositoryCollaborators)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig",
+		"@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig",
 		reflect.TypeOf((*RepositoryCollaboratorsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam",
+		"@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam",
 		reflect.TypeOf((*RepositoryCollaboratorsIgnoreTeam)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList",
+		"@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList",
 		reflect.TypeOf((*RepositoryCollaboratorsIgnoreTeamList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -111,7 +111,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference",
+		"@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference",
 		reflect.TypeOf((*RepositoryCollaboratorsIgnoreTeamOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -145,11 +145,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam",
+		"@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam",
 		reflect.TypeOf((*RepositoryCollaboratorsTeam)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList",
+		"@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList",
 		reflect.TypeOf((*RepositoryCollaboratorsTeamList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -171,7 +171,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference",
+		"@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference",
 		reflect.TypeOf((*RepositoryCollaboratorsTeamOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -208,11 +208,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser",
+		"@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser",
 		reflect.TypeOf((*RepositoryCollaboratorsUser)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList",
+		"@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList",
 		reflect.TypeOf((*RepositoryCollaboratorsUserList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -234,7 +234,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference",
+		"@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference",
 		reflect.TypeOf((*RepositoryCollaboratorsUserOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

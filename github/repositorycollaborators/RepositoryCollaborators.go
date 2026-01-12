@@ -5,14 +5,14 @@ package repositorycollaborators
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/repositorycollaborators/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/repositorycollaborators/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_collaborators github_repository_collaborators}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_collaborators github_repository_collaborators}.
 type RepositoryCollaborators interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -416,7 +416,7 @@ func (j *jsiiProxy_RepositoryCollaborators) UserInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_collaborators github_repository_collaborators} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_collaborators github_repository_collaborators} Resource.
 func NewRepositoryCollaborators(scope constructs.Construct, id *string, config *RepositoryCollaboratorsConfig) RepositoryCollaborators {
 	_init_.Initialize()
 
@@ -426,7 +426,7 @@ func NewRepositoryCollaborators(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_RepositoryCollaborators{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators",
+		"@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -434,12 +434,12 @@ func NewRepositoryCollaborators(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_collaborators github_repository_collaborators} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_collaborators github_repository_collaborators} Resource.
 func NewRepositoryCollaborators_Override(r RepositoryCollaborators, scope constructs.Construct, id *string, config *RepositoryCollaboratorsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators",
+		"@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -545,7 +545,7 @@ func RepositoryCollaborators_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators",
+		"@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -580,7 +580,7 @@ func RepositoryCollaborators_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators",
+		"@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -599,7 +599,7 @@ func RepositoryCollaborators_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators",
+		"@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -618,7 +618,7 @@ func RepositoryCollaborators_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators",
+		"@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -631,7 +631,7 @@ func RepositoryCollaborators_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators",
+		"@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators",
 		"tfResourceType",
 		&returns,
 	)

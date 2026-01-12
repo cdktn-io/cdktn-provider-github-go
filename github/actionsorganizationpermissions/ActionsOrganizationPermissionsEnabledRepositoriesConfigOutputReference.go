@@ -5,9 +5,9 @@ package actionsorganizationpermissions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/actionsorganizationpermissions/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/actionsorganizationpermissions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewActionsOrganizationPermissionsEnabledRepositoriesConfigOutputReference(t
 	j := jsiiProxy_ActionsOrganizationPermissionsEnabledRepositoriesConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissionsEnabledRepositoriesConfigOutputReference",
+		"@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissionsEnabledRepositoriesConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewActionsOrganizationPermissionsEnabledRepositoriesConfigOutputReference_O
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissionsEnabledRepositoriesConfigOutputReference",
+		"@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissionsEnabledRepositoriesConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

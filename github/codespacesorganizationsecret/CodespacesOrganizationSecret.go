@@ -5,14 +5,14 @@ package codespacesorganizationsecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/codespacesorganizationsecret/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/codespacesorganizationsecret/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/codespaces_organization_secret github_codespaces_organization_secret}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/codespaces_organization_secret github_codespaces_organization_secret}.
 type CodespacesOrganizationSecret interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -450,7 +450,7 @@ func (j *jsiiProxy_CodespacesOrganizationSecret) VisibilityInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/codespaces_organization_secret github_codespaces_organization_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/codespaces_organization_secret github_codespaces_organization_secret} Resource.
 func NewCodespacesOrganizationSecret(scope constructs.Construct, id *string, config *CodespacesOrganizationSecretConfig) CodespacesOrganizationSecret {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewCodespacesOrganizationSecret(scope constructs.Construct, id *string, con
 	j := jsiiProxy_CodespacesOrganizationSecret{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.codespacesOrganizationSecret.CodespacesOrganizationSecret",
+		"@cdktn/provider-github.codespacesOrganizationSecret.CodespacesOrganizationSecret",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -468,12 +468,12 @@ func NewCodespacesOrganizationSecret(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/codespaces_organization_secret github_codespaces_organization_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/codespaces_organization_secret github_codespaces_organization_secret} Resource.
 func NewCodespacesOrganizationSecret_Override(c CodespacesOrganizationSecret, scope constructs.Construct, id *string, config *CodespacesOrganizationSecretConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.codespacesOrganizationSecret.CodespacesOrganizationSecret",
+		"@cdktn/provider-github.codespacesOrganizationSecret.CodespacesOrganizationSecret",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -623,7 +623,7 @@ func CodespacesOrganizationSecret_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.codespacesOrganizationSecret.CodespacesOrganizationSecret",
+		"@cdktn/provider-github.codespacesOrganizationSecret.CodespacesOrganizationSecret",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -658,7 +658,7 @@ func CodespacesOrganizationSecret_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.codespacesOrganizationSecret.CodespacesOrganizationSecret",
+		"@cdktn/provider-github.codespacesOrganizationSecret.CodespacesOrganizationSecret",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func CodespacesOrganizationSecret_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.codespacesOrganizationSecret.CodespacesOrganizationSecret",
+		"@cdktn/provider-github.codespacesOrganizationSecret.CodespacesOrganizationSecret",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func CodespacesOrganizationSecret_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.codespacesOrganizationSecret.CodespacesOrganizationSecret",
+		"@cdktn/provider-github.codespacesOrganizationSecret.CodespacesOrganizationSecret",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func CodespacesOrganizationSecret_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.codespacesOrganizationSecret.CodespacesOrganizationSecret",
+		"@cdktn/provider-github.codespacesOrganizationSecret.CodespacesOrganizationSecret",
 		"tfResourceType",
 		&returns,
 	)

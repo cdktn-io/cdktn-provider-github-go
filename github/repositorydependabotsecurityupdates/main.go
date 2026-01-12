@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryDependabotSecurityUpdates.RepositoryDependabotSecurityUpdates",
+		"@cdktn/provider-github.repositoryDependabotSecurityUpdates.RepositoryDependabotSecurityUpdates",
 		reflect.TypeOf((*RepositoryDependabotSecurityUpdates)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -70,7 +70,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryDependabotSecurityUpdates.RepositoryDependabotSecurityUpdatesConfig",
+		"@cdktn/provider-github.repositoryDependabotSecurityUpdates.RepositoryDependabotSecurityUpdatesConfig",
 		reflect.TypeOf((*RepositoryDependabotSecurityUpdatesConfig)(nil)).Elem(),
 	)
 }

@@ -5,14 +5,14 @@ package actionsrepositorypermissions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/actionsrepositorypermissions/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/actionsrepositorypermissions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_repository_permissions github_actions_repository_permissions}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions github_actions_repository_permissions}.
 type ActionsRepositoryPermissions interface {
 	cdktf.TerraformResource
 	AllowedActions() *string
@@ -405,7 +405,7 @@ func (j *jsiiProxy_ActionsRepositoryPermissions) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_repository_permissions github_actions_repository_permissions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions github_actions_repository_permissions} Resource.
 func NewActionsRepositoryPermissions(scope constructs.Construct, id *string, config *ActionsRepositoryPermissionsConfig) ActionsRepositoryPermissions {
 	_init_.Initialize()
 
@@ -415,7 +415,7 @@ func NewActionsRepositoryPermissions(scope constructs.Construct, id *string, con
 	j := jsiiProxy_ActionsRepositoryPermissions{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions",
+		"@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -423,12 +423,12 @@ func NewActionsRepositoryPermissions(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_repository_permissions github_actions_repository_permissions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions github_actions_repository_permissions} Resource.
 func NewActionsRepositoryPermissions_Override(a ActionsRepositoryPermissions, scope constructs.Construct, id *string, config *ActionsRepositoryPermissionsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions",
+		"@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -556,7 +556,7 @@ func ActionsRepositoryPermissions_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions",
+		"@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -591,7 +591,7 @@ func ActionsRepositoryPermissions_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions",
+		"@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -610,7 +610,7 @@ func ActionsRepositoryPermissions_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions",
+		"@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -629,7 +629,7 @@ func ActionsRepositoryPermissions_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions",
+		"@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func ActionsRepositoryPermissions_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions",
+		"@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions",
 		"tfResourceType",
 		&returns,
 	)

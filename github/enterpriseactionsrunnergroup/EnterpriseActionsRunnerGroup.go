@@ -5,14 +5,14 @@ package enterpriseactionsrunnergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/enterpriseactionsrunnergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/enterpriseactionsrunnergroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/enterprise_actions_runner_group github_enterprise_actions_runner_group}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/enterprise_actions_runner_group github_enterprise_actions_runner_group}.
 type EnterpriseActionsRunnerGroup interface {
 	cdktf.TerraformResource
 	AllowsPublicRepositories() interface{}
@@ -519,7 +519,7 @@ func (j *jsiiProxy_EnterpriseActionsRunnerGroup) VisibilityInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/enterprise_actions_runner_group github_enterprise_actions_runner_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/enterprise_actions_runner_group github_enterprise_actions_runner_group} Resource.
 func NewEnterpriseActionsRunnerGroup(scope constructs.Construct, id *string, config *EnterpriseActionsRunnerGroupConfig) EnterpriseActionsRunnerGroup {
 	_init_.Initialize()
 
@@ -529,7 +529,7 @@ func NewEnterpriseActionsRunnerGroup(scope constructs.Construct, id *string, con
 	j := jsiiProxy_EnterpriseActionsRunnerGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.enterpriseActionsRunnerGroup.EnterpriseActionsRunnerGroup",
+		"@cdktn/provider-github.enterpriseActionsRunnerGroup.EnterpriseActionsRunnerGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -537,12 +537,12 @@ func NewEnterpriseActionsRunnerGroup(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/enterprise_actions_runner_group github_enterprise_actions_runner_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/enterprise_actions_runner_group github_enterprise_actions_runner_group} Resource.
 func NewEnterpriseActionsRunnerGroup_Override(e EnterpriseActionsRunnerGroup, scope constructs.Construct, id *string, config *EnterpriseActionsRunnerGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.enterpriseActionsRunnerGroup.EnterpriseActionsRunnerGroup",
+		"@cdktn/provider-github.enterpriseActionsRunnerGroup.EnterpriseActionsRunnerGroup",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -714,7 +714,7 @@ func EnterpriseActionsRunnerGroup_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.enterpriseActionsRunnerGroup.EnterpriseActionsRunnerGroup",
+		"@cdktn/provider-github.enterpriseActionsRunnerGroup.EnterpriseActionsRunnerGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -749,7 +749,7 @@ func EnterpriseActionsRunnerGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.enterpriseActionsRunnerGroup.EnterpriseActionsRunnerGroup",
+		"@cdktn/provider-github.enterpriseActionsRunnerGroup.EnterpriseActionsRunnerGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -768,7 +768,7 @@ func EnterpriseActionsRunnerGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.enterpriseActionsRunnerGroup.EnterpriseActionsRunnerGroup",
+		"@cdktn/provider-github.enterpriseActionsRunnerGroup.EnterpriseActionsRunnerGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -787,7 +787,7 @@ func EnterpriseActionsRunnerGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.enterpriseActionsRunnerGroup.EnterpriseActionsRunnerGroup",
+		"@cdktn/provider-github.enterpriseActionsRunnerGroup.EnterpriseActionsRunnerGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -800,7 +800,7 @@ func EnterpriseActionsRunnerGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.enterpriseActionsRunnerGroup.EnterpriseActionsRunnerGroup",
+		"@cdktn/provider-github.enterpriseActionsRunnerGroup.EnterpriseActionsRunnerGroup",
 		"tfResourceType",
 		&returns,
 	)

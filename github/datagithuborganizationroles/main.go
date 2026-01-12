@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubOrganizationRoles.DataGithubOrganizationRoles",
+		"@cdktn/provider-github.dataGithubOrganizationRoles.DataGithubOrganizationRoles",
 		reflect.TypeOf((*DataGithubOrganizationRoles)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -59,15 +59,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubOrganizationRoles.DataGithubOrganizationRolesConfig",
+		"@cdktn/provider-github.dataGithubOrganizationRoles.DataGithubOrganizationRolesConfig",
 		reflect.TypeOf((*DataGithubOrganizationRolesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubOrganizationRoles.DataGithubOrganizationRolesRoles",
+		"@cdktn/provider-github.dataGithubOrganizationRoles.DataGithubOrganizationRolesRoles",
 		reflect.TypeOf((*DataGithubOrganizationRolesRoles)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubOrganizationRoles.DataGithubOrganizationRolesRolesList",
+		"@cdktn/provider-github.dataGithubOrganizationRoles.DataGithubOrganizationRolesRolesList",
 		reflect.TypeOf((*DataGithubOrganizationRolesRolesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -88,7 +88,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubOrganizationRoles.DataGithubOrganizationRolesRolesOutputReference",
+		"@cdktn/provider-github.dataGithubOrganizationRoles.DataGithubOrganizationRolesRolesOutputReference",
 		reflect.TypeOf((*DataGithubOrganizationRolesRolesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "baseRole", GoGetter: "BaseRole"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeams",
+		"@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeams",
 		reflect.TypeOf((*DataGithubOrganizationTeams)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,15 +68,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeamsConfig",
+		"@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeamsConfig",
 		reflect.TypeOf((*DataGithubOrganizationTeamsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeamsTeams",
+		"@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeamsTeams",
 		reflect.TypeOf((*DataGithubOrganizationTeamsTeams)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeamsTeamsList",
+		"@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeamsTeamsList",
 		reflect.TypeOf((*DataGithubOrganizationTeamsTeamsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -97,7 +97,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeamsTeamsOutputReference",
+		"@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeamsTeamsOutputReference",
 		reflect.TypeOf((*DataGithubOrganizationTeamsTeamsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagers",
+		"@cdktn/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagers",
 		reflect.TypeOf((*DataGithubOrganizationSecurityManagers)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -59,15 +59,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagersConfig",
+		"@cdktn/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagersConfig",
 		reflect.TypeOf((*DataGithubOrganizationSecurityManagersConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagersTeams",
+		"@cdktn/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagersTeams",
 		reflect.TypeOf((*DataGithubOrganizationSecurityManagersTeams)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagersTeamsList",
+		"@cdktn/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagersTeamsList",
 		reflect.TypeOf((*DataGithubOrganizationSecurityManagersTeamsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -88,7 +88,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagersTeamsOutputReference",
+		"@cdktn/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagersTeamsOutputReference",
 		reflect.TypeOf((*DataGithubOrganizationSecurityManagersTeamsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

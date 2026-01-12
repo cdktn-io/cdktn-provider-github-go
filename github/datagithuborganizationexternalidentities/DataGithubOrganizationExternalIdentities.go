@@ -5,14 +5,14 @@ package datagithuborganizationexternalidentities
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithuborganizationexternalidentities/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithuborganizationexternalidentities/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/organization_external_identities github_organization_external_identities}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_external_identities github_organization_external_identities}.
 type DataGithubOrganizationExternalIdentities interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataGithubOrganizationExternalIdentities) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/organization_external_identities github_organization_external_identities} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_external_identities github_organization_external_identities} Data Source.
 func NewDataGithubOrganizationExternalIdentities(scope constructs.Construct, id *string, config *DataGithubOrganizationExternalIdentitiesConfig) DataGithubOrganizationExternalIdentities {
 	_init_.Initialize()
 
@@ -286,7 +286,7 @@ func NewDataGithubOrganizationExternalIdentities(scope constructs.Construct, id 
 	j := jsiiProxy_DataGithubOrganizationExternalIdentities{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubOrganizationExternalIdentities.DataGithubOrganizationExternalIdentities",
+		"@cdktn/provider-github.dataGithubOrganizationExternalIdentities.DataGithubOrganizationExternalIdentities",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -294,12 +294,12 @@ func NewDataGithubOrganizationExternalIdentities(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/organization_external_identities github_organization_external_identities} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_external_identities github_organization_external_identities} Data Source.
 func NewDataGithubOrganizationExternalIdentities_Override(d DataGithubOrganizationExternalIdentities, scope constructs.Construct, id *string, config *DataGithubOrganizationExternalIdentitiesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubOrganizationExternalIdentities.DataGithubOrganizationExternalIdentities",
+		"@cdktn/provider-github.dataGithubOrganizationExternalIdentities.DataGithubOrganizationExternalIdentities",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -372,7 +372,7 @@ func DataGithubOrganizationExternalIdentities_GenerateConfigForImport(scope cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationExternalIdentities.DataGithubOrganizationExternalIdentities",
+		"@cdktn/provider-github.dataGithubOrganizationExternalIdentities.DataGithubOrganizationExternalIdentities",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -407,7 +407,7 @@ func DataGithubOrganizationExternalIdentities_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationExternalIdentities.DataGithubOrganizationExternalIdentities",
+		"@cdktn/provider-github.dataGithubOrganizationExternalIdentities.DataGithubOrganizationExternalIdentities",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -426,7 +426,7 @@ func DataGithubOrganizationExternalIdentities_IsTerraformDataSource(x interface{
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationExternalIdentities.DataGithubOrganizationExternalIdentities",
+		"@cdktn/provider-github.dataGithubOrganizationExternalIdentities.DataGithubOrganizationExternalIdentities",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -445,7 +445,7 @@ func DataGithubOrganizationExternalIdentities_IsTerraformElement(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationExternalIdentities.DataGithubOrganizationExternalIdentities",
+		"@cdktn/provider-github.dataGithubOrganizationExternalIdentities.DataGithubOrganizationExternalIdentities",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -458,7 +458,7 @@ func DataGithubOrganizationExternalIdentities_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubOrganizationExternalIdentities.DataGithubOrganizationExternalIdentities",
+		"@cdktn/provider-github.dataGithubOrganizationExternalIdentities.DataGithubOrganizationExternalIdentities",
 		"tfResourceType",
 		&returns,
 	)

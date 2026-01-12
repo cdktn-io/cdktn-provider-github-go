@@ -5,14 +5,14 @@ package branch
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/branch/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/branch/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch github_branch}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch github_branch}.
 type Branch interface {
 	cdktf.TerraformResource
 	Branch() *string
@@ -450,7 +450,7 @@ func (j *jsiiProxy_Branch) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch github_branch} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch github_branch} Resource.
 func NewBranch(scope constructs.Construct, id *string, config *BranchConfig) Branch {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewBranch(scope constructs.Construct, id *string, config *BranchConfig) Bra
 	j := jsiiProxy_Branch{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.branch.Branch",
+		"@cdktn/provider-github.branch.Branch",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -468,12 +468,12 @@ func NewBranch(scope constructs.Construct, id *string, config *BranchConfig) Bra
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch github_branch} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch github_branch} Resource.
 func NewBranch_Override(b Branch, scope constructs.Construct, id *string, config *BranchConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.branch.Branch",
+		"@cdktn/provider-github.branch.Branch",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -623,7 +623,7 @@ func Branch_GenerateConfigForImport(scope constructs.Construct, importToId *stri
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.branch.Branch",
+		"@cdktn/provider-github.branch.Branch",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -658,7 +658,7 @@ func Branch_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.branch.Branch",
+		"@cdktn/provider-github.branch.Branch",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func Branch_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.branch.Branch",
+		"@cdktn/provider-github.branch.Branch",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func Branch_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.branch.Branch",
+		"@cdktn/provider-github.branch.Branch",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func Branch_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.branch.Branch",
+		"@cdktn/provider-github.branch.Branch",
 		"tfResourceType",
 		&returns,
 	)

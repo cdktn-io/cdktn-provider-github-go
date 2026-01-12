@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryMilestone.RepositoryMilestone",
+		"@cdktn/provider-github.repositoryMilestone.RepositoryMilestone",
 		reflect.TypeOf((*RepositoryMilestone)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,7 +82,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryMilestone.RepositoryMilestoneConfig",
+		"@cdktn/provider-github.repositoryMilestone.RepositoryMilestoneConfig",
 		reflect.TypeOf((*RepositoryMilestoneConfig)(nil)).Elem(),
 	)
 }

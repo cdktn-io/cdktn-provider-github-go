@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.userGpgKey.UserGpgKey",
+		"@cdktn/provider-github.userGpgKey.UserGpgKey",
 		reflect.TypeOf((*UserGpgKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -70,7 +70,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.userGpgKey.UserGpgKeyConfig",
+		"@cdktn/provider-github.userGpgKey.UserGpgKeyConfig",
 		reflect.TypeOf((*UserGpgKeyConfig)(nil)).Elem(),
 	)
 }

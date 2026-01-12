@@ -5,14 +5,14 @@ package repositoryenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/repositoryenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/repositoryenvironment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_environment github_repository_environment}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_environment github_repository_environment}.
 type RepositoryEnvironment interface {
 	cdktf.TerraformResource
 	CanAdminsBypass() interface{}
@@ -476,7 +476,7 @@ func (j *jsiiProxy_RepositoryEnvironment) WaitTimerInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_environment github_repository_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_environment github_repository_environment} Resource.
 func NewRepositoryEnvironment(scope constructs.Construct, id *string, config *RepositoryEnvironmentConfig) RepositoryEnvironment {
 	_init_.Initialize()
 
@@ -486,7 +486,7 @@ func NewRepositoryEnvironment(scope constructs.Construct, id *string, config *Re
 	j := jsiiProxy_RepositoryEnvironment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryEnvironment.RepositoryEnvironment",
+		"@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -494,12 +494,12 @@ func NewRepositoryEnvironment(scope constructs.Construct, id *string, config *Re
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_environment github_repository_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_environment github_repository_environment} Resource.
 func NewRepositoryEnvironment_Override(r RepositoryEnvironment, scope constructs.Construct, id *string, config *RepositoryEnvironmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryEnvironment.RepositoryEnvironment",
+		"@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -649,7 +649,7 @@ func RepositoryEnvironment_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryEnvironment.RepositoryEnvironment",
+		"@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -684,7 +684,7 @@ func RepositoryEnvironment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryEnvironment.RepositoryEnvironment",
+		"@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -703,7 +703,7 @@ func RepositoryEnvironment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryEnvironment.RepositoryEnvironment",
+		"@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func RepositoryEnvironment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryEnvironment.RepositoryEnvironment",
+		"@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -735,7 +735,7 @@ func RepositoryEnvironment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.repositoryEnvironment.RepositoryEnvironment",
+		"@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment",
 		"tfResourceType",
 		&returns,
 	)

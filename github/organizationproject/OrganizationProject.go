@@ -5,14 +5,14 @@ package organizationproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/organizationproject/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationproject/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_project github_organization_project}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_project github_organization_project}.
 type OrganizationProject interface {
 	cdktf.TerraformResource
 	Body() *string
@@ -379,7 +379,7 @@ func (j *jsiiProxy_OrganizationProject) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_project github_organization_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_project github_organization_project} Resource.
 func NewOrganizationProject(scope constructs.Construct, id *string, config *OrganizationProjectConfig) OrganizationProject {
 	_init_.Initialize()
 
@@ -389,7 +389,7 @@ func NewOrganizationProject(scope constructs.Construct, id *string, config *Orga
 	j := jsiiProxy_OrganizationProject{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.organizationProject.OrganizationProject",
+		"@cdktn/provider-github.organizationProject.OrganizationProject",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -397,12 +397,12 @@ func NewOrganizationProject(scope constructs.Construct, id *string, config *Orga
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_project github_organization_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_project github_organization_project} Resource.
 func NewOrganizationProject_Override(o OrganizationProject, scope constructs.Construct, id *string, config *OrganizationProjectConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.organizationProject.OrganizationProject",
+		"@cdktn/provider-github.organizationProject.OrganizationProject",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -519,7 +519,7 @@ func OrganizationProject_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationProject.OrganizationProject",
+		"@cdktn/provider-github.organizationProject.OrganizationProject",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -554,7 +554,7 @@ func OrganizationProject_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationProject.OrganizationProject",
+		"@cdktn/provider-github.organizationProject.OrganizationProject",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -573,7 +573,7 @@ func OrganizationProject_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationProject.OrganizationProject",
+		"@cdktn/provider-github.organizationProject.OrganizationProject",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -592,7 +592,7 @@ func OrganizationProject_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationProject.OrganizationProject",
+		"@cdktn/provider-github.organizationProject.OrganizationProject",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -605,7 +605,7 @@ func OrganizationProject_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.organizationProject.OrganizationProject",
+		"@cdktn/provider-github.organizationProject.OrganizationProject",
 		"tfResourceType",
 		&returns,
 	)

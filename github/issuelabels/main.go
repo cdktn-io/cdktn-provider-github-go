@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.issueLabels.IssueLabels",
+		"@cdktn/provider-github.issueLabels.IssueLabels",
 		reflect.TypeOf((*IssueLabels)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -72,15 +72,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.issueLabels.IssueLabelsConfig",
+		"@cdktn/provider-github.issueLabels.IssueLabelsConfig",
 		reflect.TypeOf((*IssueLabelsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.issueLabels.IssueLabelsLabel",
+		"@cdktn/provider-github.issueLabels.IssueLabelsLabel",
 		reflect.TypeOf((*IssueLabelsLabel)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.issueLabels.IssueLabelsLabelList",
+		"@cdktn/provider-github.issueLabels.IssueLabelsLabelList",
 		reflect.TypeOf((*IssueLabelsLabelList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -102,7 +102,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.issueLabels.IssueLabelsLabelOutputReference",
+		"@cdktn/provider-github.issueLabels.IssueLabelsLabelOutputReference",
 		reflect.TypeOf((*IssueLabelsLabelOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "color", GoGetter: "Color"},

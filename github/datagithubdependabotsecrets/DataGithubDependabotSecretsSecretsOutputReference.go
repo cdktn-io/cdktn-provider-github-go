@@ -5,9 +5,9 @@ package datagithubdependabotsecrets
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubdependabotsecrets/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubdependabotsecrets/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -192,7 +192,7 @@ func NewDataGithubDependabotSecretsSecretsOutputReference(terraformResource cdkt
 	j := jsiiProxy_DataGithubDependabotSecretsSecretsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecretsSecretsOutputReference",
+		"@cdktn/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecretsSecretsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -204,7 +204,7 @@ func NewDataGithubDependabotSecretsSecretsOutputReference_Override(d DataGithubD
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecretsSecretsOutputReference",
+		"@cdktn/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecretsSecretsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

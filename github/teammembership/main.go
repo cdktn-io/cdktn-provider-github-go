@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.teamMembership.TeamMembership",
+		"@cdktn/provider-github.teamMembership.TeamMembership",
 		reflect.TypeOf((*TeamMembership)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.teamMembership.TeamMembershipConfig",
+		"@cdktn/provider-github.teamMembership.TeamMembershipConfig",
 		reflect.TypeOf((*TeamMembershipConfig)(nil)).Elem(),
 	)
 }

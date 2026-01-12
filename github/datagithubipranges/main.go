@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges",
+		"@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges",
 		reflect.TypeOf((*DataGithubIpRanges)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actions", GoGetter: "Actions"},
@@ -85,7 +85,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig",
+		"@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig",
 		reflect.TypeOf((*DataGithubIpRangesConfig)(nil)).Elem(),
 	)
 }

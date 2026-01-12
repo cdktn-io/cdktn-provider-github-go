@@ -5,9 +5,9 @@ package branchprotectionv3
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/branchprotectionv3/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/branchprotectionv3/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewBranchProtectionV3RestrictionsOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_BranchProtectionV3RestrictionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.branchProtectionV3.BranchProtectionV3RestrictionsOutputReference",
+		"@cdktn/provider-github.branchProtectionV3.BranchProtectionV3RestrictionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewBranchProtectionV3RestrictionsOutputReference_Override(b BranchProtectio
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.branchProtectionV3.BranchProtectionV3RestrictionsOutputReference",
+		"@cdktn/provider-github.branchProtectionV3.BranchProtectionV3RestrictionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		b,
 	)

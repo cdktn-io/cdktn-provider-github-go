@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepositoryPullRequest.DataGithubRepositoryPullRequest",
+		"@cdktn/provider-github.dataGithubRepositoryPullRequest.DataGithubRepositoryPullRequest",
 		reflect.TypeOf((*DataGithubRepositoryPullRequest)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -80,7 +80,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubRepositoryPullRequest.DataGithubRepositoryPullRequestConfig",
+		"@cdktn/provider-github.dataGithubRepositoryPullRequest.DataGithubRepositoryPullRequestConfig",
 		reflect.TypeOf((*DataGithubRepositoryPullRequestConfig)(nil)).Elem(),
 	)
 }

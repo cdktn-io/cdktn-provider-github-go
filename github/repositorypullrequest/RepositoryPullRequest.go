@@ -5,14 +5,14 @@ package repositorypullrequest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/repositorypullrequest/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/repositorypullrequest/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_pull_request github_repository_pull_request}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_pull_request github_repository_pull_request}.
 type RepositoryPullRequest interface {
 	cdktf.TerraformResource
 	BaseRef() *string
@@ -573,7 +573,7 @@ func (j *jsiiProxy_RepositoryPullRequest) UpdatedAt() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_pull_request github_repository_pull_request} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_pull_request github_repository_pull_request} Resource.
 func NewRepositoryPullRequest(scope constructs.Construct, id *string, config *RepositoryPullRequestConfig) RepositoryPullRequest {
 	_init_.Initialize()
 
@@ -583,7 +583,7 @@ func NewRepositoryPullRequest(scope constructs.Construct, id *string, config *Re
 	j := jsiiProxy_RepositoryPullRequest{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryPullRequest.RepositoryPullRequest",
+		"@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -591,12 +591,12 @@ func NewRepositoryPullRequest(scope constructs.Construct, id *string, config *Re
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_pull_request github_repository_pull_request} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_pull_request github_repository_pull_request} Resource.
 func NewRepositoryPullRequest_Override(r RepositoryPullRequest, scope constructs.Construct, id *string, config *RepositoryPullRequestConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryPullRequest.RepositoryPullRequest",
+		"@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -768,7 +768,7 @@ func RepositoryPullRequest_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryPullRequest.RepositoryPullRequest",
+		"@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -803,7 +803,7 @@ func RepositoryPullRequest_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryPullRequest.RepositoryPullRequest",
+		"@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -822,7 +822,7 @@ func RepositoryPullRequest_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryPullRequest.RepositoryPullRequest",
+		"@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -841,7 +841,7 @@ func RepositoryPullRequest_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryPullRequest.RepositoryPullRequest",
+		"@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -854,7 +854,7 @@ func RepositoryPullRequest_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.repositoryPullRequest.RepositoryPullRequest",
+		"@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.enterpriseActionsPermissions.EnterpriseActionsPermissions",
+		"@cdktn/provider-github.enterpriseActionsPermissions.EnterpriseActionsPermissions",
 		reflect.TypeOf((*EnterpriseActionsPermissions)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,11 +81,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.enterpriseActionsPermissions.EnterpriseActionsPermissionsAllowedActionsConfig",
+		"@cdktn/provider-github.enterpriseActionsPermissions.EnterpriseActionsPermissionsAllowedActionsConfig",
 		reflect.TypeOf((*EnterpriseActionsPermissionsAllowedActionsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.enterpriseActionsPermissions.EnterpriseActionsPermissionsAllowedActionsConfigOutputReference",
+		"@cdktn/provider-github.enterpriseActionsPermissions.EnterpriseActionsPermissionsAllowedActionsConfigOutputReference",
 		reflect.TypeOf((*EnterpriseActionsPermissionsAllowedActionsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -125,15 +125,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.enterpriseActionsPermissions.EnterpriseActionsPermissionsConfig",
+		"@cdktn/provider-github.enterpriseActionsPermissions.EnterpriseActionsPermissionsConfig",
 		reflect.TypeOf((*EnterpriseActionsPermissionsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.enterpriseActionsPermissions.EnterpriseActionsPermissionsEnabledOrganizationsConfig",
+		"@cdktn/provider-github.enterpriseActionsPermissions.EnterpriseActionsPermissionsEnabledOrganizationsConfig",
 		reflect.TypeOf((*EnterpriseActionsPermissionsEnabledOrganizationsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.enterpriseActionsPermissions.EnterpriseActionsPermissionsEnabledOrganizationsConfigOutputReference",
+		"@cdktn/provider-github.enterpriseActionsPermissions.EnterpriseActionsPermissionsEnabledOrganizationsConfigOutputReference",
 		reflect.TypeOf((*EnterpriseActionsPermissionsEnabledOrganizationsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

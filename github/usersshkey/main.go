@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.userSshKey.UserSshKey",
+		"@cdktn/provider-github.userSshKey.UserSshKey",
 		reflect.TypeOf((*UserSshKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -72,7 +72,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.userSshKey.UserSshKeyConfig",
+		"@cdktn/provider-github.userSshKey.UserSshKeyConfig",
 		reflect.TypeOf((*UserSshKeyConfig)(nil)).Elem(),
 	)
 }

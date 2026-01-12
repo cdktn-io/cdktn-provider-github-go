@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepositoryDeployKeys.DataGithubRepositoryDeployKeys",
+		"@cdktn/provider-github.dataGithubRepositoryDeployKeys.DataGithubRepositoryDeployKeys",
 		reflect.TypeOf((*DataGithubRepositoryDeployKeys)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -61,15 +61,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubRepositoryDeployKeys.DataGithubRepositoryDeployKeysConfig",
+		"@cdktn/provider-github.dataGithubRepositoryDeployKeys.DataGithubRepositoryDeployKeysConfig",
 		reflect.TypeOf((*DataGithubRepositoryDeployKeysConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubRepositoryDeployKeys.DataGithubRepositoryDeployKeysKeys",
+		"@cdktn/provider-github.dataGithubRepositoryDeployKeys.DataGithubRepositoryDeployKeysKeys",
 		reflect.TypeOf((*DataGithubRepositoryDeployKeysKeys)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepositoryDeployKeys.DataGithubRepositoryDeployKeysKeysList",
+		"@cdktn/provider-github.dataGithubRepositoryDeployKeys.DataGithubRepositoryDeployKeysKeysList",
 		reflect.TypeOf((*DataGithubRepositoryDeployKeysKeysList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -90,7 +90,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepositoryDeployKeys.DataGithubRepositoryDeployKeysKeysOutputReference",
+		"@cdktn/provider-github.dataGithubRepositoryDeployKeys.DataGithubRepositoryDeployKeysKeysOutputReference",
 		reflect.TypeOf((*DataGithubRepositoryDeployKeysKeysOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

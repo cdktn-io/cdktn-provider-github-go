@@ -5,14 +5,14 @@ package datagithubrepositoryenvironments
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubrepositoryenvironments/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepositoryenvironments/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/repository_environments github_repository_environments}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/repository_environments github_repository_environments}.
 type DataGithubRepositoryEnvironments interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -299,7 +299,7 @@ func (j *jsiiProxy_DataGithubRepositoryEnvironments) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/repository_environments github_repository_environments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/repository_environments github_repository_environments} Data Source.
 func NewDataGithubRepositoryEnvironments(scope constructs.Construct, id *string, config *DataGithubRepositoryEnvironmentsConfig) DataGithubRepositoryEnvironments {
 	_init_.Initialize()
 
@@ -309,7 +309,7 @@ func NewDataGithubRepositoryEnvironments(scope constructs.Construct, id *string,
 	j := jsiiProxy_DataGithubRepositoryEnvironments{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubRepositoryEnvironments.DataGithubRepositoryEnvironments",
+		"@cdktn/provider-github.dataGithubRepositoryEnvironments.DataGithubRepositoryEnvironments",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -317,12 +317,12 @@ func NewDataGithubRepositoryEnvironments(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/repository_environments github_repository_environments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/repository_environments github_repository_environments} Data Source.
 func NewDataGithubRepositoryEnvironments_Override(d DataGithubRepositoryEnvironments, scope constructs.Construct, id *string, config *DataGithubRepositoryEnvironmentsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubRepositoryEnvironments.DataGithubRepositoryEnvironments",
+		"@cdktn/provider-github.dataGithubRepositoryEnvironments.DataGithubRepositoryEnvironments",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -406,7 +406,7 @@ func DataGithubRepositoryEnvironments_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubRepositoryEnvironments.DataGithubRepositoryEnvironments",
+		"@cdktn/provider-github.dataGithubRepositoryEnvironments.DataGithubRepositoryEnvironments",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -441,7 +441,7 @@ func DataGithubRepositoryEnvironments_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubRepositoryEnvironments.DataGithubRepositoryEnvironments",
+		"@cdktn/provider-github.dataGithubRepositoryEnvironments.DataGithubRepositoryEnvironments",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -460,7 +460,7 @@ func DataGithubRepositoryEnvironments_IsTerraformDataSource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubRepositoryEnvironments.DataGithubRepositoryEnvironments",
+		"@cdktn/provider-github.dataGithubRepositoryEnvironments.DataGithubRepositoryEnvironments",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -479,7 +479,7 @@ func DataGithubRepositoryEnvironments_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubRepositoryEnvironments.DataGithubRepositoryEnvironments",
+		"@cdktn/provider-github.dataGithubRepositoryEnvironments.DataGithubRepositoryEnvironments",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -492,7 +492,7 @@ func DataGithubRepositoryEnvironments_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubRepositoryEnvironments.DataGithubRepositoryEnvironments",
+		"@cdktn/provider-github.dataGithubRepositoryEnvironments.DataGithubRepositoryEnvironments",
 		"tfResourceType",
 		&returns,
 	)

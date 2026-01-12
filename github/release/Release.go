@@ -5,14 +5,14 @@ package release
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/release/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/release/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release github_release}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release github_release}.
 type Release interface {
 	cdktf.TerraformResource
 	AssetsUrl() *string
@@ -645,7 +645,7 @@ func (j *jsiiProxy_Release) ZipballUrl() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release github_release} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release github_release} Resource.
 func NewRelease(scope constructs.Construct, id *string, config *ReleaseConfig) Release {
 	_init_.Initialize()
 
@@ -655,7 +655,7 @@ func NewRelease(scope constructs.Construct, id *string, config *ReleaseConfig) R
 	j := jsiiProxy_Release{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.release.Release",
+		"@cdktn/provider-github.release.Release",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -663,12 +663,12 @@ func NewRelease(scope constructs.Construct, id *string, config *ReleaseConfig) R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release github_release} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release github_release} Resource.
 func NewRelease_Override(r Release, scope constructs.Construct, id *string, config *ReleaseConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.release.Release",
+		"@cdktn/provider-github.release.Release",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -862,7 +862,7 @@ func Release_GenerateConfigForImport(scope constructs.Construct, importToId *str
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.release.Release",
+		"@cdktn/provider-github.release.Release",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -897,7 +897,7 @@ func Release_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.release.Release",
+		"@cdktn/provider-github.release.Release",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -916,7 +916,7 @@ func Release_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.release.Release",
+		"@cdktn/provider-github.release.Release",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -935,7 +935,7 @@ func Release_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.release.Release",
+		"@cdktn/provider-github.release.Release",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -948,7 +948,7 @@ func Release_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.release.Release",
+		"@cdktn/provider-github.release.Release",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package datagithubdependabotsecrets
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubdependabotsecrets/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubdependabotsecrets/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataGithubDependabotSecretsSecretsList(terraformResource cdktf.IInterpol
 	j := jsiiProxy_DataGithubDependabotSecretsSecretsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecretsSecretsList",
+		"@cdktn/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecretsSecretsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataGithubDependabotSecretsSecretsList_Override(d DataGithubDependabotSe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecretsSecretsList",
+		"@cdktn/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecretsSecretsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

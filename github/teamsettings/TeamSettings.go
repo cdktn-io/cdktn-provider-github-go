@@ -5,14 +5,14 @@ package teamsettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/teamsettings/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/teamsettings/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team_settings github_team_settings}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team_settings github_team_settings}.
 type TeamSettings interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -379,7 +379,7 @@ func (j *jsiiProxy_TeamSettings) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team_settings github_team_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team_settings github_team_settings} Resource.
 func NewTeamSettings(scope constructs.Construct, id *string, config *TeamSettingsConfig) TeamSettings {
 	_init_.Initialize()
 
@@ -389,7 +389,7 @@ func NewTeamSettings(scope constructs.Construct, id *string, config *TeamSetting
 	j := jsiiProxy_TeamSettings{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.teamSettings.TeamSettings",
+		"@cdktn/provider-github.teamSettings.TeamSettings",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -397,12 +397,12 @@ func NewTeamSettings(scope constructs.Construct, id *string, config *TeamSetting
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team_settings github_team_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team_settings github_team_settings} Resource.
 func NewTeamSettings_Override(t TeamSettings, scope constructs.Construct, id *string, config *TeamSettingsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.teamSettings.TeamSettings",
+		"@cdktn/provider-github.teamSettings.TeamSettings",
 		[]interface{}{scope, id, config},
 		t,
 	)
@@ -508,7 +508,7 @@ func TeamSettings_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.teamSettings.TeamSettings",
+		"@cdktn/provider-github.teamSettings.TeamSettings",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -543,7 +543,7 @@ func TeamSettings_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.teamSettings.TeamSettings",
+		"@cdktn/provider-github.teamSettings.TeamSettings",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -562,7 +562,7 @@ func TeamSettings_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.teamSettings.TeamSettings",
+		"@cdktn/provider-github.teamSettings.TeamSettings",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -581,7 +581,7 @@ func TeamSettings_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.teamSettings.TeamSettings",
+		"@cdktn/provider-github.teamSettings.TeamSettings",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -594,7 +594,7 @@ func TeamSettings_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.teamSettings.TeamSettings",
+		"@cdktn/provider-github.teamSettings.TeamSettings",
 		"tfResourceType",
 		&returns,
 	)

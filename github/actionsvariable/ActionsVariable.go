@@ -5,14 +5,14 @@ package actionsvariable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/actionsvariable/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/actionsvariable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_variable github_actions_variable}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_variable github_actions_variable}.
 type ActionsVariable interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_ActionsVariable) VariableNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_variable github_actions_variable} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_variable github_actions_variable} Resource.
 func NewActionsVariable(scope constructs.Construct, id *string, config *ActionsVariableConfig) ActionsVariable {
 	_init_.Initialize()
 
@@ -411,7 +411,7 @@ func NewActionsVariable(scope constructs.Construct, id *string, config *ActionsV
 	j := jsiiProxy_ActionsVariable{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.actionsVariable.ActionsVariable",
+		"@cdktn/provider-github.actionsVariable.ActionsVariable",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -419,12 +419,12 @@ func NewActionsVariable(scope constructs.Construct, id *string, config *ActionsV
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_variable github_actions_variable} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_variable github_actions_variable} Resource.
 func NewActionsVariable_Override(a ActionsVariable, scope constructs.Construct, id *string, config *ActionsVariableConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.actionsVariable.ActionsVariable",
+		"@cdktn/provider-github.actionsVariable.ActionsVariable",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -552,7 +552,7 @@ func ActionsVariable_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.actionsVariable.ActionsVariable",
+		"@cdktn/provider-github.actionsVariable.ActionsVariable",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -587,7 +587,7 @@ func ActionsVariable_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.actionsVariable.ActionsVariable",
+		"@cdktn/provider-github.actionsVariable.ActionsVariable",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func ActionsVariable_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.actionsVariable.ActionsVariable",
+		"@cdktn/provider-github.actionsVariable.ActionsVariable",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -625,7 +625,7 @@ func ActionsVariable_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.actionsVariable.ActionsVariable",
+		"@cdktn/provider-github.actionsVariable.ActionsVariable",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func ActionsVariable_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.actionsVariable.ActionsVariable",
+		"@cdktn/provider-github.actionsVariable.ActionsVariable",
 		"tfResourceType",
 		&returns,
 	)

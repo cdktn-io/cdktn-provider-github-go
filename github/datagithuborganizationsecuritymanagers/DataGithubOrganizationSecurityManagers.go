@@ -5,14 +5,14 @@ package datagithuborganizationsecuritymanagers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithuborganizationsecuritymanagers/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithuborganizationsecuritymanagers/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/organization_security_managers github_organization_security_managers}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_security_managers github_organization_security_managers}.
 type DataGithubOrganizationSecurityManagers interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataGithubOrganizationSecurityManagers) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/organization_security_managers github_organization_security_managers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_security_managers github_organization_security_managers} Data Source.
 func NewDataGithubOrganizationSecurityManagers(scope constructs.Construct, id *string, config *DataGithubOrganizationSecurityManagersConfig) DataGithubOrganizationSecurityManagers {
 	_init_.Initialize()
 
@@ -286,7 +286,7 @@ func NewDataGithubOrganizationSecurityManagers(scope constructs.Construct, id *s
 	j := jsiiProxy_DataGithubOrganizationSecurityManagers{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagers",
+		"@cdktn/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagers",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -294,12 +294,12 @@ func NewDataGithubOrganizationSecurityManagers(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/organization_security_managers github_organization_security_managers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_security_managers github_organization_security_managers} Data Source.
 func NewDataGithubOrganizationSecurityManagers_Override(d DataGithubOrganizationSecurityManagers, scope constructs.Construct, id *string, config *DataGithubOrganizationSecurityManagersConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagers",
+		"@cdktn/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagers",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -372,7 +372,7 @@ func DataGithubOrganizationSecurityManagers_GenerateConfigForImport(scope constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagers",
+		"@cdktn/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagers",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -407,7 +407,7 @@ func DataGithubOrganizationSecurityManagers_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagers",
+		"@cdktn/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagers",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -426,7 +426,7 @@ func DataGithubOrganizationSecurityManagers_IsTerraformDataSource(x interface{})
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagers",
+		"@cdktn/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagers",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -445,7 +445,7 @@ func DataGithubOrganizationSecurityManagers_IsTerraformElement(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagers",
+		"@cdktn/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagers",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -458,7 +458,7 @@ func DataGithubOrganizationSecurityManagers_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagers",
+		"@cdktn/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagers",
 		"tfResourceType",
 		&returns,
 	)

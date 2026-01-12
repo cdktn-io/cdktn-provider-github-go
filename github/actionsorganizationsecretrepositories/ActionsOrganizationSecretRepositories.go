@@ -5,14 +5,14 @@ package actionsorganizationsecretrepositories
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/actionsorganizationsecretrepositories/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/actionsorganizationsecretrepositories/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_organization_secret_repositories github_actions_organization_secret_repositories}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_secret_repositories github_actions_organization_secret_repositories}.
 type ActionsOrganizationSecretRepositories interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_ActionsOrganizationSecretRepositories) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_organization_secret_repositories github_actions_organization_secret_repositories} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_secret_repositories github_actions_organization_secret_repositories} Resource.
 func NewActionsOrganizationSecretRepositories(scope constructs.Construct, id *string, config *ActionsOrganizationSecretRepositoriesConfig) ActionsOrganizationSecretRepositories {
 	_init_.Initialize()
 
@@ -366,7 +366,7 @@ func NewActionsOrganizationSecretRepositories(scope constructs.Construct, id *st
 	j := jsiiProxy_ActionsOrganizationSecretRepositories{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.actionsOrganizationSecretRepositories.ActionsOrganizationSecretRepositories",
+		"@cdktn/provider-github.actionsOrganizationSecretRepositories.ActionsOrganizationSecretRepositories",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -374,12 +374,12 @@ func NewActionsOrganizationSecretRepositories(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_organization_secret_repositories github_actions_organization_secret_repositories} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_secret_repositories github_actions_organization_secret_repositories} Resource.
 func NewActionsOrganizationSecretRepositories_Override(a ActionsOrganizationSecretRepositories, scope constructs.Construct, id *string, config *ActionsOrganizationSecretRepositoriesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.actionsOrganizationSecretRepositories.ActionsOrganizationSecretRepositories",
+		"@cdktn/provider-github.actionsOrganizationSecretRepositories.ActionsOrganizationSecretRepositories",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -496,7 +496,7 @@ func ActionsOrganizationSecretRepositories_GenerateConfigForImport(scope constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.actionsOrganizationSecretRepositories.ActionsOrganizationSecretRepositories",
+		"@cdktn/provider-github.actionsOrganizationSecretRepositories.ActionsOrganizationSecretRepositories",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -531,7 +531,7 @@ func ActionsOrganizationSecretRepositories_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.actionsOrganizationSecretRepositories.ActionsOrganizationSecretRepositories",
+		"@cdktn/provider-github.actionsOrganizationSecretRepositories.ActionsOrganizationSecretRepositories",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func ActionsOrganizationSecretRepositories_IsTerraformElement(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.actionsOrganizationSecretRepositories.ActionsOrganizationSecretRepositories",
+		"@cdktn/provider-github.actionsOrganizationSecretRepositories.ActionsOrganizationSecretRepositories",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -569,7 +569,7 @@ func ActionsOrganizationSecretRepositories_IsTerraformResource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.actionsOrganizationSecretRepositories.ActionsOrganizationSecretRepositories",
+		"@cdktn/provider-github.actionsOrganizationSecretRepositories.ActionsOrganizationSecretRepositories",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -582,7 +582,7 @@ func ActionsOrganizationSecretRepositories_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.actionsOrganizationSecretRepositories.ActionsOrganizationSecretRepositories",
+		"@cdktn/provider-github.actionsOrganizationSecretRepositories.ActionsOrganizationSecretRepositories",
 		"tfResourceType",
 		&returns,
 	)

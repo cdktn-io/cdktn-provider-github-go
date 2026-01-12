@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubActionsSecrets.DataGithubActionsSecrets",
+		"@cdktn/provider-github.dataGithubActionsSecrets.DataGithubActionsSecrets",
 		reflect.TypeOf((*DataGithubActionsSecrets)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -65,15 +65,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubActionsSecrets.DataGithubActionsSecretsConfig",
+		"@cdktn/provider-github.dataGithubActionsSecrets.DataGithubActionsSecretsConfig",
 		reflect.TypeOf((*DataGithubActionsSecretsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubActionsSecrets.DataGithubActionsSecretsSecrets",
+		"@cdktn/provider-github.dataGithubActionsSecrets.DataGithubActionsSecretsSecrets",
 		reflect.TypeOf((*DataGithubActionsSecretsSecrets)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubActionsSecrets.DataGithubActionsSecretsSecretsList",
+		"@cdktn/provider-github.dataGithubActionsSecrets.DataGithubActionsSecretsSecretsList",
 		reflect.TypeOf((*DataGithubActionsSecretsSecretsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -94,7 +94,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubActionsSecrets.DataGithubActionsSecretsSecretsOutputReference",
+		"@cdktn/provider-github.dataGithubActionsSecrets.DataGithubActionsSecretsSecretsOutputReference",
 		reflect.TypeOf((*DataGithubActionsSecretsSecretsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

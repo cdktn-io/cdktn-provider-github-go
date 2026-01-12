@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dependabotSecret.DependabotSecret",
+		"@cdktn/provider-github.dependabotSecret.DependabotSecret",
 		reflect.TypeOf((*DependabotSecret)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,7 +78,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dependabotSecret.DependabotSecretConfig",
+		"@cdktn/provider-github.dependabotSecret.DependabotSecretConfig",
 		reflect.TypeOf((*DependabotSecretConfig)(nil)).Elem(),
 	)
 }

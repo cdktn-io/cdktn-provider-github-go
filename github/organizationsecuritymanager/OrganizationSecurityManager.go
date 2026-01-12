@@ -5,14 +5,14 @@ package organizationsecuritymanager
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/organizationsecuritymanager/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationsecuritymanager/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_security_manager github_organization_security_manager}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_security_manager github_organization_security_manager}.
 type OrganizationSecurityManager interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -333,7 +333,7 @@ func (j *jsiiProxy_OrganizationSecurityManager) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_security_manager github_organization_security_manager} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_security_manager github_organization_security_manager} Resource.
 func NewOrganizationSecurityManager(scope constructs.Construct, id *string, config *OrganizationSecurityManagerConfig) OrganizationSecurityManager {
 	_init_.Initialize()
 
@@ -343,7 +343,7 @@ func NewOrganizationSecurityManager(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_OrganizationSecurityManager{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager",
+		"@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -351,12 +351,12 @@ func NewOrganizationSecurityManager(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_security_manager github_organization_security_manager} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_security_manager github_organization_security_manager} Resource.
 func NewOrganizationSecurityManager_Override(o OrganizationSecurityManager, scope constructs.Construct, id *string, config *OrganizationSecurityManagerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager",
+		"@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -462,7 +462,7 @@ func OrganizationSecurityManager_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager",
+		"@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -497,7 +497,7 @@ func OrganizationSecurityManager_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager",
+		"@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -516,7 +516,7 @@ func OrganizationSecurityManager_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager",
+		"@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -535,7 +535,7 @@ func OrganizationSecurityManager_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager",
+		"@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -548,7 +548,7 @@ func OrganizationSecurityManager_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager",
+		"@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager",
 		"tfResourceType",
 		&returns,
 	)

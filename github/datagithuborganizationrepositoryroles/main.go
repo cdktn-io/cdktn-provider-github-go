@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubOrganizationRepositoryRoles.DataGithubOrganizationRepositoryRoles",
+		"@cdktn/provider-github.dataGithubOrganizationRepositoryRoles.DataGithubOrganizationRepositoryRoles",
 		reflect.TypeOf((*DataGithubOrganizationRepositoryRoles)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -59,15 +59,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubOrganizationRepositoryRoles.DataGithubOrganizationRepositoryRolesConfig",
+		"@cdktn/provider-github.dataGithubOrganizationRepositoryRoles.DataGithubOrganizationRepositoryRolesConfig",
 		reflect.TypeOf((*DataGithubOrganizationRepositoryRolesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubOrganizationRepositoryRoles.DataGithubOrganizationRepositoryRolesRoles",
+		"@cdktn/provider-github.dataGithubOrganizationRepositoryRoles.DataGithubOrganizationRepositoryRolesRoles",
 		reflect.TypeOf((*DataGithubOrganizationRepositoryRolesRoles)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubOrganizationRepositoryRoles.DataGithubOrganizationRepositoryRolesRolesList",
+		"@cdktn/provider-github.dataGithubOrganizationRepositoryRoles.DataGithubOrganizationRepositoryRolesRolesList",
 		reflect.TypeOf((*DataGithubOrganizationRepositoryRolesRolesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -88,7 +88,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubOrganizationRepositoryRoles.DataGithubOrganizationRepositoryRolesRolesOutputReference",
+		"@cdktn/provider-github.dataGithubOrganizationRepositoryRoles.DataGithubOrganizationRepositoryRolesRolesOutputReference",
 		reflect.TypeOf((*DataGithubOrganizationRepositoryRolesRolesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "baseRole", GoGetter: "BaseRole"},

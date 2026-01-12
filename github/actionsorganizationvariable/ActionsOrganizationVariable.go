@@ -5,14 +5,14 @@ package actionsorganizationvariable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/actionsorganizationvariable/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/actionsorganizationvariable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_organization_variable github_actions_organization_variable}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_variable github_actions_organization_variable}.
 type ActionsOrganizationVariable interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -425,7 +425,7 @@ func (j *jsiiProxy_ActionsOrganizationVariable) VisibilityInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_organization_variable github_actions_organization_variable} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_variable github_actions_organization_variable} Resource.
 func NewActionsOrganizationVariable(scope constructs.Construct, id *string, config *ActionsOrganizationVariableConfig) ActionsOrganizationVariable {
 	_init_.Initialize()
 
@@ -435,7 +435,7 @@ func NewActionsOrganizationVariable(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_ActionsOrganizationVariable{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.actionsOrganizationVariable.ActionsOrganizationVariable",
+		"@cdktn/provider-github.actionsOrganizationVariable.ActionsOrganizationVariable",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -443,12 +443,12 @@ func NewActionsOrganizationVariable(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_organization_variable github_actions_organization_variable} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_variable github_actions_organization_variable} Resource.
 func NewActionsOrganizationVariable_Override(a ActionsOrganizationVariable, scope constructs.Construct, id *string, config *ActionsOrganizationVariableConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.actionsOrganizationVariable.ActionsOrganizationVariable",
+		"@cdktn/provider-github.actionsOrganizationVariable.ActionsOrganizationVariable",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -587,7 +587,7 @@ func ActionsOrganizationVariable_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.actionsOrganizationVariable.ActionsOrganizationVariable",
+		"@cdktn/provider-github.actionsOrganizationVariable.ActionsOrganizationVariable",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -622,7 +622,7 @@ func ActionsOrganizationVariable_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.actionsOrganizationVariable.ActionsOrganizationVariable",
+		"@cdktn/provider-github.actionsOrganizationVariable.ActionsOrganizationVariable",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func ActionsOrganizationVariable_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.actionsOrganizationVariable.ActionsOrganizationVariable",
+		"@cdktn/provider-github.actionsOrganizationVariable.ActionsOrganizationVariable",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -660,7 +660,7 @@ func ActionsOrganizationVariable_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.actionsOrganizationVariable.ActionsOrganizationVariable",
+		"@cdktn/provider-github.actionsOrganizationVariable.ActionsOrganizationVariable",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func ActionsOrganizationVariable_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.actionsOrganizationVariable.ActionsOrganizationVariable",
+		"@cdktn/provider-github.actionsOrganizationVariable.ActionsOrganizationVariable",
 		"tfResourceType",
 		&returns,
 	)

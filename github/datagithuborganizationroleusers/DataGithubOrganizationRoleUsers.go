@@ -5,14 +5,14 @@ package datagithuborganizationroleusers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithuborganizationroleusers/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithuborganizationroleusers/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/organization_role_users github_organization_role_users}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_role_users github_organization_role_users}.
 type DataGithubOrganizationRoleUsers interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -299,7 +299,7 @@ func (j *jsiiProxy_DataGithubOrganizationRoleUsers) Users() DataGithubOrganizati
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/organization_role_users github_organization_role_users} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_role_users github_organization_role_users} Data Source.
 func NewDataGithubOrganizationRoleUsers(scope constructs.Construct, id *string, config *DataGithubOrganizationRoleUsersConfig) DataGithubOrganizationRoleUsers {
 	_init_.Initialize()
 
@@ -309,7 +309,7 @@ func NewDataGithubOrganizationRoleUsers(scope constructs.Construct, id *string, 
 	j := jsiiProxy_DataGithubOrganizationRoleUsers{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubOrganizationRoleUsers.DataGithubOrganizationRoleUsers",
+		"@cdktn/provider-github.dataGithubOrganizationRoleUsers.DataGithubOrganizationRoleUsers",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -317,12 +317,12 @@ func NewDataGithubOrganizationRoleUsers(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/organization_role_users github_organization_role_users} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_role_users github_organization_role_users} Data Source.
 func NewDataGithubOrganizationRoleUsers_Override(d DataGithubOrganizationRoleUsers, scope constructs.Construct, id *string, config *DataGithubOrganizationRoleUsersConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubOrganizationRoleUsers.DataGithubOrganizationRoleUsers",
+		"@cdktn/provider-github.dataGithubOrganizationRoleUsers.DataGithubOrganizationRoleUsers",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -406,7 +406,7 @@ func DataGithubOrganizationRoleUsers_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationRoleUsers.DataGithubOrganizationRoleUsers",
+		"@cdktn/provider-github.dataGithubOrganizationRoleUsers.DataGithubOrganizationRoleUsers",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -441,7 +441,7 @@ func DataGithubOrganizationRoleUsers_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationRoleUsers.DataGithubOrganizationRoleUsers",
+		"@cdktn/provider-github.dataGithubOrganizationRoleUsers.DataGithubOrganizationRoleUsers",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -460,7 +460,7 @@ func DataGithubOrganizationRoleUsers_IsTerraformDataSource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationRoleUsers.DataGithubOrganizationRoleUsers",
+		"@cdktn/provider-github.dataGithubOrganizationRoleUsers.DataGithubOrganizationRoleUsers",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -479,7 +479,7 @@ func DataGithubOrganizationRoleUsers_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationRoleUsers.DataGithubOrganizationRoleUsers",
+		"@cdktn/provider-github.dataGithubOrganizationRoleUsers.DataGithubOrganizationRoleUsers",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -492,7 +492,7 @@ func DataGithubOrganizationRoleUsers_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubOrganizationRoleUsers.DataGithubOrganizationRoleUsers",
+		"@cdktn/provider-github.dataGithubOrganizationRoleUsers.DataGithubOrganizationRoleUsers",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package datagithubenterprise
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubenterprise/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubenterprise/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/enterprise github_enterprise}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/enterprise github_enterprise}.
 type DataGithubEnterprise interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -343,7 +343,7 @@ func (j *jsiiProxy_DataGithubEnterprise) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/enterprise github_enterprise} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/enterprise github_enterprise} Data Source.
 func NewDataGithubEnterprise(scope constructs.Construct, id *string, config *DataGithubEnterpriseConfig) DataGithubEnterprise {
 	_init_.Initialize()
 
@@ -353,7 +353,7 @@ func NewDataGithubEnterprise(scope constructs.Construct, id *string, config *Dat
 	j := jsiiProxy_DataGithubEnterprise{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubEnterprise.DataGithubEnterprise",
+		"@cdktn/provider-github.dataGithubEnterprise.DataGithubEnterprise",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -361,12 +361,12 @@ func NewDataGithubEnterprise(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/enterprise github_enterprise} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/enterprise github_enterprise} Data Source.
 func NewDataGithubEnterprise_Override(d DataGithubEnterprise, scope constructs.Construct, id *string, config *DataGithubEnterpriseConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubEnterprise.DataGithubEnterprise",
+		"@cdktn/provider-github.dataGithubEnterprise.DataGithubEnterprise",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -450,7 +450,7 @@ func DataGithubEnterprise_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubEnterprise.DataGithubEnterprise",
+		"@cdktn/provider-github.dataGithubEnterprise.DataGithubEnterprise",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -485,7 +485,7 @@ func DataGithubEnterprise_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubEnterprise.DataGithubEnterprise",
+		"@cdktn/provider-github.dataGithubEnterprise.DataGithubEnterprise",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -504,7 +504,7 @@ func DataGithubEnterprise_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubEnterprise.DataGithubEnterprise",
+		"@cdktn/provider-github.dataGithubEnterprise.DataGithubEnterprise",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -523,7 +523,7 @@ func DataGithubEnterprise_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubEnterprise.DataGithubEnterprise",
+		"@cdktn/provider-github.dataGithubEnterprise.DataGithubEnterprise",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -536,7 +536,7 @@ func DataGithubEnterprise_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubEnterprise.DataGithubEnterprise",
+		"@cdktn/provider-github.dataGithubEnterprise.DataGithubEnterprise",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package repositorycustomproperty
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/repositorycustomproperty/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/repositorycustomproperty/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_custom_property github_repository_custom_property}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_custom_property github_repository_custom_property}.
 type RepositoryCustomProperty interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -402,7 +402,7 @@ func (j *jsiiProxy_RepositoryCustomProperty) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_custom_property github_repository_custom_property} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_custom_property github_repository_custom_property} Resource.
 func NewRepositoryCustomProperty(scope constructs.Construct, id *string, config *RepositoryCustomPropertyConfig) RepositoryCustomProperty {
 	_init_.Initialize()
 
@@ -412,7 +412,7 @@ func NewRepositoryCustomProperty(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_RepositoryCustomProperty{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryCustomProperty.RepositoryCustomProperty",
+		"@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -420,12 +420,12 @@ func NewRepositoryCustomProperty(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_custom_property github_repository_custom_property} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_custom_property github_repository_custom_property} Resource.
 func NewRepositoryCustomProperty_Override(r RepositoryCustomProperty, scope constructs.Construct, id *string, config *RepositoryCustomPropertyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryCustomProperty.RepositoryCustomProperty",
+		"@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -564,7 +564,7 @@ func RepositoryCustomProperty_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryCustomProperty.RepositoryCustomProperty",
+		"@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -599,7 +599,7 @@ func RepositoryCustomProperty_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryCustomProperty.RepositoryCustomProperty",
+		"@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -618,7 +618,7 @@ func RepositoryCustomProperty_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryCustomProperty.RepositoryCustomProperty",
+		"@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -637,7 +637,7 @@ func RepositoryCustomProperty_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryCustomProperty.RepositoryCustomProperty",
+		"@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -650,7 +650,7 @@ func RepositoryCustomProperty_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.repositoryCustomProperty.RepositoryCustomProperty",
+		"@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty",
 		"tfResourceType",
 		&returns,
 	)

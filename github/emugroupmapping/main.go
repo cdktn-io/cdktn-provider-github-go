@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.emuGroupMapping.EmuGroupMapping",
+		"@cdktn/provider-github.emuGroupMapping.EmuGroupMapping",
 		reflect.TypeOf((*EmuGroupMapping)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,7 +71,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.emuGroupMapping.EmuGroupMappingConfig",
+		"@cdktn/provider-github.emuGroupMapping.EmuGroupMappingConfig",
 		reflect.TypeOf((*EmuGroupMappingConfig)(nil)).Elem(),
 	)
 }

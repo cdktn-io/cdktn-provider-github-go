@@ -5,14 +5,14 @@ package repositorydependabotsecurityupdates
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/repositorydependabotsecurityupdates/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/repositorydependabotsecurityupdates/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_dependabot_security_updates github_repository_dependabot_security_updates}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_dependabot_security_updates github_repository_dependabot_security_updates}.
 type RepositoryDependabotSecurityUpdates interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_RepositoryDependabotSecurityUpdates) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_dependabot_security_updates github_repository_dependabot_security_updates} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_dependabot_security_updates github_repository_dependabot_security_updates} Resource.
 func NewRepositoryDependabotSecurityUpdates(scope constructs.Construct, id *string, config *RepositoryDependabotSecurityUpdatesConfig) RepositoryDependabotSecurityUpdates {
 	_init_.Initialize()
 
@@ -366,7 +366,7 @@ func NewRepositoryDependabotSecurityUpdates(scope constructs.Construct, id *stri
 	j := jsiiProxy_RepositoryDependabotSecurityUpdates{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryDependabotSecurityUpdates.RepositoryDependabotSecurityUpdates",
+		"@cdktn/provider-github.repositoryDependabotSecurityUpdates.RepositoryDependabotSecurityUpdates",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -374,12 +374,12 @@ func NewRepositoryDependabotSecurityUpdates(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_dependabot_security_updates github_repository_dependabot_security_updates} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_dependabot_security_updates github_repository_dependabot_security_updates} Resource.
 func NewRepositoryDependabotSecurityUpdates_Override(r RepositoryDependabotSecurityUpdates, scope constructs.Construct, id *string, config *RepositoryDependabotSecurityUpdatesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryDependabotSecurityUpdates.RepositoryDependabotSecurityUpdates",
+		"@cdktn/provider-github.repositoryDependabotSecurityUpdates.RepositoryDependabotSecurityUpdates",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -496,7 +496,7 @@ func RepositoryDependabotSecurityUpdates_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryDependabotSecurityUpdates.RepositoryDependabotSecurityUpdates",
+		"@cdktn/provider-github.repositoryDependabotSecurityUpdates.RepositoryDependabotSecurityUpdates",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -531,7 +531,7 @@ func RepositoryDependabotSecurityUpdates_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryDependabotSecurityUpdates.RepositoryDependabotSecurityUpdates",
+		"@cdktn/provider-github.repositoryDependabotSecurityUpdates.RepositoryDependabotSecurityUpdates",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func RepositoryDependabotSecurityUpdates_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryDependabotSecurityUpdates.RepositoryDependabotSecurityUpdates",
+		"@cdktn/provider-github.repositoryDependabotSecurityUpdates.RepositoryDependabotSecurityUpdates",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -569,7 +569,7 @@ func RepositoryDependabotSecurityUpdates_IsTerraformResource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryDependabotSecurityUpdates.RepositoryDependabotSecurityUpdates",
+		"@cdktn/provider-github.repositoryDependabotSecurityUpdates.RepositoryDependabotSecurityUpdates",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -582,7 +582,7 @@ func RepositoryDependabotSecurityUpdates_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.repositoryDependabotSecurityUpdates.RepositoryDependabotSecurityUpdates",
+		"@cdktn/provider-github.repositoryDependabotSecurityUpdates.RepositoryDependabotSecurityUpdates",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package datagithubbranchprotectionrules
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubbranchprotectionrules/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubbranchprotectionrules/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/branch_protection_rules github_branch_protection_rules}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/branch_protection_rules github_branch_protection_rules}.
 type DataGithubBranchProtectionRules interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -299,7 +299,7 @@ func (j *jsiiProxy_DataGithubBranchProtectionRules) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/branch_protection_rules github_branch_protection_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/branch_protection_rules github_branch_protection_rules} Data Source.
 func NewDataGithubBranchProtectionRules(scope constructs.Construct, id *string, config *DataGithubBranchProtectionRulesConfig) DataGithubBranchProtectionRules {
 	_init_.Initialize()
 
@@ -309,7 +309,7 @@ func NewDataGithubBranchProtectionRules(scope constructs.Construct, id *string, 
 	j := jsiiProxy_DataGithubBranchProtectionRules{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRules",
+		"@cdktn/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRules",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -317,12 +317,12 @@ func NewDataGithubBranchProtectionRules(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/branch_protection_rules github_branch_protection_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/branch_protection_rules github_branch_protection_rules} Data Source.
 func NewDataGithubBranchProtectionRules_Override(d DataGithubBranchProtectionRules, scope constructs.Construct, id *string, config *DataGithubBranchProtectionRulesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRules",
+		"@cdktn/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRules",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -406,7 +406,7 @@ func DataGithubBranchProtectionRules_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRules",
+		"@cdktn/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRules",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -441,7 +441,7 @@ func DataGithubBranchProtectionRules_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRules",
+		"@cdktn/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRules",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -460,7 +460,7 @@ func DataGithubBranchProtectionRules_IsTerraformDataSource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRules",
+		"@cdktn/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRules",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -479,7 +479,7 @@ func DataGithubBranchProtectionRules_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRules",
+		"@cdktn/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRules",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -492,7 +492,7 @@ func DataGithubBranchProtectionRules_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRules",
+		"@cdktn/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRules",
 		"tfResourceType",
 		&returns,
 	)

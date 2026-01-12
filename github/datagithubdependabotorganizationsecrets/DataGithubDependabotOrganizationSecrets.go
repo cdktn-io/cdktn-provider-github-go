@@ -5,14 +5,14 @@ package datagithubdependabotorganizationsecrets
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubdependabotorganizationsecrets/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubdependabotorganizationsecrets/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/dependabot_organization_secrets github_dependabot_organization_secrets}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/dependabot_organization_secrets github_dependabot_organization_secrets}.
 type DataGithubDependabotOrganizationSecrets interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataGithubDependabotOrganizationSecrets) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/dependabot_organization_secrets github_dependabot_organization_secrets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/dependabot_organization_secrets github_dependabot_organization_secrets} Data Source.
 func NewDataGithubDependabotOrganizationSecrets(scope constructs.Construct, id *string, config *DataGithubDependabotOrganizationSecretsConfig) DataGithubDependabotOrganizationSecrets {
 	_init_.Initialize()
 
@@ -286,7 +286,7 @@ func NewDataGithubDependabotOrganizationSecrets(scope constructs.Construct, id *
 	j := jsiiProxy_DataGithubDependabotOrganizationSecrets{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubDependabotOrganizationSecrets.DataGithubDependabotOrganizationSecrets",
+		"@cdktn/provider-github.dataGithubDependabotOrganizationSecrets.DataGithubDependabotOrganizationSecrets",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -294,12 +294,12 @@ func NewDataGithubDependabotOrganizationSecrets(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/dependabot_organization_secrets github_dependabot_organization_secrets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/dependabot_organization_secrets github_dependabot_organization_secrets} Data Source.
 func NewDataGithubDependabotOrganizationSecrets_Override(d DataGithubDependabotOrganizationSecrets, scope constructs.Construct, id *string, config *DataGithubDependabotOrganizationSecretsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubDependabotOrganizationSecrets.DataGithubDependabotOrganizationSecrets",
+		"@cdktn/provider-github.dataGithubDependabotOrganizationSecrets.DataGithubDependabotOrganizationSecrets",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -372,7 +372,7 @@ func DataGithubDependabotOrganizationSecrets_GenerateConfigForImport(scope const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubDependabotOrganizationSecrets.DataGithubDependabotOrganizationSecrets",
+		"@cdktn/provider-github.dataGithubDependabotOrganizationSecrets.DataGithubDependabotOrganizationSecrets",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -407,7 +407,7 @@ func DataGithubDependabotOrganizationSecrets_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubDependabotOrganizationSecrets.DataGithubDependabotOrganizationSecrets",
+		"@cdktn/provider-github.dataGithubDependabotOrganizationSecrets.DataGithubDependabotOrganizationSecrets",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -426,7 +426,7 @@ func DataGithubDependabotOrganizationSecrets_IsTerraformDataSource(x interface{}
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubDependabotOrganizationSecrets.DataGithubDependabotOrganizationSecrets",
+		"@cdktn/provider-github.dataGithubDependabotOrganizationSecrets.DataGithubDependabotOrganizationSecrets",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -445,7 +445,7 @@ func DataGithubDependabotOrganizationSecrets_IsTerraformElement(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubDependabotOrganizationSecrets.DataGithubDependabotOrganizationSecrets",
+		"@cdktn/provider-github.dataGithubDependabotOrganizationSecrets.DataGithubDependabotOrganizationSecrets",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -458,7 +458,7 @@ func DataGithubDependabotOrganizationSecrets_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubDependabotOrganizationSecrets.DataGithubDependabotOrganizationSecrets",
+		"@cdktn/provider-github.dataGithubDependabotOrganizationSecrets.DataGithubDependabotOrganizationSecrets",
 		"tfResourceType",
 		&returns,
 	)

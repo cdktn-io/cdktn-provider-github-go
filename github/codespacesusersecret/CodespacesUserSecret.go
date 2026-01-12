@@ -5,14 +5,14 @@ package codespacesusersecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/codespacesusersecret/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/codespacesusersecret/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/codespaces_user_secret github_codespaces_user_secret}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/codespaces_user_secret github_codespaces_user_secret}.
 type CodespacesUserSecret interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -427,7 +427,7 @@ func (j *jsiiProxy_CodespacesUserSecret) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/codespaces_user_secret github_codespaces_user_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/codespaces_user_secret github_codespaces_user_secret} Resource.
 func NewCodespacesUserSecret(scope constructs.Construct, id *string, config *CodespacesUserSecretConfig) CodespacesUserSecret {
 	_init_.Initialize()
 
@@ -437,7 +437,7 @@ func NewCodespacesUserSecret(scope constructs.Construct, id *string, config *Cod
 	j := jsiiProxy_CodespacesUserSecret{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.codespacesUserSecret.CodespacesUserSecret",
+		"@cdktn/provider-github.codespacesUserSecret.CodespacesUserSecret",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -445,12 +445,12 @@ func NewCodespacesUserSecret(scope constructs.Construct, id *string, config *Cod
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/codespaces_user_secret github_codespaces_user_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/codespaces_user_secret github_codespaces_user_secret} Resource.
 func NewCodespacesUserSecret_Override(c CodespacesUserSecret, scope constructs.Construct, id *string, config *CodespacesUserSecretConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.codespacesUserSecret.CodespacesUserSecret",
+		"@cdktn/provider-github.codespacesUserSecret.CodespacesUserSecret",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -589,7 +589,7 @@ func CodespacesUserSecret_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.codespacesUserSecret.CodespacesUserSecret",
+		"@cdktn/provider-github.codespacesUserSecret.CodespacesUserSecret",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -624,7 +624,7 @@ func CodespacesUserSecret_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.codespacesUserSecret.CodespacesUserSecret",
+		"@cdktn/provider-github.codespacesUserSecret.CodespacesUserSecret",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -643,7 +643,7 @@ func CodespacesUserSecret_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.codespacesUserSecret.CodespacesUserSecret",
+		"@cdktn/provider-github.codespacesUserSecret.CodespacesUserSecret",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func CodespacesUserSecret_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.codespacesUserSecret.CodespacesUserSecret",
+		"@cdktn/provider-github.codespacesUserSecret.CodespacesUserSecret",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func CodespacesUserSecret_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.codespacesUserSecret.CodespacesUserSecret",
+		"@cdktn/provider-github.codespacesUserSecret.CodespacesUserSecret",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package enterprisesecurityanalysissettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/enterprisesecurityanalysissettings/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/enterprisesecurityanalysissettings/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/enterprise_security_analysis_settings github_enterprise_security_analysis_settings}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/enterprise_security_analysis_settings github_enterprise_security_analysis_settings}.
 type EnterpriseSecurityAnalysisSettings interface {
 	cdktf.TerraformResource
 	AdvancedSecurityEnabledForNewRepositories() interface{}
@@ -453,7 +453,7 @@ func (j *jsiiProxy_EnterpriseSecurityAnalysisSettings) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/enterprise_security_analysis_settings github_enterprise_security_analysis_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/enterprise_security_analysis_settings github_enterprise_security_analysis_settings} Resource.
 func NewEnterpriseSecurityAnalysisSettings(scope constructs.Construct, id *string, config *EnterpriseSecurityAnalysisSettingsConfig) EnterpriseSecurityAnalysisSettings {
 	_init_.Initialize()
 
@@ -463,7 +463,7 @@ func NewEnterpriseSecurityAnalysisSettings(scope constructs.Construct, id *strin
 	j := jsiiProxy_EnterpriseSecurityAnalysisSettings{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.enterpriseSecurityAnalysisSettings.EnterpriseSecurityAnalysisSettings",
+		"@cdktn/provider-github.enterpriseSecurityAnalysisSettings.EnterpriseSecurityAnalysisSettings",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -471,12 +471,12 @@ func NewEnterpriseSecurityAnalysisSettings(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/enterprise_security_analysis_settings github_enterprise_security_analysis_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/enterprise_security_analysis_settings github_enterprise_security_analysis_settings} Resource.
 func NewEnterpriseSecurityAnalysisSettings_Override(e EnterpriseSecurityAnalysisSettings, scope constructs.Construct, id *string, config *EnterpriseSecurityAnalysisSettingsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.enterpriseSecurityAnalysisSettings.EnterpriseSecurityAnalysisSettings",
+		"@cdktn/provider-github.enterpriseSecurityAnalysisSettings.EnterpriseSecurityAnalysisSettings",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -637,7 +637,7 @@ func EnterpriseSecurityAnalysisSettings_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.enterpriseSecurityAnalysisSettings.EnterpriseSecurityAnalysisSettings",
+		"@cdktn/provider-github.enterpriseSecurityAnalysisSettings.EnterpriseSecurityAnalysisSettings",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -672,7 +672,7 @@ func EnterpriseSecurityAnalysisSettings_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.enterpriseSecurityAnalysisSettings.EnterpriseSecurityAnalysisSettings",
+		"@cdktn/provider-github.enterpriseSecurityAnalysisSettings.EnterpriseSecurityAnalysisSettings",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -691,7 +691,7 @@ func EnterpriseSecurityAnalysisSettings_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.enterpriseSecurityAnalysisSettings.EnterpriseSecurityAnalysisSettings",
+		"@cdktn/provider-github.enterpriseSecurityAnalysisSettings.EnterpriseSecurityAnalysisSettings",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func EnterpriseSecurityAnalysisSettings_IsTerraformResource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.enterpriseSecurityAnalysisSettings.EnterpriseSecurityAnalysisSettings",
+		"@cdktn/provider-github.enterpriseSecurityAnalysisSettings.EnterpriseSecurityAnalysisSettings",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -723,7 +723,7 @@ func EnterpriseSecurityAnalysisSettings_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.enterpriseSecurityAnalysisSettings.EnterpriseSecurityAnalysisSettings",
+		"@cdktn/provider-github.enterpriseSecurityAnalysisSettings.EnterpriseSecurityAnalysisSettings",
 		"tfResourceType",
 		&returns,
 	)

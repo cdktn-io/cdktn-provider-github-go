@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubOrganizationRoleTeams.DataGithubOrganizationRoleTeams",
+		"@cdktn/provider-github.dataGithubOrganizationRoleTeams.DataGithubOrganizationRoleTeams",
 		reflect.TypeOf((*DataGithubOrganizationRoleTeams)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -61,15 +61,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubOrganizationRoleTeams.DataGithubOrganizationRoleTeamsConfig",
+		"@cdktn/provider-github.dataGithubOrganizationRoleTeams.DataGithubOrganizationRoleTeamsConfig",
 		reflect.TypeOf((*DataGithubOrganizationRoleTeamsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubOrganizationRoleTeams.DataGithubOrganizationRoleTeamsTeams",
+		"@cdktn/provider-github.dataGithubOrganizationRoleTeams.DataGithubOrganizationRoleTeamsTeams",
 		reflect.TypeOf((*DataGithubOrganizationRoleTeamsTeams)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubOrganizationRoleTeams.DataGithubOrganizationRoleTeamsTeamsList",
+		"@cdktn/provider-github.dataGithubOrganizationRoleTeams.DataGithubOrganizationRoleTeamsTeamsList",
 		reflect.TypeOf((*DataGithubOrganizationRoleTeamsTeamsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -90,7 +90,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubOrganizationRoleTeams.DataGithubOrganizationRoleTeamsTeamsOutputReference",
+		"@cdktn/provider-github.dataGithubOrganizationRoleTeams.DataGithubOrganizationRoleTeamsTeamsOutputReference",
 		reflect.TypeOf((*DataGithubOrganizationRoleTeamsTeamsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

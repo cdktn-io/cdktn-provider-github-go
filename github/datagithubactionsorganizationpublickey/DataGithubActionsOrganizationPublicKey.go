@@ -5,14 +5,14 @@ package datagithubactionsorganizationpublickey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubactionsorganizationpublickey/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubactionsorganizationpublickey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/actions_organization_public_key github_actions_organization_public_key}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/actions_organization_public_key github_actions_organization_public_key}.
 type DataGithubActionsOrganizationPublicKey interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -287,7 +287,7 @@ func (j *jsiiProxy_DataGithubActionsOrganizationPublicKey) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/actions_organization_public_key github_actions_organization_public_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/actions_organization_public_key github_actions_organization_public_key} Data Source.
 func NewDataGithubActionsOrganizationPublicKey(scope constructs.Construct, id *string, config *DataGithubActionsOrganizationPublicKeyConfig) DataGithubActionsOrganizationPublicKey {
 	_init_.Initialize()
 
@@ -297,7 +297,7 @@ func NewDataGithubActionsOrganizationPublicKey(scope constructs.Construct, id *s
 	j := jsiiProxy_DataGithubActionsOrganizationPublicKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubActionsOrganizationPublicKey.DataGithubActionsOrganizationPublicKey",
+		"@cdktn/provider-github.dataGithubActionsOrganizationPublicKey.DataGithubActionsOrganizationPublicKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -305,12 +305,12 @@ func NewDataGithubActionsOrganizationPublicKey(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/actions_organization_public_key github_actions_organization_public_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/actions_organization_public_key github_actions_organization_public_key} Data Source.
 func NewDataGithubActionsOrganizationPublicKey_Override(d DataGithubActionsOrganizationPublicKey, scope constructs.Construct, id *string, config *DataGithubActionsOrganizationPublicKeyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubActionsOrganizationPublicKey.DataGithubActionsOrganizationPublicKey",
+		"@cdktn/provider-github.dataGithubActionsOrganizationPublicKey.DataGithubActionsOrganizationPublicKey",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -383,7 +383,7 @@ func DataGithubActionsOrganizationPublicKey_GenerateConfigForImport(scope constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubActionsOrganizationPublicKey.DataGithubActionsOrganizationPublicKey",
+		"@cdktn/provider-github.dataGithubActionsOrganizationPublicKey.DataGithubActionsOrganizationPublicKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -418,7 +418,7 @@ func DataGithubActionsOrganizationPublicKey_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubActionsOrganizationPublicKey.DataGithubActionsOrganizationPublicKey",
+		"@cdktn/provider-github.dataGithubActionsOrganizationPublicKey.DataGithubActionsOrganizationPublicKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -437,7 +437,7 @@ func DataGithubActionsOrganizationPublicKey_IsTerraformDataSource(x interface{})
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubActionsOrganizationPublicKey.DataGithubActionsOrganizationPublicKey",
+		"@cdktn/provider-github.dataGithubActionsOrganizationPublicKey.DataGithubActionsOrganizationPublicKey",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -456,7 +456,7 @@ func DataGithubActionsOrganizationPublicKey_IsTerraformElement(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubActionsOrganizationPublicKey.DataGithubActionsOrganizationPublicKey",
+		"@cdktn/provider-github.dataGithubActionsOrganizationPublicKey.DataGithubActionsOrganizationPublicKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -469,7 +469,7 @@ func DataGithubActionsOrganizationPublicKey_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubActionsOrganizationPublicKey.DataGithubActionsOrganizationPublicKey",
+		"@cdktn/provider-github.dataGithubActionsOrganizationPublicKey.DataGithubActionsOrganizationPublicKey",
 		"tfResourceType",
 		&returns,
 	)

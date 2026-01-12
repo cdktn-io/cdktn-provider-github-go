@@ -5,9 +5,9 @@ package organizationruleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/organizationruleset/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationruleset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -253,7 +253,7 @@ func NewOrganizationRulesetRulesCommitterEmailPatternOutputReference(terraformRe
 	j := jsiiProxy_OrganizationRulesetRulesCommitterEmailPatternOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.organizationRuleset.OrganizationRulesetRulesCommitterEmailPatternOutputReference",
+		"@cdktn/provider-github.organizationRuleset.OrganizationRulesetRulesCommitterEmailPatternOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -265,7 +265,7 @@ func NewOrganizationRulesetRulesCommitterEmailPatternOutputReference_Override(o 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.organizationRuleset.OrganizationRulesetRulesCommitterEmailPatternOutputReference",
+		"@cdktn/provider-github.organizationRuleset.OrganizationRulesetRulesCommitterEmailPatternOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		o,
 	)

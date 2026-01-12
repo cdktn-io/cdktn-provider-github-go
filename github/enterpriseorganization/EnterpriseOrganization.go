@@ -5,14 +5,14 @@ package enterpriseorganization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/enterpriseorganization/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/enterpriseorganization/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/enterprise_organization github_enterprise_organization}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/enterprise_organization github_enterprise_organization}.
 type EnterpriseOrganization interface {
 	cdktf.TerraformResource
 	AdminLogins() *[]*string
@@ -448,7 +448,7 @@ func (j *jsiiProxy_EnterpriseOrganization) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/enterprise_organization github_enterprise_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/enterprise_organization github_enterprise_organization} Resource.
 func NewEnterpriseOrganization(scope constructs.Construct, id *string, config *EnterpriseOrganizationConfig) EnterpriseOrganization {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewEnterpriseOrganization(scope constructs.Construct, id *string, config *E
 	j := jsiiProxy_EnterpriseOrganization{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.enterpriseOrganization.EnterpriseOrganization",
+		"@cdktn/provider-github.enterpriseOrganization.EnterpriseOrganization",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -466,12 +466,12 @@ func NewEnterpriseOrganization(scope constructs.Construct, id *string, config *E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/enterprise_organization github_enterprise_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/enterprise_organization github_enterprise_organization} Resource.
 func NewEnterpriseOrganization_Override(e EnterpriseOrganization, scope constructs.Construct, id *string, config *EnterpriseOrganizationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.enterpriseOrganization.EnterpriseOrganization",
+		"@cdktn/provider-github.enterpriseOrganization.EnterpriseOrganization",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -621,7 +621,7 @@ func EnterpriseOrganization_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.enterpriseOrganization.EnterpriseOrganization",
+		"@cdktn/provider-github.enterpriseOrganization.EnterpriseOrganization",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -656,7 +656,7 @@ func EnterpriseOrganization_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.enterpriseOrganization.EnterpriseOrganization",
+		"@cdktn/provider-github.enterpriseOrganization.EnterpriseOrganization",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func EnterpriseOrganization_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.enterpriseOrganization.EnterpriseOrganization",
+		"@cdktn/provider-github.enterpriseOrganization.EnterpriseOrganization",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -694,7 +694,7 @@ func EnterpriseOrganization_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.enterpriseOrganization.EnterpriseOrganization",
+		"@cdktn/provider-github.enterpriseOrganization.EnterpriseOrganization",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -707,7 +707,7 @@ func EnterpriseOrganization_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.enterpriseOrganization.EnterpriseOrganization",
+		"@cdktn/provider-github.enterpriseOrganization.EnterpriseOrganization",
 		"tfResourceType",
 		&returns,
 	)

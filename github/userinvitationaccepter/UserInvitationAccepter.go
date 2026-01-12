@@ -5,14 +5,14 @@ package userinvitationaccepter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/userinvitationaccepter/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/userinvitationaccepter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/user_invitation_accepter github_user_invitation_accepter}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/user_invitation_accepter github_user_invitation_accepter}.
 type UserInvitationAccepter interface {
 	cdktf.TerraformResource
 	AllowEmptyId() interface{}
@@ -358,7 +358,7 @@ func (j *jsiiProxy_UserInvitationAccepter) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/user_invitation_accepter github_user_invitation_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/user_invitation_accepter github_user_invitation_accepter} Resource.
 func NewUserInvitationAccepter(scope constructs.Construct, id *string, config *UserInvitationAccepterConfig) UserInvitationAccepter {
 	_init_.Initialize()
 
@@ -368,7 +368,7 @@ func NewUserInvitationAccepter(scope constructs.Construct, id *string, config *U
 	j := jsiiProxy_UserInvitationAccepter{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.userInvitationAccepter.UserInvitationAccepter",
+		"@cdktn/provider-github.userInvitationAccepter.UserInvitationAccepter",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -376,12 +376,12 @@ func NewUserInvitationAccepter(scope constructs.Construct, id *string, config *U
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/user_invitation_accepter github_user_invitation_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/user_invitation_accepter github_user_invitation_accepter} Resource.
 func NewUserInvitationAccepter_Override(u UserInvitationAccepter, scope constructs.Construct, id *string, config *UserInvitationAccepterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.userInvitationAccepter.UserInvitationAccepter",
+		"@cdktn/provider-github.userInvitationAccepter.UserInvitationAccepter",
 		[]interface{}{scope, id, config},
 		u,
 	)
@@ -498,7 +498,7 @@ func UserInvitationAccepter_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.userInvitationAccepter.UserInvitationAccepter",
+		"@cdktn/provider-github.userInvitationAccepter.UserInvitationAccepter",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -533,7 +533,7 @@ func UserInvitationAccepter_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.userInvitationAccepter.UserInvitationAccepter",
+		"@cdktn/provider-github.userInvitationAccepter.UserInvitationAccepter",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -552,7 +552,7 @@ func UserInvitationAccepter_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.userInvitationAccepter.UserInvitationAccepter",
+		"@cdktn/provider-github.userInvitationAccepter.UserInvitationAccepter",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -571,7 +571,7 @@ func UserInvitationAccepter_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.userInvitationAccepter.UserInvitationAccepter",
+		"@cdktn/provider-github.userInvitationAccepter.UserInvitationAccepter",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func UserInvitationAccepter_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.userInvitationAccepter.UserInvitationAccepter",
+		"@cdktn/provider-github.userInvitationAccepter.UserInvitationAccepter",
 		"tfResourceType",
 		&returns,
 	)

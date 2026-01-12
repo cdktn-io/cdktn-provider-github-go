@@ -5,9 +5,9 @@ package enterpriseactionspermissions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/enterpriseactionspermissions/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/enterpriseactionspermissions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewEnterpriseActionsPermissionsAllowedActionsConfigOutputReference(terrafor
 	j := jsiiProxy_EnterpriseActionsPermissionsAllowedActionsConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.enterpriseActionsPermissions.EnterpriseActionsPermissionsAllowedActionsConfigOutputReference",
+		"@cdktn/provider-github.enterpriseActionsPermissions.EnterpriseActionsPermissionsAllowedActionsConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewEnterpriseActionsPermissionsAllowedActionsConfigOutputReference_Override
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.enterpriseActionsPermissions.EnterpriseActionsPermissionsAllowedActionsConfigOutputReference",
+		"@cdktn/provider-github.enterpriseActionsPermissions.EnterpriseActionsPermissionsAllowedActionsConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

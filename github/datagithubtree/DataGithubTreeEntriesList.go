@@ -5,9 +5,9 @@ package datagithubtree
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubtree/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubtree/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataGithubTreeEntriesList(terraformResource cdktf.IInterpolatingParent, 
 	j := jsiiProxy_DataGithubTreeEntriesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubTree.DataGithubTreeEntriesList",
+		"@cdktn/provider-github.dataGithubTree.DataGithubTreeEntriesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataGithubTreeEntriesList_Override(d DataGithubTreeEntriesList, terrafor
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubTree.DataGithubTreeEntriesList",
+		"@cdktn/provider-github.dataGithubTree.DataGithubTreeEntriesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

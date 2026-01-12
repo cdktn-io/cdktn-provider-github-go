@@ -5,14 +5,14 @@ package datagithubcodespacessecrets
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubcodespacessecrets/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubcodespacessecrets/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/codespaces_secrets github_codespaces_secrets}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/codespaces_secrets github_codespaces_secrets}.
 type DataGithubCodespacesSecrets interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -324,7 +324,7 @@ func (j *jsiiProxy_DataGithubCodespacesSecrets) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/codespaces_secrets github_codespaces_secrets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/codespaces_secrets github_codespaces_secrets} Data Source.
 func NewDataGithubCodespacesSecrets(scope constructs.Construct, id *string, config *DataGithubCodespacesSecretsConfig) DataGithubCodespacesSecrets {
 	_init_.Initialize()
 
@@ -334,7 +334,7 @@ func NewDataGithubCodespacesSecrets(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_DataGithubCodespacesSecrets{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubCodespacesSecrets.DataGithubCodespacesSecrets",
+		"@cdktn/provider-github.dataGithubCodespacesSecrets.DataGithubCodespacesSecrets",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -342,12 +342,12 @@ func NewDataGithubCodespacesSecrets(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/codespaces_secrets github_codespaces_secrets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/codespaces_secrets github_codespaces_secrets} Data Source.
 func NewDataGithubCodespacesSecrets_Override(d DataGithubCodespacesSecrets, scope constructs.Construct, id *string, config *DataGithubCodespacesSecretsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubCodespacesSecrets.DataGithubCodespacesSecrets",
+		"@cdktn/provider-github.dataGithubCodespacesSecrets.DataGithubCodespacesSecrets",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -442,7 +442,7 @@ func DataGithubCodespacesSecrets_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubCodespacesSecrets.DataGithubCodespacesSecrets",
+		"@cdktn/provider-github.dataGithubCodespacesSecrets.DataGithubCodespacesSecrets",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -477,7 +477,7 @@ func DataGithubCodespacesSecrets_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubCodespacesSecrets.DataGithubCodespacesSecrets",
+		"@cdktn/provider-github.dataGithubCodespacesSecrets.DataGithubCodespacesSecrets",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -496,7 +496,7 @@ func DataGithubCodespacesSecrets_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubCodespacesSecrets.DataGithubCodespacesSecrets",
+		"@cdktn/provider-github.dataGithubCodespacesSecrets.DataGithubCodespacesSecrets",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -515,7 +515,7 @@ func DataGithubCodespacesSecrets_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubCodespacesSecrets.DataGithubCodespacesSecrets",
+		"@cdktn/provider-github.dataGithubCodespacesSecrets.DataGithubCodespacesSecrets",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -528,7 +528,7 @@ func DataGithubCodespacesSecrets_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubCodespacesSecrets.DataGithubCodespacesSecrets",
+		"@cdktn/provider-github.dataGithubCodespacesSecrets.DataGithubCodespacesSecrets",
 		"tfResourceType",
 		&returns,
 	)

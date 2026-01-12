@@ -5,14 +5,14 @@ package enterpriseactionsworkflowpermissions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/enterpriseactionsworkflowpermissions/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/enterpriseactionsworkflowpermissions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/enterprise_actions_workflow_permissions github_enterprise_actions_workflow_permissions}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/enterprise_actions_workflow_permissions github_enterprise_actions_workflow_permissions}.
 type EnterpriseActionsWorkflowPermissions interface {
 	cdktf.TerraformResource
 	CanApprovePullRequestReviews() interface{}
@@ -381,7 +381,7 @@ func (j *jsiiProxy_EnterpriseActionsWorkflowPermissions) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/enterprise_actions_workflow_permissions github_enterprise_actions_workflow_permissions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/enterprise_actions_workflow_permissions github_enterprise_actions_workflow_permissions} Resource.
 func NewEnterpriseActionsWorkflowPermissions(scope constructs.Construct, id *string, config *EnterpriseActionsWorkflowPermissionsConfig) EnterpriseActionsWorkflowPermissions {
 	_init_.Initialize()
 
@@ -391,7 +391,7 @@ func NewEnterpriseActionsWorkflowPermissions(scope constructs.Construct, id *str
 	j := jsiiProxy_EnterpriseActionsWorkflowPermissions{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions",
+		"@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -399,12 +399,12 @@ func NewEnterpriseActionsWorkflowPermissions(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/enterprise_actions_workflow_permissions github_enterprise_actions_workflow_permissions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/enterprise_actions_workflow_permissions github_enterprise_actions_workflow_permissions} Resource.
 func NewEnterpriseActionsWorkflowPermissions_Override(e EnterpriseActionsWorkflowPermissions, scope constructs.Construct, id *string, config *EnterpriseActionsWorkflowPermissionsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions",
+		"@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -532,7 +532,7 @@ func EnterpriseActionsWorkflowPermissions_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions",
+		"@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -567,7 +567,7 @@ func EnterpriseActionsWorkflowPermissions_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions",
+		"@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -586,7 +586,7 @@ func EnterpriseActionsWorkflowPermissions_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions",
+		"@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -605,7 +605,7 @@ func EnterpriseActionsWorkflowPermissions_IsTerraformResource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions",
+		"@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -618,7 +618,7 @@ func EnterpriseActionsWorkflowPermissions_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions",
+		"@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package issuelabel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/issuelabel/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/issuelabel/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/issue_label github_issue_label}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/issue_label github_issue_label}.
 type IssueLabel interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_IssueLabel) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/issue_label github_issue_label} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/issue_label github_issue_label} Resource.
 func NewIssueLabel(scope constructs.Construct, id *string, config *IssueLabelConfig) IssueLabel {
 	_init_.Initialize()
 
@@ -448,7 +448,7 @@ func NewIssueLabel(scope constructs.Construct, id *string, config *IssueLabelCon
 	j := jsiiProxy_IssueLabel{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.issueLabel.IssueLabel",
+		"@cdktn/provider-github.issueLabel.IssueLabel",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -456,12 +456,12 @@ func NewIssueLabel(scope constructs.Construct, id *string, config *IssueLabelCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/issue_label github_issue_label} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/issue_label github_issue_label} Resource.
 func NewIssueLabel_Override(i IssueLabel, scope constructs.Construct, id *string, config *IssueLabelConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.issueLabel.IssueLabel",
+		"@cdktn/provider-github.issueLabel.IssueLabel",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -611,7 +611,7 @@ func IssueLabel_GenerateConfigForImport(scope constructs.Construct, importToId *
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.issueLabel.IssueLabel",
+		"@cdktn/provider-github.issueLabel.IssueLabel",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -646,7 +646,7 @@ func IssueLabel_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.issueLabel.IssueLabel",
+		"@cdktn/provider-github.issueLabel.IssueLabel",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -665,7 +665,7 @@ func IssueLabel_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.issueLabel.IssueLabel",
+		"@cdktn/provider-github.issueLabel.IssueLabel",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -684,7 +684,7 @@ func IssueLabel_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.issueLabel.IssueLabel",
+		"@cdktn/provider-github.issueLabel.IssueLabel",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -697,7 +697,7 @@ func IssueLabel_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.issueLabel.IssueLabel",
+		"@cdktn/provider-github.issueLabel.IssueLabel",
 		"tfResourceType",
 		&returns,
 	)

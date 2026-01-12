@@ -5,9 +5,9 @@ package datagithubrepositorydeploykeys
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubrepositorydeploykeys/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepositorydeploykeys/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataGithubRepositoryDeployKeysKeysList(terraformResource cdktf.IInterpol
 	j := jsiiProxy_DataGithubRepositoryDeployKeysKeysList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubRepositoryDeployKeys.DataGithubRepositoryDeployKeysKeysList",
+		"@cdktn/provider-github.dataGithubRepositoryDeployKeys.DataGithubRepositoryDeployKeysKeysList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataGithubRepositoryDeployKeysKeysList_Override(d DataGithubRepositoryDe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubRepositoryDeployKeys.DataGithubRepositoryDeployKeysKeysList",
+		"@cdktn/provider-github.dataGithubRepositoryDeployKeys.DataGithubRepositoryDeployKeysKeysList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

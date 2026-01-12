@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.branchProtectionV3.BranchProtectionV3",
+		"@cdktn/provider-github.branchProtectionV3.BranchProtectionV3",
 		reflect.TypeOf((*BranchProtectionV3)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,19 +92,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.branchProtectionV3.BranchProtectionV3Config",
+		"@cdktn/provider-github.branchProtectionV3.BranchProtectionV3Config",
 		reflect.TypeOf((*BranchProtectionV3Config)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.branchProtectionV3.BranchProtectionV3RequiredPullRequestReviews",
+		"@cdktn/provider-github.branchProtectionV3.BranchProtectionV3RequiredPullRequestReviews",
 		reflect.TypeOf((*BranchProtectionV3RequiredPullRequestReviews)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.branchProtectionV3.BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowances",
+		"@cdktn/provider-github.branchProtectionV3.BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowances",
 		reflect.TypeOf((*BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowances)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.branchProtectionV3.BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference",
+		"@cdktn/provider-github.branchProtectionV3.BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference",
 		reflect.TypeOf((*BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apps", GoGetter: "Apps"},
@@ -145,7 +145,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.branchProtectionV3.BranchProtectionV3RequiredPullRequestReviewsOutputReference",
+		"@cdktn/provider-github.branchProtectionV3.BranchProtectionV3RequiredPullRequestReviewsOutputReference",
 		reflect.TypeOf((*BranchProtectionV3RequiredPullRequestReviewsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bypassPullRequestAllowances", GoGetter: "BypassPullRequestAllowances"},
@@ -205,11 +205,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.branchProtectionV3.BranchProtectionV3RequiredStatusChecks",
+		"@cdktn/provider-github.branchProtectionV3.BranchProtectionV3RequiredStatusChecks",
 		reflect.TypeOf((*BranchProtectionV3RequiredStatusChecks)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.branchProtectionV3.BranchProtectionV3RequiredStatusChecksOutputReference",
+		"@cdktn/provider-github.branchProtectionV3.BranchProtectionV3RequiredStatusChecksOutputReference",
 		reflect.TypeOf((*BranchProtectionV3RequiredStatusChecksOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "checks", GoGetter: "Checks"},
@@ -253,11 +253,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.branchProtectionV3.BranchProtectionV3Restrictions",
+		"@cdktn/provider-github.branchProtectionV3.BranchProtectionV3Restrictions",
 		reflect.TypeOf((*BranchProtectionV3Restrictions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.branchProtectionV3.BranchProtectionV3RestrictionsOutputReference",
+		"@cdktn/provider-github.branchProtectionV3.BranchProtectionV3RestrictionsOutputReference",
 		reflect.TypeOf((*BranchProtectionV3RestrictionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apps", GoGetter: "Apps"},

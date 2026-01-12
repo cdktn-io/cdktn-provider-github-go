@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager",
+		"@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager",
 		reflect.TypeOf((*OrganizationSecurityManager)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -68,7 +68,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig",
+		"@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig",
 		reflect.TypeOf((*OrganizationSecurityManagerConfig)(nil)).Elem(),
 	)
 }

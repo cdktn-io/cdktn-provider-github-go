@@ -5,9 +5,9 @@ package repositoryruleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/repositoryruleset/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/repositoryruleset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewRepositoryRulesetConditionsOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_RepositoryRulesetConditionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetConditionsOutputReference",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConditionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewRepositoryRulesetConditionsOutputReference_Override(r RepositoryRulesetC
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetConditionsOutputReference",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConditionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

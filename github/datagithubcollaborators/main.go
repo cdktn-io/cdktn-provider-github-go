@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubCollaborators.DataGithubCollaborators",
+		"@cdktn/provider-github.dataGithubCollaborators.DataGithubCollaborators",
 		reflect.TypeOf((*DataGithubCollaborators)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -69,11 +69,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubCollaborators.DataGithubCollaboratorsCollaborator",
+		"@cdktn/provider-github.dataGithubCollaborators.DataGithubCollaboratorsCollaborator",
 		reflect.TypeOf((*DataGithubCollaboratorsCollaborator)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubCollaborators.DataGithubCollaboratorsCollaboratorList",
+		"@cdktn/provider-github.dataGithubCollaborators.DataGithubCollaboratorsCollaboratorList",
 		reflect.TypeOf((*DataGithubCollaboratorsCollaboratorList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -94,7 +94,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubCollaborators.DataGithubCollaboratorsCollaboratorOutputReference",
+		"@cdktn/provider-github.dataGithubCollaborators.DataGithubCollaboratorsCollaboratorOutputReference",
 		reflect.TypeOf((*DataGithubCollaboratorsCollaboratorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -142,7 +142,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubCollaborators.DataGithubCollaboratorsConfig",
+		"@cdktn/provider-github.dataGithubCollaborators.DataGithubCollaboratorsConfig",
 		reflect.TypeOf((*DataGithubCollaboratorsConfig)(nil)).Elem(),
 	)
 }

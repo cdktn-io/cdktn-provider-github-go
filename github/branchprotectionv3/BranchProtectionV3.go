@@ -5,14 +5,14 @@ package branchprotectionv3
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/branchprotectionv3/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/branchprotectionv3/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection_v3 github_branch_protection_v3}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection_v3 github_branch_protection_v3}.
 type BranchProtectionV3 interface {
 	cdktf.TerraformResource
 	Branch() *string
@@ -511,7 +511,7 @@ func (j *jsiiProxy_BranchProtectionV3) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection_v3 github_branch_protection_v3} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection_v3 github_branch_protection_v3} Resource.
 func NewBranchProtectionV3(scope constructs.Construct, id *string, config *BranchProtectionV3Config) BranchProtectionV3 {
 	_init_.Initialize()
 
@@ -521,7 +521,7 @@ func NewBranchProtectionV3(scope constructs.Construct, id *string, config *Branc
 	j := jsiiProxy_BranchProtectionV3{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.branchProtectionV3.BranchProtectionV3",
+		"@cdktn/provider-github.branchProtectionV3.BranchProtectionV3",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -529,12 +529,12 @@ func NewBranchProtectionV3(scope constructs.Construct, id *string, config *Branc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection_v3 github_branch_protection_v3} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection_v3 github_branch_protection_v3} Resource.
 func NewBranchProtectionV3_Override(b BranchProtectionV3, scope constructs.Construct, id *string, config *BranchProtectionV3Config) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.branchProtectionV3.BranchProtectionV3",
+		"@cdktn/provider-github.branchProtectionV3.BranchProtectionV3",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -684,7 +684,7 @@ func BranchProtectionV3_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.branchProtectionV3.BranchProtectionV3",
+		"@cdktn/provider-github.branchProtectionV3.BranchProtectionV3",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -719,7 +719,7 @@ func BranchProtectionV3_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.branchProtectionV3.BranchProtectionV3",
+		"@cdktn/provider-github.branchProtectionV3.BranchProtectionV3",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -738,7 +738,7 @@ func BranchProtectionV3_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.branchProtectionV3.BranchProtectionV3",
+		"@cdktn/provider-github.branchProtectionV3.BranchProtectionV3",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -757,7 +757,7 @@ func BranchProtectionV3_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.branchProtectionV3.BranchProtectionV3",
+		"@cdktn/provider-github.branchProtectionV3.BranchProtectionV3",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -770,7 +770,7 @@ func BranchProtectionV3_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.branchProtectionV3.BranchProtectionV3",
+		"@cdktn/provider-github.branchProtectionV3.BranchProtectionV3",
 		"tfResourceType",
 		&returns,
 	)

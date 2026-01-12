@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.branch.Branch",
+		"@cdktn/provider-github.branch.Branch",
 		reflect.TypeOf((*Branch)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,7 +81,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.branch.BranchConfig",
+		"@cdktn/provider-github.branch.BranchConfig",
 		reflect.TypeOf((*BranchConfig)(nil)).Elem(),
 	)
 }

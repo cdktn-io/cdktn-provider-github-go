@@ -5,14 +5,14 @@ package repositoryfile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/repositoryfile/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/repositoryfile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_file github_repository_file}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_file github_repository_file}.
 type RepositoryFile interface {
 	cdktf.TerraformResource
 	AutocreateBranch() interface{}
@@ -604,7 +604,7 @@ func (j *jsiiProxy_RepositoryFile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_file github_repository_file} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_file github_repository_file} Resource.
 func NewRepositoryFile(scope constructs.Construct, id *string, config *RepositoryFileConfig) RepositoryFile {
 	_init_.Initialize()
 
@@ -614,7 +614,7 @@ func NewRepositoryFile(scope constructs.Construct, id *string, config *Repositor
 	j := jsiiProxy_RepositoryFile{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryFile.RepositoryFile",
+		"@cdktn/provider-github.repositoryFile.RepositoryFile",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -622,12 +622,12 @@ func NewRepositoryFile(scope constructs.Construct, id *string, config *Repositor
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_file github_repository_file} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_file github_repository_file} Resource.
 func NewRepositoryFile_Override(r RepositoryFile, scope constructs.Construct, id *string, config *RepositoryFileConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryFile.RepositoryFile",
+		"@cdktn/provider-github.repositoryFile.RepositoryFile",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -843,7 +843,7 @@ func RepositoryFile_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryFile.RepositoryFile",
+		"@cdktn/provider-github.repositoryFile.RepositoryFile",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -878,7 +878,7 @@ func RepositoryFile_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryFile.RepositoryFile",
+		"@cdktn/provider-github.repositoryFile.RepositoryFile",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -897,7 +897,7 @@ func RepositoryFile_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryFile.RepositoryFile",
+		"@cdktn/provider-github.repositoryFile.RepositoryFile",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -916,7 +916,7 @@ func RepositoryFile_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryFile.RepositoryFile",
+		"@cdktn/provider-github.repositoryFile.RepositoryFile",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -929,7 +929,7 @@ func RepositoryFile_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.repositoryFile.RepositoryFile",
+		"@cdktn/provider-github.repositoryFile.RepositoryFile",
 		"tfResourceType",
 		&returns,
 	)

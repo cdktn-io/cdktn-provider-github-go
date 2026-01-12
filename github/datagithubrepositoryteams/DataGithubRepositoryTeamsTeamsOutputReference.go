@@ -5,9 +5,9 @@ package datagithubrepositoryteams
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubrepositoryteams/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepositoryteams/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -192,7 +192,7 @@ func NewDataGithubRepositoryTeamsTeamsOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_DataGithubRepositoryTeamsTeamsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubRepositoryTeams.DataGithubRepositoryTeamsTeamsOutputReference",
+		"@cdktn/provider-github.dataGithubRepositoryTeams.DataGithubRepositoryTeamsTeamsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -204,7 +204,7 @@ func NewDataGithubRepositoryTeamsTeamsOutputReference_Override(d DataGithubRepos
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubRepositoryTeams.DataGithubRepositoryTeamsTeamsOutputReference",
+		"@cdktn/provider-github.dataGithubRepositoryTeams.DataGithubRepositoryTeamsTeamsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

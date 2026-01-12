@@ -5,14 +5,14 @@ package datagithubrepositoryteams
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubrepositoryteams/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepositoryteams/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/repository_teams github_repository_teams}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/repository_teams github_repository_teams}.
 type DataGithubRepositoryTeams interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -324,7 +324,7 @@ func (j *jsiiProxy_DataGithubRepositoryTeams) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/repository_teams github_repository_teams} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/repository_teams github_repository_teams} Data Source.
 func NewDataGithubRepositoryTeams(scope constructs.Construct, id *string, config *DataGithubRepositoryTeamsConfig) DataGithubRepositoryTeams {
 	_init_.Initialize()
 
@@ -334,7 +334,7 @@ func NewDataGithubRepositoryTeams(scope constructs.Construct, id *string, config
 	j := jsiiProxy_DataGithubRepositoryTeams{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubRepositoryTeams.DataGithubRepositoryTeams",
+		"@cdktn/provider-github.dataGithubRepositoryTeams.DataGithubRepositoryTeams",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -342,12 +342,12 @@ func NewDataGithubRepositoryTeams(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/repository_teams github_repository_teams} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/repository_teams github_repository_teams} Data Source.
 func NewDataGithubRepositoryTeams_Override(d DataGithubRepositoryTeams, scope constructs.Construct, id *string, config *DataGithubRepositoryTeamsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubRepositoryTeams.DataGithubRepositoryTeams",
+		"@cdktn/provider-github.dataGithubRepositoryTeams.DataGithubRepositoryTeams",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -442,7 +442,7 @@ func DataGithubRepositoryTeams_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubRepositoryTeams.DataGithubRepositoryTeams",
+		"@cdktn/provider-github.dataGithubRepositoryTeams.DataGithubRepositoryTeams",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -477,7 +477,7 @@ func DataGithubRepositoryTeams_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubRepositoryTeams.DataGithubRepositoryTeams",
+		"@cdktn/provider-github.dataGithubRepositoryTeams.DataGithubRepositoryTeams",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -496,7 +496,7 @@ func DataGithubRepositoryTeams_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubRepositoryTeams.DataGithubRepositoryTeams",
+		"@cdktn/provider-github.dataGithubRepositoryTeams.DataGithubRepositoryTeams",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -515,7 +515,7 @@ func DataGithubRepositoryTeams_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubRepositoryTeams.DataGithubRepositoryTeams",
+		"@cdktn/provider-github.dataGithubRepositoryTeams.DataGithubRepositoryTeams",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -528,7 +528,7 @@ func DataGithubRepositoryTeams_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubRepositoryTeams.DataGithubRepositoryTeams",
+		"@cdktn/provider-github.dataGithubRepositoryTeams.DataGithubRepositoryTeams",
 		"tfResourceType",
 		&returns,
 	)

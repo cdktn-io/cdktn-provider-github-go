@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubOrganizationWebhooks.DataGithubOrganizationWebhooks",
+		"@cdktn/provider-github.dataGithubOrganizationWebhooks.DataGithubOrganizationWebhooks",
 		reflect.TypeOf((*DataGithubOrganizationWebhooks)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -59,15 +59,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubOrganizationWebhooks.DataGithubOrganizationWebhooksConfig",
+		"@cdktn/provider-github.dataGithubOrganizationWebhooks.DataGithubOrganizationWebhooksConfig",
 		reflect.TypeOf((*DataGithubOrganizationWebhooksConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubOrganizationWebhooks.DataGithubOrganizationWebhooksWebhooks",
+		"@cdktn/provider-github.dataGithubOrganizationWebhooks.DataGithubOrganizationWebhooksWebhooks",
 		reflect.TypeOf((*DataGithubOrganizationWebhooksWebhooks)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubOrganizationWebhooks.DataGithubOrganizationWebhooksWebhooksList",
+		"@cdktn/provider-github.dataGithubOrganizationWebhooks.DataGithubOrganizationWebhooksWebhooksList",
 		reflect.TypeOf((*DataGithubOrganizationWebhooksWebhooksList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -88,7 +88,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubOrganizationWebhooks.DataGithubOrganizationWebhooksWebhooksOutputReference",
+		"@cdktn/provider-github.dataGithubOrganizationWebhooks.DataGithubOrganizationWebhooksWebhooksOutputReference",
 		reflect.TypeOf((*DataGithubOrganizationWebhooksWebhooksOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "active", GoGetter: "Active"},

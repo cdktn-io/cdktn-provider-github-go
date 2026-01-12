@@ -5,9 +5,9 @@ package branchprotection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/branchprotection/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/branchprotection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -327,7 +327,7 @@ func NewBranchProtectionRequiredPullRequestReviewsOutputReference(terraformResou
 	j := jsiiProxy_BranchProtectionRequiredPullRequestReviewsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference",
+		"@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -339,7 +339,7 @@ func NewBranchProtectionRequiredPullRequestReviewsOutputReference_Override(b Bra
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference",
+		"@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		b,
 	)

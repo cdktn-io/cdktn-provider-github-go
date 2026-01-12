@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.teamSyncGroupMapping.TeamSyncGroupMapping",
+		"@cdktn/provider-github.teamSyncGroupMapping.TeamSyncGroupMapping",
 		reflect.TypeOf((*TeamSyncGroupMapping)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,15 +73,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.teamSyncGroupMapping.TeamSyncGroupMappingConfig",
+		"@cdktn/provider-github.teamSyncGroupMapping.TeamSyncGroupMappingConfig",
 		reflect.TypeOf((*TeamSyncGroupMappingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.teamSyncGroupMapping.TeamSyncGroupMappingGroup",
+		"@cdktn/provider-github.teamSyncGroupMapping.TeamSyncGroupMappingGroup",
 		reflect.TypeOf((*TeamSyncGroupMappingGroup)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.teamSyncGroupMapping.TeamSyncGroupMappingGroupList",
+		"@cdktn/provider-github.teamSyncGroupMapping.TeamSyncGroupMappingGroupList",
 		reflect.TypeOf((*TeamSyncGroupMappingGroupList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -103,7 +103,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.teamSyncGroupMapping.TeamSyncGroupMappingGroupOutputReference",
+		"@cdktn/provider-github.teamSyncGroupMapping.TeamSyncGroupMappingGroupOutputReference",
 		reflect.TypeOf((*TeamSyncGroupMappingGroupOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

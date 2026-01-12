@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.actionsRepositoryAccessLevel.ActionsRepositoryAccessLevel",
+		"@cdktn/provider-github.actionsRepositoryAccessLevel.ActionsRepositoryAccessLevel",
 		reflect.TypeOf((*ActionsRepositoryAccessLevel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessLevel", GoGetter: "AccessLevel"},
@@ -70,7 +70,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.actionsRepositoryAccessLevel.ActionsRepositoryAccessLevelConfig",
+		"@cdktn/provider-github.actionsRepositoryAccessLevel.ActionsRepositoryAccessLevelConfig",
 		reflect.TypeOf((*ActionsRepositoryAccessLevelConfig)(nil)).Elem(),
 	)
 }

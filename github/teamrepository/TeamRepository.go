@@ -5,14 +5,14 @@ package teamrepository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/teamrepository/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/teamrepository/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team_repository github_team_repository}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team_repository github_team_repository}.
 type TeamRepository interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -391,7 +391,7 @@ func (j *jsiiProxy_TeamRepository) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team_repository github_team_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team_repository github_team_repository} Resource.
 func NewTeamRepository(scope constructs.Construct, id *string, config *TeamRepositoryConfig) TeamRepository {
 	_init_.Initialize()
 
@@ -401,7 +401,7 @@ func NewTeamRepository(scope constructs.Construct, id *string, config *TeamRepos
 	j := jsiiProxy_TeamRepository{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.teamRepository.TeamRepository",
+		"@cdktn/provider-github.teamRepository.TeamRepository",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -409,12 +409,12 @@ func NewTeamRepository(scope constructs.Construct, id *string, config *TeamRepos
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team_repository github_team_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team_repository github_team_repository} Resource.
 func NewTeamRepository_Override(t TeamRepository, scope constructs.Construct, id *string, config *TeamRepositoryConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.teamRepository.TeamRepository",
+		"@cdktn/provider-github.teamRepository.TeamRepository",
 		[]interface{}{scope, id, config},
 		t,
 	)
@@ -542,7 +542,7 @@ func TeamRepository_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.teamRepository.TeamRepository",
+		"@cdktn/provider-github.teamRepository.TeamRepository",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func TeamRepository_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.teamRepository.TeamRepository",
+		"@cdktn/provider-github.teamRepository.TeamRepository",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func TeamRepository_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.teamRepository.TeamRepository",
+		"@cdktn/provider-github.teamRepository.TeamRepository",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func TeamRepository_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.teamRepository.TeamRepository",
+		"@cdktn/provider-github.teamRepository.TeamRepository",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func TeamRepository_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.teamRepository.TeamRepository",
+		"@cdktn/provider-github.teamRepository.TeamRepository",
 		"tfResourceType",
 		&returns,
 	)

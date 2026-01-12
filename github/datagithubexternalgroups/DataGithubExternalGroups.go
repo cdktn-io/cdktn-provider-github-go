@@ -5,14 +5,14 @@ package datagithubexternalgroups
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubexternalgroups/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubexternalgroups/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/external_groups github_external_groups}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/external_groups github_external_groups}.
 type DataGithubExternalGroups interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataGithubExternalGroups) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/external_groups github_external_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/external_groups github_external_groups} Data Source.
 func NewDataGithubExternalGroups(scope constructs.Construct, id *string, config *DataGithubExternalGroupsConfig) DataGithubExternalGroups {
 	_init_.Initialize()
 
@@ -286,7 +286,7 @@ func NewDataGithubExternalGroups(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataGithubExternalGroups{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubExternalGroups.DataGithubExternalGroups",
+		"@cdktn/provider-github.dataGithubExternalGroups.DataGithubExternalGroups",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -294,12 +294,12 @@ func NewDataGithubExternalGroups(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/external_groups github_external_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/external_groups github_external_groups} Data Source.
 func NewDataGithubExternalGroups_Override(d DataGithubExternalGroups, scope constructs.Construct, id *string, config *DataGithubExternalGroupsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubExternalGroups.DataGithubExternalGroups",
+		"@cdktn/provider-github.dataGithubExternalGroups.DataGithubExternalGroups",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -372,7 +372,7 @@ func DataGithubExternalGroups_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubExternalGroups.DataGithubExternalGroups",
+		"@cdktn/provider-github.dataGithubExternalGroups.DataGithubExternalGroups",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -407,7 +407,7 @@ func DataGithubExternalGroups_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubExternalGroups.DataGithubExternalGroups",
+		"@cdktn/provider-github.dataGithubExternalGroups.DataGithubExternalGroups",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -426,7 +426,7 @@ func DataGithubExternalGroups_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubExternalGroups.DataGithubExternalGroups",
+		"@cdktn/provider-github.dataGithubExternalGroups.DataGithubExternalGroups",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -445,7 +445,7 @@ func DataGithubExternalGroups_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubExternalGroups.DataGithubExternalGroups",
+		"@cdktn/provider-github.dataGithubExternalGroups.DataGithubExternalGroups",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -458,7 +458,7 @@ func DataGithubExternalGroups_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubExternalGroups.DataGithubExternalGroups",
+		"@cdktn/provider-github.dataGithubExternalGroups.DataGithubExternalGroups",
 		"tfResourceType",
 		&returns,
 	)

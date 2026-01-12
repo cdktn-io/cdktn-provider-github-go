@@ -5,9 +5,9 @@ package repository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/repository/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewRepositorySecurityAndAnalysisAdvancedSecurityOutputReference(terraformRe
 	j := jsiiProxy_RepositorySecurityAndAnalysisAdvancedSecurityOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference",
+		"@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewRepositorySecurityAndAnalysisAdvancedSecurityOutputReference_Override(r 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference",
+		"@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

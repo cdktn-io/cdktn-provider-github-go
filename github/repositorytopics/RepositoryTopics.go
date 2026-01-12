@@ -5,14 +5,14 @@ package repositorytopics
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/repositorytopics/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/repositorytopics/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_topics github_repository_topics}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_topics github_repository_topics}.
 type RepositoryTopics interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_RepositoryTopics) TopicsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_topics github_repository_topics} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_topics github_repository_topics} Resource.
 func NewRepositoryTopics(scope constructs.Construct, id *string, config *RepositoryTopicsConfig) RepositoryTopics {
 	_init_.Initialize()
 
@@ -366,7 +366,7 @@ func NewRepositoryTopics(scope constructs.Construct, id *string, config *Reposit
 	j := jsiiProxy_RepositoryTopics{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryTopics.RepositoryTopics",
+		"@cdktn/provider-github.repositoryTopics.RepositoryTopics",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -374,12 +374,12 @@ func NewRepositoryTopics(scope constructs.Construct, id *string, config *Reposit
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_topics github_repository_topics} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_topics github_repository_topics} Resource.
 func NewRepositoryTopics_Override(r RepositoryTopics, scope constructs.Construct, id *string, config *RepositoryTopicsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryTopics.RepositoryTopics",
+		"@cdktn/provider-github.repositoryTopics.RepositoryTopics",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -496,7 +496,7 @@ func RepositoryTopics_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryTopics.RepositoryTopics",
+		"@cdktn/provider-github.repositoryTopics.RepositoryTopics",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -531,7 +531,7 @@ func RepositoryTopics_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryTopics.RepositoryTopics",
+		"@cdktn/provider-github.repositoryTopics.RepositoryTopics",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func RepositoryTopics_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryTopics.RepositoryTopics",
+		"@cdktn/provider-github.repositoryTopics.RepositoryTopics",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -569,7 +569,7 @@ func RepositoryTopics_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryTopics.RepositoryTopics",
+		"@cdktn/provider-github.repositoryTopics.RepositoryTopics",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -582,7 +582,7 @@ func RepositoryTopics_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.repositoryTopics.RepositoryTopics",
+		"@cdktn/provider-github.repositoryTopics.RepositoryTopics",
 		"tfResourceType",
 		&returns,
 	)

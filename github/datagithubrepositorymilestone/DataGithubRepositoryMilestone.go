@@ -5,14 +5,14 @@ package datagithubrepositorymilestone
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubrepositorymilestone/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepositorymilestone/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/repository_milestone github_repository_milestone}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/repository_milestone github_repository_milestone}.
 type DataGithubRepositoryMilestone interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -378,7 +378,7 @@ func (j *jsiiProxy_DataGithubRepositoryMilestone) Title() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/repository_milestone github_repository_milestone} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/repository_milestone github_repository_milestone} Data Source.
 func NewDataGithubRepositoryMilestone(scope constructs.Construct, id *string, config *DataGithubRepositoryMilestoneConfig) DataGithubRepositoryMilestone {
 	_init_.Initialize()
 
@@ -388,7 +388,7 @@ func NewDataGithubRepositoryMilestone(scope constructs.Construct, id *string, co
 	j := jsiiProxy_DataGithubRepositoryMilestone{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubRepositoryMilestone.DataGithubRepositoryMilestone",
+		"@cdktn/provider-github.dataGithubRepositoryMilestone.DataGithubRepositoryMilestone",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -396,12 +396,12 @@ func NewDataGithubRepositoryMilestone(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/repository_milestone github_repository_milestone} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/repository_milestone github_repository_milestone} Data Source.
 func NewDataGithubRepositoryMilestone_Override(d DataGithubRepositoryMilestone, scope constructs.Construct, id *string, config *DataGithubRepositoryMilestoneConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubRepositoryMilestone.DataGithubRepositoryMilestone",
+		"@cdktn/provider-github.dataGithubRepositoryMilestone.DataGithubRepositoryMilestone",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -507,7 +507,7 @@ func DataGithubRepositoryMilestone_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubRepositoryMilestone.DataGithubRepositoryMilestone",
+		"@cdktn/provider-github.dataGithubRepositoryMilestone.DataGithubRepositoryMilestone",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -542,7 +542,7 @@ func DataGithubRepositoryMilestone_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubRepositoryMilestone.DataGithubRepositoryMilestone",
+		"@cdktn/provider-github.dataGithubRepositoryMilestone.DataGithubRepositoryMilestone",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -561,7 +561,7 @@ func DataGithubRepositoryMilestone_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubRepositoryMilestone.DataGithubRepositoryMilestone",
+		"@cdktn/provider-github.dataGithubRepositoryMilestone.DataGithubRepositoryMilestone",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -580,7 +580,7 @@ func DataGithubRepositoryMilestone_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubRepositoryMilestone.DataGithubRepositoryMilestone",
+		"@cdktn/provider-github.dataGithubRepositoryMilestone.DataGithubRepositoryMilestone",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func DataGithubRepositoryMilestone_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubRepositoryMilestone.DataGithubRepositoryMilestone",
+		"@cdktn/provider-github.dataGithubRepositoryMilestone.DataGithubRepositoryMilestone",
 		"tfResourceType",
 		&returns,
 	)

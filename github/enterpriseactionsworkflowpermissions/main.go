@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions",
+		"@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions",
 		reflect.TypeOf((*EnterpriseActionsWorkflowPermissions)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissionsConfig",
+		"@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissionsConfig",
 		reflect.TypeOf((*EnterpriseActionsWorkflowPermissionsConfig)(nil)).Elem(),
 	)
 }

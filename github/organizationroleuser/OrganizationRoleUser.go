@@ -5,14 +5,14 @@ package organizationroleuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/organizationroleuser/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationroleuser/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_role_user github_organization_role_user}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_role_user github_organization_role_user}.
 type OrganizationRoleUser interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_OrganizationRoleUser) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_role_user github_organization_role_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_role_user github_organization_role_user} Resource.
 func NewOrganizationRoleUser(scope constructs.Construct, id *string, config *OrganizationRoleUserConfig) OrganizationRoleUser {
 	_init_.Initialize()
 
@@ -366,7 +366,7 @@ func NewOrganizationRoleUser(scope constructs.Construct, id *string, config *Org
 	j := jsiiProxy_OrganizationRoleUser{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.organizationRoleUser.OrganizationRoleUser",
+		"@cdktn/provider-github.organizationRoleUser.OrganizationRoleUser",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -374,12 +374,12 @@ func NewOrganizationRoleUser(scope constructs.Construct, id *string, config *Org
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_role_user github_organization_role_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_role_user github_organization_role_user} Resource.
 func NewOrganizationRoleUser_Override(o OrganizationRoleUser, scope constructs.Construct, id *string, config *OrganizationRoleUserConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.organizationRoleUser.OrganizationRoleUser",
+		"@cdktn/provider-github.organizationRoleUser.OrganizationRoleUser",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -496,7 +496,7 @@ func OrganizationRoleUser_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationRoleUser.OrganizationRoleUser",
+		"@cdktn/provider-github.organizationRoleUser.OrganizationRoleUser",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -531,7 +531,7 @@ func OrganizationRoleUser_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationRoleUser.OrganizationRoleUser",
+		"@cdktn/provider-github.organizationRoleUser.OrganizationRoleUser",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func OrganizationRoleUser_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationRoleUser.OrganizationRoleUser",
+		"@cdktn/provider-github.organizationRoleUser.OrganizationRoleUser",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -569,7 +569,7 @@ func OrganizationRoleUser_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationRoleUser.OrganizationRoleUser",
+		"@cdktn/provider-github.organizationRoleUser.OrganizationRoleUser",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -582,7 +582,7 @@ func OrganizationRoleUser_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.organizationRoleUser.OrganizationRoleUser",
+		"@cdktn/provider-github.organizationRoleUser.OrganizationRoleUser",
 		"tfResourceType",
 		&returns,
 	)

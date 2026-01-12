@@ -5,14 +5,14 @@ package datagithuborganizationteams
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithuborganizationteams/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithuborganizationteams/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/organization_teams github_organization_teams}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_teams github_organization_teams}.
 type DataGithubOrganizationTeams interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -348,7 +348,7 @@ func (j *jsiiProxy_DataGithubOrganizationTeams) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/organization_teams github_organization_teams} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_teams github_organization_teams} Data Source.
 func NewDataGithubOrganizationTeams(scope constructs.Construct, id *string, config *DataGithubOrganizationTeamsConfig) DataGithubOrganizationTeams {
 	_init_.Initialize()
 
@@ -358,7 +358,7 @@ func NewDataGithubOrganizationTeams(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_DataGithubOrganizationTeams{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeams",
+		"@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeams",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -366,12 +366,12 @@ func NewDataGithubOrganizationTeams(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/organization_teams github_organization_teams} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_teams github_organization_teams} Data Source.
 func NewDataGithubOrganizationTeams_Override(d DataGithubOrganizationTeams, scope constructs.Construct, id *string, config *DataGithubOrganizationTeamsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeams",
+		"@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeams",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -477,7 +477,7 @@ func DataGithubOrganizationTeams_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeams",
+		"@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeams",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -512,7 +512,7 @@ func DataGithubOrganizationTeams_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeams",
+		"@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeams",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -531,7 +531,7 @@ func DataGithubOrganizationTeams_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeams",
+		"@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeams",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func DataGithubOrganizationTeams_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeams",
+		"@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeams",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -563,7 +563,7 @@ func DataGithubOrganizationTeams_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeams",
+		"@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeams",
 		"tfResourceType",
 		&returns,
 	)

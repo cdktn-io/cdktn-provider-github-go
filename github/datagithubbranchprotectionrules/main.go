@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRules",
+		"@cdktn/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRules",
 		reflect.TypeOf((*DataGithubBranchProtectionRules)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -61,15 +61,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRulesConfig",
+		"@cdktn/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRulesConfig",
 		reflect.TypeOf((*DataGithubBranchProtectionRulesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRulesRules",
+		"@cdktn/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRulesRules",
 		reflect.TypeOf((*DataGithubBranchProtectionRulesRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRulesRulesList",
+		"@cdktn/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRulesRulesList",
 		reflect.TypeOf((*DataGithubBranchProtectionRulesRulesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -90,7 +90,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRulesRulesOutputReference",
+		"@cdktn/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRulesRulesOutputReference",
 		reflect.TypeOf((*DataGithubBranchProtectionRulesRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

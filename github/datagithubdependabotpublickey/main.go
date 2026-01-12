@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubDependabotPublicKey.DataGithubDependabotPublicKey",
+		"@cdktn/provider-github.dataGithubDependabotPublicKey.DataGithubDependabotPublicKey",
 		reflect.TypeOf((*DataGithubDependabotPublicKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -62,7 +62,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubDependabotPublicKey.DataGithubDependabotPublicKeyConfig",
+		"@cdktn/provider-github.dataGithubDependabotPublicKey.DataGithubDependabotPublicKeyConfig",
 		reflect.TypeOf((*DataGithubDependabotPublicKeyConfig)(nil)).Elem(),
 	)
 }

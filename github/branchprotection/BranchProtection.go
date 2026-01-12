@@ -5,14 +5,14 @@ package branchprotection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/branchprotection/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/branchprotection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection github_branch_protection}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection github_branch_protection}.
 type BranchProtection interface {
 	cdktf.TerraformResource
 	AllowsDeletions() interface{}
@@ -620,7 +620,7 @@ func (j *jsiiProxy_BranchProtection) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection github_branch_protection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection github_branch_protection} Resource.
 func NewBranchProtection(scope constructs.Construct, id *string, config *BranchProtectionConfig) BranchProtection {
 	_init_.Initialize()
 
@@ -630,7 +630,7 @@ func NewBranchProtection(scope constructs.Construct, id *string, config *BranchP
 	j := jsiiProxy_BranchProtection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.branchProtection.BranchProtection",
+		"@cdktn/provider-github.branchProtection.BranchProtection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -638,12 +638,12 @@ func NewBranchProtection(scope constructs.Construct, id *string, config *BranchP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection github_branch_protection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection github_branch_protection} Resource.
 func NewBranchProtection_Override(b BranchProtection, scope constructs.Construct, id *string, config *BranchProtectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.branchProtection.BranchProtection",
+		"@cdktn/provider-github.branchProtection.BranchProtection",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -848,7 +848,7 @@ func BranchProtection_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.branchProtection.BranchProtection",
+		"@cdktn/provider-github.branchProtection.BranchProtection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -883,7 +883,7 @@ func BranchProtection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.branchProtection.BranchProtection",
+		"@cdktn/provider-github.branchProtection.BranchProtection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -902,7 +902,7 @@ func BranchProtection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.branchProtection.BranchProtection",
+		"@cdktn/provider-github.branchProtection.BranchProtection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -921,7 +921,7 @@ func BranchProtection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.branchProtection.BranchProtection",
+		"@cdktn/provider-github.branchProtection.BranchProtection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -934,7 +934,7 @@ func BranchProtection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.branchProtection.BranchProtection",
+		"@cdktn/provider-github.branchProtection.BranchProtection",
 		"tfResourceType",
 		&returns,
 	)

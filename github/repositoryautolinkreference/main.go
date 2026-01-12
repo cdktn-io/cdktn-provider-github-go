@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryAutolinkReference.RepositoryAutolinkReference",
+		"@cdktn/provider-github.repositoryAutolinkReference.RepositoryAutolinkReference",
 		reflect.TypeOf((*RepositoryAutolinkReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,7 +76,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryAutolinkReference.RepositoryAutolinkReferenceConfig",
+		"@cdktn/provider-github.repositoryAutolinkReference.RepositoryAutolinkReferenceConfig",
 		reflect.TypeOf((*RepositoryAutolinkReferenceConfig)(nil)).Elem(),
 	)
 }

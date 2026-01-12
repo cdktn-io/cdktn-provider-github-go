@@ -5,14 +5,14 @@ package repositoryenvironmentdeploymentpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/repositoryenvironmentdeploymentpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/repositoryenvironmentdeploymentpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_environment_deployment_policy github_repository_environment_deployment_policy}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_environment_deployment_policy github_repository_environment_deployment_policy}.
 type RepositoryEnvironmentDeploymentPolicy interface {
 	cdktf.TerraformResource
 	BranchPattern() *string
@@ -404,7 +404,7 @@ func (j *jsiiProxy_RepositoryEnvironmentDeploymentPolicy) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_environment_deployment_policy github_repository_environment_deployment_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_environment_deployment_policy github_repository_environment_deployment_policy} Resource.
 func NewRepositoryEnvironmentDeploymentPolicy(scope constructs.Construct, id *string, config *RepositoryEnvironmentDeploymentPolicyConfig) RepositoryEnvironmentDeploymentPolicy {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewRepositoryEnvironmentDeploymentPolicy(scope constructs.Construct, id *st
 	j := jsiiProxy_RepositoryEnvironmentDeploymentPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryEnvironmentDeploymentPolicy.RepositoryEnvironmentDeploymentPolicy",
+		"@cdktn/provider-github.repositoryEnvironmentDeploymentPolicy.RepositoryEnvironmentDeploymentPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewRepositoryEnvironmentDeploymentPolicy(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_environment_deployment_policy github_repository_environment_deployment_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_environment_deployment_policy github_repository_environment_deployment_policy} Resource.
 func NewRepositoryEnvironmentDeploymentPolicy_Override(r RepositoryEnvironmentDeploymentPolicy, scope constructs.Construct, id *string, config *RepositoryEnvironmentDeploymentPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryEnvironmentDeploymentPolicy.RepositoryEnvironmentDeploymentPolicy",
+		"@cdktn/provider-github.repositoryEnvironmentDeploymentPolicy.RepositoryEnvironmentDeploymentPolicy",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -566,7 +566,7 @@ func RepositoryEnvironmentDeploymentPolicy_GenerateConfigForImport(scope constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryEnvironmentDeploymentPolicy.RepositoryEnvironmentDeploymentPolicy",
+		"@cdktn/provider-github.repositoryEnvironmentDeploymentPolicy.RepositoryEnvironmentDeploymentPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -601,7 +601,7 @@ func RepositoryEnvironmentDeploymentPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryEnvironmentDeploymentPolicy.RepositoryEnvironmentDeploymentPolicy",
+		"@cdktn/provider-github.repositoryEnvironmentDeploymentPolicy.RepositoryEnvironmentDeploymentPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -620,7 +620,7 @@ func RepositoryEnvironmentDeploymentPolicy_IsTerraformElement(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryEnvironmentDeploymentPolicy.RepositoryEnvironmentDeploymentPolicy",
+		"@cdktn/provider-github.repositoryEnvironmentDeploymentPolicy.RepositoryEnvironmentDeploymentPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func RepositoryEnvironmentDeploymentPolicy_IsTerraformResource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryEnvironmentDeploymentPolicy.RepositoryEnvironmentDeploymentPolicy",
+		"@cdktn/provider-github.repositoryEnvironmentDeploymentPolicy.RepositoryEnvironmentDeploymentPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -652,7 +652,7 @@ func RepositoryEnvironmentDeploymentPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.repositoryEnvironmentDeploymentPolicy.RepositoryEnvironmentDeploymentPolicy",
+		"@cdktn/provider-github.repositoryEnvironmentDeploymentPolicy.RepositoryEnvironmentDeploymentPolicy",
 		"tfResourceType",
 		&returns,
 	)

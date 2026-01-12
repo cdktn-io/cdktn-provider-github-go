@@ -5,14 +5,14 @@ package organizationcustomproperties
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/organizationcustomproperties/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationcustomproperties/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_custom_properties github_organization_custom_properties}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_custom_properties github_organization_custom_properties}.
 type OrganizationCustomProperties interface {
 	cdktf.TerraformResource
 	AllowedValues() *[]*string
@@ -477,7 +477,7 @@ func (j *jsiiProxy_OrganizationCustomProperties) ValueTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_custom_properties github_organization_custom_properties} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_custom_properties github_organization_custom_properties} Resource.
 func NewOrganizationCustomProperties(scope constructs.Construct, id *string, config *OrganizationCustomPropertiesConfig) OrganizationCustomProperties {
 	_init_.Initialize()
 
@@ -487,7 +487,7 @@ func NewOrganizationCustomProperties(scope constructs.Construct, id *string, con
 	j := jsiiProxy_OrganizationCustomProperties{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties",
+		"@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -495,12 +495,12 @@ func NewOrganizationCustomProperties(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_custom_properties github_organization_custom_properties} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_custom_properties github_organization_custom_properties} Resource.
 func NewOrganizationCustomProperties_Override(o OrganizationCustomProperties, scope constructs.Construct, id *string, config *OrganizationCustomPropertiesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties",
+		"@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -672,7 +672,7 @@ func OrganizationCustomProperties_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties",
+		"@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -707,7 +707,7 @@ func OrganizationCustomProperties_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties",
+		"@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -726,7 +726,7 @@ func OrganizationCustomProperties_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties",
+		"@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func OrganizationCustomProperties_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties",
+		"@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -758,7 +758,7 @@ func OrganizationCustomProperties_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties",
+		"@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties",
 		"tfResourceType",
 		&returns,
 	)

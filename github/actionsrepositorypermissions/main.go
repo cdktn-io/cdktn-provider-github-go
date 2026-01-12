@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions",
+		"@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions",
 		reflect.TypeOf((*ActionsRepositoryPermissions)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,11 +78,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissionsAllowedActionsConfig",
+		"@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissionsAllowedActionsConfig",
 		reflect.TypeOf((*ActionsRepositoryPermissionsAllowedActionsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissionsAllowedActionsConfigOutputReference",
+		"@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissionsAllowedActionsConfigOutputReference",
 		reflect.TypeOf((*ActionsRepositoryPermissionsAllowedActionsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -122,7 +122,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissionsConfig",
+		"@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissionsConfig",
 		reflect.TypeOf((*ActionsRepositoryPermissionsConfig)(nil)).Elem(),
 	)
 }

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubActionsVariables.DataGithubActionsVariables",
+		"@cdktn/provider-github.dataGithubActionsVariables.DataGithubActionsVariables",
 		reflect.TypeOf((*DataGithubActionsVariables)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -65,15 +65,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubActionsVariables.DataGithubActionsVariablesConfig",
+		"@cdktn/provider-github.dataGithubActionsVariables.DataGithubActionsVariablesConfig",
 		reflect.TypeOf((*DataGithubActionsVariablesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubActionsVariables.DataGithubActionsVariablesVariables",
+		"@cdktn/provider-github.dataGithubActionsVariables.DataGithubActionsVariablesVariables",
 		reflect.TypeOf((*DataGithubActionsVariablesVariables)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubActionsVariables.DataGithubActionsVariablesVariablesList",
+		"@cdktn/provider-github.dataGithubActionsVariables.DataGithubActionsVariablesVariablesList",
 		reflect.TypeOf((*DataGithubActionsVariablesVariablesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -94,7 +94,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubActionsVariables.DataGithubActionsVariablesVariablesOutputReference",
+		"@cdktn/provider-github.dataGithubActionsVariables.DataGithubActionsVariablesVariablesOutputReference",
 		reflect.TypeOf((*DataGithubActionsVariablesVariablesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

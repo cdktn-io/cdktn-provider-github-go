@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.actionsHostedRunner.ActionsHostedRunner",
+		"@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunner",
 		reflect.TypeOf((*ActionsHostedRunner)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.actionsHostedRunner.ActionsHostedRunnerConfig",
+		"@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunnerConfig",
 		reflect.TypeOf((*ActionsHostedRunnerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.actionsHostedRunner.ActionsHostedRunnerImage",
+		"@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunnerImage",
 		reflect.TypeOf((*ActionsHostedRunnerImage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.actionsHostedRunner.ActionsHostedRunnerImageOutputReference",
+		"@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunnerImageOutputReference",
 		reflect.TypeOf((*ActionsHostedRunnerImageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -140,11 +140,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.actionsHostedRunner.ActionsHostedRunnerMachineSizeDetails",
+		"@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunnerMachineSizeDetails",
 		reflect.TypeOf((*ActionsHostedRunnerMachineSizeDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.actionsHostedRunner.ActionsHostedRunnerMachineSizeDetailsList",
+		"@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunnerMachineSizeDetailsList",
 		reflect.TypeOf((*ActionsHostedRunnerMachineSizeDetailsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -165,7 +165,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.actionsHostedRunner.ActionsHostedRunnerMachineSizeDetailsOutputReference",
+		"@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunnerMachineSizeDetailsOutputReference",
 		reflect.TypeOf((*ActionsHostedRunnerMachineSizeDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -201,11 +201,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.actionsHostedRunner.ActionsHostedRunnerPublicIps",
+		"@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunnerPublicIps",
 		reflect.TypeOf((*ActionsHostedRunnerPublicIps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.actionsHostedRunner.ActionsHostedRunnerPublicIpsList",
+		"@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunnerPublicIpsList",
 		reflect.TypeOf((*ActionsHostedRunnerPublicIpsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -226,7 +226,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.actionsHostedRunner.ActionsHostedRunnerPublicIpsOutputReference",
+		"@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunnerPublicIpsOutputReference",
 		reflect.TypeOf((*ActionsHostedRunnerPublicIpsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -261,11 +261,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.actionsHostedRunner.ActionsHostedRunnerTimeouts",
+		"@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunnerTimeouts",
 		reflect.TypeOf((*ActionsHostedRunnerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.actionsHostedRunner.ActionsHostedRunnerTimeoutsOutputReference",
+		"@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunnerTimeoutsOutputReference",
 		reflect.TypeOf((*ActionsHostedRunnerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

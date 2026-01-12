@@ -5,9 +5,9 @@ package teammembers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/teammembers/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/teammembers/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewTeamMembersMembersList(terraformResource cdktf.IInterpolatingParent, ter
 	j := jsiiProxy_TeamMembersMembersList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.teamMembers.TeamMembersMembersList",
+		"@cdktn/provider-github.teamMembers.TeamMembersMembersList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewTeamMembersMembersList_Override(t TeamMembersMembersList, terraformResou
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.teamMembers.TeamMembersMembersList",
+		"@cdktn/provider-github.teamMembers.TeamMembersMembersList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		t,
 	)

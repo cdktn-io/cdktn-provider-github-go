@@ -5,14 +5,14 @@ package organizationwebhook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/organizationwebhook/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationwebhook/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_webhook github_organization_webhook}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_webhook github_organization_webhook}.
 type OrganizationWebhook interface {
 	cdktf.TerraformResource
 	Active() interface{}
@@ -403,7 +403,7 @@ func (j *jsiiProxy_OrganizationWebhook) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_webhook github_organization_webhook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_webhook github_organization_webhook} Resource.
 func NewOrganizationWebhook(scope constructs.Construct, id *string, config *OrganizationWebhookConfig) OrganizationWebhook {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewOrganizationWebhook(scope constructs.Construct, id *string, config *Orga
 	j := jsiiProxy_OrganizationWebhook{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.organizationWebhook.OrganizationWebhook",
+		"@cdktn/provider-github.organizationWebhook.OrganizationWebhook",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewOrganizationWebhook(scope constructs.Construct, id *string, config *Orga
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_webhook github_organization_webhook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_webhook github_organization_webhook} Resource.
 func NewOrganizationWebhook_Override(o OrganizationWebhook, scope constructs.Construct, id *string, config *OrganizationWebhookConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.organizationWebhook.OrganizationWebhook",
+		"@cdktn/provider-github.organizationWebhook.OrganizationWebhook",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -543,7 +543,7 @@ func OrganizationWebhook_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationWebhook.OrganizationWebhook",
+		"@cdktn/provider-github.organizationWebhook.OrganizationWebhook",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -578,7 +578,7 @@ func OrganizationWebhook_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationWebhook.OrganizationWebhook",
+		"@cdktn/provider-github.organizationWebhook.OrganizationWebhook",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -597,7 +597,7 @@ func OrganizationWebhook_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationWebhook.OrganizationWebhook",
+		"@cdktn/provider-github.organizationWebhook.OrganizationWebhook",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -616,7 +616,7 @@ func OrganizationWebhook_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationWebhook.OrganizationWebhook",
+		"@cdktn/provider-github.organizationWebhook.OrganizationWebhook",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -629,7 +629,7 @@ func OrganizationWebhook_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.organizationWebhook.OrganizationWebhook",
+		"@cdktn/provider-github.organizationWebhook.OrganizationWebhook",
 		"tfResourceType",
 		&returns,
 	)

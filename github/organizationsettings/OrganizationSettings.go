@@ -5,14 +5,14 @@ package organizationsettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/organizationsettings/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationsettings/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings github_organization_settings}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings github_organization_settings}.
 type OrganizationSettings interface {
 	cdktf.TerraformResource
 	AdvancedSecurityEnabledForNewRepositories() interface{}
@@ -933,7 +933,7 @@ func (j *jsiiProxy_OrganizationSettings) WebCommitSignoffRequiredInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings github_organization_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings github_organization_settings} Resource.
 func NewOrganizationSettings(scope constructs.Construct, id *string, config *OrganizationSettingsConfig) OrganizationSettings {
 	_init_.Initialize()
 
@@ -943,7 +943,7 @@ func NewOrganizationSettings(scope constructs.Construct, id *string, config *Org
 	j := jsiiProxy_OrganizationSettings{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.organizationSettings.OrganizationSettings",
+		"@cdktn/provider-github.organizationSettings.OrganizationSettings",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -951,12 +951,12 @@ func NewOrganizationSettings(scope constructs.Construct, id *string, config *Org
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings github_organization_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings github_organization_settings} Resource.
 func NewOrganizationSettings_Override(o OrganizationSettings, scope constructs.Construct, id *string, config *OrganizationSettingsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.organizationSettings.OrganizationSettings",
+		"@cdktn/provider-github.organizationSettings.OrganizationSettings",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -1337,7 +1337,7 @@ func OrganizationSettings_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationSettings.OrganizationSettings",
+		"@cdktn/provider-github.organizationSettings.OrganizationSettings",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1372,7 +1372,7 @@ func OrganizationSettings_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationSettings.OrganizationSettings",
+		"@cdktn/provider-github.organizationSettings.OrganizationSettings",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1391,7 +1391,7 @@ func OrganizationSettings_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationSettings.OrganizationSettings",
+		"@cdktn/provider-github.organizationSettings.OrganizationSettings",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1410,7 +1410,7 @@ func OrganizationSettings_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.organizationSettings.OrganizationSettings",
+		"@cdktn/provider-github.organizationSettings.OrganizationSettings",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1423,7 +1423,7 @@ func OrganizationSettings_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.organizationSettings.OrganizationSettings",
+		"@cdktn/provider-github.organizationSettings.OrganizationSettings",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.teamSettings.TeamSettings",
+		"@cdktn/provider-github.teamSettings.TeamSettings",
 		reflect.TypeOf((*TeamSettings)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.teamSettings.TeamSettingsConfig",
+		"@cdktn/provider-github.teamSettings.TeamSettingsConfig",
 		reflect.TypeOf((*TeamSettingsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegation",
+		"@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegation",
 		reflect.TypeOf((*TeamSettingsReviewRequestDelegation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference",
+		"@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference",
 		reflect.TypeOf((*TeamSettingsReviewRequestDelegationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "algorithm", GoGetter: "Algorithm"},

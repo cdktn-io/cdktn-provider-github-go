@@ -5,14 +5,14 @@ package dependabotorganizationsecretrepositories
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/dependabotorganizationsecretrepositories/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/dependabotorganizationsecretrepositories/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/dependabot_organization_secret_repositories github_dependabot_organization_secret_repositories}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/dependabot_organization_secret_repositories github_dependabot_organization_secret_repositories}.
 type DependabotOrganizationSecretRepositories interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_DependabotOrganizationSecretRepositories) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/dependabot_organization_secret_repositories github_dependabot_organization_secret_repositories} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/dependabot_organization_secret_repositories github_dependabot_organization_secret_repositories} Resource.
 func NewDependabotOrganizationSecretRepositories(scope constructs.Construct, id *string, config *DependabotOrganizationSecretRepositoriesConfig) DependabotOrganizationSecretRepositories {
 	_init_.Initialize()
 
@@ -366,7 +366,7 @@ func NewDependabotOrganizationSecretRepositories(scope constructs.Construct, id 
 	j := jsiiProxy_DependabotOrganizationSecretRepositories{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dependabotOrganizationSecretRepositories.DependabotOrganizationSecretRepositories",
+		"@cdktn/provider-github.dependabotOrganizationSecretRepositories.DependabotOrganizationSecretRepositories",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -374,12 +374,12 @@ func NewDependabotOrganizationSecretRepositories(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/dependabot_organization_secret_repositories github_dependabot_organization_secret_repositories} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/dependabot_organization_secret_repositories github_dependabot_organization_secret_repositories} Resource.
 func NewDependabotOrganizationSecretRepositories_Override(d DependabotOrganizationSecretRepositories, scope constructs.Construct, id *string, config *DependabotOrganizationSecretRepositoriesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dependabotOrganizationSecretRepositories.DependabotOrganizationSecretRepositories",
+		"@cdktn/provider-github.dependabotOrganizationSecretRepositories.DependabotOrganizationSecretRepositories",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -496,7 +496,7 @@ func DependabotOrganizationSecretRepositories_GenerateConfigForImport(scope cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dependabotOrganizationSecretRepositories.DependabotOrganizationSecretRepositories",
+		"@cdktn/provider-github.dependabotOrganizationSecretRepositories.DependabotOrganizationSecretRepositories",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -531,7 +531,7 @@ func DependabotOrganizationSecretRepositories_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dependabotOrganizationSecretRepositories.DependabotOrganizationSecretRepositories",
+		"@cdktn/provider-github.dependabotOrganizationSecretRepositories.DependabotOrganizationSecretRepositories",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func DependabotOrganizationSecretRepositories_IsTerraformElement(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dependabotOrganizationSecretRepositories.DependabotOrganizationSecretRepositories",
+		"@cdktn/provider-github.dependabotOrganizationSecretRepositories.DependabotOrganizationSecretRepositories",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -569,7 +569,7 @@ func DependabotOrganizationSecretRepositories_IsTerraformResource(x interface{})
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dependabotOrganizationSecretRepositories.DependabotOrganizationSecretRepositories",
+		"@cdktn/provider-github.dependabotOrganizationSecretRepositories.DependabotOrganizationSecretRepositories",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -582,7 +582,7 @@ func DependabotOrganizationSecretRepositories_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dependabotOrganizationSecretRepositories.DependabotOrganizationSecretRepositories",
+		"@cdktn/provider-github.dependabotOrganizationSecretRepositories.DependabotOrganizationSecretRepositories",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,14 +5,14 @@ package datagithuborganizationcustomproperties
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithuborganizationcustomproperties/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithuborganizationcustomproperties/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/organization_custom_properties github_organization_custom_properties}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_custom_properties github_organization_custom_properties}.
 type DataGithubOrganizationCustomProperties interface {
 	cdktf.TerraformDataSource
 	AllowedValues() *[]*string
@@ -432,7 +432,7 @@ func (j *jsiiProxy_DataGithubOrganizationCustomProperties) ValueTypeInput() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/organization_custom_properties github_organization_custom_properties} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_custom_properties github_organization_custom_properties} Data Source.
 func NewDataGithubOrganizationCustomProperties(scope constructs.Construct, id *string, config *DataGithubOrganizationCustomPropertiesConfig) DataGithubOrganizationCustomProperties {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewDataGithubOrganizationCustomProperties(scope constructs.Construct, id *s
 	j := jsiiProxy_DataGithubOrganizationCustomProperties{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubOrganizationCustomProperties.DataGithubOrganizationCustomProperties",
+		"@cdktn/provider-github.dataGithubOrganizationCustomProperties.DataGithubOrganizationCustomProperties",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -450,12 +450,12 @@ func NewDataGithubOrganizationCustomProperties(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/organization_custom_properties github_organization_custom_properties} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_custom_properties github_organization_custom_properties} Data Source.
 func NewDataGithubOrganizationCustomProperties_Override(d DataGithubOrganizationCustomProperties, scope constructs.Construct, id *string, config *DataGithubOrganizationCustomPropertiesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubOrganizationCustomProperties.DataGithubOrganizationCustomProperties",
+		"@cdktn/provider-github.dataGithubOrganizationCustomProperties.DataGithubOrganizationCustomProperties",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -605,7 +605,7 @@ func DataGithubOrganizationCustomProperties_GenerateConfigForImport(scope constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationCustomProperties.DataGithubOrganizationCustomProperties",
+		"@cdktn/provider-github.dataGithubOrganizationCustomProperties.DataGithubOrganizationCustomProperties",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -640,7 +640,7 @@ func DataGithubOrganizationCustomProperties_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationCustomProperties.DataGithubOrganizationCustomProperties",
+		"@cdktn/provider-github.dataGithubOrganizationCustomProperties.DataGithubOrganizationCustomProperties",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -659,7 +659,7 @@ func DataGithubOrganizationCustomProperties_IsTerraformDataSource(x interface{})
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationCustomProperties.DataGithubOrganizationCustomProperties",
+		"@cdktn/provider-github.dataGithubOrganizationCustomProperties.DataGithubOrganizationCustomProperties",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -678,7 +678,7 @@ func DataGithubOrganizationCustomProperties_IsTerraformElement(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationCustomProperties.DataGithubOrganizationCustomProperties",
+		"@cdktn/provider-github.dataGithubOrganizationCustomProperties.DataGithubOrganizationCustomProperties",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -691,7 +691,7 @@ func DataGithubOrganizationCustomProperties_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubOrganizationCustomProperties.DataGithubOrganizationCustomProperties",
+		"@cdktn/provider-github.dataGithubOrganizationCustomProperties.DataGithubOrganizationCustomProperties",
 		"tfResourceType",
 		&returns,
 	)

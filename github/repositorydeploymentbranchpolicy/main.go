@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryDeploymentBranchPolicy.RepositoryDeploymentBranchPolicy",
+		"@cdktn/provider-github.repositoryDeploymentBranchPolicy.RepositoryDeploymentBranchPolicy",
 		reflect.TypeOf((*RepositoryDeploymentBranchPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,7 +75,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryDeploymentBranchPolicy.RepositoryDeploymentBranchPolicyConfig",
+		"@cdktn/provider-github.repositoryDeploymentBranchPolicy.RepositoryDeploymentBranchPolicyConfig",
 		reflect.TypeOf((*RepositoryDeploymentBranchPolicyConfig)(nil)).Elem(),
 	)
 }

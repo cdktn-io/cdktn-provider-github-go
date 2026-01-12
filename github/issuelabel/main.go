@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.issueLabel.IssueLabel",
+		"@cdktn/provider-github.issueLabel.IssueLabel",
 		reflect.TypeOf((*IssueLabel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,7 +79,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.issueLabel.IssueLabelConfig",
+		"@cdktn/provider-github.issueLabel.IssueLabelConfig",
 		reflect.TypeOf((*IssueLabelConfig)(nil)).Elem(),
 	)
 }

@@ -5,14 +5,14 @@ package datagithuborganizationcustomrole
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithuborganizationcustomrole/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithuborganizationcustomrole/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/organization_custom_role github_organization_custom_role}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_custom_role github_organization_custom_role}.
 type DataGithubOrganizationCustomRole interface {
 	cdktf.TerraformDataSource
 	BaseRole() *string
@@ -321,7 +321,7 @@ func (j *jsiiProxy_DataGithubOrganizationCustomRole) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/organization_custom_role github_organization_custom_role} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_custom_role github_organization_custom_role} Data Source.
 func NewDataGithubOrganizationCustomRole(scope constructs.Construct, id *string, config *DataGithubOrganizationCustomRoleConfig) DataGithubOrganizationCustomRole {
 	_init_.Initialize()
 
@@ -331,7 +331,7 @@ func NewDataGithubOrganizationCustomRole(scope constructs.Construct, id *string,
 	j := jsiiProxy_DataGithubOrganizationCustomRole{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubOrganizationCustomRole.DataGithubOrganizationCustomRole",
+		"@cdktn/provider-github.dataGithubOrganizationCustomRole.DataGithubOrganizationCustomRole",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -339,12 +339,12 @@ func NewDataGithubOrganizationCustomRole(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/organization_custom_role github_organization_custom_role} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_custom_role github_organization_custom_role} Data Source.
 func NewDataGithubOrganizationCustomRole_Override(d DataGithubOrganizationCustomRole, scope constructs.Construct, id *string, config *DataGithubOrganizationCustomRoleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubOrganizationCustomRole.DataGithubOrganizationCustomRole",
+		"@cdktn/provider-github.dataGithubOrganizationCustomRole.DataGithubOrganizationCustomRole",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -428,7 +428,7 @@ func DataGithubOrganizationCustomRole_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationCustomRole.DataGithubOrganizationCustomRole",
+		"@cdktn/provider-github.dataGithubOrganizationCustomRole.DataGithubOrganizationCustomRole",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -463,7 +463,7 @@ func DataGithubOrganizationCustomRole_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationCustomRole.DataGithubOrganizationCustomRole",
+		"@cdktn/provider-github.dataGithubOrganizationCustomRole.DataGithubOrganizationCustomRole",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -482,7 +482,7 @@ func DataGithubOrganizationCustomRole_IsTerraformDataSource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationCustomRole.DataGithubOrganizationCustomRole",
+		"@cdktn/provider-github.dataGithubOrganizationCustomRole.DataGithubOrganizationCustomRole",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -501,7 +501,7 @@ func DataGithubOrganizationCustomRole_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationCustomRole.DataGithubOrganizationCustomRole",
+		"@cdktn/provider-github.dataGithubOrganizationCustomRole.DataGithubOrganizationCustomRole",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -514,7 +514,7 @@ func DataGithubOrganizationCustomRole_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubOrganizationCustomRole.DataGithubOrganizationCustomRole",
+		"@cdktn/provider-github.dataGithubOrganizationCustomRole.DataGithubOrganizationCustomRole",
 		"tfResourceType",
 		&returns,
 	)

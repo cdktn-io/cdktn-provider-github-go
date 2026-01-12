@@ -5,14 +5,14 @@ package actionsenvironmentsecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/actionsenvironmentsecret/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/actionsenvironmentsecret/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_environment_secret github_actions_environment_secret}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_environment_secret github_actions_environment_secret}.
 type ActionsEnvironmentSecret interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_ActionsEnvironmentSecret) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_environment_secret github_actions_environment_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_environment_secret github_actions_environment_secret} Resource.
 func NewActionsEnvironmentSecret(scope constructs.Construct, id *string, config *ActionsEnvironmentSecretConfig) ActionsEnvironmentSecret {
 	_init_.Initialize()
 
@@ -459,7 +459,7 @@ func NewActionsEnvironmentSecret(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_ActionsEnvironmentSecret{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret",
+		"@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -467,12 +467,12 @@ func NewActionsEnvironmentSecret(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_environment_secret github_actions_environment_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_environment_secret github_actions_environment_secret} Resource.
 func NewActionsEnvironmentSecret_Override(a ActionsEnvironmentSecret, scope constructs.Construct, id *string, config *ActionsEnvironmentSecretConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret",
+		"@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -622,7 +622,7 @@ func ActionsEnvironmentSecret_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret",
+		"@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -657,7 +657,7 @@ func ActionsEnvironmentSecret_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret",
+		"@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -676,7 +676,7 @@ func ActionsEnvironmentSecret_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret",
+		"@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -695,7 +695,7 @@ func ActionsEnvironmentSecret_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret",
+		"@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func ActionsEnvironmentSecret_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret",
+		"@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret",
 		"tfResourceType",
 		&returns,
 	)

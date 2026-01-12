@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepository.DataGithubRepository",
+		"@cdktn/provider-github.dataGithubRepository.DataGithubRepository",
 		reflect.TypeOf((*DataGithubRepository)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -103,15 +103,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubRepository.DataGithubRepositoryConfig",
+		"@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig",
 		reflect.TypeOf((*DataGithubRepositoryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubRepository.DataGithubRepositoryPages",
+		"@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPages",
 		reflect.TypeOf((*DataGithubRepositoryPages)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepository.DataGithubRepositoryPagesList",
+		"@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesList",
 		reflect.TypeOf((*DataGithubRepositoryPagesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -132,7 +132,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepository.DataGithubRepositoryPagesOutputReference",
+		"@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesOutputReference",
 		reflect.TypeOf((*DataGithubRepositoryPagesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "buildType", GoGetter: "BuildType"},
@@ -171,11 +171,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubRepository.DataGithubRepositoryPagesSource",
+		"@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesSource",
 		reflect.TypeOf((*DataGithubRepositoryPagesSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepository.DataGithubRepositoryPagesSourceList",
+		"@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesSourceList",
 		reflect.TypeOf((*DataGithubRepositoryPagesSourceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -196,7 +196,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepository.DataGithubRepositoryPagesSourceOutputReference",
+		"@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesSourceOutputReference",
 		reflect.TypeOf((*DataGithubRepositoryPagesSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "branch", GoGetter: "Branch"},
@@ -230,15 +230,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicense",
+		"@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicense",
 		reflect.TypeOf((*DataGithubRepositoryRepositoryLicense)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicense",
+		"@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicense",
 		reflect.TypeOf((*DataGithubRepositoryRepositoryLicenseLicense)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseList",
+		"@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseList",
 		reflect.TypeOf((*DataGithubRepositoryRepositoryLicenseLicenseList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -259,7 +259,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseOutputReference",
+		"@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseOutputReference",
 		reflect.TypeOf((*DataGithubRepositoryRepositoryLicenseLicenseOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "body", GoGetter: "Body"},
@@ -303,7 +303,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseList",
+		"@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseList",
 		reflect.TypeOf((*DataGithubRepositoryRepositoryLicenseList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -324,7 +324,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseOutputReference",
+		"@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseOutputReference",
 		reflect.TypeOf((*DataGithubRepositoryRepositoryLicenseOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -368,11 +368,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubRepository.DataGithubRepositoryTemplate",
+		"@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryTemplate",
 		reflect.TypeOf((*DataGithubRepositoryTemplate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepository.DataGithubRepositoryTemplateList",
+		"@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryTemplateList",
 		reflect.TypeOf((*DataGithubRepositoryTemplateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -393,7 +393,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepository.DataGithubRepositoryTemplateOutputReference",
+		"@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryTemplateOutputReference",
 		reflect.TypeOf((*DataGithubRepositoryTemplateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryEnvironment.RepositoryEnvironment",
+		"@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment",
 		reflect.TypeOf((*RepositoryEnvironment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig",
+		"@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig",
 		reflect.TypeOf((*RepositoryEnvironmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicy",
+		"@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicy",
 		reflect.TypeOf((*RepositoryEnvironmentDeploymentBranchPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicyOutputReference",
+		"@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicyOutputReference",
 		reflect.TypeOf((*RepositoryEnvironmentDeploymentBranchPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -131,11 +131,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers",
+		"@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers",
 		reflect.TypeOf((*RepositoryEnvironmentReviewers)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList",
+		"@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList",
 		reflect.TypeOf((*RepositoryEnvironmentReviewersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -157,7 +157,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference",
+		"@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference",
 		reflect.TypeOf((*RepositoryEnvironmentReviewersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

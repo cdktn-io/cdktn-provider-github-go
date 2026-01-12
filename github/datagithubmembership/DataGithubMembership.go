@@ -5,14 +5,14 @@ package datagithubmembership
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubmembership/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubmembership/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/membership github_membership}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/membership github_membership}.
 type DataGithubMembership interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -345,7 +345,7 @@ func (j *jsiiProxy_DataGithubMembership) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/membership github_membership} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/membership github_membership} Data Source.
 func NewDataGithubMembership(scope constructs.Construct, id *string, config *DataGithubMembershipConfig) DataGithubMembership {
 	_init_.Initialize()
 
@@ -355,7 +355,7 @@ func NewDataGithubMembership(scope constructs.Construct, id *string, config *Dat
 	j := jsiiProxy_DataGithubMembership{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubMembership.DataGithubMembership",
+		"@cdktn/provider-github.dataGithubMembership.DataGithubMembership",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -363,12 +363,12 @@ func NewDataGithubMembership(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/membership github_membership} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/membership github_membership} Data Source.
 func NewDataGithubMembership_Override(d DataGithubMembership, scope constructs.Construct, id *string, config *DataGithubMembershipConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubMembership.DataGithubMembership",
+		"@cdktn/provider-github.dataGithubMembership.DataGithubMembership",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -463,7 +463,7 @@ func DataGithubMembership_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubMembership.DataGithubMembership",
+		"@cdktn/provider-github.dataGithubMembership.DataGithubMembership",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -498,7 +498,7 @@ func DataGithubMembership_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubMembership.DataGithubMembership",
+		"@cdktn/provider-github.dataGithubMembership.DataGithubMembership",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -517,7 +517,7 @@ func DataGithubMembership_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubMembership.DataGithubMembership",
+		"@cdktn/provider-github.dataGithubMembership.DataGithubMembership",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -536,7 +536,7 @@ func DataGithubMembership_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubMembership.DataGithubMembership",
+		"@cdktn/provider-github.dataGithubMembership.DataGithubMembership",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -549,7 +549,7 @@ func DataGithubMembership_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubMembership.DataGithubMembership",
+		"@cdktn/provider-github.dataGithubMembership.DataGithubMembership",
 		"tfResourceType",
 		&returns,
 	)

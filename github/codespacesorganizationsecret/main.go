@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.codespacesOrganizationSecret.CodespacesOrganizationSecret",
+		"@cdktn/provider-github.codespacesOrganizationSecret.CodespacesOrganizationSecret",
 		reflect.TypeOf((*CodespacesOrganizationSecret)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,7 +81,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.codespacesOrganizationSecret.CodespacesOrganizationSecretConfig",
+		"@cdktn/provider-github.codespacesOrganizationSecret.CodespacesOrganizationSecretConfig",
 		reflect.TypeOf((*CodespacesOrganizationSecretConfig)(nil)).Elem(),
 	)
 }

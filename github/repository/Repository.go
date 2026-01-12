@@ -5,14 +5,14 @@ package repository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/repository/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository github_repository}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository github_repository}.
 type Repository interface {
 	cdktf.TerraformResource
 	AllowAutoMerge() interface{}
@@ -1320,7 +1320,7 @@ func (j *jsiiProxy_Repository) WebCommitSignoffRequiredInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository github_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository github_repository} Resource.
 func NewRepository(scope constructs.Construct, id *string, config *RepositoryConfig) Repository {
 	_init_.Initialize()
 
@@ -1330,7 +1330,7 @@ func NewRepository(scope constructs.Construct, id *string, config *RepositoryCon
 	j := jsiiProxy_Repository{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repository.Repository",
+		"@cdktn/provider-github.repository.Repository",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1338,12 +1338,12 @@ func NewRepository(scope constructs.Construct, id *string, config *RepositoryCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository github_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository github_repository} Resource.
 func NewRepository_Override(r Repository, scope constructs.Construct, id *string, config *RepositoryConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repository.Repository",
+		"@cdktn/provider-github.repository.Repository",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -1823,7 +1823,7 @@ func Repository_GenerateConfigForImport(scope constructs.Construct, importToId *
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repository.Repository",
+		"@cdktn/provider-github.repository.Repository",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1858,7 +1858,7 @@ func Repository_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repository.Repository",
+		"@cdktn/provider-github.repository.Repository",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1877,7 +1877,7 @@ func Repository_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repository.Repository",
+		"@cdktn/provider-github.repository.Repository",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1896,7 +1896,7 @@ func Repository_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repository.Repository",
+		"@cdktn/provider-github.repository.Repository",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1909,7 +1909,7 @@ func Repository_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.repository.Repository",
+		"@cdktn/provider-github.repository.Repository",
 		"tfResourceType",
 		&returns,
 	)

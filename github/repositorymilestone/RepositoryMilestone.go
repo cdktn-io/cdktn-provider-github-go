@@ -5,14 +5,14 @@ package repositorymilestone
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/repositorymilestone/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/repositorymilestone/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_milestone github_repository_milestone}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_milestone github_repository_milestone}.
 type RepositoryMilestone interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_RepositoryMilestone) TitleInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_milestone github_repository_milestone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_milestone github_repository_milestone} Resource.
 func NewRepositoryMilestone(scope constructs.Construct, id *string, config *RepositoryMilestoneConfig) RepositoryMilestone {
 	_init_.Initialize()
 
@@ -472,7 +472,7 @@ func NewRepositoryMilestone(scope constructs.Construct, id *string, config *Repo
 	j := jsiiProxy_RepositoryMilestone{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryMilestone.RepositoryMilestone",
+		"@cdktn/provider-github.repositoryMilestone.RepositoryMilestone",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -480,12 +480,12 @@ func NewRepositoryMilestone(scope constructs.Construct, id *string, config *Repo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_milestone github_repository_milestone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_milestone github_repository_milestone} Resource.
 func NewRepositoryMilestone_Override(r RepositoryMilestone, scope constructs.Construct, id *string, config *RepositoryMilestoneConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryMilestone.RepositoryMilestone",
+		"@cdktn/provider-github.repositoryMilestone.RepositoryMilestone",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -646,7 +646,7 @@ func RepositoryMilestone_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryMilestone.RepositoryMilestone",
+		"@cdktn/provider-github.repositoryMilestone.RepositoryMilestone",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -681,7 +681,7 @@ func RepositoryMilestone_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryMilestone.RepositoryMilestone",
+		"@cdktn/provider-github.repositoryMilestone.RepositoryMilestone",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -700,7 +700,7 @@ func RepositoryMilestone_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryMilestone.RepositoryMilestone",
+		"@cdktn/provider-github.repositoryMilestone.RepositoryMilestone",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -719,7 +719,7 @@ func RepositoryMilestone_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryMilestone.RepositoryMilestone",
+		"@cdktn/provider-github.repositoryMilestone.RepositoryMilestone",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func RepositoryMilestone_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.repositoryMilestone.RepositoryMilestone",
+		"@cdktn/provider-github.repositoryMilestone.RepositoryMilestone",
 		"tfResourceType",
 		&returns,
 	)

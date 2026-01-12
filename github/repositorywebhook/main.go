@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryWebhook.RepositoryWebhook",
+		"@cdktn/provider-github.repositoryWebhook.RepositoryWebhook",
 		reflect.TypeOf((*RepositoryWebhook)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "active", GoGetter: "Active"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryWebhook.RepositoryWebhookConfig",
+		"@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfig",
 		reflect.TypeOf((*RepositoryWebhookConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryWebhook.RepositoryWebhookConfiguration",
+		"@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfiguration",
 		reflect.TypeOf((*RepositoryWebhookConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryWebhook.RepositoryWebhookConfigurationOutputReference",
+		"@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfigurationOutputReference",
 		reflect.TypeOf((*RepositoryWebhookConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepositoryPullRequests.DataGithubRepositoryPullRequests",
+		"@cdktn/provider-github.dataGithubRepositoryPullRequests.DataGithubRepositoryPullRequests",
 		reflect.TypeOf((*DataGithubRepositoryPullRequests)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubRepositoryPullRequests.DataGithubRepositoryPullRequestsConfig",
+		"@cdktn/provider-github.dataGithubRepositoryPullRequests.DataGithubRepositoryPullRequestsConfig",
 		reflect.TypeOf((*DataGithubRepositoryPullRequestsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubRepositoryPullRequests.DataGithubRepositoryPullRequestsResults",
+		"@cdktn/provider-github.dataGithubRepositoryPullRequests.DataGithubRepositoryPullRequestsResults",
 		reflect.TypeOf((*DataGithubRepositoryPullRequestsResults)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepositoryPullRequests.DataGithubRepositoryPullRequestsResultsList",
+		"@cdktn/provider-github.dataGithubRepositoryPullRequests.DataGithubRepositoryPullRequestsResultsList",
 		reflect.TypeOf((*DataGithubRepositoryPullRequestsResultsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -108,7 +108,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepositoryPullRequests.DataGithubRepositoryPullRequestsResultsOutputReference",
+		"@cdktn/provider-github.dataGithubRepositoryPullRequests.DataGithubRepositoryPullRequestsResultsOutputReference",
 		reflect.TypeOf((*DataGithubRepositoryPullRequestsResultsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "baseRef", GoGetter: "BaseRef"},

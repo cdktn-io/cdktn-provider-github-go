@@ -5,9 +5,9 @@ package datagithubactionssecrets
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubactionssecrets/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubactionssecrets/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataGithubActionsSecretsSecretsList(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_DataGithubActionsSecretsSecretsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubActionsSecrets.DataGithubActionsSecretsSecretsList",
+		"@cdktn/provider-github.dataGithubActionsSecrets.DataGithubActionsSecretsSecretsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataGithubActionsSecretsSecretsList_Override(d DataGithubActionsSecretsS
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubActionsSecrets.DataGithubActionsSecretsSecretsList",
+		"@cdktn/provider-github.dataGithubActionsSecrets.DataGithubActionsSecretsSecretsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

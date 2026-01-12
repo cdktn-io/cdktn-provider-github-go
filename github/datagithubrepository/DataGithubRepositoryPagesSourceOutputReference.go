@@ -5,9 +5,9 @@ package datagithubrepository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubrepository/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepository/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewDataGithubRepositoryPagesSourceOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_DataGithubRepositoryPagesSourceOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubRepository.DataGithubRepositoryPagesSourceOutputReference",
+		"@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesSourceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewDataGithubRepositoryPagesSourceOutputReference_Override(d DataGithubRepo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubRepository.DataGithubRepositoryPagesSourceOutputReference",
+		"@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesSourceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

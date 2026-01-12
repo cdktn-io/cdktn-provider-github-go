@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repository.Repository",
+		"@cdktn/provider-github.repository.Repository",
 		reflect.TypeOf((*Repository)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -191,15 +191,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repository.RepositoryConfig",
+		"@cdktn/provider-github.repository.RepositoryConfig",
 		reflect.TypeOf((*RepositoryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repository.RepositoryPages",
+		"@cdktn/provider-github.repository.RepositoryPages",
 		reflect.TypeOf((*RepositoryPages)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repository.RepositoryPagesOutputReference",
+		"@cdktn/provider-github.repository.RepositoryPagesOutputReference",
 		reflect.TypeOf((*RepositoryPagesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "buildType", GoGetter: "BuildType"},
@@ -245,11 +245,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repository.RepositoryPagesSource",
+		"@cdktn/provider-github.repository.RepositoryPagesSource",
 		reflect.TypeOf((*RepositoryPagesSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference",
+		"@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference",
 		reflect.TypeOf((*RepositoryPagesSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "branch", GoGetter: "Branch"},
@@ -286,15 +286,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repository.RepositorySecurityAndAnalysis",
+		"@cdktn/provider-github.repository.RepositorySecurityAndAnalysis",
 		reflect.TypeOf((*RepositorySecurityAndAnalysis)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurity",
+		"@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurity",
 		reflect.TypeOf((*RepositorySecurityAndAnalysisAdvancedSecurity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference",
+		"@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference",
 		reflect.TypeOf((*RepositorySecurityAndAnalysisAdvancedSecurityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -328,11 +328,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurity",
+		"@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurity",
 		reflect.TypeOf((*RepositorySecurityAndAnalysisCodeSecurity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference",
+		"@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference",
 		reflect.TypeOf((*RepositorySecurityAndAnalysisCodeSecurityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -366,7 +366,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference",
+		"@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference",
 		reflect.TypeOf((*RepositorySecurityAndAnalysisOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "advancedSecurity", GoGetter: "AdvancedSecurity"},
@@ -422,15 +422,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanning",
+		"@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanning",
 		reflect.TypeOf((*RepositorySecurityAndAnalysisSecretScanning)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetection",
+		"@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetection",
 		reflect.TypeOf((*RepositorySecurityAndAnalysisSecretScanningAiDetection)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference",
+		"@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference",
 		reflect.TypeOf((*RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -464,11 +464,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns",
+		"@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns",
 		reflect.TypeOf((*RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference",
+		"@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference",
 		reflect.TypeOf((*RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -502,7 +502,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference",
+		"@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference",
 		reflect.TypeOf((*RepositorySecurityAndAnalysisSecretScanningOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -536,11 +536,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtection",
+		"@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtection",
 		reflect.TypeOf((*RepositorySecurityAndAnalysisSecretScanningPushProtection)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference",
+		"@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference",
 		reflect.TypeOf((*RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -574,11 +574,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repository.RepositoryTemplate",
+		"@cdktn/provider-github.repository.RepositoryTemplate",
 		reflect.TypeOf((*RepositoryTemplate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repository.RepositoryTemplateOutputReference",
+		"@cdktn/provider-github.repository.RepositoryTemplateOutputReference",
 		reflect.TypeOf((*RepositoryTemplateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

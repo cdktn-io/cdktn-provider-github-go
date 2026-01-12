@@ -5,9 +5,9 @@ package datagithubcollaborators
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubcollaborators/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubcollaborators/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataGithubCollaboratorsCollaboratorList(terraformResource cdktf.IInterpo
 	j := jsiiProxy_DataGithubCollaboratorsCollaboratorList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubCollaborators.DataGithubCollaboratorsCollaboratorList",
+		"@cdktn/provider-github.dataGithubCollaborators.DataGithubCollaboratorsCollaboratorList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataGithubCollaboratorsCollaboratorList_Override(d DataGithubCollaborato
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubCollaborators.DataGithubCollaboratorsCollaboratorList",
+		"@cdktn/provider-github.dataGithubCollaborators.DataGithubCollaboratorsCollaboratorList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

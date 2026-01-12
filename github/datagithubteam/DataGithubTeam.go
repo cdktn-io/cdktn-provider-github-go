@@ -5,14 +5,14 @@ package datagithubteam
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubteam/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubteam/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/team github_team}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/team github_team}.
 type DataGithubTeam interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -448,7 +448,7 @@ func (j *jsiiProxy_DataGithubTeam) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/team github_team} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/team github_team} Data Source.
 func NewDataGithubTeam(scope constructs.Construct, id *string, config *DataGithubTeamConfig) DataGithubTeam {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataGithubTeam(scope constructs.Construct, id *string, config *DataGithu
 	j := jsiiProxy_DataGithubTeam{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubTeam.DataGithubTeam",
+		"@cdktn/provider-github.dataGithubTeam.DataGithubTeam",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -466,12 +466,12 @@ func NewDataGithubTeam(scope constructs.Construct, id *string, config *DataGithu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/team github_team} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/team github_team} Data Source.
 func NewDataGithubTeam_Override(d DataGithubTeam, scope constructs.Construct, id *string, config *DataGithubTeamConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubTeam.DataGithubTeam",
+		"@cdktn/provider-github.dataGithubTeam.DataGithubTeam",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -588,7 +588,7 @@ func DataGithubTeam_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubTeam.DataGithubTeam",
+		"@cdktn/provider-github.dataGithubTeam.DataGithubTeam",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -623,7 +623,7 @@ func DataGithubTeam_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubTeam.DataGithubTeam",
+		"@cdktn/provider-github.dataGithubTeam.DataGithubTeam",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func DataGithubTeam_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubTeam.DataGithubTeam",
+		"@cdktn/provider-github.dataGithubTeam.DataGithubTeam",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -661,7 +661,7 @@ func DataGithubTeam_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubTeam.DataGithubTeam",
+		"@cdktn/provider-github.dataGithubTeam.DataGithubTeam",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func DataGithubTeam_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubTeam.DataGithubTeam",
+		"@cdktn/provider-github.dataGithubTeam.DataGithubTeam",
 		"tfResourceType",
 		&returns,
 	)

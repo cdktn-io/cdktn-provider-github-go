@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryCollaborator.RepositoryCollaborator",
+		"@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator",
 		reflect.TypeOf((*RepositoryCollaborator)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryCollaborator.RepositoryCollaboratorConfig",
+		"@cdktn/provider-github.repositoryCollaborator.RepositoryCollaboratorConfig",
 		reflect.TypeOf((*RepositoryCollaboratorConfig)(nil)).Elem(),
 	)
 }

@@ -5,9 +5,9 @@ package repositorycollaborators
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/repositorycollaborators/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/repositorycollaborators/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewRepositoryCollaboratorsIgnoreTeamList(terraformResource cdktf.IInterpola
 	j := jsiiProxy_RepositoryCollaboratorsIgnoreTeamList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList",
+		"@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewRepositoryCollaboratorsIgnoreTeamList_Override(r RepositoryCollaborators
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList",
+		"@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		r,
 	)

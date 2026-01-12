@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariables",
+		"@cdktn/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariables",
 		reflect.TypeOf((*DataGithubActionsOrganizationVariables)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -59,15 +59,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariablesConfig",
+		"@cdktn/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariablesConfig",
 		reflect.TypeOf((*DataGithubActionsOrganizationVariablesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariablesVariables",
+		"@cdktn/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariablesVariables",
 		reflect.TypeOf((*DataGithubActionsOrganizationVariablesVariables)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariablesVariablesList",
+		"@cdktn/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariablesVariablesList",
 		reflect.TypeOf((*DataGithubActionsOrganizationVariablesVariablesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -88,7 +88,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariablesVariablesOutputReference",
+		"@cdktn/provider-github.dataGithubActionsOrganizationVariables.DataGithubActionsOrganizationVariablesVariablesOutputReference",
 		reflect.TypeOf((*DataGithubActionsOrganizationVariablesVariablesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

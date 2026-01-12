@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomProperties",
+		"@cdktn/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomProperties",
 		reflect.TypeOf((*DataGithubRepositoryCustomProperties)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -61,15 +61,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomPropertiesConfig",
+		"@cdktn/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomPropertiesConfig",
 		reflect.TypeOf((*DataGithubRepositoryCustomPropertiesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomPropertiesProperty",
+		"@cdktn/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomPropertiesProperty",
 		reflect.TypeOf((*DataGithubRepositoryCustomPropertiesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomPropertiesPropertyList",
+		"@cdktn/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomPropertiesPropertyList",
 		reflect.TypeOf((*DataGithubRepositoryCustomPropertiesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -90,7 +90,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomPropertiesPropertyOutputReference",
+		"@cdktn/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomPropertiesPropertyOutputReference",
 		reflect.TypeOf((*DataGithubRepositoryCustomPropertiesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

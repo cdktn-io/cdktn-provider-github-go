@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.repositoryPullRequest.RepositoryPullRequest",
+		"@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest",
 		reflect.TypeOf((*RepositoryPullRequest)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,7 +92,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.repositoryPullRequest.RepositoryPullRequestConfig",
+		"@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig",
 		reflect.TypeOf((*RepositoryPullRequestConfig)(nil)).Elem(),
 	)
 }

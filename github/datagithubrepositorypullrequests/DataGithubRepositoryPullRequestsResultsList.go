@@ -5,9 +5,9 @@ package datagithubrepositorypullrequests
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubrepositorypullrequests/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepositorypullrequests/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataGithubRepositoryPullRequestsResultsList(terraformResource cdktf.IInt
 	j := jsiiProxy_DataGithubRepositoryPullRequestsResultsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubRepositoryPullRequests.DataGithubRepositoryPullRequestsResultsList",
+		"@cdktn/provider-github.dataGithubRepositoryPullRequests.DataGithubRepositoryPullRequestsResultsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataGithubRepositoryPullRequestsResultsList_Override(d DataGithubReposit
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubRepositoryPullRequests.DataGithubRepositoryPullRequestsResultsList",
+		"@cdktn/provider-github.dataGithubRepositoryPullRequests.DataGithubRepositoryPullRequestsResultsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

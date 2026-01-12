@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.organizationRepositoryRole.OrganizationRepositoryRole",
+		"@cdktn/provider-github.organizationRepositoryRole.OrganizationRepositoryRole",
 		reflect.TypeOf((*OrganizationRepositoryRole)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,7 +76,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.organizationRepositoryRole.OrganizationRepositoryRoleConfig",
+		"@cdktn/provider-github.organizationRepositoryRole.OrganizationRepositoryRoleConfig",
 		reflect.TypeOf((*OrganizationRepositoryRoleConfig)(nil)).Elem(),
 	)
 }

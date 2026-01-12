@@ -5,14 +5,14 @@ package datagithubrepository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubrepository/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepository/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/repository github_repository}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/repository github_repository}.
 type DataGithubRepository interface {
 	cdktf.TerraformDataSource
 	AllowAutoMerge() cdktf.IResolvable
@@ -724,7 +724,7 @@ func (j *jsiiProxy_DataGithubRepository) Visibility() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/repository github_repository} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/repository github_repository} Data Source.
 func NewDataGithubRepository(scope constructs.Construct, id *string, config *DataGithubRepositoryConfig) DataGithubRepository {
 	_init_.Initialize()
 
@@ -734,7 +734,7 @@ func NewDataGithubRepository(scope constructs.Construct, id *string, config *Dat
 	j := jsiiProxy_DataGithubRepository{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubRepository.DataGithubRepository",
+		"@cdktn/provider-github.dataGithubRepository.DataGithubRepository",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -742,12 +742,12 @@ func NewDataGithubRepository(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/repository github_repository} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/repository github_repository} Data Source.
 func NewDataGithubRepository_Override(d DataGithubRepository, scope constructs.Construct, id *string, config *DataGithubRepositoryConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubRepository.DataGithubRepository",
+		"@cdktn/provider-github.dataGithubRepository.DataGithubRepository",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -864,7 +864,7 @@ func DataGithubRepository_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubRepository.DataGithubRepository",
+		"@cdktn/provider-github.dataGithubRepository.DataGithubRepository",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -899,7 +899,7 @@ func DataGithubRepository_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubRepository.DataGithubRepository",
+		"@cdktn/provider-github.dataGithubRepository.DataGithubRepository",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -918,7 +918,7 @@ func DataGithubRepository_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubRepository.DataGithubRepository",
+		"@cdktn/provider-github.dataGithubRepository.DataGithubRepository",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -937,7 +937,7 @@ func DataGithubRepository_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubRepository.DataGithubRepository",
+		"@cdktn/provider-github.dataGithubRepository.DataGithubRepository",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -950,7 +950,7 @@ func DataGithubRepository_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubRepository.DataGithubRepository",
+		"@cdktn/provider-github.dataGithubRepository.DataGithubRepository",
 		"tfResourceType",
 		&returns,
 	)

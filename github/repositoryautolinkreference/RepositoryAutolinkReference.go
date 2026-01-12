@@ -5,14 +5,14 @@ package repositoryautolinkreference
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/repositoryautolinkreference/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/repositoryautolinkreference/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_autolink_reference github_repository_autolink_reference}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_autolink_reference github_repository_autolink_reference}.
 type RepositoryAutolinkReference interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_RepositoryAutolinkReference) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_autolink_reference github_repository_autolink_reference} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_autolink_reference github_repository_autolink_reference} Resource.
 func NewRepositoryAutolinkReference(scope constructs.Construct, id *string, config *RepositoryAutolinkReferenceConfig) RepositoryAutolinkReference {
 	_init_.Initialize()
 
@@ -424,7 +424,7 @@ func NewRepositoryAutolinkReference(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_RepositoryAutolinkReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryAutolinkReference.RepositoryAutolinkReference",
+		"@cdktn/provider-github.repositoryAutolinkReference.RepositoryAutolinkReference",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -432,12 +432,12 @@ func NewRepositoryAutolinkReference(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_autolink_reference github_repository_autolink_reference} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_autolink_reference github_repository_autolink_reference} Resource.
 func NewRepositoryAutolinkReference_Override(r RepositoryAutolinkReference, scope constructs.Construct, id *string, config *RepositoryAutolinkReferenceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryAutolinkReference.RepositoryAutolinkReference",
+		"@cdktn/provider-github.repositoryAutolinkReference.RepositoryAutolinkReference",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -576,7 +576,7 @@ func RepositoryAutolinkReference_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryAutolinkReference.RepositoryAutolinkReference",
+		"@cdktn/provider-github.repositoryAutolinkReference.RepositoryAutolinkReference",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -611,7 +611,7 @@ func RepositoryAutolinkReference_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryAutolinkReference.RepositoryAutolinkReference",
+		"@cdktn/provider-github.repositoryAutolinkReference.RepositoryAutolinkReference",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -630,7 +630,7 @@ func RepositoryAutolinkReference_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryAutolinkReference.RepositoryAutolinkReference",
+		"@cdktn/provider-github.repositoryAutolinkReference.RepositoryAutolinkReference",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -649,7 +649,7 @@ func RepositoryAutolinkReference_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.repositoryAutolinkReference.RepositoryAutolinkReference",
+		"@cdktn/provider-github.repositoryAutolinkReference.RepositoryAutolinkReference",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func RepositoryAutolinkReference_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.repositoryAutolinkReference.RepositoryAutolinkReference",
+		"@cdktn/provider-github.repositoryAutolinkReference.RepositoryAutolinkReference",
 		"tfResourceType",
 		&returns,
 	)

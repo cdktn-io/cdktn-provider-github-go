@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.branchProtection.BranchProtection",
+		"@cdktn/provider-github.branchProtection.BranchProtection",
 		reflect.TypeOf((*BranchProtection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -106,15 +106,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.branchProtection.BranchProtectionConfig",
+		"@cdktn/provider-github.branchProtection.BranchProtectionConfig",
 		reflect.TypeOf((*BranchProtectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews",
+		"@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews",
 		reflect.TypeOf((*BranchProtectionRequiredPullRequestReviews)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList",
+		"@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList",
 		reflect.TypeOf((*BranchProtectionRequiredPullRequestReviewsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -136,7 +136,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference",
+		"@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference",
 		reflect.TypeOf((*BranchProtectionRequiredPullRequestReviewsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -189,11 +189,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecks",
+		"@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecks",
 		reflect.TypeOf((*BranchProtectionRequiredStatusChecks)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList",
+		"@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList",
 		reflect.TypeOf((*BranchProtectionRequiredStatusChecksList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -215,7 +215,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference",
+		"@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference",
 		reflect.TypeOf((*BranchProtectionRequiredStatusChecksOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -253,11 +253,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushes",
+		"@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushes",
 		reflect.TypeOf((*BranchProtectionRestrictPushes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList",
+		"@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList",
 		reflect.TypeOf((*BranchProtectionRestrictPushesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -279,7 +279,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference",
+		"@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference",
 		reflect.TypeOf((*BranchProtectionRestrictPushesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "blocksCreations", GoGetter: "BlocksCreations"},

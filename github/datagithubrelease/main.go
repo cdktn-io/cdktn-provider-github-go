@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRelease.DataGithubRelease",
+		"@cdktn/provider-github.dataGithubRelease.DataGithubRelease",
 		reflect.TypeOf((*DataGithubRelease)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -85,11 +85,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubRelease.DataGithubReleaseAssets",
+		"@cdktn/provider-github.dataGithubRelease.DataGithubReleaseAssets",
 		reflect.TypeOf((*DataGithubReleaseAssets)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRelease.DataGithubReleaseAssetsList",
+		"@cdktn/provider-github.dataGithubRelease.DataGithubReleaseAssetsList",
 		reflect.TypeOf((*DataGithubReleaseAssetsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -110,7 +110,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubRelease.DataGithubReleaseAssetsOutputReference",
+		"@cdktn/provider-github.dataGithubRelease.DataGithubReleaseAssetsOutputReference",
 		reflect.TypeOf((*DataGithubReleaseAssetsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "browserDownloadUrl", GoGetter: "BrowserDownloadUrl"},
@@ -152,7 +152,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubRelease.DataGithubReleaseConfig",
+		"@cdktn/provider-github.dataGithubRelease.DataGithubReleaseConfig",
 		reflect.TypeOf((*DataGithubReleaseConfig)(nil)).Elem(),
 	)
 }

@@ -5,14 +5,14 @@ package datagithubrepositorycustomproperties
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubrepositorycustomproperties/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepositorycustomproperties/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/repository_custom_properties github_repository_custom_properties}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/repository_custom_properties github_repository_custom_properties}.
 type DataGithubRepositoryCustomProperties interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -299,7 +299,7 @@ func (j *jsiiProxy_DataGithubRepositoryCustomProperties) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/repository_custom_properties github_repository_custom_properties} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/repository_custom_properties github_repository_custom_properties} Data Source.
 func NewDataGithubRepositoryCustomProperties(scope constructs.Construct, id *string, config *DataGithubRepositoryCustomPropertiesConfig) DataGithubRepositoryCustomProperties {
 	_init_.Initialize()
 
@@ -309,7 +309,7 @@ func NewDataGithubRepositoryCustomProperties(scope constructs.Construct, id *str
 	j := jsiiProxy_DataGithubRepositoryCustomProperties{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomProperties",
+		"@cdktn/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomProperties",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -317,12 +317,12 @@ func NewDataGithubRepositoryCustomProperties(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/repository_custom_properties github_repository_custom_properties} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/repository_custom_properties github_repository_custom_properties} Data Source.
 func NewDataGithubRepositoryCustomProperties_Override(d DataGithubRepositoryCustomProperties, scope constructs.Construct, id *string, config *DataGithubRepositoryCustomPropertiesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomProperties",
+		"@cdktn/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomProperties",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -406,7 +406,7 @@ func DataGithubRepositoryCustomProperties_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomProperties",
+		"@cdktn/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomProperties",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -441,7 +441,7 @@ func DataGithubRepositoryCustomProperties_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomProperties",
+		"@cdktn/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomProperties",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -460,7 +460,7 @@ func DataGithubRepositoryCustomProperties_IsTerraformDataSource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomProperties",
+		"@cdktn/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomProperties",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -479,7 +479,7 @@ func DataGithubRepositoryCustomProperties_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomProperties",
+		"@cdktn/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomProperties",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -492,7 +492,7 @@ func DataGithubRepositoryCustomProperties_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomProperties",
+		"@cdktn/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomProperties",
 		"tfResourceType",
 		&returns,
 	)

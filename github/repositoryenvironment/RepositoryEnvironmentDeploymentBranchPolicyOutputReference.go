@@ -5,9 +5,9 @@ package repositoryenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/repositoryenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/repositoryenvironment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewRepositoryEnvironmentDeploymentBranchPolicyOutputReference(terraformReso
 	j := jsiiProxy_RepositoryEnvironmentDeploymentBranchPolicyOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicyOutputReference",
+		"@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewRepositoryEnvironmentDeploymentBranchPolicyOutputReference_Override(r Re
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicyOutputReference",
+		"@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

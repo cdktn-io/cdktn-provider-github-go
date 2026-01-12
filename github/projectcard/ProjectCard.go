@@ -5,14 +5,14 @@ package projectcard
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/projectcard/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/projectcard/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/project_card github_project_card}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/project_card github_project_card}.
 type ProjectCard interface {
 	cdktf.TerraformResource
 	CardId() *float64
@@ -427,7 +427,7 @@ func (j *jsiiProxy_ProjectCard) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/project_card github_project_card} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/project_card github_project_card} Resource.
 func NewProjectCard(scope constructs.Construct, id *string, config *ProjectCardConfig) ProjectCard {
 	_init_.Initialize()
 
@@ -437,7 +437,7 @@ func NewProjectCard(scope constructs.Construct, id *string, config *ProjectCardC
 	j := jsiiProxy_ProjectCard{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.projectCard.ProjectCard",
+		"@cdktn/provider-github.projectCard.ProjectCard",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -445,12 +445,12 @@ func NewProjectCard(scope constructs.Construct, id *string, config *ProjectCardC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/project_card github_project_card} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/project_card github_project_card} Resource.
 func NewProjectCard_Override(p ProjectCard, scope constructs.Construct, id *string, config *ProjectCardConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.projectCard.ProjectCard",
+		"@cdktn/provider-github.projectCard.ProjectCard",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -589,7 +589,7 @@ func ProjectCard_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.projectCard.ProjectCard",
+		"@cdktn/provider-github.projectCard.ProjectCard",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -624,7 +624,7 @@ func ProjectCard_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.projectCard.ProjectCard",
+		"@cdktn/provider-github.projectCard.ProjectCard",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -643,7 +643,7 @@ func ProjectCard_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.projectCard.ProjectCard",
+		"@cdktn/provider-github.projectCard.ProjectCard",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func ProjectCard_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.projectCard.ProjectCard",
+		"@cdktn/provider-github.projectCard.ProjectCard",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func ProjectCard_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.projectCard.ProjectCard",
+		"@cdktn/provider-github.projectCard.ProjectCard",
 		"tfResourceType",
 		&returns,
 	)

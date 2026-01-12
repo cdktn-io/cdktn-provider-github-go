@@ -5,14 +5,14 @@ package datagithubapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubapp/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubapp/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/app github_app}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/app github_app}.
 type DataGithubApp interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -321,7 +321,7 @@ func (j *jsiiProxy_DataGithubApp) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/app github_app} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/app github_app} Data Source.
 func NewDataGithubApp(scope constructs.Construct, id *string, config *DataGithubAppConfig) DataGithubApp {
 	_init_.Initialize()
 
@@ -331,7 +331,7 @@ func NewDataGithubApp(scope constructs.Construct, id *string, config *DataGithub
 	j := jsiiProxy_DataGithubApp{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubApp.DataGithubApp",
+		"@cdktn/provider-github.dataGithubApp.DataGithubApp",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -339,12 +339,12 @@ func NewDataGithubApp(scope constructs.Construct, id *string, config *DataGithub
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/app github_app} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/app github_app} Data Source.
 func NewDataGithubApp_Override(d DataGithubApp, scope constructs.Construct, id *string, config *DataGithubAppConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubApp.DataGithubApp",
+		"@cdktn/provider-github.dataGithubApp.DataGithubApp",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -428,7 +428,7 @@ func DataGithubApp_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubApp.DataGithubApp",
+		"@cdktn/provider-github.dataGithubApp.DataGithubApp",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -463,7 +463,7 @@ func DataGithubApp_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubApp.DataGithubApp",
+		"@cdktn/provider-github.dataGithubApp.DataGithubApp",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -482,7 +482,7 @@ func DataGithubApp_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubApp.DataGithubApp",
+		"@cdktn/provider-github.dataGithubApp.DataGithubApp",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -501,7 +501,7 @@ func DataGithubApp_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubApp.DataGithubApp",
+		"@cdktn/provider-github.dataGithubApp.DataGithubApp",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -514,7 +514,7 @@ func DataGithubApp_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubApp.DataGithubApp",
+		"@cdktn/provider-github.dataGithubApp.DataGithubApp",
 		"tfResourceType",
 		&returns,
 	)

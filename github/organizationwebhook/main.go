@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.organizationWebhook.OrganizationWebhook",
+		"@cdktn/provider-github.organizationWebhook.OrganizationWebhook",
 		reflect.TypeOf((*OrganizationWebhook)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "active", GoGetter: "Active"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.organizationWebhook.OrganizationWebhookConfig",
+		"@cdktn/provider-github.organizationWebhook.OrganizationWebhookConfig",
 		reflect.TypeOf((*OrganizationWebhookConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.organizationWebhook.OrganizationWebhookConfiguration",
+		"@cdktn/provider-github.organizationWebhook.OrganizationWebhookConfiguration",
 		reflect.TypeOf((*OrganizationWebhookConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.organizationWebhook.OrganizationWebhookConfigurationOutputReference",
+		"@cdktn/provider-github.organizationWebhook.OrganizationWebhookConfigurationOutputReference",
 		reflect.TypeOf((*OrganizationWebhookConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

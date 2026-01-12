@@ -5,9 +5,9 @@ package teamsyncgroupmapping
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/teamsyncgroupmapping/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/teamsyncgroupmapping/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewTeamSyncGroupMappingGroupList(terraformResource cdktf.IInterpolatingPare
 	j := jsiiProxy_TeamSyncGroupMappingGroupList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.teamSyncGroupMapping.TeamSyncGroupMappingGroupList",
+		"@cdktn/provider-github.teamSyncGroupMapping.TeamSyncGroupMappingGroupList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewTeamSyncGroupMappingGroupList_Override(t TeamSyncGroupMappingGroupList, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.teamSyncGroupMapping.TeamSyncGroupMappingGroupList",
+		"@cdktn/provider-github.teamSyncGroupMapping.TeamSyncGroupMappingGroupList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		t,
 	)

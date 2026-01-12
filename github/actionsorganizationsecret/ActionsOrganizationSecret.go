@@ -5,14 +5,14 @@ package actionsorganizationsecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/actionsorganizationsecret/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/actionsorganizationsecret/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_organization_secret github_actions_organization_secret}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_secret github_actions_organization_secret}.
 type ActionsOrganizationSecret interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -474,7 +474,7 @@ func (j *jsiiProxy_ActionsOrganizationSecret) VisibilityInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_organization_secret github_actions_organization_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_secret github_actions_organization_secret} Resource.
 func NewActionsOrganizationSecret(scope constructs.Construct, id *string, config *ActionsOrganizationSecretConfig) ActionsOrganizationSecret {
 	_init_.Initialize()
 
@@ -484,7 +484,7 @@ func NewActionsOrganizationSecret(scope constructs.Construct, id *string, config
 	j := jsiiProxy_ActionsOrganizationSecret{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret",
+		"@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -492,12 +492,12 @@ func NewActionsOrganizationSecret(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_organization_secret github_actions_organization_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_secret github_actions_organization_secret} Resource.
 func NewActionsOrganizationSecret_Override(a ActionsOrganizationSecret, scope constructs.Construct, id *string, config *ActionsOrganizationSecretConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret",
+		"@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -658,7 +658,7 @@ func ActionsOrganizationSecret_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret",
+		"@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -693,7 +693,7 @@ func ActionsOrganizationSecret_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret",
+		"@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func ActionsOrganizationSecret_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret",
+		"@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -731,7 +731,7 @@ func ActionsOrganizationSecret_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret",
+		"@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func ActionsOrganizationSecret_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret",
+		"@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret",
 		"tfResourceType",
 		&returns,
 	)

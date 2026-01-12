@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.appInstallationRepository.AppInstallationRepository",
+		"@cdktn/provider-github.appInstallationRepository.AppInstallationRepository",
 		reflect.TypeOf((*AppInstallationRepository)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,7 +71,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.appInstallationRepository.AppInstallationRepositoryConfig",
+		"@cdktn/provider-github.appInstallationRepository.AppInstallationRepositoryConfig",
 		reflect.TypeOf((*AppInstallationRepositoryConfig)(nil)).Elem(),
 	)
 }

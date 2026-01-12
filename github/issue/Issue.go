@@ -5,14 +5,14 @@ package issue
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/issue/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/issue/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/issue github_issue}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/issue github_issue}.
 type Issue interface {
 	cdktf.TerraformResource
 	Assignees() *[]*string
@@ -485,7 +485,7 @@ func (j *jsiiProxy_Issue) TitleInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/issue github_issue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/issue github_issue} Resource.
 func NewIssue(scope constructs.Construct, id *string, config *IssueConfig) Issue {
 	_init_.Initialize()
 
@@ -495,7 +495,7 @@ func NewIssue(scope constructs.Construct, id *string, config *IssueConfig) Issue
 	j := jsiiProxy_Issue{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.issue.Issue",
+		"@cdktn/provider-github.issue.Issue",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -503,12 +503,12 @@ func NewIssue(scope constructs.Construct, id *string, config *IssueConfig) Issue
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/issue github_issue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/issue github_issue} Resource.
 func NewIssue_Override(i Issue, scope constructs.Construct, id *string, config *IssueConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.issue.Issue",
+		"@cdktn/provider-github.issue.Issue",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -669,7 +669,7 @@ func Issue_GenerateConfigForImport(scope constructs.Construct, importToId *strin
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.issue.Issue",
+		"@cdktn/provider-github.issue.Issue",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -704,7 +704,7 @@ func Issue_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.issue.Issue",
+		"@cdktn/provider-github.issue.Issue",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -723,7 +723,7 @@ func Issue_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.issue.Issue",
+		"@cdktn/provider-github.issue.Issue",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -742,7 +742,7 @@ func Issue_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.issue.Issue",
+		"@cdktn/provider-github.issue.Issue",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -755,7 +755,7 @@ func Issue_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.issue.Issue",
+		"@cdktn/provider-github.issue.Issue",
 		"tfResourceType",
 		&returns,
 	)

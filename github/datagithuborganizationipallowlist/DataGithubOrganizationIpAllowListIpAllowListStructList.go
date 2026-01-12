@@ -5,9 +5,9 @@ package datagithuborganizationipallowlist
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithuborganizationipallowlist/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithuborganizationipallowlist/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataGithubOrganizationIpAllowListIpAllowListStructList(terraformResource
 	j := jsiiProxy_DataGithubOrganizationIpAllowListIpAllowListStructList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubOrganizationIpAllowList.DataGithubOrganizationIpAllowListIpAllowListStructList",
+		"@cdktn/provider-github.dataGithubOrganizationIpAllowList.DataGithubOrganizationIpAllowListIpAllowListStructList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataGithubOrganizationIpAllowListIpAllowListStructList_Override(d DataGi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubOrganizationIpAllowList.DataGithubOrganizationIpAllowListIpAllowListStructList",
+		"@cdktn/provider-github.dataGithubOrganizationIpAllowList.DataGithubOrganizationIpAllowListIpAllowListStructList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

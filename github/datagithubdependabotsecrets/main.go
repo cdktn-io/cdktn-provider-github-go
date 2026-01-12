@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecrets",
+		"@cdktn/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecrets",
 		reflect.TypeOf((*DataGithubDependabotSecrets)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -65,15 +65,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecretsConfig",
+		"@cdktn/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecretsConfig",
 		reflect.TypeOf((*DataGithubDependabotSecretsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecretsSecrets",
+		"@cdktn/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecretsSecrets",
 		reflect.TypeOf((*DataGithubDependabotSecretsSecrets)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecretsSecretsList",
+		"@cdktn/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecretsSecretsList",
 		reflect.TypeOf((*DataGithubDependabotSecretsSecretsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -94,7 +94,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecretsSecretsOutputReference",
+		"@cdktn/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecretsSecretsOutputReference",
 		reflect.TypeOf((*DataGithubDependabotSecretsSecretsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

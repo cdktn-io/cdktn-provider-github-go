@@ -5,9 +5,9 @@ package repositorycollaborators
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/repositorycollaborators/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/repositorycollaborators/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewRepositoryCollaboratorsTeamList(terraformResource cdktf.IInterpolatingPa
 	j := jsiiProxy_RepositoryCollaboratorsTeamList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList",
+		"@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewRepositoryCollaboratorsTeamList_Override(r RepositoryCollaboratorsTeamLi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList",
+		"@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		r,
 	)

@@ -5,14 +5,14 @@ package datagithuborganizationrepositoryroles
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithuborganizationrepositoryroles/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithuborganizationrepositoryroles/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/organization_repository_roles github_organization_repository_roles}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_repository_roles github_organization_repository_roles}.
 type DataGithubOrganizationRepositoryRoles interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataGithubOrganizationRepositoryRoles) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/organization_repository_roles github_organization_repository_roles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_repository_roles github_organization_repository_roles} Data Source.
 func NewDataGithubOrganizationRepositoryRoles(scope constructs.Construct, id *string, config *DataGithubOrganizationRepositoryRolesConfig) DataGithubOrganizationRepositoryRoles {
 	_init_.Initialize()
 
@@ -286,7 +286,7 @@ func NewDataGithubOrganizationRepositoryRoles(scope constructs.Construct, id *st
 	j := jsiiProxy_DataGithubOrganizationRepositoryRoles{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubOrganizationRepositoryRoles.DataGithubOrganizationRepositoryRoles",
+		"@cdktn/provider-github.dataGithubOrganizationRepositoryRoles.DataGithubOrganizationRepositoryRoles",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -294,12 +294,12 @@ func NewDataGithubOrganizationRepositoryRoles(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/organization_repository_roles github_organization_repository_roles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_repository_roles github_organization_repository_roles} Data Source.
 func NewDataGithubOrganizationRepositoryRoles_Override(d DataGithubOrganizationRepositoryRoles, scope constructs.Construct, id *string, config *DataGithubOrganizationRepositoryRolesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubOrganizationRepositoryRoles.DataGithubOrganizationRepositoryRoles",
+		"@cdktn/provider-github.dataGithubOrganizationRepositoryRoles.DataGithubOrganizationRepositoryRoles",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -372,7 +372,7 @@ func DataGithubOrganizationRepositoryRoles_GenerateConfigForImport(scope constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationRepositoryRoles.DataGithubOrganizationRepositoryRoles",
+		"@cdktn/provider-github.dataGithubOrganizationRepositoryRoles.DataGithubOrganizationRepositoryRoles",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -407,7 +407,7 @@ func DataGithubOrganizationRepositoryRoles_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationRepositoryRoles.DataGithubOrganizationRepositoryRoles",
+		"@cdktn/provider-github.dataGithubOrganizationRepositoryRoles.DataGithubOrganizationRepositoryRoles",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -426,7 +426,7 @@ func DataGithubOrganizationRepositoryRoles_IsTerraformDataSource(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationRepositoryRoles.DataGithubOrganizationRepositoryRoles",
+		"@cdktn/provider-github.dataGithubOrganizationRepositoryRoles.DataGithubOrganizationRepositoryRoles",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -445,7 +445,7 @@ func DataGithubOrganizationRepositoryRoles_IsTerraformElement(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubOrganizationRepositoryRoles.DataGithubOrganizationRepositoryRoles",
+		"@cdktn/provider-github.dataGithubOrganizationRepositoryRoles.DataGithubOrganizationRepositoryRoles",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -458,7 +458,7 @@ func DataGithubOrganizationRepositoryRoles_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubOrganizationRepositoryRoles.DataGithubOrganizationRepositoryRoles",
+		"@cdktn/provider-github.dataGithubOrganizationRepositoryRoles.DataGithubOrganizationRepositoryRoles",
 		"tfResourceType",
 		&returns,
 	)

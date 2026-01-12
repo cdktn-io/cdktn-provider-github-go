@@ -5,14 +5,14 @@ package provider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/provider/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/provider/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs github}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs github}.
 type GithubProvider interface {
 	cdktf.TerraformProvider
 	Alias() *string
@@ -498,7 +498,7 @@ func (j *jsiiProxy_GithubProvider) WriteDelayMsInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs github} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs github} Resource.
 func NewGithubProvider(scope constructs.Construct, id *string, config *GithubProviderConfig) GithubProvider {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewGithubProvider(scope constructs.Construct, id *string, config *GithubPro
 	j := jsiiProxy_GithubProvider{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.provider.GithubProvider",
+		"@cdktn/provider-github.provider.GithubProvider",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -516,12 +516,12 @@ func NewGithubProvider(scope constructs.Construct, id *string, config *GithubPro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs github} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs github} Resource.
 func NewGithubProvider_Override(g GithubProvider, scope constructs.Construct, id *string, config *GithubProviderConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.provider.GithubProvider",
+		"@cdktn/provider-github.provider.GithubProvider",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -658,7 +658,7 @@ func GithubProvider_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.provider.GithubProvider",
+		"@cdktn/provider-github.provider.GithubProvider",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -693,7 +693,7 @@ func GithubProvider_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.provider.GithubProvider",
+		"@cdktn/provider-github.provider.GithubProvider",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func GithubProvider_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.provider.GithubProvider",
+		"@cdktn/provider-github.provider.GithubProvider",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -731,7 +731,7 @@ func GithubProvider_IsTerraformProvider(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.provider.GithubProvider",
+		"@cdktn/provider-github.provider.GithubProvider",
 		"isTerraformProvider",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func GithubProvider_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.provider.GithubProvider",
+		"@cdktn/provider-github.provider.GithubProvider",
 		"tfResourceType",
 		&returns,
 	)

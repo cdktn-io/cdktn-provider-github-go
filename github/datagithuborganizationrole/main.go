@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-github.dataGithubOrganizationRole.DataGithubOrganizationRole",
+		"@cdktn/provider-github.dataGithubOrganizationRole.DataGithubOrganizationRole",
 		reflect.TypeOf((*DataGithubOrganizationRole)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -65,7 +65,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-github.dataGithubOrganizationRole.DataGithubOrganizationRoleConfig",
+		"@cdktn/provider-github.dataGithubOrganizationRole.DataGithubOrganizationRoleConfig",
 		reflect.TypeOf((*DataGithubOrganizationRoleConfig)(nil)).Elem(),
 	)
 }

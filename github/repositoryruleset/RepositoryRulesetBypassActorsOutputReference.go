@@ -5,9 +5,9 @@ package repositoryruleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/repositoryruleset/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/repositoryruleset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewRepositoryRulesetBypassActorsOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_RepositoryRulesetBypassActorsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsOutputReference",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewRepositoryRulesetBypassActorsOutputReference_Override(r RepositoryRulese
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsOutputReference",
+		"@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		r,
 	)

@@ -5,14 +5,14 @@ package datagithubipranges
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubipranges/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubipranges/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/ip_ranges github_ip_ranges}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/ip_ranges github_ip_ranges}.
 type DataGithubIpRanges interface {
 	cdktf.TerraformDataSource
 	Actions() *[]*string
@@ -562,7 +562,7 @@ func (j *jsiiProxy_DataGithubIpRanges) WebIpv6() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/ip_ranges github_ip_ranges} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/ip_ranges github_ip_ranges} Data Source.
 func NewDataGithubIpRanges(scope constructs.Construct, id *string, config *DataGithubIpRangesConfig) DataGithubIpRanges {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewDataGithubIpRanges(scope constructs.Construct, id *string, config *DataG
 	j := jsiiProxy_DataGithubIpRanges{}
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges",
+		"@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -580,12 +580,12 @@ func NewDataGithubIpRanges(scope constructs.Construct, id *string, config *DataG
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/ip_ranges github_ip_ranges} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/ip_ranges github_ip_ranges} Data Source.
 func NewDataGithubIpRanges_Override(d DataGithubIpRanges, scope constructs.Construct, id *string, config *DataGithubIpRangesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges",
+		"@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -658,7 +658,7 @@ func DataGithubIpRanges_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges",
+		"@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -693,7 +693,7 @@ func DataGithubIpRanges_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges",
+		"@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func DataGithubIpRanges_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges",
+		"@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -731,7 +731,7 @@ func DataGithubIpRanges_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges",
+		"@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func DataGithubIpRanges_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges",
+		"@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges",
 		"tfResourceType",
 		&returns,
 	)
