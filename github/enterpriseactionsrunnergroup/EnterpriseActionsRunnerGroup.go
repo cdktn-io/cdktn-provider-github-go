@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package enterpriseactionsrunnergroup
@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/enterprise_actions_runner_group github_enterprise_actions_runner_group}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/enterprise_actions_runner_group github_enterprise_actions_runner_group}.
 type EnterpriseActionsRunnerGroup interface {
 	cdktf.TerraformResource
 	AllowsPublicRepositories() interface{}
@@ -519,7 +519,7 @@ func (j *jsiiProxy_EnterpriseActionsRunnerGroup) VisibilityInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/enterprise_actions_runner_group github_enterprise_actions_runner_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/enterprise_actions_runner_group github_enterprise_actions_runner_group} Resource.
 func NewEnterpriseActionsRunnerGroup(scope constructs.Construct, id *string, config *EnterpriseActionsRunnerGroupConfig) EnterpriseActionsRunnerGroup {
 	_init_.Initialize()
 
@@ -537,7 +537,7 @@ func NewEnterpriseActionsRunnerGroup(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/enterprise_actions_runner_group github_enterprise_actions_runner_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/enterprise_actions_runner_group github_enterprise_actions_runner_group} Resource.
 func NewEnterpriseActionsRunnerGroup_Override(e EnterpriseActionsRunnerGroup, scope constructs.Construct, id *string, config *EnterpriseActionsRunnerGroupConfig) {
 	_init_.Initialize()
 

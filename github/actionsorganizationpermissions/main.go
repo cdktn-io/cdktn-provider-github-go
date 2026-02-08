@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package actionsorganizationpermissions
@@ -62,6 +62,9 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetEnabledRepositoriesConfig", GoMethod: "ResetEnabledRepositoriesConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetShaPinningRequired", GoMethod: "ResetShaPinningRequired"},
+			_jsii_.MemberProperty{JsiiProperty: "shaPinningRequired", GoGetter: "ShaPinningRequired"},
+			_jsii_.MemberProperty{JsiiProperty: "shaPinningRequiredInput", GoGetter: "ShaPinningRequiredInput"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},

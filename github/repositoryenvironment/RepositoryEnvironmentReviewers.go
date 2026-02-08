@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package repositoryenvironment
@@ -9,13 +9,13 @@ type RepositoryEnvironmentReviewers struct {
 	//
 	// Reviewers must have at least read access to the repository. Only one of the required reviewers needs to approve the job for it to proceed.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_environment#teams RepositoryEnvironment#teams}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_environment#teams RepositoryEnvironment#teams}
 	Teams *[]*float64 `field:"optional" json:"teams" yaml:"teams"`
 	// Up to 6 IDs for users who may review jobs that reference the environment.
 	//
 	// Reviewers must have at least read access to the repository. Only one of the required reviewers needs to approve the job for it to proceed.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_environment#users RepositoryEnvironment#users}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_environment#users RepositoryEnvironment#users}
 	Users *[]*float64 `field:"optional" json:"users" yaml:"users"`
 }
 

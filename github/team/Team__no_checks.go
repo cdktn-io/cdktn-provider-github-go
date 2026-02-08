@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -120,6 +120,10 @@ func (j *jsiiProxy_Team) validateSetLifecycleParameters(val *cdktf.TerraformReso
 }
 
 func (j *jsiiProxy_Team) validateSetNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_Team) validateSetNotificationSettingParameters(val *string) error {
 	return nil
 }
 

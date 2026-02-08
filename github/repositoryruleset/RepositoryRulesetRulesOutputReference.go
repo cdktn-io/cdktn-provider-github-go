@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package repositoryruleset
@@ -31,6 +31,8 @@ type RepositoryRulesetRulesOutputReference interface {
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	CopilotCodeReview() RepositoryRulesetRulesCopilotCodeReviewOutputReference
+	CopilotCodeReviewInput() *RepositoryRulesetRulesCopilotCodeReview
 	Creation() interface{}
 	SetCreation(val interface{})
 	CreationInput() interface{}
@@ -117,6 +119,7 @@ type RepositoryRulesetRulesOutputReference interface {
 	PutCommitAuthorEmailPattern(value *RepositoryRulesetRulesCommitAuthorEmailPattern)
 	PutCommitMessagePattern(value *RepositoryRulesetRulesCommitMessagePattern)
 	PutCommitterEmailPattern(value *RepositoryRulesetRulesCommitterEmailPattern)
+	PutCopilotCodeReview(value *RepositoryRulesetRulesCopilotCodeReview)
 	PutFileExtensionRestriction(value *RepositoryRulesetRulesFileExtensionRestriction)
 	PutFilePathRestriction(value *RepositoryRulesetRulesFilePathRestriction)
 	PutMaxFilePathLength(value *RepositoryRulesetRulesMaxFilePathLength)
@@ -131,6 +134,7 @@ type RepositoryRulesetRulesOutputReference interface {
 	ResetCommitAuthorEmailPattern()
 	ResetCommitMessagePattern()
 	ResetCommitterEmailPattern()
+	ResetCopilotCodeReview()
 	ResetCreation()
 	ResetDeletion()
 	ResetFileExtensionRestriction()
@@ -258,6 +262,26 @@ func (j *jsiiProxy_RepositoryRulesetRulesOutputReference) ComplexObjectIsFromSet
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RepositoryRulesetRulesOutputReference) CopilotCodeReview() RepositoryRulesetRulesCopilotCodeReviewOutputReference {
+	var returns RepositoryRulesetRulesCopilotCodeReviewOutputReference
+	_jsii_.Get(
+		j,
+		"copilotCodeReview",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RepositoryRulesetRulesOutputReference) CopilotCodeReviewInput() *RepositoryRulesetRulesCopilotCodeReview {
+	var returns *RepositoryRulesetRulesCopilotCodeReview
+	_jsii_.Get(
+		j,
+		"copilotCodeReviewInput",
 		&returns,
 	)
 	return returns
@@ -1043,6 +1067,17 @@ func (r *jsiiProxy_RepositoryRulesetRulesOutputReference) PutCommitterEmailPatte
 	)
 }
 
+func (r *jsiiProxy_RepositoryRulesetRulesOutputReference) PutCopilotCodeReview(value *RepositoryRulesetRulesCopilotCodeReview) {
+	if err := r.validatePutCopilotCodeReviewParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		r,
+		"putCopilotCodeReview",
+		[]interface{}{value},
+	)
+}
+
 func (r *jsiiProxy_RepositoryRulesetRulesOutputReference) PutFileExtensionRestriction(value *RepositoryRulesetRulesFileExtensionRestriction) {
 	if err := r.validatePutFileExtensionRestrictionParameters(value); err != nil {
 		panic(err)
@@ -1181,6 +1216,14 @@ func (r *jsiiProxy_RepositoryRulesetRulesOutputReference) ResetCommitterEmailPat
 	_jsii_.InvokeVoid(
 		r,
 		"resetCommitterEmailPattern",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_RepositoryRulesetRulesOutputReference) ResetCopilotCodeReview() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetCopilotCodeReview",
 		nil, // no parameters
 	)
 }

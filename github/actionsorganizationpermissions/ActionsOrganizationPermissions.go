@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package actionsorganizationpermissions
@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_permissions github_actions_organization_permissions}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_permissions github_actions_organization_permissions}.
 type ActionsOrganizationPermissions interface {
 	cdktf.TerraformResource
 	AllowedActions() *string
@@ -68,6 +68,9 @@ type ActionsOrganizationPermissions interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	ShaPinningRequired() interface{}
+	SetShaPinningRequired(val interface{})
+	ShaPinningRequiredInput() interface{}
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -126,6 +129,7 @@ type ActionsOrganizationPermissions interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetShaPinningRequired()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -374,6 +378,26 @@ func (j *jsiiProxy_ActionsOrganizationPermissions) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_ActionsOrganizationPermissions) ShaPinningRequired() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"shaPinningRequired",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ActionsOrganizationPermissions) ShaPinningRequiredInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"shaPinningRequiredInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ActionsOrganizationPermissions) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
 	var returns *cdktf.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -405,7 +429,7 @@ func (j *jsiiProxy_ActionsOrganizationPermissions) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_permissions github_actions_organization_permissions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_permissions github_actions_organization_permissions} Resource.
 func NewActionsOrganizationPermissions(scope constructs.Construct, id *string, config *ActionsOrganizationPermissionsConfig) ActionsOrganizationPermissions {
 	_init_.Initialize()
 
@@ -423,7 +447,7 @@ func NewActionsOrganizationPermissions(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_permissions github_actions_organization_permissions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_permissions github_actions_organization_permissions} Resource.
 func NewActionsOrganizationPermissions_Override(a ActionsOrganizationPermissions, scope constructs.Construct, id *string, config *ActionsOrganizationPermissionsConfig) {
 	_init_.Initialize()
 
@@ -531,6 +555,17 @@ func (j *jsiiProxy_ActionsOrganizationPermissions)SetProvisioners(val *[]interfa
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ActionsOrganizationPermissions)SetShaPinningRequired(val interface{}) {
+	if err := j.validateSetShaPinningRequiredParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"shaPinningRequired",
 		val,
 	)
 }
@@ -946,6 +981,14 @@ func (a *jsiiProxy_ActionsOrganizationPermissions) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ActionsOrganizationPermissions) ResetShaPinningRequired() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetShaPinningRequired",
 		nil, // no parameters
 	)
 }

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package organizationruleset
@@ -31,6 +31,8 @@ type OrganizationRulesetRulesOutputReference interface {
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	CopilotCodeReview() OrganizationRulesetRulesCopilotCodeReviewOutputReference
+	CopilotCodeReviewInput() *OrganizationRulesetRulesCopilotCodeReview
 	Creation() interface{}
 	SetCreation(val interface{})
 	CreationInput() interface{}
@@ -112,6 +114,7 @@ type OrganizationRulesetRulesOutputReference interface {
 	PutCommitAuthorEmailPattern(value *OrganizationRulesetRulesCommitAuthorEmailPattern)
 	PutCommitMessagePattern(value *OrganizationRulesetRulesCommitMessagePattern)
 	PutCommitterEmailPattern(value *OrganizationRulesetRulesCommitterEmailPattern)
+	PutCopilotCodeReview(value *OrganizationRulesetRulesCopilotCodeReview)
 	PutFileExtensionRestriction(value *OrganizationRulesetRulesFileExtensionRestriction)
 	PutFilePathRestriction(value *OrganizationRulesetRulesFilePathRestriction)
 	PutMaxFilePathLength(value *OrganizationRulesetRulesMaxFilePathLength)
@@ -125,6 +128,7 @@ type OrganizationRulesetRulesOutputReference interface {
 	ResetCommitAuthorEmailPattern()
 	ResetCommitMessagePattern()
 	ResetCommitterEmailPattern()
+	ResetCopilotCodeReview()
 	ResetCreation()
 	ResetDeletion()
 	ResetFileExtensionRestriction()
@@ -250,6 +254,26 @@ func (j *jsiiProxy_OrganizationRulesetRulesOutputReference) ComplexObjectIsFromS
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrganizationRulesetRulesOutputReference) CopilotCodeReview() OrganizationRulesetRulesCopilotCodeReviewOutputReference {
+	var returns OrganizationRulesetRulesCopilotCodeReviewOutputReference
+	_jsii_.Get(
+		j,
+		"copilotCodeReview",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrganizationRulesetRulesOutputReference) CopilotCodeReviewInput() *OrganizationRulesetRulesCopilotCodeReview {
+	var returns *OrganizationRulesetRulesCopilotCodeReview
+	_jsii_.Get(
+		j,
+		"copilotCodeReviewInput",
 		&returns,
 	)
 	return returns
@@ -984,6 +1008,17 @@ func (o *jsiiProxy_OrganizationRulesetRulesOutputReference) PutCommitterEmailPat
 	)
 }
 
+func (o *jsiiProxy_OrganizationRulesetRulesOutputReference) PutCopilotCodeReview(value *OrganizationRulesetRulesCopilotCodeReview) {
+	if err := o.validatePutCopilotCodeReviewParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		o,
+		"putCopilotCodeReview",
+		[]interface{}{value},
+	)
+}
+
 func (o *jsiiProxy_OrganizationRulesetRulesOutputReference) PutFileExtensionRestriction(value *OrganizationRulesetRulesFileExtensionRestriction) {
 	if err := o.validatePutFileExtensionRestrictionParameters(value); err != nil {
 		panic(err)
@@ -1111,6 +1146,14 @@ func (o *jsiiProxy_OrganizationRulesetRulesOutputReference) ResetCommitterEmailP
 	_jsii_.InvokeVoid(
 		o,
 		"resetCommitterEmailPattern",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OrganizationRulesetRulesOutputReference) ResetCopilotCodeReview() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetCopilotCodeReview",
 		nil, // no parameters
 	)
 }

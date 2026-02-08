@@ -1,15 +1,15 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package branchprotectionv3
 
 
 type BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowances struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection_v3#apps BranchProtectionV3#apps}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/branch_protection_v3#apps BranchProtectionV3#apps}.
 	Apps *[]*string `field:"optional" json:"apps" yaml:"apps"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection_v3#teams BranchProtectionV3#teams}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/branch_protection_v3#teams BranchProtectionV3#teams}.
 	Teams *[]*string `field:"optional" json:"teams" yaml:"teams"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection_v3#users BranchProtectionV3#users}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/branch_protection_v3#users BranchProtectionV3#users}.
 	Users *[]*string `field:"optional" json:"users" yaml:"users"`
 }
 

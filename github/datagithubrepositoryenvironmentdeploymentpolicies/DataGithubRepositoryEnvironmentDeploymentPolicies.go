@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagithubrepositoryenvironmentdeploymentpolicies
@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/repository_environment_deployment_policies github_repository_environment_deployment_policies}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/repository_environment_deployment_policies github_repository_environment_deployment_policies}.
 type DataGithubRepositoryEnvironmentDeploymentPolicies interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -322,7 +322,7 @@ func (j *jsiiProxy_DataGithubRepositoryEnvironmentDeploymentPolicies) TerraformR
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/repository_environment_deployment_policies github_repository_environment_deployment_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/repository_environment_deployment_policies github_repository_environment_deployment_policies} Data Source.
 func NewDataGithubRepositoryEnvironmentDeploymentPolicies(scope constructs.Construct, id *string, config *DataGithubRepositoryEnvironmentDeploymentPoliciesConfig) DataGithubRepositoryEnvironmentDeploymentPolicies {
 	_init_.Initialize()
 
@@ -340,7 +340,7 @@ func NewDataGithubRepositoryEnvironmentDeploymentPolicies(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/repository_environment_deployment_policies github_repository_environment_deployment_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/repository_environment_deployment_policies github_repository_environment_deployment_policies} Data Source.
 func NewDataGithubRepositoryEnvironmentDeploymentPolicies_Override(d DataGithubRepositoryEnvironmentDeploymentPolicies, scope constructs.Construct, id *string, config *DataGithubRepositoryEnvironmentDeploymentPoliciesConfig) {
 	_init_.Initialize()
 

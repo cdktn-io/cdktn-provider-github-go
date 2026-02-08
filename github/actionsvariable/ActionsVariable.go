@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package actionsvariable
@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_variable github_actions_variable}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_variable github_actions_variable}.
 type ActionsVariable interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -61,6 +61,7 @@ type ActionsVariable interface {
 	RawOverrides() interface{}
 	Repository() *string
 	SetRepository(val *string)
+	RepositoryId() *float64
 	RepositoryInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
@@ -310,6 +311,16 @@ func (j *jsiiProxy_ActionsVariable) Repository() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ActionsVariable) RepositoryId() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"repositoryId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ActionsVariable) RepositoryInput() *string {
 	var returns *string
 	_jsii_.Get(
@@ -401,7 +412,7 @@ func (j *jsiiProxy_ActionsVariable) VariableNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_variable github_actions_variable} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_variable github_actions_variable} Resource.
 func NewActionsVariable(scope constructs.Construct, id *string, config *ActionsVariableConfig) ActionsVariable {
 	_init_.Initialize()
 
@@ -419,7 +430,7 @@ func NewActionsVariable(scope constructs.Construct, id *string, config *ActionsV
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_variable github_actions_variable} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_variable github_actions_variable} Resource.
 func NewActionsVariable_Override(a ActionsVariable, scope constructs.Construct, id *string, config *ActionsVariableConfig) {
 	_init_.Initialize()
 

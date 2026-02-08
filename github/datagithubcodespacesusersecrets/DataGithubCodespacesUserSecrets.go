@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagithubcodespacesusersecrets
@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/codespaces_user_secrets github_codespaces_user_secrets}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/codespaces_user_secrets github_codespaces_user_secrets}.
 type DataGithubCodespacesUserSecrets interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataGithubCodespacesUserSecrets) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/codespaces_user_secrets github_codespaces_user_secrets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/codespaces_user_secrets github_codespaces_user_secrets} Data Source.
 func NewDataGithubCodespacesUserSecrets(scope constructs.Construct, id *string, config *DataGithubCodespacesUserSecretsConfig) DataGithubCodespacesUserSecrets {
 	_init_.Initialize()
 
@@ -294,7 +294,7 @@ func NewDataGithubCodespacesUserSecrets(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/codespaces_user_secrets github_codespaces_user_secrets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/codespaces_user_secrets github_codespaces_user_secrets} Data Source.
 func NewDataGithubCodespacesUserSecrets_Override(d DataGithubCodespacesUserSecrets, scope constructs.Construct, id *string, config *DataGithubCodespacesUserSecretsConfig) {
 	_init_.Initialize()
 

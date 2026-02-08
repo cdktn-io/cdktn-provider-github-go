@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package actionsrepositorypermissions
@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions github_actions_repository_permissions}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions github_actions_repository_permissions}.
 type ActionsRepositoryPermissions interface {
 	cdktf.TerraformResource
 	AllowedActions() *string
@@ -69,6 +69,9 @@ type ActionsRepositoryPermissions interface {
 	Repository() *string
 	SetRepository(val *string)
 	RepositoryInput() *string
+	ShaPinningRequired() interface{}
+	SetShaPinningRequired(val interface{})
+	ShaPinningRequiredInput() interface{}
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -126,6 +129,7 @@ type ActionsRepositoryPermissions interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetShaPinningRequired()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -374,6 +378,26 @@ func (j *jsiiProxy_ActionsRepositoryPermissions) RepositoryInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ActionsRepositoryPermissions) ShaPinningRequired() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"shaPinningRequired",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ActionsRepositoryPermissions) ShaPinningRequiredInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"shaPinningRequiredInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ActionsRepositoryPermissions) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
 	var returns *cdktf.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -405,7 +429,7 @@ func (j *jsiiProxy_ActionsRepositoryPermissions) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions github_actions_repository_permissions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions github_actions_repository_permissions} Resource.
 func NewActionsRepositoryPermissions(scope constructs.Construct, id *string, config *ActionsRepositoryPermissionsConfig) ActionsRepositoryPermissions {
 	_init_.Initialize()
 
@@ -423,7 +447,7 @@ func NewActionsRepositoryPermissions(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions github_actions_repository_permissions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions github_actions_repository_permissions} Resource.
 func NewActionsRepositoryPermissions_Override(a ActionsRepositoryPermissions, scope constructs.Construct, id *string, config *ActionsRepositoryPermissionsConfig) {
 	_init_.Initialize()
 
@@ -542,6 +566,17 @@ func (j *jsiiProxy_ActionsRepositoryPermissions)SetRepository(val *string) {
 	_jsii_.Set(
 		j,
 		"repository",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ActionsRepositoryPermissions)SetShaPinningRequired(val interface{}) {
+	if err := j.validateSetShaPinningRequiredParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"shaPinningRequired",
 		val,
 	)
 }
@@ -946,6 +981,14 @@ func (a *jsiiProxy_ActionsRepositoryPermissions) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ActionsRepositoryPermissions) ResetShaPinningRequired() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetShaPinningRequired",
 		nil, // no parameters
 	)
 }

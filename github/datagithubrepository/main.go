@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagithubrepository
@@ -16,6 +16,7 @@ func init() {
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "allowAutoMerge", GoGetter: "AllowAutoMerge"},
+			_jsii_.MemberProperty{JsiiProperty: "allowForking", GoGetter: "AllowForking"},
 			_jsii_.MemberProperty{JsiiProperty: "allowMergeCommit", GoGetter: "AllowMergeCommit"},
 			_jsii_.MemberProperty{JsiiProperty: "allowRebaseMerge", GoGetter: "AllowRebaseMerge"},
 			_jsii_.MemberProperty{JsiiProperty: "allowSquashMerge", GoGetter: "AllowSquashMerge"},

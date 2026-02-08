@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package repository
@@ -12,12 +12,15 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository github_repository}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository github_repository}.
 type Repository interface {
 	cdktf.TerraformResource
 	AllowAutoMerge() interface{}
 	SetAllowAutoMerge(val interface{})
 	AllowAutoMergeInput() interface{}
+	AllowForking() interface{}
+	SetAllowForking(val interface{})
+	AllowForkingInput() interface{}
 	AllowMergeCommit() interface{}
 	SetAllowMergeCommit(val interface{})
 	AllowMergeCommitInput() interface{}
@@ -231,6 +234,7 @@ type Repository interface {
 	PutSecurityAndAnalysis(value *RepositorySecurityAndAnalysis)
 	PutTemplate(value *RepositoryTemplate)
 	ResetAllowAutoMerge()
+	ResetAllowForking()
 	ResetAllowMergeCommit()
 	ResetAllowRebaseMerge()
 	ResetAllowSquashMerge()
@@ -304,6 +308,26 @@ func (j *jsiiProxy_Repository) AllowAutoMergeInput() interface{} {
 	_jsii_.Get(
 		j,
 		"allowAutoMergeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Repository) AllowForking() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"allowForking",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Repository) AllowForkingInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"allowForkingInput",
 		&returns,
 	)
 	return returns
@@ -1320,7 +1344,7 @@ func (j *jsiiProxy_Repository) WebCommitSignoffRequiredInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository github_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository github_repository} Resource.
 func NewRepository(scope constructs.Construct, id *string, config *RepositoryConfig) Repository {
 	_init_.Initialize()
 
@@ -1338,7 +1362,7 @@ func NewRepository(scope constructs.Construct, id *string, config *RepositoryCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository github_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository github_repository} Resource.
 func NewRepository_Override(r Repository, scope constructs.Construct, id *string, config *RepositoryConfig) {
 	_init_.Initialize()
 
@@ -1356,6 +1380,17 @@ func (j *jsiiProxy_Repository)SetAllowAutoMerge(val interface{}) {
 	_jsii_.Set(
 		j,
 		"allowAutoMerge",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Repository)SetAllowForking(val interface{}) {
+	if err := j.validateSetAllowForkingParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"allowForking",
 		val,
 	)
 }
@@ -2203,6 +2238,14 @@ func (r *jsiiProxy_Repository) ResetAllowAutoMerge() {
 	_jsii_.InvokeVoid(
 		r,
 		"resetAllowAutoMerge",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_Repository) ResetAllowForking() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetAllowForking",
 		nil, // no parameters
 	)
 }

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package emugroupmapping
@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/emu_group_mapping github_emu_group_mapping}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/emu_group_mapping github_emu_group_mapping}.
 type EmuGroupMapping interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -43,6 +43,7 @@ type EmuGroupMapping interface {
 	GroupId() *float64
 	SetGroupId(val *float64)
 	GroupIdInput() *float64
+	GroupName() *string
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
@@ -62,6 +63,7 @@ type EmuGroupMapping interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	TeamId() *string
 	TeamSlug() *string
 	SetTeamSlug(val *string)
 	TeamSlugInput() *string
@@ -246,6 +248,16 @@ func (j *jsiiProxy_EmuGroupMapping) GroupIdInput() *float64 {
 	return returns
 }
 
+func (j *jsiiProxy_EmuGroupMapping) GroupName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"groupName",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_EmuGroupMapping) Id() *string {
 	var returns *string
 	_jsii_.Get(
@@ -316,6 +328,16 @@ func (j *jsiiProxy_EmuGroupMapping) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_EmuGroupMapping) TeamId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"teamId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_EmuGroupMapping) TeamSlug() *string {
 	var returns *string
 	_jsii_.Get(
@@ -367,7 +389,7 @@ func (j *jsiiProxy_EmuGroupMapping) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/emu_group_mapping github_emu_group_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/emu_group_mapping github_emu_group_mapping} Resource.
 func NewEmuGroupMapping(scope constructs.Construct, id *string, config *EmuGroupMappingConfig) EmuGroupMapping {
 	_init_.Initialize()
 
@@ -385,7 +407,7 @@ func NewEmuGroupMapping(scope constructs.Construct, id *string, config *EmuGroup
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/emu_group_mapping github_emu_group_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/emu_group_mapping github_emu_group_mapping} Resource.
 func NewEmuGroupMapping_Override(e EmuGroupMapping, scope constructs.Construct, id *string, config *EmuGroupMappingConfig) {
 	_init_.Initialize()
 

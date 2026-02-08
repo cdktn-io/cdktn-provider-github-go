@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package repositorydeploykey
@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_deploy_key github_repository_deploy_key}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_deploy_key github_repository_deploy_key}.
 type RepositoryDeployKey interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_RepositoryDeployKey) TitleInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_deploy_key github_repository_deploy_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_deploy_key github_repository_deploy_key} Resource.
 func NewRepositoryDeployKey(scope constructs.Construct, id *string, config *RepositoryDeployKeyConfig) RepositoryDeployKey {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewRepositoryDeployKey(scope constructs.Construct, id *string, config *Repo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_deploy_key github_repository_deploy_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_deploy_key github_repository_deploy_key} Resource.
 func NewRepositoryDeployKey_Override(r RepositoryDeployKey, scope constructs.Construct, id *string, config *RepositoryDeployKeyConfig) {
 	_init_.Initialize()
 

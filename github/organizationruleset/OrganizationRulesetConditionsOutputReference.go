@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package organizationruleset
@@ -73,6 +73,7 @@ type OrganizationRulesetConditionsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	PutRefName(value *OrganizationRulesetConditionsRefName)
 	PutRepositoryName(value *OrganizationRulesetConditionsRepositoryName)
+	ResetRefName()
 	ResetRepositoryId()
 	ResetRepositoryName()
 	// Produce the Token's value at resolution time.
@@ -519,6 +520,14 @@ func (o *jsiiProxy_OrganizationRulesetConditionsOutputReference) PutRepositoryNa
 		o,
 		"putRepositoryName",
 		[]interface{}{value},
+	)
+}
+
+func (o *jsiiProxy_OrganizationRulesetConditionsOutputReference) ResetRefName() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetRefName",
+		nil, // no parameters
 	)
 }
 

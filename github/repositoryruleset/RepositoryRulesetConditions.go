@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package repositoryruleset
@@ -7,7 +7,7 @@ package repositoryruleset
 type RepositoryRulesetConditions struct {
 	// ref_name block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#ref_name RepositoryRuleset#ref_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#ref_name RepositoryRuleset#ref_name}
 	RefName *RepositoryRulesetConditionsRefName `field:"required" json:"refName" yaml:"refName"`
 }
 

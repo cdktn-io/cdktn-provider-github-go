@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package team
@@ -54,6 +54,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
 			_jsii_.MemberProperty{JsiiProperty: "nodeId", GoGetter: "NodeId"},
+			_jsii_.MemberProperty{JsiiProperty: "notificationSetting", GoGetter: "NotificationSetting"},
+			_jsii_.MemberProperty{JsiiProperty: "notificationSettingInput", GoGetter: "NotificationSettingInput"},
 			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
 			_jsii_.MemberProperty{JsiiProperty: "parentTeamId", GoGetter: "ParentTeamId"},
 			_jsii_.MemberProperty{JsiiProperty: "parentTeamIdInput", GoGetter: "ParentTeamIdInput"},
@@ -70,6 +72,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLdapDn", GoMethod: "ResetLdapDn"},
+			_jsii_.MemberMethod{JsiiMethod: "resetNotificationSetting", GoMethod: "ResetNotificationSetting"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetParentTeamId", GoMethod: "ResetParentTeamId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetParentTeamReadId", GoMethod: "ResetParentTeamReadId"},

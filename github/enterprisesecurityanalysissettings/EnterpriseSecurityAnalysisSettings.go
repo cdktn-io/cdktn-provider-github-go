@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package enterprisesecurityanalysissettings
@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/enterprise_security_analysis_settings github_enterprise_security_analysis_settings}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/enterprise_security_analysis_settings github_enterprise_security_analysis_settings}.
 type EnterpriseSecurityAnalysisSettings interface {
 	cdktf.TerraformResource
 	AdvancedSecurityEnabledForNewRepositories() interface{}
@@ -453,7 +453,7 @@ func (j *jsiiProxy_EnterpriseSecurityAnalysisSettings) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/enterprise_security_analysis_settings github_enterprise_security_analysis_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/enterprise_security_analysis_settings github_enterprise_security_analysis_settings} Resource.
 func NewEnterpriseSecurityAnalysisSettings(scope constructs.Construct, id *string, config *EnterpriseSecurityAnalysisSettingsConfig) EnterpriseSecurityAnalysisSettings {
 	_init_.Initialize()
 
@@ -471,7 +471,7 @@ func NewEnterpriseSecurityAnalysisSettings(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/enterprise_security_analysis_settings github_enterprise_security_analysis_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/enterprise_security_analysis_settings github_enterprise_security_analysis_settings} Resource.
 func NewEnterpriseSecurityAnalysisSettings_Override(e EnterpriseSecurityAnalysisSettings, scope constructs.Construct, id *string, config *EnterpriseSecurityAnalysisSettingsConfig) {
 	_init_.Initialize()
 

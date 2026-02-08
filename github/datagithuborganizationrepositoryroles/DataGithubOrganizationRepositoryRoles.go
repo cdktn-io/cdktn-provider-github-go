@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagithuborganizationrepositoryroles
@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_repository_roles github_organization_repository_roles}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/organization_repository_roles github_organization_repository_roles}.
 type DataGithubOrganizationRepositoryRoles interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataGithubOrganizationRepositoryRoles) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_repository_roles github_organization_repository_roles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/organization_repository_roles github_organization_repository_roles} Data Source.
 func NewDataGithubOrganizationRepositoryRoles(scope constructs.Construct, id *string, config *DataGithubOrganizationRepositoryRolesConfig) DataGithubOrganizationRepositoryRoles {
 	_init_.Initialize()
 
@@ -294,7 +294,7 @@ func NewDataGithubOrganizationRepositoryRoles(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_repository_roles github_organization_repository_roles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/organization_repository_roles github_organization_repository_roles} Data Source.
 func NewDataGithubOrganizationRepositoryRoles_Override(d DataGithubOrganizationRepositoryRoles, scope constructs.Construct, id *string, config *DataGithubOrganizationRepositoryRolesConfig) {
 	_init_.Initialize()
 

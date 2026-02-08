@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package repository
@@ -9,7 +9,7 @@ type RepositorySecurityAndAnalysisAdvancedSecurity struct {
 	//
 	// Can be 'enabled' or 'disabled', This value being present when split licensing is enabled will error out.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#status Repository#status}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#status Repository#status}
 	Status *string `field:"required" json:"status" yaml:"status"`
 }
 

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package organizationroleuser
@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_role_user github_organization_role_user}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_role_user github_organization_role_user}.
 type OrganizationRoleUser interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_OrganizationRoleUser) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_role_user github_organization_role_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_role_user github_organization_role_user} Resource.
 func NewOrganizationRoleUser(scope constructs.Construct, id *string, config *OrganizationRoleUserConfig) OrganizationRoleUser {
 	_init_.Initialize()
 
@@ -374,7 +374,7 @@ func NewOrganizationRoleUser(scope constructs.Construct, id *string, config *Org
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_role_user github_organization_role_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_role_user github_organization_role_user} Resource.
 func NewOrganizationRoleUser_Override(o OrganizationRoleUser, scope constructs.Construct, id *string, config *OrganizationRoleUserConfig) {
 	_init_.Initialize()
 

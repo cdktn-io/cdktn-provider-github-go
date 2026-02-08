@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package actionsorganizationpermissions
@@ -7,7 +7,7 @@ package actionsorganizationpermissions
 type ActionsOrganizationPermissionsEnabledRepositoriesConfig struct {
 	// List of repository IDs to enable for GitHub Actions.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_permissions#repository_ids ActionsOrganizationPermissions#repository_ids}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_permissions#repository_ids ActionsOrganizationPermissions#repository_ids}
 	RepositoryIds *[]*float64 `field:"required" json:"repositoryIds" yaml:"repositoryIds"`
 }
 

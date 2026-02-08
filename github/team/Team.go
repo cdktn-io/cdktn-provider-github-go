@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package team
@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team github_team}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team github_team}.
 type Team interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -63,6 +63,9 @@ type Team interface {
 	// The tree node.
 	Node() constructs.Node
 	NodeId() *string
+	NotificationSetting() *string
+	SetNotificationSetting(val *string)
+	NotificationSettingInput() *string
 	ParentTeamId() *string
 	SetParentTeamId(val *string)
 	ParentTeamIdInput() *string
@@ -139,6 +142,7 @@ type Team interface {
 	ResetDescription()
 	ResetId()
 	ResetLdapDn()
+	ResetNotificationSetting()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -394,6 +398,26 @@ func (j *jsiiProxy_Team) NodeId() *string {
 	return returns
 }
 
+func (j *jsiiProxy_Team) NotificationSetting() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"notificationSetting",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Team) NotificationSettingInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"notificationSettingInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_Team) ParentTeamId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -545,7 +569,7 @@ func (j *jsiiProxy_Team) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team github_team} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team github_team} Resource.
 func NewTeam(scope constructs.Construct, id *string, config *TeamConfig) Team {
 	_init_.Initialize()
 
@@ -563,7 +587,7 @@ func NewTeam(scope constructs.Construct, id *string, config *TeamConfig) Team {
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team github_team} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team github_team} Resource.
 func NewTeam_Override(t Team, scope constructs.Construct, id *string, config *TeamConfig) {
 	_init_.Initialize()
 
@@ -674,6 +698,17 @@ func (j *jsiiProxy_Team)SetName(val *string) {
 	_jsii_.Set(
 		j,
 		"name",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Team)SetNotificationSetting(val *string) {
+	if err := j.validateSetNotificationSettingParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"notificationSetting",
 		val,
 	)
 }
@@ -1122,6 +1157,14 @@ func (t *jsiiProxy_Team) ResetLdapDn() {
 	_jsii_.InvokeVoid(
 		t,
 		"resetLdapDn",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_Team) ResetNotificationSetting() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetNotificationSetting",
 		nil, // no parameters
 	)
 }

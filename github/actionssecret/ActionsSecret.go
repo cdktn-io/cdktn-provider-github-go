@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package actionssecret
@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_secret github_actions_secret}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_secret github_actions_secret}.
 type ActionsSecret interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -49,6 +49,9 @@ type ActionsSecret interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	KeyId() *string
+	SetKeyId(val *string)
+	KeyIdInput() *string
 	// Experimental.
 	Lifecycle() *cdktf.TerraformResourceLifecycle
 	// Experimental.
@@ -68,8 +71,10 @@ type ActionsSecret interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	RemoteUpdatedAt() *string
 	Repository() *string
 	SetRepository(val *string)
+	RepositoryId() *float64
 	RepositoryInput() *string
 	SecretName() *string
 	SetSecretName(val *string)
@@ -127,6 +132,7 @@ type ActionsSecret interface {
 	ResetDestroyOnDrift()
 	ResetEncryptedValue()
 	ResetId()
+	ResetKeyId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -299,6 +305,26 @@ func (j *jsiiProxy_ActionsSecret) IdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ActionsSecret) KeyId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"keyId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ActionsSecret) KeyIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"keyIdInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ActionsSecret) Lifecycle() *cdktf.TerraformResourceLifecycle {
 	var returns *cdktf.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -369,11 +395,31 @@ func (j *jsiiProxy_ActionsSecret) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_ActionsSecret) RemoteUpdatedAt() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"remoteUpdatedAt",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ActionsSecret) Repository() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"repository",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ActionsSecret) RepositoryId() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"repositoryId",
 		&returns,
 	)
 	return returns
@@ -450,7 +496,7 @@ func (j *jsiiProxy_ActionsSecret) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_secret github_actions_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_secret github_actions_secret} Resource.
 func NewActionsSecret(scope constructs.Construct, id *string, config *ActionsSecretConfig) ActionsSecret {
 	_init_.Initialize()
 
@@ -468,7 +514,7 @@ func NewActionsSecret(scope constructs.Construct, id *string, config *ActionsSec
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_secret github_actions_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_secret github_actions_secret} Resource.
 func NewActionsSecret_Override(a ActionsSecret, scope constructs.Construct, id *string, config *ActionsSecretConfig) {
 	_init_.Initialize()
 
@@ -546,6 +592,17 @@ func (j *jsiiProxy_ActionsSecret)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ActionsSecret)SetKeyId(val *string) {
+	if err := j.validateSetKeyIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"keyId",
 		val,
 	)
 }
@@ -986,6 +1043,14 @@ func (a *jsiiProxy_ActionsSecret) ResetId() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ActionsSecret) ResetKeyId() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetKeyId",
 		nil, // no parameters
 	)
 }

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package projectcard
@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/project_card github_project_card}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/project_card github_project_card}.
 type ProjectCard interface {
 	cdktf.TerraformResource
 	CardId() *float64
@@ -427,7 +427,7 @@ func (j *jsiiProxy_ProjectCard) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/project_card github_project_card} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/project_card github_project_card} Resource.
 func NewProjectCard(scope constructs.Construct, id *string, config *ProjectCardConfig) ProjectCard {
 	_init_.Initialize()
 
@@ -445,7 +445,7 @@ func NewProjectCard(scope constructs.Construct, id *string, config *ProjectCardC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/project_card github_project_card} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/project_card github_project_card} Resource.
 func NewProjectCard_Override(p ProjectCard, scope constructs.Construct, id *string, config *ProjectCardConfig) {
 	_init_.Initialize()
 

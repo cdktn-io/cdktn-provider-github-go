@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package repository
@@ -18,6 +18,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "allowAutoMerge", GoGetter: "AllowAutoMerge"},
 			_jsii_.MemberProperty{JsiiProperty: "allowAutoMergeInput", GoGetter: "AllowAutoMergeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "allowForking", GoGetter: "AllowForking"},
+			_jsii_.MemberProperty{JsiiProperty: "allowForkingInput", GoGetter: "AllowForkingInput"},
 			_jsii_.MemberProperty{JsiiProperty: "allowMergeCommit", GoGetter: "AllowMergeCommit"},
 			_jsii_.MemberProperty{JsiiProperty: "allowMergeCommitInput", GoGetter: "AllowMergeCommitInput"},
 			_jsii_.MemberProperty{JsiiProperty: "allowRebaseMerge", GoGetter: "AllowRebaseMerge"},
@@ -114,6 +116,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberProperty{JsiiProperty: "repoId", GoGetter: "RepoId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAllowAutoMerge", GoMethod: "ResetAllowAutoMerge"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAllowForking", GoMethod: "ResetAllowForking"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAllowMergeCommit", GoMethod: "ResetAllowMergeCommit"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAllowRebaseMerge", GoMethod: "ResetAllowRebaseMerge"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAllowSquashMerge", GoMethod: "ResetAllowSquashMerge"},

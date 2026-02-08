@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package actionsenvironmentvariable
@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_environment_variable github_actions_environment_variable}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_environment_variable github_actions_environment_variable}.
 type ActionsEnvironmentVariable interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -64,6 +64,7 @@ type ActionsEnvironmentVariable interface {
 	RawOverrides() interface{}
 	Repository() *string
 	SetRepository(val *string)
+	RepositoryId() *float64
 	RepositoryInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
@@ -333,6 +334,16 @@ func (j *jsiiProxy_ActionsEnvironmentVariable) Repository() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ActionsEnvironmentVariable) RepositoryId() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"repositoryId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ActionsEnvironmentVariable) RepositoryInput() *string {
 	var returns *string
 	_jsii_.Get(
@@ -424,7 +435,7 @@ func (j *jsiiProxy_ActionsEnvironmentVariable) VariableNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_environment_variable github_actions_environment_variable} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_environment_variable github_actions_environment_variable} Resource.
 func NewActionsEnvironmentVariable(scope constructs.Construct, id *string, config *ActionsEnvironmentVariableConfig) ActionsEnvironmentVariable {
 	_init_.Initialize()
 
@@ -442,7 +453,7 @@ func NewActionsEnvironmentVariable(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_environment_variable github_actions_environment_variable} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_environment_variable github_actions_environment_variable} Resource.
 func NewActionsEnvironmentVariable_Override(a ActionsEnvironmentVariable, scope constructs.Construct, id *string, config *ActionsEnvironmentVariableConfig) {
 	_init_.Initialize()
 

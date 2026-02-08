@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagithuborganizationcustomproperties
@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_custom_properties github_organization_custom_properties}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/organization_custom_properties github_organization_custom_properties}.
 type DataGithubOrganizationCustomProperties interface {
 	cdktf.TerraformDataSource
 	AllowedValues() *[]*string
@@ -432,7 +432,7 @@ func (j *jsiiProxy_DataGithubOrganizationCustomProperties) ValueTypeInput() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_custom_properties github_organization_custom_properties} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/organization_custom_properties github_organization_custom_properties} Data Source.
 func NewDataGithubOrganizationCustomProperties(scope constructs.Construct, id *string, config *DataGithubOrganizationCustomPropertiesConfig) DataGithubOrganizationCustomProperties {
 	_init_.Initialize()
 
@@ -450,7 +450,7 @@ func NewDataGithubOrganizationCustomProperties(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/organization_custom_properties github_organization_custom_properties} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/organization_custom_properties github_organization_custom_properties} Data Source.
 func NewDataGithubOrganizationCustomProperties_Override(d DataGithubOrganizationCustomProperties, scope constructs.Construct, id *string, config *DataGithubOrganizationCustomPropertiesConfig) {
 	_init_.Initialize()
 

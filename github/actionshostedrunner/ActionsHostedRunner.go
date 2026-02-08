@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package actionshostedrunner
@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner github_actions_hosted_runner}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner github_actions_hosted_runner}.
 type ActionsHostedRunner interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -564,7 +564,7 @@ func (j *jsiiProxy_ActionsHostedRunner) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner github_actions_hosted_runner} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner github_actions_hosted_runner} Resource.
 func NewActionsHostedRunner(scope constructs.Construct, id *string, config *ActionsHostedRunnerConfig) ActionsHostedRunner {
 	_init_.Initialize()
 
@@ -582,7 +582,7 @@ func NewActionsHostedRunner(scope constructs.Construct, id *string, config *Acti
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner github_actions_hosted_runner} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner github_actions_hosted_runner} Resource.
 func NewActionsHostedRunner_Override(a ActionsHostedRunner, scope constructs.Construct, id *string, config *ActionsHostedRunnerConfig) {
 	_init_.Initialize()
 

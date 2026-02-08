@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagithubbranch
@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/branch github_branch}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/branch github_branch}.
 type DataGithubBranch interface {
 	cdktf.TerraformDataSource
 	Branch() *string
@@ -344,7 +344,7 @@ func (j *jsiiProxy_DataGithubBranch) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/branch github_branch} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/branch github_branch} Data Source.
 func NewDataGithubBranch(scope constructs.Construct, id *string, config *DataGithubBranchConfig) DataGithubBranch {
 	_init_.Initialize()
 
@@ -362,7 +362,7 @@ func NewDataGithubBranch(scope constructs.Construct, id *string, config *DataGit
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/branch github_branch} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/branch github_branch} Data Source.
 func NewDataGithubBranch_Override(d DataGithubBranch, scope constructs.Construct, id *string, config *DataGithubBranchConfig) {
 	_init_.Initialize()
 

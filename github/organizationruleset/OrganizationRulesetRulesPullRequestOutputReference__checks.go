@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -93,9 +93,48 @@ func (o *jsiiProxy_OrganizationRulesetRulesPullRequestOutputReference) validateI
 	return nil
 }
 
+func (o *jsiiProxy_OrganizationRulesetRulesPullRequestOutputReference) validatePutRequiredReviewersParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktf.IResolvable:
+		// ok
+	case *[]*OrganizationRulesetRulesPullRequestRequiredReviewers:
+		value := value.(*[]*OrganizationRulesetRulesPullRequestRequiredReviewers)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*OrganizationRulesetRulesPullRequestRequiredReviewers:
+		value_ := value.([]*OrganizationRulesetRulesPullRequestRequiredReviewers)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*OrganizationRulesetRulesPullRequestRequiredReviewers; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (o *jsiiProxy_OrganizationRulesetRulesPullRequestOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_OrganizationRulesetRulesPullRequestOutputReference) validateSetAllowedMergeMethodsParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil

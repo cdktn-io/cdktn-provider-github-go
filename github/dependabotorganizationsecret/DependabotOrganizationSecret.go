@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dependabotorganizationsecret
@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/dependabot_organization_secret github_dependabot_organization_secret}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/dependabot_organization_secret github_dependabot_organization_secret}.
 type DependabotOrganizationSecret interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -46,6 +46,9 @@ type DependabotOrganizationSecret interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	KeyId() *string
+	SetKeyId(val *string)
+	KeyIdInput() *string
 	// Experimental.
 	Lifecycle() *cdktf.TerraformResourceLifecycle
 	// Experimental.
@@ -65,6 +68,7 @@ type DependabotOrganizationSecret interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	RemoteUpdatedAt() *string
 	SecretName() *string
 	SetSecretName(val *string)
 	SecretNameInput() *string
@@ -126,6 +130,7 @@ type DependabotOrganizationSecret interface {
 	OverrideLogicalId(newLogicalId *string)
 	ResetEncryptedValue()
 	ResetId()
+	ResetKeyId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -279,6 +284,26 @@ func (j *jsiiProxy_DependabotOrganizationSecret) IdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DependabotOrganizationSecret) KeyId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"keyId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DependabotOrganizationSecret) KeyIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"keyIdInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DependabotOrganizationSecret) Lifecycle() *cdktf.TerraformResourceLifecycle {
 	var returns *cdktf.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -344,6 +369,16 @@ func (j *jsiiProxy_DependabotOrganizationSecret) RawOverrides() interface{} {
 	_jsii_.Get(
 		j,
 		"rawOverrides",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DependabotOrganizationSecret) RemoteUpdatedAt() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"remoteUpdatedAt",
 		&returns,
 	)
 	return returns
@@ -450,7 +485,7 @@ func (j *jsiiProxy_DependabotOrganizationSecret) VisibilityInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/dependabot_organization_secret github_dependabot_organization_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/dependabot_organization_secret github_dependabot_organization_secret} Resource.
 func NewDependabotOrganizationSecret(scope constructs.Construct, id *string, config *DependabotOrganizationSecretConfig) DependabotOrganizationSecret {
 	_init_.Initialize()
 
@@ -468,7 +503,7 @@ func NewDependabotOrganizationSecret(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/dependabot_organization_secret github_dependabot_organization_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/dependabot_organization_secret github_dependabot_organization_secret} Resource.
 func NewDependabotOrganizationSecret_Override(d DependabotOrganizationSecret, scope constructs.Construct, id *string, config *DependabotOrganizationSecretConfig) {
 	_init_.Initialize()
 
@@ -535,6 +570,17 @@ func (j *jsiiProxy_DependabotOrganizationSecret)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DependabotOrganizationSecret)SetKeyId(val *string) {
+	if err := j.validateSetKeyIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"keyId",
 		val,
 	)
 }
@@ -978,6 +1024,14 @@ func (d *jsiiProxy_DependabotOrganizationSecret) ResetId() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DependabotOrganizationSecret) ResetKeyId() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetKeyId",
 		nil, // no parameters
 	)
 }

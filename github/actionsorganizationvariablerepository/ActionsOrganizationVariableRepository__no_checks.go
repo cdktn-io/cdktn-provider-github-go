@@ -1,0 +1,125 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package actionsorganizationvariablerepository
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_ActionsOrganizationVariableRepository) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_ActionsOrganizationVariableRepository) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_ActionsOrganizationVariableRepository) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_ActionsOrganizationVariableRepository) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_ActionsOrganizationVariableRepository) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_ActionsOrganizationVariableRepository) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_ActionsOrganizationVariableRepository) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_ActionsOrganizationVariableRepository) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_ActionsOrganizationVariableRepository) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_ActionsOrganizationVariableRepository) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_ActionsOrganizationVariableRepository) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_ActionsOrganizationVariableRepository) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_ActionsOrganizationVariableRepository) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_ActionsOrganizationVariableRepository) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_ActionsOrganizationVariableRepository) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_ActionsOrganizationVariableRepository) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_ActionsOrganizationVariableRepository) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func validateActionsOrganizationVariableRepository_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateActionsOrganizationVariableRepository_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateActionsOrganizationVariableRepository_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateActionsOrganizationVariableRepository_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ActionsOrganizationVariableRepository) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ActionsOrganizationVariableRepository) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ActionsOrganizationVariableRepository) validateSetIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ActionsOrganizationVariableRepository) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_ActionsOrganizationVariableRepository) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ActionsOrganizationVariableRepository) validateSetRepositoryIdParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_ActionsOrganizationVariableRepository) validateSetVariableNameParameters(val *string) error {
+	return nil
+}
+
+func validateNewActionsOrganizationVariableRepositoryParameters(scope constructs.Construct, id *string, config *ActionsOrganizationVariableRepositoryConfig) error {
+	return nil
+}
+

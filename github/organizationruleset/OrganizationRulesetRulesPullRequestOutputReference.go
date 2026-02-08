@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package organizationruleset
@@ -13,6 +13,9 @@ import (
 
 type OrganizationRulesetRulesPullRequestOutputReference interface {
 	cdktf.ComplexObject
+	AllowedMergeMethods() *[]*string
+	SetAllowedMergeMethods(val *[]*string)
+	AllowedMergeMethodsInput() *[]*string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,6 +44,8 @@ type OrganizationRulesetRulesPullRequestOutputReference interface {
 	RequiredApprovingReviewCount() *float64
 	SetRequiredApprovingReviewCount(val *float64)
 	RequiredApprovingReviewCountInput() *float64
+	RequiredReviewers() OrganizationRulesetRulesPullRequestRequiredReviewersList
+	RequiredReviewersInput() interface{}
 	RequiredReviewThreadResolution() interface{}
 	SetRequiredReviewThreadResolution(val interface{})
 	RequiredReviewThreadResolutionInput() interface{}
@@ -79,9 +84,12 @@ type OrganizationRulesetRulesPullRequestOutputReference interface {
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	PutRequiredReviewers(value interface{})
+	ResetAllowedMergeMethods()
 	ResetDismissStaleReviewsOnPush()
 	ResetRequireCodeOwnerReview()
 	ResetRequiredApprovingReviewCount()
+	ResetRequiredReviewers()
 	ResetRequiredReviewThreadResolution()
 	ResetRequireLastPushApproval()
 	// Produce the Token's value at resolution time.
@@ -97,6 +105,26 @@ type OrganizationRulesetRulesPullRequestOutputReference interface {
 // The jsii proxy struct for OrganizationRulesetRulesPullRequestOutputReference
 type jsiiProxy_OrganizationRulesetRulesPullRequestOutputReference struct {
 	internal.Type__cdktfComplexObject
+}
+
+func (j *jsiiProxy_OrganizationRulesetRulesPullRequestOutputReference) AllowedMergeMethods() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"allowedMergeMethods",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrganizationRulesetRulesPullRequestOutputReference) AllowedMergeMethodsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"allowedMergeMethodsInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_OrganizationRulesetRulesPullRequestOutputReference) ComplexObjectIndex() interface{} {
@@ -209,6 +237,26 @@ func (j *jsiiProxy_OrganizationRulesetRulesPullRequestOutputReference) RequiredA
 	return returns
 }
 
+func (j *jsiiProxy_OrganizationRulesetRulesPullRequestOutputReference) RequiredReviewers() OrganizationRulesetRulesPullRequestRequiredReviewersList {
+	var returns OrganizationRulesetRulesPullRequestRequiredReviewersList
+	_jsii_.Get(
+		j,
+		"requiredReviewers",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrganizationRulesetRulesPullRequestOutputReference) RequiredReviewersInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"requiredReviewersInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_OrganizationRulesetRulesPullRequestOutputReference) RequiredReviewThreadResolution() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -294,6 +342,17 @@ func NewOrganizationRulesetRulesPullRequestOutputReference_Override(o Organizati
 		"@cdktn/provider-github.organizationRuleset.OrganizationRulesetRulesPullRequestOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		o,
+	)
+}
+
+func (j *jsiiProxy_OrganizationRulesetRulesPullRequestOutputReference)SetAllowedMergeMethods(val *[]*string) {
+	if err := j.validateSetAllowedMergeMethodsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"allowedMergeMethods",
+		val,
 	)
 }
 
@@ -593,6 +652,25 @@ func (o *jsiiProxy_OrganizationRulesetRulesPullRequestOutputReference) Interpola
 	return returns
 }
 
+func (o *jsiiProxy_OrganizationRulesetRulesPullRequestOutputReference) PutRequiredReviewers(value interface{}) {
+	if err := o.validatePutRequiredReviewersParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		o,
+		"putRequiredReviewers",
+		[]interface{}{value},
+	)
+}
+
+func (o *jsiiProxy_OrganizationRulesetRulesPullRequestOutputReference) ResetAllowedMergeMethods() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetAllowedMergeMethods",
+		nil, // no parameters
+	)
+}
+
 func (o *jsiiProxy_OrganizationRulesetRulesPullRequestOutputReference) ResetDismissStaleReviewsOnPush() {
 	_jsii_.InvokeVoid(
 		o,
@@ -613,6 +691,14 @@ func (o *jsiiProxy_OrganizationRulesetRulesPullRequestOutputReference) ResetRequ
 	_jsii_.InvokeVoid(
 		o,
 		"resetRequiredApprovingReviewCount",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OrganizationRulesetRulesPullRequestOutputReference) ResetRequiredReviewers() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetRequiredReviewers",
 		nil, // no parameters
 	)
 }

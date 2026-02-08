@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagithubcodespacesuserpublickey
@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/codespaces_user_public_key github_codespaces_user_public_key}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/codespaces_user_public_key github_codespaces_user_public_key}.
 type DataGithubCodespacesUserPublicKey interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -287,7 +287,7 @@ func (j *jsiiProxy_DataGithubCodespacesUserPublicKey) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/codespaces_user_public_key github_codespaces_user_public_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/codespaces_user_public_key github_codespaces_user_public_key} Data Source.
 func NewDataGithubCodespacesUserPublicKey(scope constructs.Construct, id *string, config *DataGithubCodespacesUserPublicKeyConfig) DataGithubCodespacesUserPublicKey {
 	_init_.Initialize()
 
@@ -305,7 +305,7 @@ func NewDataGithubCodespacesUserPublicKey(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/codespaces_user_public_key github_codespaces_user_public_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/codespaces_user_public_key github_codespaces_user_public_key} Data Source.
 func NewDataGithubCodespacesUserPublicKey_Override(d DataGithubCodespacesUserPublicKey, scope constructs.Construct, id *string, config *DataGithubCodespacesUserPublicKeyConfig) {
 	_init_.Initialize()
 
