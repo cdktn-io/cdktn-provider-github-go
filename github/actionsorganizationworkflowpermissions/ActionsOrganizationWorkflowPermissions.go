@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_workflow_permissions github_actions_organization_workflow_permissions}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_workflow_permissions github_actions_organization_workflow_permissions}.
 type ActionsOrganizationWorkflowPermissions interface {
 	cdktf.TerraformResource
 	CanApprovePullRequestReviews() interface{}
@@ -381,7 +381,7 @@ func (j *jsiiProxy_ActionsOrganizationWorkflowPermissions) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_workflow_permissions github_actions_organization_workflow_permissions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_workflow_permissions github_actions_organization_workflow_permissions} Resource.
 func NewActionsOrganizationWorkflowPermissions(scope constructs.Construct, id *string, config *ActionsOrganizationWorkflowPermissionsConfig) ActionsOrganizationWorkflowPermissions {
 	_init_.Initialize()
 
@@ -399,7 +399,7 @@ func NewActionsOrganizationWorkflowPermissions(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_workflow_permissions github_actions_organization_workflow_permissions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_workflow_permissions github_actions_organization_workflow_permissions} Resource.
 func NewActionsOrganizationWorkflowPermissions_Override(a ActionsOrganizationWorkflowPermissions, scope constructs.Construct, id *string, config *ActionsOrganizationWorkflowPermissionsConfig) {
 	_init_.Initialize()
 

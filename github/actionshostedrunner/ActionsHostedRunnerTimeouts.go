@@ -5,7 +5,7 @@ package actionshostedrunner
 
 
 type ActionsHostedRunnerTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#delete ActionsHostedRunner#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_hosted_runner#delete ActionsHostedRunner#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
 }
 

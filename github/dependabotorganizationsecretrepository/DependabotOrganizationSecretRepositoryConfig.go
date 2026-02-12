@@ -24,13 +24,13 @@ type DependabotOrganizationSecretRepositoryConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The repository ID that can access the organization secret.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/dependabot_organization_secret_repository#repository_id DependabotOrganizationSecretRepository#repository_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/dependabot_organization_secret_repository#repository_id DependabotOrganizationSecretRepository#repository_id}
 	RepositoryId *float64 `field:"required" json:"repositoryId" yaml:"repositoryId"`
 	// Name of the existing secret.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/dependabot_organization_secret_repository#secret_name DependabotOrganizationSecretRepository#secret_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/dependabot_organization_secret_repository#secret_name DependabotOrganizationSecretRepository#secret_name}
 	SecretName *string `field:"required" json:"secretName" yaml:"secretName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/dependabot_organization_secret_repository#id DependabotOrganizationSecretRepository#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/dependabot_organization_secret_repository#id DependabotOrganizationSecretRepository#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

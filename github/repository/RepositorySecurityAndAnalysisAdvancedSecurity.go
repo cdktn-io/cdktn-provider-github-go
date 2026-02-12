@@ -9,7 +9,7 @@ type RepositorySecurityAndAnalysisAdvancedSecurity struct {
 	//
 	// Can be 'enabled' or 'disabled', This value being present when split licensing is enabled will error out.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#status Repository#status}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository#status Repository#status}
 	Status *string `field:"required" json:"status" yaml:"status"`
 }
 

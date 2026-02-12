@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/enterprise_actions_workflow_permissions github_enterprise_actions_workflow_permissions}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/enterprise_actions_workflow_permissions github_enterprise_actions_workflow_permissions}.
 type EnterpriseActionsWorkflowPermissions interface {
 	cdktf.TerraformResource
 	CanApprovePullRequestReviews() interface{}
@@ -381,7 +381,7 @@ func (j *jsiiProxy_EnterpriseActionsWorkflowPermissions) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/enterprise_actions_workflow_permissions github_enterprise_actions_workflow_permissions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/enterprise_actions_workflow_permissions github_enterprise_actions_workflow_permissions} Resource.
 func NewEnterpriseActionsWorkflowPermissions(scope constructs.Construct, id *string, config *EnterpriseActionsWorkflowPermissionsConfig) EnterpriseActionsWorkflowPermissions {
 	_init_.Initialize()
 
@@ -399,7 +399,7 @@ func NewEnterpriseActionsWorkflowPermissions(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/enterprise_actions_workflow_permissions github_enterprise_actions_workflow_permissions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/enterprise_actions_workflow_permissions github_enterprise_actions_workflow_permissions} Resource.
 func NewEnterpriseActionsWorkflowPermissions_Override(e EnterpriseActionsWorkflowPermissions, scope constructs.Construct, id *string, config *EnterpriseActionsWorkflowPermissionsConfig) {
 	_init_.Initialize()
 

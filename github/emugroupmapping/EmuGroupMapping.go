@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/emu_group_mapping github_emu_group_mapping}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/emu_group_mapping github_emu_group_mapping}.
 type EmuGroupMapping interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -63,7 +63,7 @@ type EmuGroupMapping interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
-	TeamId() *string
+	TeamId() *float64
 	TeamSlug() *string
 	SetTeamSlug(val *string)
 	TeamSlugInput() *string
@@ -328,8 +328,8 @@ func (j *jsiiProxy_EmuGroupMapping) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_EmuGroupMapping) TeamId() *string {
-	var returns *string
+func (j *jsiiProxy_EmuGroupMapping) TeamId() *float64 {
+	var returns *float64
 	_jsii_.Get(
 		j,
 		"teamId",
@@ -389,7 +389,7 @@ func (j *jsiiProxy_EmuGroupMapping) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/emu_group_mapping github_emu_group_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/emu_group_mapping github_emu_group_mapping} Resource.
 func NewEmuGroupMapping(scope constructs.Construct, id *string, config *EmuGroupMappingConfig) EmuGroupMapping {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewEmuGroupMapping(scope constructs.Construct, id *string, config *EmuGroup
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/emu_group_mapping github_emu_group_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/emu_group_mapping github_emu_group_mapping} Resource.
 func NewEmuGroupMapping_Override(e EmuGroupMapping, scope constructs.Construct, id *string, config *EmuGroupMappingConfig) {
 	_init_.Initialize()
 

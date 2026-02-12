@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_variable_repository github_actions_organization_variable_repository}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_variable_repository github_actions_organization_variable_repository}.
 type ActionsOrganizationVariableRepository interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_ActionsOrganizationVariableRepository) VariableNameInput() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_variable_repository github_actions_organization_variable_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_variable_repository github_actions_organization_variable_repository} Resource.
 func NewActionsOrganizationVariableRepository(scope constructs.Construct, id *string, config *ActionsOrganizationVariableRepositoryConfig) ActionsOrganizationVariableRepository {
 	_init_.Initialize()
 
@@ -374,7 +374,7 @@ func NewActionsOrganizationVariableRepository(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_variable_repository github_actions_organization_variable_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_variable_repository github_actions_organization_variable_repository} Resource.
 func NewActionsOrganizationVariableRepository_Override(a ActionsOrganizationVariableRepository, scope constructs.Construct, id *string, config *ActionsOrganizationVariableRepositoryConfig) {
 	_init_.Initialize()
 
