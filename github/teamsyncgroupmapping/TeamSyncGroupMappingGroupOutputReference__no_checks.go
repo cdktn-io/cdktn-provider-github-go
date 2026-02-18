@@ -47,7 +47,7 @@ func (t *jsiiProxy_TeamSyncGroupMappingGroupOutputReference) validateInterpolati
 	return nil
 }
 
-func (t *jsiiProxy_TeamSyncGroupMappingGroupOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TeamSyncGroupMappingGroupOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_TeamSyncGroupMappingGroupOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_TeamSyncGroupMappingGroupOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TeamSyncGroupMappingGroupOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewTeamSyncGroupMappingGroupOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewTeamSyncGroupMappingGroupOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

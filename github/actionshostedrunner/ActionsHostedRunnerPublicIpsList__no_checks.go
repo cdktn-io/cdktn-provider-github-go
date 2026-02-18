@@ -15,7 +15,7 @@ func (a *jsiiProxy_ActionsHostedRunnerPublicIpsList) validateGetParameters(index
 	return nil
 }
 
-func (a *jsiiProxy_ActionsHostedRunnerPublicIpsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ActionsHostedRunnerPublicIpsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_ActionsHostedRunnerPublicIpsList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_ActionsHostedRunnerPublicIpsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ActionsHostedRunnerPublicIpsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_ActionsHostedRunnerPublicIpsList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewActionsHostedRunnerPublicIpsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewActionsHostedRunnerPublicIpsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGithubCodespacesOrganizationSecretsSecretsList) validateG
 	return nil
 }
 
-func (d *jsiiProxy_DataGithubCodespacesOrganizationSecretsSecretsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGithubCodespacesOrganizationSecretsSecretsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGithubCodespacesOrganizationSecretsSecretsList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DataGithubCodespacesOrganizationSecretsSecretsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGithubCodespacesOrganizationSecretsSecretsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGithubCodespacesOrganizationSecretsSecretsList) validateS
 	return nil
 }
 
-func validateNewDataGithubCodespacesOrganizationSecretsSecretsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGithubCodespacesOrganizationSecretsSecretsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

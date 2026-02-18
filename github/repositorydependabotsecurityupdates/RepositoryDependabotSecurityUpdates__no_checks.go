@@ -107,7 +107,7 @@ func (j *jsiiProxy_RepositoryDependabotSecurityUpdates) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_RepositoryDependabotSecurityUpdates) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RepositoryDependabotSecurityUpdates) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

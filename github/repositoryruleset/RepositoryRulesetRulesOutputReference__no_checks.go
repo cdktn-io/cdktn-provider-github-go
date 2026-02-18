@@ -107,7 +107,7 @@ func (r *jsiiProxy_RepositoryRulesetRulesOutputReference) validatePutTagNamePatt
 	return nil
 }
 
-func (r *jsiiProxy_RepositoryRulesetRulesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RepositoryRulesetRulesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -147,7 +147,7 @@ func (j *jsiiProxy_RepositoryRulesetRulesOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_RepositoryRulesetRulesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RepositoryRulesetRulesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -159,7 +159,7 @@ func (j *jsiiProxy_RepositoryRulesetRulesOutputReference) validateSetUpdateAllow
 	return nil
 }
 
-func validateNewRepositoryRulesetRulesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRepositoryRulesetRulesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

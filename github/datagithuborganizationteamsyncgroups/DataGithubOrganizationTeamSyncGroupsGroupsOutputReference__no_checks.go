@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataGithubOrganizationTeamSyncGroupsGroupsOutputReference) va
 	return nil
 }
 
-func (d *jsiiProxy_DataGithubOrganizationTeamSyncGroupsGroupsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGithubOrganizationTeamSyncGroupsGroupsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataGithubOrganizationTeamSyncGroupsGroupsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_DataGithubOrganizationTeamSyncGroupsGroupsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGithubOrganizationTeamSyncGroupsGroupsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataGithubOrganizationTeamSyncGroupsGroupsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataGithubOrganizationTeamSyncGroupsGroupsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

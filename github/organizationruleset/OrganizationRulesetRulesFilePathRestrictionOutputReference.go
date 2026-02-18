@@ -5,14 +5,14 @@ package organizationruleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationruleset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/organizationruleset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type OrganizationRulesetRulesFilePathRestrictionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type OrganizationRulesetRulesFilePathRestrictionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type OrganizationRulesetRulesFilePathRestrictionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type OrganizationRulesetRulesFilePathRestrictionOutputReference interface {
 
 // The jsii proxy struct for OrganizationRulesetRulesFilePathRestrictionOutputReference
 type jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference) T
 	return returns
 }
 
-func (j *jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference) T
 }
 
 
-func NewOrganizationRulesetRulesFilePathRestrictionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) OrganizationRulesetRulesFilePathRestrictionOutputReference {
+func NewOrganizationRulesetRulesFilePathRestrictionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) OrganizationRulesetRulesFilePathRestrictionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewOrganizationRulesetRulesFilePathRestrictionOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewOrganizationRulesetRulesFilePathRestrictionOutputReference(terraformReso
 	return &j
 }
 
-func NewOrganizationRulesetRulesFilePathRestrictionOutputReference_Override(o OrganizationRulesetRulesFilePathRestrictionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewOrganizationRulesetRulesFilePathRestrictionOutputReference_Override(o OrganizationRulesetRulesFilePathRestrictionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (o *jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference) G
 	return returns
 }
 
-func (o *jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -423,8 +423,8 @@ func (o *jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference) G
 	return returns
 }
 
-func (o *jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (o *jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -436,11 +436,11 @@ func (o *jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference) I
 	return returns
 }
 
-func (o *jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -452,7 +452,7 @@ func (o *jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference) I
 	return returns
 }
 
-func (o *jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (o *jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := o.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

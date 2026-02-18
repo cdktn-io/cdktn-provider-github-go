@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataGithubRepositoryDeploymentBranchPoliciesDeploymentBranchP
 	return nil
 }
 
-func (d *jsiiProxy_DataGithubRepositoryDeploymentBranchPoliciesDeploymentBranchPoliciesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGithubRepositoryDeploymentBranchPoliciesDeploymentBranchPoliciesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataGithubRepositoryDeploymentBranchPoliciesDeploymentBranchP
 	return nil
 }
 
-func (j *jsiiProxy_DataGithubRepositoryDeploymentBranchPoliciesDeploymentBranchPoliciesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGithubRepositoryDeploymentBranchPoliciesDeploymentBranchPoliciesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataGithubRepositoryDeploymentBranchPoliciesDeploymentBranchPoliciesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataGithubRepositoryDeploymentBranchPoliciesDeploymentBranchPoliciesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

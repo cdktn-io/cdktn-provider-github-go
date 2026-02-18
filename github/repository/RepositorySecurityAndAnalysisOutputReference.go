@@ -5,14 +5,14 @@ package repository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/repository/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type RepositorySecurityAndAnalysisOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AdvancedSecurity() RepositorySecurityAndAnalysisAdvancedSecurityOutputReference
 	AdvancedSecurityInput() *RepositorySecurityAndAnalysisAdvancedSecurity
 	CodeSecurity() RepositorySecurityAndAnalysisCodeSecurityOutputReference
@@ -49,15 +49,15 @@ type RepositorySecurityAndAnalysisOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,9 +73,9 @@ type RepositorySecurityAndAnalysisOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAdvancedSecurity(value *RepositorySecurityAndAnalysisAdvancedSecurity)
 	PutCodeSecurity(value *RepositorySecurityAndAnalysisCodeSecurity)
 	PutSecretScanning(value *RepositorySecurityAndAnalysisSecretScanning)
@@ -90,7 +90,7 @@ type RepositorySecurityAndAnalysisOutputReference interface {
 	ResetSecretScanningPushProtection()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -100,7 +100,7 @@ type RepositorySecurityAndAnalysisOutputReference interface {
 
 // The jsii proxy struct for RepositorySecurityAndAnalysisOutputReference
 type jsiiProxy_RepositorySecurityAndAnalysisOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_RepositorySecurityAndAnalysisOutputReference) AdvancedSecurity() RepositorySecurityAndAnalysisAdvancedSecurityOutputReference {
@@ -283,8 +283,8 @@ func (j *jsiiProxy_RepositorySecurityAndAnalysisOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_RepositorySecurityAndAnalysisOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_RepositorySecurityAndAnalysisOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -294,7 +294,7 @@ func (j *jsiiProxy_RepositorySecurityAndAnalysisOutputReference) TerraformResour
 }
 
 
-func NewRepositorySecurityAndAnalysisOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) RepositorySecurityAndAnalysisOutputReference {
+func NewRepositorySecurityAndAnalysisOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) RepositorySecurityAndAnalysisOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewRepositorySecurityAndAnalysisOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -311,7 +311,7 @@ func NewRepositorySecurityAndAnalysisOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewRepositorySecurityAndAnalysisOutputReference_Override(r RepositorySecurityAndAnalysisOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewRepositorySecurityAndAnalysisOutputReference_Override(r RepositorySecurityAndAnalysisOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -365,7 +365,7 @@ func (j *jsiiProxy_RepositorySecurityAndAnalysisOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_RepositorySecurityAndAnalysisOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_RepositorySecurityAndAnalysisOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -405,11 +405,11 @@ func (r *jsiiProxy_RepositorySecurityAndAnalysisOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (r *jsiiProxy_RepositorySecurityAndAnalysisOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RepositorySecurityAndAnalysisOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -533,8 +533,8 @@ func (r *jsiiProxy_RepositorySecurityAndAnalysisOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (r *jsiiProxy_RepositorySecurityAndAnalysisOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (r *jsiiProxy_RepositorySecurityAndAnalysisOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -546,11 +546,11 @@ func (r *jsiiProxy_RepositorySecurityAndAnalysisOutputReference) InterpolationAs
 	return returns
 }
 
-func (r *jsiiProxy_RepositorySecurityAndAnalysisOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RepositorySecurityAndAnalysisOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -676,7 +676,7 @@ func (r *jsiiProxy_RepositorySecurityAndAnalysisOutputReference) ResetSecretScan
 	)
 }
 
-func (r *jsiiProxy_RepositorySecurityAndAnalysisOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_RepositorySecurityAndAnalysisOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

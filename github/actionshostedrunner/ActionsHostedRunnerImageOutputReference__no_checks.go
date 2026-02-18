@@ -47,7 +47,7 @@ func (a *jsiiProxy_ActionsHostedRunnerImageOutputReference) validateInterpolatio
 	return nil
 }
 
-func (a *jsiiProxy_ActionsHostedRunnerImageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ActionsHostedRunnerImageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ActionsHostedRunnerImageOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_ActionsHostedRunnerImageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ActionsHostedRunnerImageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewActionsHostedRunnerImageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewActionsHostedRunnerImageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

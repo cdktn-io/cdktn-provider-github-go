@@ -15,7 +15,7 @@ func (t *jsiiProxy_TeamMembersMembersList) validateGetParameters(index *float64)
 	return nil
 }
 
-func (t *jsiiProxy_TeamMembersMembersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TeamMembersMembersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_TeamMembersMembersList) validateSetTerraformAttributeParamete
 	return nil
 }
 
-func (j *jsiiProxy_TeamMembersMembersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TeamMembersMembersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_TeamMembersMembersList) validateSetWrapsSetParameters(val *bo
 	return nil
 }
 
-func validateNewTeamMembersMembersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewTeamMembersMembersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (b *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequest
 	return nil
 }
 
-func (b *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequest
 	return nil
 }
 
-func (j *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequest
 	return nil
 }
 
-func validateNewBranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

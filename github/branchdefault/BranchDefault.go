@@ -5,21 +5,21 @@ package branchdefault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/branchdefault/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/branchdefault/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_default github_branch_default}.
 type BranchDefault interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Branch() *string
 	SetBranch(val *string)
 	BranchInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type BranchDefault interface {
 	SetEtag(val *string)
 	EtagInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,15 +49,15 @@ type BranchDefault interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -71,7 +71,7 @@ type BranchDefault interface {
 	SetRepository(val *string)
 	RepositoryInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -84,7 +84,7 @@ type BranchDefault interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -102,9 +102,9 @@ type BranchDefault interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -140,7 +140,7 @@ type BranchDefault interface {
 
 // The jsii proxy struct for BranchDefault
 type jsiiProxy_BranchDefault struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_BranchDefault) Branch() *string {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_BranchDefault) BranchInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_BranchDefault) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_BranchDefault) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -233,8 +233,8 @@ func (j *jsiiProxy_BranchDefault) EtagInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_BranchDefault) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_BranchDefault) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -283,8 +283,8 @@ func (j *jsiiProxy_BranchDefault) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_BranchDefault) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_BranchDefault) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -303,8 +303,8 @@ func (j *jsiiProxy_BranchDefault) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_BranchDefault) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_BranchDefault) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -373,8 +373,8 @@ func (j *jsiiProxy_BranchDefault) RepositoryInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_BranchDefault) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_BranchDefault) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -485,7 +485,7 @@ func (j *jsiiProxy_BranchDefault)SetEtag(val *string) {
 	)
 }
 
-func (j *jsiiProxy_BranchDefault)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_BranchDefault)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -504,7 +504,7 @@ func (j *jsiiProxy_BranchDefault)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_BranchDefault)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_BranchDefault)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -515,7 +515,7 @@ func (j *jsiiProxy_BranchDefault)SetLifecycle(val *cdktf.TerraformResourceLifecy
 	)
 }
 
-func (j *jsiiProxy_BranchDefault)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_BranchDefault)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -556,14 +556,14 @@ func (j *jsiiProxy_BranchDefault)SetRepository(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a BranchDefault resource upon running "cdktf plan <stack-name>".
-func BranchDefault_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a BranchDefault resource upon running "cdktn plan <stack-name>".
+func BranchDefault_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateBranchDefault_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-github.branchDefault.BranchDefault",
@@ -697,11 +697,11 @@ func (b *jsiiProxy_BranchDefault) GetAnyMapAttribute(terraformAttribute *string)
 	return returns
 }
 
-func (b *jsiiProxy_BranchDefault) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BranchDefault) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -838,7 +838,7 @@ func (b *jsiiProxy_BranchDefault) HasResourceMove() interface{} {
 	return returns
 }
 
-func (b *jsiiProxy_BranchDefault) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (b *jsiiProxy_BranchDefault) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := b.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -849,11 +849,11 @@ func (b *jsiiProxy_BranchDefault) ImportFrom(id *string, provider cdktf.Terrafor
 	)
 }
 
-func (b *jsiiProxy_BranchDefault) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BranchDefault) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,

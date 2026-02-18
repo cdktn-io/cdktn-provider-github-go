@@ -107,7 +107,7 @@ func (j *jsiiProxy_UserGpgKey) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_UserGpgKey) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_UserGpgKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

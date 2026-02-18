@@ -47,7 +47,7 @@ func (t *jsiiProxy_TeamMembersMembersOutputReference) validateInterpolationForAt
 	return nil
 }
 
-func (t *jsiiProxy_TeamMembersMembersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TeamMembersMembersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_TeamMembersMembersOutputReference) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_TeamMembersMembersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TeamMembersMembersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_TeamMembersMembersOutputReference) validateSetUsernameParamet
 	return nil
 }
 
-func validateNewTeamMembersMembersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewTeamMembersMembersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

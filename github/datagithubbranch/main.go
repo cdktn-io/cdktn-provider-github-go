@@ -60,7 +60,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGithubBranch{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)

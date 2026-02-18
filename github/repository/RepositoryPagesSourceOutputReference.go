@@ -5,14 +5,14 @@ package repository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/repository/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type RepositoryPagesSourceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Branch() *string
 	SetBranch(val *string)
 	BranchInput() *string
@@ -43,15 +43,15 @@ type RepositoryPagesSourceOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type RepositoryPagesSourceOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetPath()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type RepositoryPagesSourceOutputReference interface {
 
 // The jsii proxy struct for RepositoryPagesSourceOutputReference
 type jsiiProxy_RepositoryPagesSourceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_RepositoryPagesSourceOutputReference) Branch() *string {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_RepositoryPagesSourceOutputReference) TerraformAttribute() *s
 	return returns
 }
 
-func (j *jsiiProxy_RepositoryPagesSourceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_RepositoryPagesSourceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_RepositoryPagesSourceOutputReference) TerraformResource() cdk
 }
 
 
-func NewRepositoryPagesSourceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) RepositoryPagesSourceOutputReference {
+func NewRepositoryPagesSourceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) RepositoryPagesSourceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewRepositoryPagesSourceOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewRepositoryPagesSourceOutputReference(terraformResource cdktf.IInterpolat
 	return &j
 }
 
-func NewRepositoryPagesSourceOutputReference_Override(r RepositoryPagesSourceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewRepositoryPagesSourceOutputReference_Override(r RepositoryPagesSourceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_RepositoryPagesSourceOutputReference)SetTerraformAttribute(va
 	)
 }
 
-func (j *jsiiProxy_RepositoryPagesSourceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_RepositoryPagesSourceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (r *jsiiProxy_RepositoryPagesSourceOutputReference) GetAnyMapAttribute(terr
 	return returns
 }
 
-func (r *jsiiProxy_RepositoryPagesSourceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RepositoryPagesSourceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -458,8 +458,8 @@ func (r *jsiiProxy_RepositoryPagesSourceOutputReference) GetStringMapAttribute(t
 	return returns
 }
 
-func (r *jsiiProxy_RepositoryPagesSourceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (r *jsiiProxy_RepositoryPagesSourceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -471,11 +471,11 @@ func (r *jsiiProxy_RepositoryPagesSourceOutputReference) InterpolationAsList() c
 	return returns
 }
 
-func (r *jsiiProxy_RepositoryPagesSourceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RepositoryPagesSourceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -495,7 +495,7 @@ func (r *jsiiProxy_RepositoryPagesSourceOutputReference) ResetPath() {
 	)
 }
 
-func (r *jsiiProxy_RepositoryPagesSourceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_RepositoryPagesSourceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -5,14 +5,14 @@ package organizationruleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationruleset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/organizationruleset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type OrganizationRulesetBypassActorsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ActorId() *float64
 	SetActorId(val *float64)
 	ActorIdInput() *float64
@@ -46,15 +46,15 @@ type OrganizationRulesetBypassActorsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,13 +70,13 @@ type OrganizationRulesetBypassActorsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetActorId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type OrganizationRulesetBypassActorsOutputReference interface {
 
 // The jsii proxy struct for OrganizationRulesetBypassActorsOutputReference
 type jsiiProxy_OrganizationRulesetBypassActorsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_OrganizationRulesetBypassActorsOutputReference) ActorId() *float64 {
@@ -209,8 +209,8 @@ func (j *jsiiProxy_OrganizationRulesetBypassActorsOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_OrganizationRulesetBypassActorsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_OrganizationRulesetBypassActorsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_OrganizationRulesetBypassActorsOutputReference) TerraformReso
 }
 
 
-func NewOrganizationRulesetBypassActorsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) OrganizationRulesetBypassActorsOutputReference {
+func NewOrganizationRulesetBypassActorsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) OrganizationRulesetBypassActorsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewOrganizationRulesetBypassActorsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -237,7 +237,7 @@ func NewOrganizationRulesetBypassActorsOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewOrganizationRulesetBypassActorsOutputReference_Override(o OrganizationRulesetBypassActorsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewOrganizationRulesetBypassActorsOutputReference_Override(o OrganizationRulesetBypassActorsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -324,7 +324,7 @@ func (j *jsiiProxy_OrganizationRulesetBypassActorsOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_OrganizationRulesetBypassActorsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_OrganizationRulesetBypassActorsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -364,11 +364,11 @@ func (o *jsiiProxy_OrganizationRulesetBypassActorsOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (o *jsiiProxy_OrganizationRulesetBypassActorsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OrganizationRulesetBypassActorsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -492,8 +492,8 @@ func (o *jsiiProxy_OrganizationRulesetBypassActorsOutputReference) GetStringMapA
 	return returns
 }
 
-func (o *jsiiProxy_OrganizationRulesetBypassActorsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (o *jsiiProxy_OrganizationRulesetBypassActorsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -505,11 +505,11 @@ func (o *jsiiProxy_OrganizationRulesetBypassActorsOutputReference) Interpolation
 	return returns
 }
 
-func (o *jsiiProxy_OrganizationRulesetBypassActorsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OrganizationRulesetBypassActorsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -529,7 +529,7 @@ func (o *jsiiProxy_OrganizationRulesetBypassActorsOutputReference) ResetActorId(
 	)
 }
 
-func (o *jsiiProxy_OrganizationRulesetBypassActorsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (o *jsiiProxy_OrganizationRulesetBypassActorsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := o.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

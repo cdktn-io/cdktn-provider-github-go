@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataGithubRepositoryCustomPropertiesPropertyOutputReference) 
 	return nil
 }
 
-func (d *jsiiProxy_DataGithubRepositoryCustomPropertiesPropertyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGithubRepositoryCustomPropertiesPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataGithubRepositoryCustomPropertiesPropertyOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_DataGithubRepositoryCustomPropertiesPropertyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGithubRepositoryCustomPropertiesPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataGithubRepositoryCustomPropertiesPropertyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataGithubRepositoryCustomPropertiesPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

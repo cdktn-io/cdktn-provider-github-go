@@ -107,7 +107,7 @@ func (j *jsiiProxy_TeamSyncGroupMapping) validateSetIdParameters(val *string) er
 	return nil
 }
 
-func (j *jsiiProxy_TeamSyncGroupMapping) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_TeamSyncGroupMapping) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

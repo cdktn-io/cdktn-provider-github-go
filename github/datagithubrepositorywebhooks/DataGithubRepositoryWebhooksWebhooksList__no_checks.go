@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGithubRepositoryWebhooksWebhooksList) validateGetParamete
 	return nil
 }
 
-func (d *jsiiProxy_DataGithubRepositoryWebhooksWebhooksList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGithubRepositoryWebhooksWebhooksList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGithubRepositoryWebhooksWebhooksList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_DataGithubRepositoryWebhooksWebhooksList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGithubRepositoryWebhooksWebhooksList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGithubRepositoryWebhooksWebhooksList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewDataGithubRepositoryWebhooksWebhooksListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGithubRepositoryWebhooksWebhooksListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

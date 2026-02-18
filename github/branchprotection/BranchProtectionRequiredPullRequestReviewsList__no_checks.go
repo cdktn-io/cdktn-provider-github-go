@@ -15,7 +15,7 @@ func (b *jsiiProxy_BranchProtectionRequiredPullRequestReviewsList) validateGetPa
 	return nil
 }
 
-func (b *jsiiProxy_BranchProtectionRequiredPullRequestReviewsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BranchProtectionRequiredPullRequestReviewsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BranchProtectionRequiredPullRequestReviewsList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_BranchProtectionRequiredPullRequestReviewsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BranchProtectionRequiredPullRequestReviewsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BranchProtectionRequiredPullRequestReviewsList) validateSetWr
 	return nil
 }
 
-func validateNewBranchProtectionRequiredPullRequestReviewsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBranchProtectionRequiredPullRequestReviewsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

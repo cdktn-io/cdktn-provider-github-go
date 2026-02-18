@@ -47,7 +47,7 @@ func (b *jsiiProxy_BranchProtectionRequiredStatusChecksOutputReference) validate
 	return nil
 }
 
-func (b *jsiiProxy_BranchProtectionRequiredStatusChecksOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BranchProtectionRequiredStatusChecksOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_BranchProtectionRequiredStatusChecksOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_BranchProtectionRequiredStatusChecksOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BranchProtectionRequiredStatusChecksOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBranchProtectionRequiredStatusChecksOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBranchProtectionRequiredStatusChecksOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

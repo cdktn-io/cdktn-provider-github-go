@@ -5,19 +5,19 @@ package datagithuborganization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithuborganization/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganization/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization github_organization}.
 type DataGithubOrganization interface {
-	cdktf.TerraformDataSource
-	AdvancedSecurityEnabledForNewRepositories() cdktf.IResolvable
+	cdktn.TerraformDataSource
+	AdvancedSecurityEnabledForNewRepositories() cdktn.IResolvable
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -25,18 +25,18 @@ type DataGithubOrganization interface {
 	// Experimental.
 	SetCount(val interface{})
 	DefaultRepositoryPermission() *string
-	DependabotAlertsEnabledForNewRepositories() cdktf.IResolvable
-	DependabotSecurityUpdatesEnabledForNewRepositories() cdktf.IResolvable
-	DependencyGraphEnabledForNewRepositories() cdktf.IResolvable
+	DependabotAlertsEnabledForNewRepositories() cdktn.IResolvable
+	DependabotSecurityUpdatesEnabledForNewRepositories() cdktn.IResolvable
+	DependencyGraphEnabledForNewRepositories() cdktn.IResolvable
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	Description() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -48,20 +48,20 @@ type DataGithubOrganization interface {
 	SetIgnoreArchivedRepos(val interface{})
 	IgnoreArchivedReposInput() interface{}
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Login() *string
 	Members() *[]*string
 	MembersAllowedRepositoryCreationType() *string
-	MembersCanCreateInternalRepositories() cdktf.IResolvable
-	MembersCanCreatePages() cdktf.IResolvable
-	MembersCanCreatePrivatePages() cdktf.IResolvable
-	MembersCanCreatePrivateRepositories() cdktf.IResolvable
-	MembersCanCreatePublicPages() cdktf.IResolvable
-	MembersCanCreatePublicRepositories() cdktf.IResolvable
-	MembersCanCreateRepositories() cdktf.IResolvable
-	MembersCanForkPrivateRepositories() cdktf.IResolvable
+	MembersCanCreateInternalRepositories() cdktn.IResolvable
+	MembersCanCreatePages() cdktn.IResolvable
+	MembersCanCreatePrivatePages() cdktn.IResolvable
+	MembersCanCreatePrivateRepositories() cdktn.IResolvable
+	MembersCanCreatePublicPages() cdktn.IResolvable
+	MembersCanCreatePublicRepositories() cdktn.IResolvable
+	MembersCanCreateRepositories() cdktn.IResolvable
+	MembersCanForkPrivateRepositories() cdktn.IResolvable
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -71,32 +71,32 @@ type DataGithubOrganization interface {
 	Orgname() *string
 	Plan() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Repositories() *[]*string
-	SecretScanningEnabledForNewRepositories() cdktf.IResolvable
-	SecretScanningPushProtectionEnabledForNewRepositories() cdktf.IResolvable
+	SecretScanningEnabledForNewRepositories() cdktn.IResolvable
+	SecretScanningPushProtectionEnabledForNewRepositories() cdktn.IResolvable
 	SummaryOnly() interface{}
 	SetSummaryOnly(val interface{})
 	SummaryOnlyInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
-	TwoFactorRequirementEnabled() cdktf.IResolvable
-	Users() cdktf.StringMapList
-	WebCommitSignoffRequired() cdktf.IResolvable
+	TwoFactorRequirementEnabled() cdktn.IResolvable
+	Users() cdktn.StringMapList
+	WebCommitSignoffRequired() cdktn.IResolvable
 	// Experimental.
 	AddOverride(path *string, value interface{})
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -112,7 +112,7 @@ type DataGithubOrganization interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -138,11 +138,11 @@ type DataGithubOrganization interface {
 
 // The jsii proxy struct for DataGithubOrganization
 type jsiiProxy_DataGithubOrganization struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataGithubOrganization) AdvancedSecurityEnabledForNewRepositories() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGithubOrganization) AdvancedSecurityEnabledForNewRepositories() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"advancedSecurityEnabledForNewRepositories",
@@ -151,8 +151,8 @@ func (j *jsiiProxy_DataGithubOrganization) AdvancedSecurityEnabledForNewReposito
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubOrganization) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataGithubOrganization) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -191,8 +191,8 @@ func (j *jsiiProxy_DataGithubOrganization) DefaultRepositoryPermission() *string
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubOrganization) DependabotAlertsEnabledForNewRepositories() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGithubOrganization) DependabotAlertsEnabledForNewRepositories() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"dependabotAlertsEnabledForNewRepositories",
@@ -201,8 +201,8 @@ func (j *jsiiProxy_DataGithubOrganization) DependabotAlertsEnabledForNewReposito
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubOrganization) DependabotSecurityUpdatesEnabledForNewRepositories() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGithubOrganization) DependabotSecurityUpdatesEnabledForNewRepositories() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"dependabotSecurityUpdatesEnabledForNewRepositories",
@@ -211,8 +211,8 @@ func (j *jsiiProxy_DataGithubOrganization) DependabotSecurityUpdatesEnabledForNe
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubOrganization) DependencyGraphEnabledForNewRepositories() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGithubOrganization) DependencyGraphEnabledForNewRepositories() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"dependencyGraphEnabledForNewRepositories",
@@ -241,8 +241,8 @@ func (j *jsiiProxy_DataGithubOrganization) Description() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubOrganization) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataGithubOrganization) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -311,8 +311,8 @@ func (j *jsiiProxy_DataGithubOrganization) IgnoreArchivedReposInput() interface{
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubOrganization) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataGithubOrganization) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -351,8 +351,8 @@ func (j *jsiiProxy_DataGithubOrganization) MembersAllowedRepositoryCreationType(
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubOrganization) MembersCanCreateInternalRepositories() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGithubOrganization) MembersCanCreateInternalRepositories() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"membersCanCreateInternalRepositories",
@@ -361,8 +361,8 @@ func (j *jsiiProxy_DataGithubOrganization) MembersCanCreateInternalRepositories(
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubOrganization) MembersCanCreatePages() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGithubOrganization) MembersCanCreatePages() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"membersCanCreatePages",
@@ -371,8 +371,8 @@ func (j *jsiiProxy_DataGithubOrganization) MembersCanCreatePages() cdktf.IResolv
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubOrganization) MembersCanCreatePrivatePages() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGithubOrganization) MembersCanCreatePrivatePages() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"membersCanCreatePrivatePages",
@@ -381,8 +381,8 @@ func (j *jsiiProxy_DataGithubOrganization) MembersCanCreatePrivatePages() cdktf.
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubOrganization) MembersCanCreatePrivateRepositories() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGithubOrganization) MembersCanCreatePrivateRepositories() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"membersCanCreatePrivateRepositories",
@@ -391,8 +391,8 @@ func (j *jsiiProxy_DataGithubOrganization) MembersCanCreatePrivateRepositories()
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubOrganization) MembersCanCreatePublicPages() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGithubOrganization) MembersCanCreatePublicPages() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"membersCanCreatePublicPages",
@@ -401,8 +401,8 @@ func (j *jsiiProxy_DataGithubOrganization) MembersCanCreatePublicPages() cdktf.I
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubOrganization) MembersCanCreatePublicRepositories() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGithubOrganization) MembersCanCreatePublicRepositories() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"membersCanCreatePublicRepositories",
@@ -411,8 +411,8 @@ func (j *jsiiProxy_DataGithubOrganization) MembersCanCreatePublicRepositories() 
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubOrganization) MembersCanCreateRepositories() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGithubOrganization) MembersCanCreateRepositories() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"membersCanCreateRepositories",
@@ -421,8 +421,8 @@ func (j *jsiiProxy_DataGithubOrganization) MembersCanCreateRepositories() cdktf.
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubOrganization) MembersCanForkPrivateRepositories() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGithubOrganization) MembersCanForkPrivateRepositories() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"membersCanForkPrivateRepositories",
@@ -491,8 +491,8 @@ func (j *jsiiProxy_DataGithubOrganization) Plan() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubOrganization) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataGithubOrganization) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -521,8 +521,8 @@ func (j *jsiiProxy_DataGithubOrganization) Repositories() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubOrganization) SecretScanningEnabledForNewRepositories() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGithubOrganization) SecretScanningEnabledForNewRepositories() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"secretScanningEnabledForNewRepositories",
@@ -531,8 +531,8 @@ func (j *jsiiProxy_DataGithubOrganization) SecretScanningEnabledForNewRepositori
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubOrganization) SecretScanningPushProtectionEnabledForNewRepositories() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGithubOrganization) SecretScanningPushProtectionEnabledForNewRepositories() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"secretScanningPushProtectionEnabledForNewRepositories",
@@ -561,8 +561,8 @@ func (j *jsiiProxy_DataGithubOrganization) SummaryOnlyInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubOrganization) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataGithubOrganization) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -591,8 +591,8 @@ func (j *jsiiProxy_DataGithubOrganization) TerraformResourceType() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubOrganization) TwoFactorRequirementEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGithubOrganization) TwoFactorRequirementEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"twoFactorRequirementEnabled",
@@ -601,8 +601,8 @@ func (j *jsiiProxy_DataGithubOrganization) TwoFactorRequirementEnabled() cdktf.I
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubOrganization) Users() cdktf.StringMapList {
-	var returns cdktf.StringMapList
+func (j *jsiiProxy_DataGithubOrganization) Users() cdktn.StringMapList {
+	var returns cdktn.StringMapList
 	_jsii_.Get(
 		j,
 		"users",
@@ -611,8 +611,8 @@ func (j *jsiiProxy_DataGithubOrganization) Users() cdktf.StringMapList {
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubOrganization) WebCommitSignoffRequired() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGithubOrganization) WebCommitSignoffRequired() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"webCommitSignoffRequired",
@@ -670,7 +670,7 @@ func (j *jsiiProxy_DataGithubOrganization)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataGithubOrganization)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataGithubOrganization)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -700,7 +700,7 @@ func (j *jsiiProxy_DataGithubOrganization)SetIgnoreArchivedRepos(val interface{}
 	)
 }
 
-func (j *jsiiProxy_DataGithubOrganization)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataGithubOrganization)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -722,7 +722,7 @@ func (j *jsiiProxy_DataGithubOrganization)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGithubOrganization)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataGithubOrganization)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -741,14 +741,14 @@ func (j *jsiiProxy_DataGithubOrganization)SetSummaryOnly(val interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a DataGithubOrganization resource upon running "cdktf plan <stack-name>".
-func DataGithubOrganization_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataGithubOrganization resource upon running "cdktn plan <stack-name>".
+func DataGithubOrganization_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataGithubOrganization_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization",
@@ -871,11 +871,11 @@ func (d *jsiiProxy_DataGithubOrganization) GetAnyMapAttribute(terraformAttribute
 	return returns
 }
 
-func (d *jsiiProxy_DataGithubOrganization) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGithubOrganization) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -999,11 +999,11 @@ func (d *jsiiProxy_DataGithubOrganization) GetStringMapAttribute(terraformAttrib
 	return returns
 }
 
-func (d *jsiiProxy_DataGithubOrganization) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGithubOrganization) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

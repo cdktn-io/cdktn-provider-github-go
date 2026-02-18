@@ -47,7 +47,7 @@ func (o *jsiiProxy_OrganizationRulesetRulesCopilotCodeReviewOutputReference) val
 	return nil
 }
 
-func (o *jsiiProxy_OrganizationRulesetRulesCopilotCodeReviewOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OrganizationRulesetRulesCopilotCodeReviewOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_OrganizationRulesetRulesCopilotCodeReviewOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_OrganizationRulesetRulesCopilotCodeReviewOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OrganizationRulesetRulesCopilotCodeReviewOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOrganizationRulesetRulesCopilotCodeReviewOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOrganizationRulesetRulesCopilotCodeReviewOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

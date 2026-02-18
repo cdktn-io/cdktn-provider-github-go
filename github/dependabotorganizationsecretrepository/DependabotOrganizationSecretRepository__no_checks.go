@@ -103,7 +103,7 @@ func (j *jsiiProxy_DependabotOrganizationSecretRepository) validateSetIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_DependabotOrganizationSecretRepository) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DependabotOrganizationSecretRepository) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

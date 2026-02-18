@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGithubRepositoryRepositoryLicenseLicenseList) validateGet
 	return nil
 }
 
-func (d *jsiiProxy_DataGithubRepositoryRepositoryLicenseLicenseList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGithubRepositoryRepositoryLicenseLicenseList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGithubRepositoryRepositoryLicenseLicenseList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataGithubRepositoryRepositoryLicenseLicenseList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGithubRepositoryRepositoryLicenseLicenseList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGithubRepositoryRepositoryLicenseLicenseList) validateSet
 	return nil
 }
 
-func validateNewDataGithubRepositoryRepositoryLicenseLicenseListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGithubRepositoryRepositoryLicenseLicenseListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

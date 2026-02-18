@@ -47,7 +47,7 @@ func (t *jsiiProxy_TeamSettingsReviewRequestDelegationOutputReference) validateI
 	return nil
 }
 
-func (t *jsiiProxy_TeamSettingsReviewRequestDelegationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TeamSettingsReviewRequestDelegationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_TeamSettingsReviewRequestDelegationOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_TeamSettingsReviewRequestDelegationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TeamSettingsReviewRequestDelegationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewTeamSettingsReviewRequestDelegationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTeamSettingsReviewRequestDelegationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

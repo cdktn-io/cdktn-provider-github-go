@@ -47,7 +47,7 @@ func (o *jsiiProxy_OrganizationWebhookConfigurationOutputReference) validateInte
 	return nil
 }
 
-func (o *jsiiProxy_OrganizationWebhookConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OrganizationWebhookConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_OrganizationWebhookConfigurationOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_OrganizationWebhookConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OrganizationWebhookConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_OrganizationWebhookConfigurationOutputReference) validateSetU
 	return nil
 }
 
-func validateNewOrganizationWebhookConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOrganizationWebhookConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

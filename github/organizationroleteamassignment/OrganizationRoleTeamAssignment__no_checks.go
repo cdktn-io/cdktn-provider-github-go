@@ -103,7 +103,7 @@ func (j *jsiiProxy_OrganizationRoleTeamAssignment) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_OrganizationRoleTeamAssignment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_OrganizationRoleTeamAssignment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (o *jsiiProxy_OrganizationRulesetRulesRequiredWorkflowsRequiredWorkflowOutp
 	return nil
 }
 
-func (o *jsiiProxy_OrganizationRulesetRulesRequiredWorkflowsRequiredWorkflowOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OrganizationRulesetRulesRequiredWorkflowsRequiredWorkflowOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_OrganizationRulesetRulesRequiredWorkflowsRequiredWorkflowOutp
 	return nil
 }
 
-func (j *jsiiProxy_OrganizationRulesetRulesRequiredWorkflowsRequiredWorkflowOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OrganizationRulesetRulesRequiredWorkflowsRequiredWorkflowOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOrganizationRulesetRulesRequiredWorkflowsRequiredWorkflowOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOrganizationRulesetRulesRequiredWorkflowsRequiredWorkflowOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataGithubRepositoryEnvironmentDeploymentPolicies) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataGithubRepositoryEnvironmentDeploymentPolicies) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGithubRepositoryEnvironmentDeploymentPolicies) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

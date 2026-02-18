@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataGithubOrganization) validateSetIgnoreArchivedReposParamet
 	return nil
 }
 
-func (j *jsiiProxy_DataGithubOrganization) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGithubOrganization) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

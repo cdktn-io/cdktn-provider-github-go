@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGithubExternalGroupsExternalGroupsList) validateGetParame
 	return nil
 }
 
-func (d *jsiiProxy_DataGithubExternalGroupsExternalGroupsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGithubExternalGroupsExternalGroupsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGithubExternalGroupsExternalGroupsList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_DataGithubExternalGroupsExternalGroupsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGithubExternalGroupsExternalGroupsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGithubExternalGroupsExternalGroupsList) validateSetWrapsS
 	return nil
 }
 
-func validateNewDataGithubExternalGroupsExternalGroupsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGithubExternalGroupsExternalGroupsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

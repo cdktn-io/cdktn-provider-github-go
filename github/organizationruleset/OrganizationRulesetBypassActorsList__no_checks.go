@@ -15,7 +15,7 @@ func (o *jsiiProxy_OrganizationRulesetBypassActorsList) validateGetParameters(in
 	return nil
 }
 
-func (o *jsiiProxy_OrganizationRulesetBypassActorsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OrganizationRulesetBypassActorsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_OrganizationRulesetBypassActorsList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_OrganizationRulesetBypassActorsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OrganizationRulesetBypassActorsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_OrganizationRulesetBypassActorsList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewOrganizationRulesetBypassActorsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOrganizationRulesetBypassActorsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

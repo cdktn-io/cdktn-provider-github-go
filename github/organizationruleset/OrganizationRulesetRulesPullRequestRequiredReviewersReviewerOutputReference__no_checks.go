@@ -47,7 +47,7 @@ func (o *jsiiProxy_OrganizationRulesetRulesPullRequestRequiredReviewersReviewerO
 	return nil
 }
 
-func (o *jsiiProxy_OrganizationRulesetRulesPullRequestRequiredReviewersReviewerOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OrganizationRulesetRulesPullRequestRequiredReviewersReviewerOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_OrganizationRulesetRulesPullRequestRequiredReviewersReviewerO
 	return nil
 }
 
-func (j *jsiiProxy_OrganizationRulesetRulesPullRequestRequiredReviewersReviewerOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OrganizationRulesetRulesPullRequestRequiredReviewersReviewerOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_OrganizationRulesetRulesPullRequestRequiredReviewersReviewerO
 	return nil
 }
 
-func validateNewOrganizationRulesetRulesPullRequestRequiredReviewersReviewerOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOrganizationRulesetRulesPullRequestRequiredReviewersReviewerOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

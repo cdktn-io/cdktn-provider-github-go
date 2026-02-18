@@ -51,7 +51,7 @@ func (b *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsOutputReference) 
 	return nil
 }
 
-func (b *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -103,11 +103,11 @@ func (j *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBranchProtectionV3RequiredPullRequestReviewsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBranchProtectionV3RequiredPullRequestReviewsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

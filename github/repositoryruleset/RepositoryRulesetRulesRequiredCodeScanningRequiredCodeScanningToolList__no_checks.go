@@ -15,7 +15,7 @@ func (r *jsiiProxy_RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScannin
 	return nil
 }
 
-func (r *jsiiProxy_RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScannin
 	return nil
 }
 
-func (j *jsiiProxy_RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScannin
 	return nil
 }
 
-func validateNewRepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

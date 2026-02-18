@@ -5,14 +5,14 @@ package repositoryruleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/repositoryruleset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositoryruleset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type RepositoryRulesetRulesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BranchNamePattern() RepositoryRulesetRulesBranchNamePatternOutputReference
 	BranchNamePatternInput() *RepositoryRulesetRulesBranchNamePattern
 	CommitAuthorEmailPattern() RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference
@@ -82,9 +82,9 @@ type RepositoryRulesetRulesOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() interface{}
 	SetUpdate(val interface{})
 	UpdateAllowsFetchAndMerge() interface{}
@@ -96,7 +96,7 @@ type RepositoryRulesetRulesOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -112,9 +112,9 @@ type RepositoryRulesetRulesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutBranchNamePattern(value *RepositoryRulesetRulesBranchNamePattern)
 	PutCommitAuthorEmailPattern(value *RepositoryRulesetRulesCommitAuthorEmailPattern)
 	PutCommitMessagePattern(value *RepositoryRulesetRulesCommitMessagePattern)
@@ -154,7 +154,7 @@ type RepositoryRulesetRulesOutputReference interface {
 	ResetUpdateAllowsFetchAndMerge()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -164,7 +164,7 @@ type RepositoryRulesetRulesOutputReference interface {
 
 // The jsii proxy struct for RepositoryRulesetRulesOutputReference
 type jsiiProxy_RepositoryRulesetRulesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_RepositoryRulesetRulesOutputReference) BranchNamePattern() RepositoryRulesetRulesBranchNamePatternOutputReference {
@@ -627,8 +627,8 @@ func (j *jsiiProxy_RepositoryRulesetRulesOutputReference) TerraformAttribute() *
 	return returns
 }
 
-func (j *jsiiProxy_RepositoryRulesetRulesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_RepositoryRulesetRulesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -678,7 +678,7 @@ func (j *jsiiProxy_RepositoryRulesetRulesOutputReference) UpdateInput() interfac
 }
 
 
-func NewRepositoryRulesetRulesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) RepositoryRulesetRulesOutputReference {
+func NewRepositoryRulesetRulesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) RepositoryRulesetRulesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewRepositoryRulesetRulesOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -695,7 +695,7 @@ func NewRepositoryRulesetRulesOutputReference(terraformResource cdktf.IInterpola
 	return &j
 }
 
-func NewRepositoryRulesetRulesOutputReference_Override(r RepositoryRulesetRulesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewRepositoryRulesetRulesOutputReference_Override(r RepositoryRulesetRulesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -804,7 +804,7 @@ func (j *jsiiProxy_RepositoryRulesetRulesOutputReference)SetTerraformAttribute(v
 	)
 }
 
-func (j *jsiiProxy_RepositoryRulesetRulesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_RepositoryRulesetRulesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -866,11 +866,11 @@ func (r *jsiiProxy_RepositoryRulesetRulesOutputReference) GetAnyMapAttribute(ter
 	return returns
 }
 
-func (r *jsiiProxy_RepositoryRulesetRulesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RepositoryRulesetRulesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -994,8 +994,8 @@ func (r *jsiiProxy_RepositoryRulesetRulesOutputReference) GetStringMapAttribute(
 	return returns
 }
 
-func (r *jsiiProxy_RepositoryRulesetRulesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (r *jsiiProxy_RepositoryRulesetRulesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -1007,11 +1007,11 @@ func (r *jsiiProxy_RepositoryRulesetRulesOutputReference) InterpolationAsList() 
 	return returns
 }
 
-func (r *jsiiProxy_RepositoryRulesetRulesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RepositoryRulesetRulesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -1364,7 +1364,7 @@ func (r *jsiiProxy_RepositoryRulesetRulesOutputReference) ResetUpdateAllowsFetch
 	)
 }
 
-func (r *jsiiProxy_RepositoryRulesetRulesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_RepositoryRulesetRulesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

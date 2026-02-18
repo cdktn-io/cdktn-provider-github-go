@@ -5,14 +5,14 @@ package datagithuborganizationroleteams
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithuborganizationroleteams/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationroleteams/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataGithubOrganizationRoleTeamsTeamsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type DataGithubOrganizationRoleTeamsTeamsList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type DataGithubOrganizationRoleTeamsTeamsList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataGithubOrganizationRoleTeamsTeamsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type DataGithubOrganizationRoleTeamsTeamsList interface {
 
 // The jsii proxy struct for DataGithubOrganizationRoleTeamsTeamsList
 type jsiiProxy_DataGithubOrganizationRoleTeamsTeamsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataGithubOrganizationRoleTeamsTeamsList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_DataGithubOrganizationRoleTeamsTeamsList) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubOrganizationRoleTeamsTeamsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataGithubOrganizationRoleTeamsTeamsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_DataGithubOrganizationRoleTeamsTeamsList) WrapsSet() *bool {
 }
 
 
-func NewDataGithubOrganizationRoleTeamsTeamsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGithubOrganizationRoleTeamsTeamsList {
+func NewDataGithubOrganizationRoleTeamsTeamsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGithubOrganizationRoleTeamsTeamsList {
 	_init_.Initialize()
 
 	if err := validateNewDataGithubOrganizationRoleTeamsTeamsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewDataGithubOrganizationRoleTeamsTeamsList(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewDataGithubOrganizationRoleTeamsTeamsList_Override(d DataGithubOrganizationRoleTeamsTeamsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataGithubOrganizationRoleTeamsTeamsList_Override(d DataGithubOrganizationRoleTeamsTeamsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_DataGithubOrganizationRoleTeamsTeamsList)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_DataGithubOrganizationRoleTeamsTeamsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataGithubOrganizationRoleTeamsTeamsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_DataGithubOrganizationRoleTeamsTeamsList)SetWrapsSet(val *boo
 	)
 }
 
-func (d *jsiiProxy_DataGithubOrganizationRoleTeamsTeamsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataGithubOrganizationRoleTeamsTeamsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -208,7 +208,7 @@ func (d *jsiiProxy_DataGithubOrganizationRoleTeamsTeamsList) Get(index *float64)
 	return returns
 }
 
-func (d *jsiiProxy_DataGithubOrganizationRoleTeamsTeamsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataGithubOrganizationRoleTeamsTeamsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

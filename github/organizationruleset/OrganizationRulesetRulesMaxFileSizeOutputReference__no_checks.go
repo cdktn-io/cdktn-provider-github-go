@@ -47,7 +47,7 @@ func (o *jsiiProxy_OrganizationRulesetRulesMaxFileSizeOutputReference) validateI
 	return nil
 }
 
-func (o *jsiiProxy_OrganizationRulesetRulesMaxFileSizeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OrganizationRulesetRulesMaxFileSizeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_OrganizationRulesetRulesMaxFileSizeOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_OrganizationRulesetRulesMaxFileSizeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OrganizationRulesetRulesMaxFileSizeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOrganizationRulesetRulesMaxFileSizeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOrganizationRulesetRulesMaxFileSizeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

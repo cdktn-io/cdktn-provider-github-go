@@ -47,7 +47,7 @@ func (r *jsiiProxy_RepositoryRulesetRulesMaxFilePathLengthOutputReference) valid
 	return nil
 }
 
-func (r *jsiiProxy_RepositoryRulesetRulesMaxFilePathLengthOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RepositoryRulesetRulesMaxFilePathLengthOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_RepositoryRulesetRulesMaxFilePathLengthOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_RepositoryRulesetRulesMaxFilePathLengthOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RepositoryRulesetRulesMaxFilePathLengthOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRepositoryRulesetRulesMaxFilePathLengthOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRepositoryRulesetRulesMaxFilePathLengthOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

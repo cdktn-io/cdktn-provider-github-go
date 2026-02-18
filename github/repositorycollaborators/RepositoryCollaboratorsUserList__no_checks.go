@@ -15,7 +15,7 @@ func (r *jsiiProxy_RepositoryCollaboratorsUserList) validateGetParameters(index 
 	return nil
 }
 
-func (r *jsiiProxy_RepositoryCollaboratorsUserList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RepositoryCollaboratorsUserList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_RepositoryCollaboratorsUserList) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_RepositoryCollaboratorsUserList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RepositoryCollaboratorsUserList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_RepositoryCollaboratorsUserList) validateSetWrapsSetParameter
 	return nil
 }
 
-func validateNewRepositoryCollaboratorsUserListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRepositoryCollaboratorsUserListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

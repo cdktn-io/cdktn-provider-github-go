@@ -115,7 +115,7 @@ func (j *jsiiProxy_ActionsHostedRunner) validateSetImageVersionParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_ActionsHostedRunner) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ActionsHostedRunner) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

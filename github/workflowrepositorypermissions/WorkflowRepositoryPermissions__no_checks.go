@@ -111,7 +111,7 @@ func (j *jsiiProxy_WorkflowRepositoryPermissions) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_WorkflowRepositoryPermissions) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_WorkflowRepositoryPermissions) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

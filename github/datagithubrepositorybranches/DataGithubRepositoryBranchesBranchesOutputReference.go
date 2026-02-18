@@ -5,14 +5,14 @@ package datagithubrepositorybranches
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepositorybranches/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorybranches/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataGithubRepositoryBranchesBranchesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -33,21 +33,21 @@ type DataGithubRepositoryBranchesBranchesOutputReference interface {
 	InternalValue() *DataGithubRepositoryBranchesBranches
 	SetInternalValue(val *DataGithubRepositoryBranchesBranches)
 	Name() *string
-	Protected() cdktf.IResolvable
+	Protected() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,12 +63,12 @@ type DataGithubRepositoryBranchesBranchesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -78,7 +78,7 @@ type DataGithubRepositoryBranchesBranchesOutputReference interface {
 
 // The jsii proxy struct for DataGithubRepositoryBranchesBranchesOutputReference
 type jsiiProxy_DataGithubRepositoryBranchesBranchesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataGithubRepositoryBranchesBranchesOutputReference) ComplexObjectIndex() interface{} {
@@ -141,8 +141,8 @@ func (j *jsiiProxy_DataGithubRepositoryBranchesBranchesOutputReference) Name() *
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubRepositoryBranchesBranchesOutputReference) Protected() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGithubRepositoryBranchesBranchesOutputReference) Protected() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"protected",
@@ -161,8 +161,8 @@ func (j *jsiiProxy_DataGithubRepositoryBranchesBranchesOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubRepositoryBranchesBranchesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataGithubRepositoryBranchesBranchesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -172,7 +172,7 @@ func (j *jsiiProxy_DataGithubRepositoryBranchesBranchesOutputReference) Terrafor
 }
 
 
-func NewDataGithubRepositoryBranchesBranchesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataGithubRepositoryBranchesBranchesOutputReference {
+func NewDataGithubRepositoryBranchesBranchesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataGithubRepositoryBranchesBranchesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataGithubRepositoryBranchesBranchesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -189,7 +189,7 @@ func NewDataGithubRepositoryBranchesBranchesOutputReference(terraformResource cd
 	return &j
 }
 
-func NewDataGithubRepositoryBranchesBranchesOutputReference_Override(d DataGithubRepositoryBranchesBranchesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataGithubRepositoryBranchesBranchesOutputReference_Override(d DataGithubRepositoryBranchesBranchesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -243,7 +243,7 @@ func (j *jsiiProxy_DataGithubRepositoryBranchesBranchesOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_DataGithubRepositoryBranchesBranchesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataGithubRepositoryBranchesBranchesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -283,11 +283,11 @@ func (d *jsiiProxy_DataGithubRepositoryBranchesBranchesOutputReference) GetAnyMa
 	return returns
 }
 
-func (d *jsiiProxy_DataGithubRepositoryBranchesBranchesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGithubRepositoryBranchesBranchesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -411,8 +411,8 @@ func (d *jsiiProxy_DataGithubRepositoryBranchesBranchesOutputReference) GetStrin
 	return returns
 }
 
-func (d *jsiiProxy_DataGithubRepositoryBranchesBranchesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataGithubRepositoryBranchesBranchesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -424,11 +424,11 @@ func (d *jsiiProxy_DataGithubRepositoryBranchesBranchesOutputReference) Interpol
 	return returns
 }
 
-func (d *jsiiProxy_DataGithubRepositoryBranchesBranchesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGithubRepositoryBranchesBranchesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -440,7 +440,7 @@ func (d *jsiiProxy_DataGithubRepositoryBranchesBranchesOutputReference) Interpol
 	return returns
 }
 
-func (d *jsiiProxy_DataGithubRepositoryBranchesBranchesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataGithubRepositoryBranchesBranchesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

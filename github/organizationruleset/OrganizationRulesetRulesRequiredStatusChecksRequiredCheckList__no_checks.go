@@ -15,7 +15,7 @@ func (o *jsiiProxy_OrganizationRulesetRulesRequiredStatusChecksRequiredCheckList
 	return nil
 }
 
-func (o *jsiiProxy_OrganizationRulesetRulesRequiredStatusChecksRequiredCheckList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OrganizationRulesetRulesRequiredStatusChecksRequiredCheckList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_OrganizationRulesetRulesRequiredStatusChecksRequiredCheckList
 	return nil
 }
 
-func (j *jsiiProxy_OrganizationRulesetRulesRequiredStatusChecksRequiredCheckList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OrganizationRulesetRulesRequiredStatusChecksRequiredCheckList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_OrganizationRulesetRulesRequiredStatusChecksRequiredCheckList
 	return nil
 }
 
-func validateNewOrganizationRulesetRulesRequiredStatusChecksRequiredCheckListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOrganizationRulesetRulesRequiredStatusChecksRequiredCheckListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

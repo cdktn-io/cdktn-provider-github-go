@@ -15,7 +15,7 @@ func (r *jsiiProxy_RepositoryRulesetRulesPullRequestRequiredReviewersList) valid
 	return nil
 }
 
-func (r *jsiiProxy_RepositoryRulesetRulesPullRequestRequiredReviewersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RepositoryRulesetRulesPullRequestRequiredReviewersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_RepositoryRulesetRulesPullRequestRequiredReviewersList) valid
 	return nil
 }
 
-func (j *jsiiProxy_RepositoryRulesetRulesPullRequestRequiredReviewersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RepositoryRulesetRulesPullRequestRequiredReviewersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_RepositoryRulesetRulesPullRequestRequiredReviewersList) valid
 	return nil
 }
 
-func validateNewRepositoryRulesetRulesPullRequestRequiredReviewersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRepositoryRulesetRulesPullRequestRequiredReviewersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

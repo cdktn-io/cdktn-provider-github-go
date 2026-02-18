@@ -5,15 +5,15 @@ package datagithubrepositorywebhooks
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepositorywebhooks/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorywebhooks/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataGithubRepositoryWebhooksWebhooksOutputReference interface {
-	cdktf.ComplexObject
-	Active() cdktf.IResolvable
+	cdktn.ComplexObject
+	Active() cdktn.IResolvable
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type DataGithubRepositoryWebhooksWebhooksOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	Url() *string
 	// Experimental.
@@ -50,7 +50,7 @@ type DataGithubRepositoryWebhooksWebhooksOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,12 +66,12 @@ type DataGithubRepositoryWebhooksWebhooksOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -81,11 +81,11 @@ type DataGithubRepositoryWebhooksWebhooksOutputReference interface {
 
 // The jsii proxy struct for DataGithubRepositoryWebhooksWebhooksOutputReference
 type jsiiProxy_DataGithubRepositoryWebhooksWebhooksOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
-func (j *jsiiProxy_DataGithubRepositoryWebhooksWebhooksOutputReference) Active() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGithubRepositoryWebhooksWebhooksOutputReference) Active() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"active",
@@ -174,8 +174,8 @@ func (j *jsiiProxy_DataGithubRepositoryWebhooksWebhooksOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubRepositoryWebhooksWebhooksOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataGithubRepositoryWebhooksWebhooksOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -205,7 +205,7 @@ func (j *jsiiProxy_DataGithubRepositoryWebhooksWebhooksOutputReference) Url() *s
 }
 
 
-func NewDataGithubRepositoryWebhooksWebhooksOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataGithubRepositoryWebhooksWebhooksOutputReference {
+func NewDataGithubRepositoryWebhooksWebhooksOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataGithubRepositoryWebhooksWebhooksOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataGithubRepositoryWebhooksWebhooksOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -222,7 +222,7 @@ func NewDataGithubRepositoryWebhooksWebhooksOutputReference(terraformResource cd
 	return &j
 }
 
-func NewDataGithubRepositoryWebhooksWebhooksOutputReference_Override(d DataGithubRepositoryWebhooksWebhooksOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataGithubRepositoryWebhooksWebhooksOutputReference_Override(d DataGithubRepositoryWebhooksWebhooksOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataGithubRepositoryWebhooksWebhooksOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_DataGithubRepositoryWebhooksWebhooksOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataGithubRepositoryWebhooksWebhooksOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -316,11 +316,11 @@ func (d *jsiiProxy_DataGithubRepositoryWebhooksWebhooksOutputReference) GetAnyMa
 	return returns
 }
 
-func (d *jsiiProxy_DataGithubRepositoryWebhooksWebhooksOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGithubRepositoryWebhooksWebhooksOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -444,8 +444,8 @@ func (d *jsiiProxy_DataGithubRepositoryWebhooksWebhooksOutputReference) GetStrin
 	return returns
 }
 
-func (d *jsiiProxy_DataGithubRepositoryWebhooksWebhooksOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataGithubRepositoryWebhooksWebhooksOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -457,11 +457,11 @@ func (d *jsiiProxy_DataGithubRepositoryWebhooksWebhooksOutputReference) Interpol
 	return returns
 }
 
-func (d *jsiiProxy_DataGithubRepositoryWebhooksWebhooksOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGithubRepositoryWebhooksWebhooksOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -473,7 +473,7 @@ func (d *jsiiProxy_DataGithubRepositoryWebhooksWebhooksOutputReference) Interpol
 	return returns
 }
 
-func (d *jsiiProxy_DataGithubRepositoryWebhooksWebhooksOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataGithubRepositoryWebhooksWebhooksOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

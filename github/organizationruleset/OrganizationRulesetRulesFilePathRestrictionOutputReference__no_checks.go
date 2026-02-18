@@ -47,7 +47,7 @@ func (o *jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference) v
 	return nil
 }
 
-func (o *jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OrganizationRulesetRulesFilePathRestrictionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOrganizationRulesetRulesFilePathRestrictionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOrganizationRulesetRulesFilePathRestrictionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (o *jsiiProxy_OrganizationRulesetConditionsRepositoryNameOutputReference) v
 	return nil
 }
 
-func (o *jsiiProxy_OrganizationRulesetConditionsRepositoryNameOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OrganizationRulesetConditionsRepositoryNameOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_OrganizationRulesetConditionsRepositoryNameOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_OrganizationRulesetConditionsRepositoryNameOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OrganizationRulesetConditionsRepositoryNameOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOrganizationRulesetConditionsRepositoryNameOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOrganizationRulesetConditionsRepositoryNameOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

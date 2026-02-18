@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGithubRepositoryAutolinkReferencesAutolinkReferencesList)
 	return nil
 }
 
-func (d *jsiiProxy_DataGithubRepositoryAutolinkReferencesAutolinkReferencesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGithubRepositoryAutolinkReferencesAutolinkReferencesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGithubRepositoryAutolinkReferencesAutolinkReferencesList)
 	return nil
 }
 
-func (j *jsiiProxy_DataGithubRepositoryAutolinkReferencesAutolinkReferencesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGithubRepositoryAutolinkReferencesAutolinkReferencesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGithubRepositoryAutolinkReferencesAutolinkReferencesList)
 	return nil
 }
 
-func validateNewDataGithubRepositoryAutolinkReferencesAutolinkReferencesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGithubRepositoryAutolinkReferencesAutolinkReferencesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (o *jsiiProxy_OrganizationRulesetRulesRequiredCodeScanningRequiredCodeScann
 	return nil
 }
 
-func (o *jsiiProxy_OrganizationRulesetRulesRequiredCodeScanningRequiredCodeScanningToolOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OrganizationRulesetRulesRequiredCodeScanningRequiredCodeScanningToolOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_OrganizationRulesetRulesRequiredCodeScanningRequiredCodeScann
 	return nil
 }
 
-func (j *jsiiProxy_OrganizationRulesetRulesRequiredCodeScanningRequiredCodeScanningToolOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OrganizationRulesetRulesRequiredCodeScanningRequiredCodeScanningToolOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_OrganizationRulesetRulesRequiredCodeScanningRequiredCodeScann
 	return nil
 }
 
-func validateNewOrganizationRulesetRulesRequiredCodeScanningRequiredCodeScanningToolOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOrganizationRulesetRulesRequiredCodeScanningRequiredCodeScanningToolOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

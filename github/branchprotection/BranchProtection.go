@@ -5,16 +5,16 @@ package branchprotection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/branchprotection/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/branchprotection/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection github_branch_protection}.
 type BranchProtection interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AllowsDeletions() interface{}
 	SetAllowsDeletions(val interface{})
 	AllowsDeletionsInput() interface{}
@@ -22,7 +22,7 @@ type BranchProtection interface {
 	SetAllowsForcePushes(val interface{})
 	AllowsForcePushesInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -44,9 +44,9 @@ type BranchProtection interface {
 	SetForcePushBypassers(val *[]*string)
 	ForcePushBypassersInput() *[]*string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -55,9 +55,9 @@ type BranchProtection interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LockBranch() interface{}
 	SetLockBranch(val interface{})
 	LockBranchInput() interface{}
@@ -67,9 +67,9 @@ type BranchProtection interface {
 	SetPattern(val *string)
 	PatternInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -95,7 +95,7 @@ type BranchProtection interface {
 	RestrictPushes() BranchProtectionRestrictPushesList
 	RestrictPushesInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -108,7 +108,7 @@ type BranchProtection interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -126,9 +126,9 @@ type BranchProtection interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -176,7 +176,7 @@ type BranchProtection interface {
 
 // The jsii proxy struct for BranchProtection
 type jsiiProxy_BranchProtection struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_BranchProtection) AllowsDeletions() interface{} {
@@ -219,8 +219,8 @@ func (j *jsiiProxy_BranchProtection) AllowsForcePushesInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_BranchProtection) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_BranchProtection) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -309,8 +309,8 @@ func (j *jsiiProxy_BranchProtection) ForcePushBypassersInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_BranchProtection) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_BranchProtection) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -359,8 +359,8 @@ func (j *jsiiProxy_BranchProtection) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_BranchProtection) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_BranchProtection) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -419,8 +419,8 @@ func (j *jsiiProxy_BranchProtection) PatternInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_BranchProtection) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_BranchProtection) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -589,8 +589,8 @@ func (j *jsiiProxy_BranchProtection) RestrictPushesInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_BranchProtection) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_BranchProtection) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -723,7 +723,7 @@ func (j *jsiiProxy_BranchProtection)SetForcePushBypassers(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_BranchProtection)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_BranchProtection)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -742,7 +742,7 @@ func (j *jsiiProxy_BranchProtection)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_BranchProtection)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_BranchProtection)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -775,7 +775,7 @@ func (j *jsiiProxy_BranchProtection)SetPattern(val *string) {
 	)
 }
 
-func (j *jsiiProxy_BranchProtection)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_BranchProtection)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -838,14 +838,14 @@ func (j *jsiiProxy_BranchProtection)SetRequireSignedCommits(val interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a BranchProtection resource upon running "cdktf plan <stack-name>".
-func BranchProtection_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a BranchProtection resource upon running "cdktn plan <stack-name>".
+func BranchProtection_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateBranchProtection_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-github.branchProtection.BranchProtection",
@@ -979,11 +979,11 @@ func (b *jsiiProxy_BranchProtection) GetAnyMapAttribute(terraformAttribute *stri
 	return returns
 }
 
-func (b *jsiiProxy_BranchProtection) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BranchProtection) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -1120,7 +1120,7 @@ func (b *jsiiProxy_BranchProtection) HasResourceMove() interface{} {
 	return returns
 }
 
-func (b *jsiiProxy_BranchProtection) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (b *jsiiProxy_BranchProtection) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := b.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1131,11 +1131,11 @@ func (b *jsiiProxy_BranchProtection) ImportFrom(id *string, provider cdktf.Terra
 	)
 }
 
-func (b *jsiiProxy_BranchProtection) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BranchProtection) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,

@@ -5,16 +5,16 @@ package datagithubrepositorypullrequest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepositorypullrequest/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorypullrequest/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repository_pull_request github_repository_pull_request}.
 type DataGithubRepositoryPullRequest interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	BaseRef() *string
 	BaseRepository() *string
 	SetBaseRepository(val *string)
@@ -22,7 +22,7 @@ type DataGithubRepositoryPullRequest interface {
 	BaseSha() *string
 	Body() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -33,11 +33,11 @@ type DataGithubRepositoryPullRequest interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	Draft() cdktf.IResolvable
+	Draft() cdktn.IResolvable
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -51,10 +51,10 @@ type DataGithubRepositoryPullRequest interface {
 	IdInput() *string
 	Labels() *[]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
-	MaintainerCanModify() cdktf.IResolvable
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	MaintainerCanModify() cdktn.IResolvable
 	// The tree node.
 	Node() constructs.Node
 	Number() *float64
@@ -66,14 +66,14 @@ type DataGithubRepositoryPullRequest interface {
 	SetOwner(val *string)
 	OwnerInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	State() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -85,7 +85,7 @@ type DataGithubRepositoryPullRequest interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -101,7 +101,7 @@ type DataGithubRepositoryPullRequest interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -126,7 +126,7 @@ type DataGithubRepositoryPullRequest interface {
 
 // The jsii proxy struct for DataGithubRepositoryPullRequest
 type jsiiProxy_DataGithubRepositoryPullRequest struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataGithubRepositoryPullRequest) BaseRef() *string {
@@ -179,8 +179,8 @@ func (j *jsiiProxy_DataGithubRepositoryPullRequest) Body() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubRepositoryPullRequest) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataGithubRepositoryPullRequest) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -219,8 +219,8 @@ func (j *jsiiProxy_DataGithubRepositoryPullRequest) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubRepositoryPullRequest) Draft() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGithubRepositoryPullRequest) Draft() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"draft",
@@ -229,8 +229,8 @@ func (j *jsiiProxy_DataGithubRepositoryPullRequest) Draft() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubRepositoryPullRequest) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataGithubRepositoryPullRequest) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -329,8 +329,8 @@ func (j *jsiiProxy_DataGithubRepositoryPullRequest) Labels() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubRepositoryPullRequest) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataGithubRepositoryPullRequest) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -339,8 +339,8 @@ func (j *jsiiProxy_DataGithubRepositoryPullRequest) Lifecycle() *cdktf.Terraform
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubRepositoryPullRequest) MaintainerCanModify() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGithubRepositoryPullRequest) MaintainerCanModify() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"maintainerCanModify",
@@ -419,8 +419,8 @@ func (j *jsiiProxy_DataGithubRepositoryPullRequest) OwnerInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubRepositoryPullRequest) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataGithubRepositoryPullRequest) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -449,8 +449,8 @@ func (j *jsiiProxy_DataGithubRepositoryPullRequest) State() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubRepositoryPullRequest) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataGithubRepositoryPullRequest) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -559,7 +559,7 @@ func (j *jsiiProxy_DataGithubRepositoryPullRequest)SetDependsOn(val *[]*string) 
 	)
 }
 
-func (j *jsiiProxy_DataGithubRepositoryPullRequest)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataGithubRepositoryPullRequest)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -578,7 +578,7 @@ func (j *jsiiProxy_DataGithubRepositoryPullRequest)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGithubRepositoryPullRequest)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataGithubRepositoryPullRequest)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -611,7 +611,7 @@ func (j *jsiiProxy_DataGithubRepositoryPullRequest)SetOwner(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGithubRepositoryPullRequest)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataGithubRepositoryPullRequest)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -619,14 +619,14 @@ func (j *jsiiProxy_DataGithubRepositoryPullRequest)SetProvider(val cdktf.Terrafo
 	)
 }
 
-// Generates CDKTF code for importing a DataGithubRepositoryPullRequest resource upon running "cdktf plan <stack-name>".
-func DataGithubRepositoryPullRequest_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataGithubRepositoryPullRequest resource upon running "cdktn plan <stack-name>".
+func DataGithubRepositoryPullRequest_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataGithubRepositoryPullRequest_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-github.dataGithubRepositoryPullRequest.DataGithubRepositoryPullRequest",
@@ -749,11 +749,11 @@ func (d *jsiiProxy_DataGithubRepositoryPullRequest) GetAnyMapAttribute(terraform
 	return returns
 }
 
-func (d *jsiiProxy_DataGithubRepositoryPullRequest) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGithubRepositoryPullRequest) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -877,11 +877,11 @@ func (d *jsiiProxy_DataGithubRepositoryPullRequest) GetStringMapAttribute(terraf
 	return returns
 }
 
-func (d *jsiiProxy_DataGithubRepositoryPullRequest) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGithubRepositoryPullRequest) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

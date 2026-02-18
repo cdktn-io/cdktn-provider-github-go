@@ -47,7 +47,7 @@ func (o *jsiiProxy_OrganizationRulesetRulesBranchNamePatternOutputReference) val
 	return nil
 }
 
-func (o *jsiiProxy_OrganizationRulesetRulesBranchNamePatternOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OrganizationRulesetRulesBranchNamePatternOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_OrganizationRulesetRulesBranchNamePatternOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_OrganizationRulesetRulesBranchNamePatternOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OrganizationRulesetRulesBranchNamePatternOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOrganizationRulesetRulesBranchNamePatternOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOrganizationRulesetRulesBranchNamePatternOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

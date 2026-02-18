@@ -5,14 +5,14 @@ package branchprotection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/branchprotection/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/branchprotection/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BranchProtectionRestrictPushesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BlocksCreations() interface{}
 	SetBlocksCreations(val interface{})
 	BlocksCreationsInput() interface{}
@@ -43,15 +43,15 @@ type BranchProtectionRestrictPushesOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type BranchProtectionRestrictPushesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetBlocksCreations()
 	ResetPushAllowances()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type BranchProtectionRestrictPushesOutputReference interface {
 
 // The jsii proxy struct for BranchProtectionRestrictPushesOutputReference
 type jsiiProxy_BranchProtectionRestrictPushesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BranchProtectionRestrictPushesOutputReference) BlocksCreations() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_BranchProtectionRestrictPushesOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_BranchProtectionRestrictPushesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BranchProtectionRestrictPushesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_BranchProtectionRestrictPushesOutputReference) TerraformResou
 }
 
 
-func NewBranchProtectionRestrictPushesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BranchProtectionRestrictPushesOutputReference {
+func NewBranchProtectionRestrictPushesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BranchProtectionRestrictPushesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBranchProtectionRestrictPushesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -215,7 +215,7 @@ func NewBranchProtectionRestrictPushesOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewBranchProtectionRestrictPushesOutputReference_Override(b BranchProtectionRestrictPushesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewBranchProtectionRestrictPushesOutputReference_Override(b BranchProtectionRestrictPushesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_BranchProtectionRestrictPushesOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_BranchProtectionRestrictPushesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BranchProtectionRestrictPushesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (b *jsiiProxy_BranchProtectionRestrictPushesOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (b *jsiiProxy_BranchProtectionRestrictPushesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BranchProtectionRestrictPushesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -459,8 +459,8 @@ func (b *jsiiProxy_BranchProtectionRestrictPushesOutputReference) GetStringMapAt
 	return returns
 }
 
-func (b *jsiiProxy_BranchProtectionRestrictPushesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BranchProtectionRestrictPushesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -472,11 +472,11 @@ func (b *jsiiProxy_BranchProtectionRestrictPushesOutputReference) InterpolationA
 	return returns
 }
 
-func (b *jsiiProxy_BranchProtectionRestrictPushesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BranchProtectionRestrictPushesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -504,7 +504,7 @@ func (b *jsiiProxy_BranchProtectionRestrictPushesOutputReference) ResetPushAllow
 	)
 }
 
-func (b *jsiiProxy_BranchProtectionRestrictPushesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BranchProtectionRestrictPushesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

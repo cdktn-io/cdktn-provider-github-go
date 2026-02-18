@@ -47,7 +47,7 @@ func (i *jsiiProxy_IssueLabelsLabelOutputReference) validateInterpolationForAttr
 	return nil
 }
 
-func (i *jsiiProxy_IssueLabelsLabelOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IssueLabelsLabelOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_IssueLabelsLabelOutputReference) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_IssueLabelsLabelOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IssueLabelsLabelOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIssueLabelsLabelOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewIssueLabelsLabelOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

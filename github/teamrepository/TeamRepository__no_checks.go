@@ -103,7 +103,7 @@ func (j *jsiiProxy_TeamRepository) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_TeamRepository) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_TeamRepository) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

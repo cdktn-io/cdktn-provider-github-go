@@ -107,7 +107,7 @@ func (j *jsiiProxy_ActionsRepositoryAccessLevel) validateSetIdParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_ActionsRepositoryAccessLevel) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ActionsRepositoryAccessLevel) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (t *jsiiProxy_TeamSyncGroupMappingGroupList) validateGetParameters(index *f
 	return nil
 }
 
-func (t *jsiiProxy_TeamSyncGroupMappingGroupList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TeamSyncGroupMappingGroupList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_TeamSyncGroupMappingGroupList) validateSetTerraformAttributeP
 	return nil
 }
 
-func (j *jsiiProxy_TeamSyncGroupMappingGroupList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TeamSyncGroupMappingGroupList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_TeamSyncGroupMappingGroupList) validateSetWrapsSetParameters(
 	return nil
 }
 
-func validateNewTeamSyncGroupMappingGroupListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewTeamSyncGroupMappingGroupListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

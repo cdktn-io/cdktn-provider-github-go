@@ -47,7 +47,7 @@ func (r *jsiiProxy_RepositoryRulesetRulesMergeQueueOutputReference) validateInte
 	return nil
 }
 
-func (r *jsiiProxy_RepositoryRulesetRulesMergeQueueOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RepositoryRulesetRulesMergeQueueOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,11 +95,11 @@ func (j *jsiiProxy_RepositoryRulesetRulesMergeQueueOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_RepositoryRulesetRulesMergeQueueOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RepositoryRulesetRulesMergeQueueOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRepositoryRulesetRulesMergeQueueOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRepositoryRulesetRulesMergeQueueOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

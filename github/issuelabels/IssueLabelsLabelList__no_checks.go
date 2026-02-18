@@ -15,7 +15,7 @@ func (i *jsiiProxy_IssueLabelsLabelList) validateGetParameters(index *float64) e
 	return nil
 }
 
-func (i *jsiiProxy_IssueLabelsLabelList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IssueLabelsLabelList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_IssueLabelsLabelList) validateSetTerraformAttributeParameters
 	return nil
 }
 
-func (j *jsiiProxy_IssueLabelsLabelList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IssueLabelsLabelList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_IssueLabelsLabelList) validateSetWrapsSetParameters(val *bool
 	return nil
 }
 
-func validateNewIssueLabelsLabelListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewIssueLabelsLabelListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

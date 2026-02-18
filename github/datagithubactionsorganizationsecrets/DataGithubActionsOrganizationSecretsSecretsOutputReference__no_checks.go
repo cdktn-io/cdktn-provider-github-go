@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataGithubActionsOrganizationSecretsSecretsOutputReference) v
 	return nil
 }
 
-func (d *jsiiProxy_DataGithubActionsOrganizationSecretsSecretsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGithubActionsOrganizationSecretsSecretsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataGithubActionsOrganizationSecretsSecretsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_DataGithubActionsOrganizationSecretsSecretsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGithubActionsOrganizationSecretsSecretsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataGithubActionsOrganizationSecretsSecretsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataGithubActionsOrganizationSecretsSecretsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

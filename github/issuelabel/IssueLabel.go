@@ -5,18 +5,18 @@ package issuelabel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/issuelabel/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/issuelabel/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/issue_label github_issue_label}.
 type IssueLabel interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Color() *string
 	SetColor(val *string)
 	ColorInput() *string
@@ -41,9 +41,9 @@ type IssueLabel interface {
 	SetEtag(val *string)
 	EtagInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,18 +52,18 @@ type IssueLabel interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -74,7 +74,7 @@ type IssueLabel interface {
 	SetRepository(val *string)
 	RepositoryInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -88,7 +88,7 @@ type IssueLabel interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -106,9 +106,9 @@ type IssueLabel interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -144,11 +144,11 @@ type IssueLabel interface {
 
 // The jsii proxy struct for IssueLabel
 type jsiiProxy_IssueLabel struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_IssueLabel) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_IssueLabel) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -257,8 +257,8 @@ func (j *jsiiProxy_IssueLabel) EtagInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_IssueLabel) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_IssueLabel) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -307,8 +307,8 @@ func (j *jsiiProxy_IssueLabel) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_IssueLabel) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_IssueLabel) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -347,8 +347,8 @@ func (j *jsiiProxy_IssueLabel) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_IssueLabel) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_IssueLabel) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -397,8 +397,8 @@ func (j *jsiiProxy_IssueLabel) RepositoryInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_IssueLabel) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_IssueLabel) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -530,7 +530,7 @@ func (j *jsiiProxy_IssueLabel)SetEtag(val *string) {
 	)
 }
 
-func (j *jsiiProxy_IssueLabel)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_IssueLabel)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -549,7 +549,7 @@ func (j *jsiiProxy_IssueLabel)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_IssueLabel)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_IssueLabel)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -571,7 +571,7 @@ func (j *jsiiProxy_IssueLabel)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_IssueLabel)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_IssueLabel)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -601,14 +601,14 @@ func (j *jsiiProxy_IssueLabel)SetRepository(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a IssueLabel resource upon running "cdktf plan <stack-name>".
-func IssueLabel_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a IssueLabel resource upon running "cdktn plan <stack-name>".
+func IssueLabel_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateIssueLabel_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-github.issueLabel.IssueLabel",
@@ -742,11 +742,11 @@ func (i *jsiiProxy_IssueLabel) GetAnyMapAttribute(terraformAttribute *string) *m
 	return returns
 }
 
-func (i *jsiiProxy_IssueLabel) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IssueLabel) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -883,7 +883,7 @@ func (i *jsiiProxy_IssueLabel) HasResourceMove() interface{} {
 	return returns
 }
 
-func (i *jsiiProxy_IssueLabel) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (i *jsiiProxy_IssueLabel) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := i.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -894,11 +894,11 @@ func (i *jsiiProxy_IssueLabel) ImportFrom(id *string, provider cdktf.TerraformPr
 	)
 }
 
-func (i *jsiiProxy_IssueLabel) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IssueLabel) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,

@@ -15,7 +15,7 @@ func (a *jsiiProxy_ActionsHostedRunnerMachineSizeDetailsList) validateGetParamet
 	return nil
 }
 
-func (a *jsiiProxy_ActionsHostedRunnerMachineSizeDetailsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ActionsHostedRunnerMachineSizeDetailsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_ActionsHostedRunnerMachineSizeDetailsList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_ActionsHostedRunnerMachineSizeDetailsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ActionsHostedRunnerMachineSizeDetailsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_ActionsHostedRunnerMachineSizeDetailsList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewActionsHostedRunnerMachineSizeDetailsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewActionsHostedRunnerMachineSizeDetailsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

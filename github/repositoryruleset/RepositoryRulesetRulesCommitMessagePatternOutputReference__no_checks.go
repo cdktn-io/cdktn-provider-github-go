@@ -47,7 +47,7 @@ func (r *jsiiProxy_RepositoryRulesetRulesCommitMessagePatternOutputReference) va
 	return nil
 }
 
-func (r *jsiiProxy_RepositoryRulesetRulesCommitMessagePatternOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RepositoryRulesetRulesCommitMessagePatternOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_RepositoryRulesetRulesCommitMessagePatternOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_RepositoryRulesetRulesCommitMessagePatternOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RepositoryRulesetRulesCommitMessagePatternOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRepositoryRulesetRulesCommitMessagePatternOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRepositoryRulesetRulesCommitMessagePatternOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (r *jsiiProxy_RepositoryRulesetRulesBranchNamePatternOutputReference) valid
 	return nil
 }
 
-func (r *jsiiProxy_RepositoryRulesetRulesBranchNamePatternOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RepositoryRulesetRulesBranchNamePatternOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_RepositoryRulesetRulesBranchNamePatternOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_RepositoryRulesetRulesBranchNamePatternOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RepositoryRulesetRulesBranchNamePatternOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRepositoryRulesetRulesBranchNamePatternOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRepositoryRulesetRulesBranchNamePatternOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

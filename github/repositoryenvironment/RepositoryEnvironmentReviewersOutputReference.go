@@ -5,14 +5,14 @@ package repositoryenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/repositoryenvironment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositoryenvironment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type RepositoryEnvironmentReviewersOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type RepositoryEnvironmentReviewersOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Users() *[]*float64
 	SetUsers(val *[]*float64)
 	UsersInput() *[]*float64
@@ -51,7 +51,7 @@ type RepositoryEnvironmentReviewersOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type RepositoryEnvironmentReviewersOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetTeams()
 	ResetUsers()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type RepositoryEnvironmentReviewersOutputReference interface {
 
 // The jsii proxy struct for RepositoryEnvironmentReviewersOutputReference
 type jsiiProxy_RepositoryEnvironmentReviewersOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_RepositoryEnvironmentReviewersOutputReference) ComplexObjectIndex() interface{} {
@@ -167,8 +167,8 @@ func (j *jsiiProxy_RepositoryEnvironmentReviewersOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_RepositoryEnvironmentReviewersOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_RepositoryEnvironmentReviewersOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_RepositoryEnvironmentReviewersOutputReference) UsersInput() *
 }
 
 
-func NewRepositoryEnvironmentReviewersOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) RepositoryEnvironmentReviewersOutputReference {
+func NewRepositoryEnvironmentReviewersOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) RepositoryEnvironmentReviewersOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewRepositoryEnvironmentReviewersOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -215,7 +215,7 @@ func NewRepositoryEnvironmentReviewersOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewRepositoryEnvironmentReviewersOutputReference_Override(r RepositoryEnvironmentReviewersOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewRepositoryEnvironmentReviewersOutputReference_Override(r RepositoryEnvironmentReviewersOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -280,7 +280,7 @@ func (j *jsiiProxy_RepositoryEnvironmentReviewersOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_RepositoryEnvironmentReviewersOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_RepositoryEnvironmentReviewersOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (r *jsiiProxy_RepositoryEnvironmentReviewersOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (r *jsiiProxy_RepositoryEnvironmentReviewersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RepositoryEnvironmentReviewersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -459,8 +459,8 @@ func (r *jsiiProxy_RepositoryEnvironmentReviewersOutputReference) GetStringMapAt
 	return returns
 }
 
-func (r *jsiiProxy_RepositoryEnvironmentReviewersOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (r *jsiiProxy_RepositoryEnvironmentReviewersOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -472,11 +472,11 @@ func (r *jsiiProxy_RepositoryEnvironmentReviewersOutputReference) InterpolationA
 	return returns
 }
 
-func (r *jsiiProxy_RepositoryEnvironmentReviewersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RepositoryEnvironmentReviewersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -504,7 +504,7 @@ func (r *jsiiProxy_RepositoryEnvironmentReviewersOutputReference) ResetUsers() {
 	)
 }
 
-func (r *jsiiProxy_RepositoryEnvironmentReviewersOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_RepositoryEnvironmentReviewersOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

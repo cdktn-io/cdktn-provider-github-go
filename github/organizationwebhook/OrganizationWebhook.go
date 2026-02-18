@@ -5,21 +5,21 @@ package organizationwebhook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationwebhook/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/organizationwebhook/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_webhook github_organization_webhook}.
 type OrganizationWebhook interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Active() interface{}
 	SetActive(val interface{})
 	ActiveInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Configuration() OrganizationWebhookConfigurationOutputReference
 	ConfigurationInput() *OrganizationWebhookConfiguration
 	// Experimental.
@@ -41,9 +41,9 @@ type OrganizationWebhook interface {
 	SetEvents(val *[]*string)
 	EventsInput() *[]*string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,15 +52,15 @@ type OrganizationWebhook interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -68,7 +68,7 @@ type OrganizationWebhook interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -82,7 +82,7 @@ type OrganizationWebhook interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -100,9 +100,9 @@ type OrganizationWebhook interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -139,7 +139,7 @@ type OrganizationWebhook interface {
 
 // The jsii proxy struct for OrganizationWebhook
 type jsiiProxy_OrganizationWebhook struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_OrganizationWebhook) Active() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_OrganizationWebhook) ActiveInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_OrganizationWebhook) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_OrganizationWebhook) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -262,8 +262,8 @@ func (j *jsiiProxy_OrganizationWebhook) EventsInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_OrganizationWebhook) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_OrganizationWebhook) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -312,8 +312,8 @@ func (j *jsiiProxy_OrganizationWebhook) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_OrganizationWebhook) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_OrganizationWebhook) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -332,8 +332,8 @@ func (j *jsiiProxy_OrganizationWebhook) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_OrganizationWebhook) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_OrganizationWebhook) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -362,8 +362,8 @@ func (j *jsiiProxy_OrganizationWebhook) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_OrganizationWebhook) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_OrganizationWebhook) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -484,7 +484,7 @@ func (j *jsiiProxy_OrganizationWebhook)SetEvents(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_OrganizationWebhook)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_OrganizationWebhook)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -503,7 +503,7 @@ func (j *jsiiProxy_OrganizationWebhook)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_OrganizationWebhook)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_OrganizationWebhook)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -514,7 +514,7 @@ func (j *jsiiProxy_OrganizationWebhook)SetLifecycle(val *cdktf.TerraformResource
 	)
 }
 
-func (j *jsiiProxy_OrganizationWebhook)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_OrganizationWebhook)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -533,14 +533,14 @@ func (j *jsiiProxy_OrganizationWebhook)SetProvisioners(val *[]interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a OrganizationWebhook resource upon running "cdktf plan <stack-name>".
-func OrganizationWebhook_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a OrganizationWebhook resource upon running "cdktn plan <stack-name>".
+func OrganizationWebhook_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateOrganizationWebhook_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-github.organizationWebhook.OrganizationWebhook",
@@ -674,11 +674,11 @@ func (o *jsiiProxy_OrganizationWebhook) GetAnyMapAttribute(terraformAttribute *s
 	return returns
 }
 
-func (o *jsiiProxy_OrganizationWebhook) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OrganizationWebhook) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -815,7 +815,7 @@ func (o *jsiiProxy_OrganizationWebhook) HasResourceMove() interface{} {
 	return returns
 }
 
-func (o *jsiiProxy_OrganizationWebhook) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (o *jsiiProxy_OrganizationWebhook) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := o.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -826,11 +826,11 @@ func (o *jsiiProxy_OrganizationWebhook) ImportFrom(id *string, provider cdktf.Te
 	)
 }
 
-func (o *jsiiProxy_OrganizationWebhook) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OrganizationWebhook) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,

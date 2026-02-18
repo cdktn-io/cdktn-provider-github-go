@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataGithubOrganizationIpAllowList) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_DataGithubOrganizationIpAllowList) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGithubOrganizationIpAllowList) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

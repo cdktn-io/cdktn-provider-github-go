@@ -111,7 +111,7 @@ func (j *jsiiProxy_EnterpriseSecurityAnalysisSettings) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_EnterpriseSecurityAnalysisSettings) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EnterpriseSecurityAnalysisSettings) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

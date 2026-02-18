@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGithubOrganizationRolesRolesList) validateGetParameters(i
 	return nil
 }
 
-func (d *jsiiProxy_DataGithubOrganizationRolesRolesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGithubOrganizationRolesRolesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGithubOrganizationRolesRolesList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_DataGithubOrganizationRolesRolesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGithubOrganizationRolesRolesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGithubOrganizationRolesRolesList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewDataGithubOrganizationRolesRolesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGithubOrganizationRolesRolesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

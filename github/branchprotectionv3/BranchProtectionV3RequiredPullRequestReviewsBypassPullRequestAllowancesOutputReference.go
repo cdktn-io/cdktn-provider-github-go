@@ -5,14 +5,14 @@ package branchprotectionv3
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/branchprotectionv3/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/branchprotectionv3/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Apps() *[]*string
 	SetApps(val *[]*string)
 	AppsInput() *[]*string
@@ -43,9 +43,9 @@ type BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutp
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Users() *[]*string
 	SetUsers(val *[]*string)
 	UsersInput() *[]*string
@@ -54,7 +54,7 @@ type BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutp
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutp
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetApps()
 	ResetTeams()
 	ResetUsers()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutp
 
 // The jsii proxy struct for BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference
 type jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference) Apps() *[]*string {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequest
 	return returns
 }
 
-func (j *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequest
 }
 
 
-func NewBranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference {
+func NewBranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewBranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesO
 	return &j
 }
 
-func NewBranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference_Override(b BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewBranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference_Override(b BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequest
 	)
 }
 
-func (j *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (b *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequest
 	return returns
 }
 
-func (b *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -494,8 +494,8 @@ func (b *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequest
 	return returns
 }
 
-func (b *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -507,11 +507,11 @@ func (b *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequest
 	return returns
 }
 
-func (b *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -547,7 +547,7 @@ func (b *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequest
 	)
 }
 
-func (b *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

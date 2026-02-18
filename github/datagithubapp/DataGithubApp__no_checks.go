@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataGithubApp) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_DataGithubApp) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGithubApp) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -107,7 +107,7 @@ func (j *jsiiProxy_AppInstallationRepositories) validateSetInstallationIdParamet
 	return nil
 }
 
-func (j *jsiiProxy_AppInstallationRepositories) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AppInstallationRepositories) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

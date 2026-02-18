@@ -5,21 +5,21 @@ package datagithubrepositoryfile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepositoryfile/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositoryfile/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repository_file github_repository_file}.
 type DataGithubRepositoryFile interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	Branch() *string
 	SetBranch(val *string)
 	BranchInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CommitAuthor() *string
 	CommitEmail() *string
 	CommitMessage() *string
@@ -39,9 +39,9 @@ type DataGithubRepositoryFile interface {
 	SetFile(val *string)
 	FileInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -50,15 +50,15 @@ type DataGithubRepositoryFile interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Ref() *string
@@ -67,7 +67,7 @@ type DataGithubRepositoryFile interface {
 	RepositoryInput() *string
 	Sha() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -77,7 +77,7 @@ type DataGithubRepositoryFile interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -93,7 +93,7 @@ type DataGithubRepositoryFile interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -118,7 +118,7 @@ type DataGithubRepositoryFile interface {
 
 // The jsii proxy struct for DataGithubRepositoryFile
 type jsiiProxy_DataGithubRepositoryFile struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataGithubRepositoryFile) Branch() *string {
@@ -141,8 +141,8 @@ func (j *jsiiProxy_DataGithubRepositoryFile) BranchInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubRepositoryFile) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataGithubRepositoryFile) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -251,8 +251,8 @@ func (j *jsiiProxy_DataGithubRepositoryFile) FileInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubRepositoryFile) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataGithubRepositoryFile) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -301,8 +301,8 @@ func (j *jsiiProxy_DataGithubRepositoryFile) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubRepositoryFile) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataGithubRepositoryFile) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -321,8 +321,8 @@ func (j *jsiiProxy_DataGithubRepositoryFile) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubRepositoryFile) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataGithubRepositoryFile) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -381,8 +381,8 @@ func (j *jsiiProxy_DataGithubRepositoryFile) Sha() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubRepositoryFile) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataGithubRepositoryFile) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -482,7 +482,7 @@ func (j *jsiiProxy_DataGithubRepositoryFile)SetFile(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGithubRepositoryFile)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataGithubRepositoryFile)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -501,7 +501,7 @@ func (j *jsiiProxy_DataGithubRepositoryFile)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGithubRepositoryFile)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataGithubRepositoryFile)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -512,7 +512,7 @@ func (j *jsiiProxy_DataGithubRepositoryFile)SetLifecycle(val *cdktf.TerraformRes
 	)
 }
 
-func (j *jsiiProxy_DataGithubRepositoryFile)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataGithubRepositoryFile)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -531,14 +531,14 @@ func (j *jsiiProxy_DataGithubRepositoryFile)SetRepository(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataGithubRepositoryFile resource upon running "cdktf plan <stack-name>".
-func DataGithubRepositoryFile_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataGithubRepositoryFile resource upon running "cdktn plan <stack-name>".
+func DataGithubRepositoryFile_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataGithubRepositoryFile_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-github.dataGithubRepositoryFile.DataGithubRepositoryFile",
@@ -661,11 +661,11 @@ func (d *jsiiProxy_DataGithubRepositoryFile) GetAnyMapAttribute(terraformAttribu
 	return returns
 }
 
-func (d *jsiiProxy_DataGithubRepositoryFile) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGithubRepositoryFile) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -789,11 +789,11 @@ func (d *jsiiProxy_DataGithubRepositoryFile) GetStringMapAttribute(terraformAttr
 	return returns
 }
 
-func (d *jsiiProxy_DataGithubRepositoryFile) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGithubRepositoryFile) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

@@ -5,16 +5,16 @@ package repository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/repository/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository github_repository}.
 type Repository interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AllowAutoMerge() interface{}
 	SetAllowAutoMerge(val interface{})
 	AllowAutoMergeInput() interface{}
@@ -43,7 +43,7 @@ type Repository interface {
 	SetAutoInit(val interface{})
 	AutoInitInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -71,9 +71,9 @@ type Repository interface {
 	SetEtag(val *string)
 	EtagInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	Fork() *string
 	SetFork(val *string)
 	ForkInput() *string
@@ -119,9 +119,9 @@ type Repository interface {
 	SetLicenseTemplate(val *string)
 	LicenseTemplateInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MergeCommitMessage() *string
 	SetMergeCommitMessage(val *string)
 	MergeCommitMessageInput() *string
@@ -141,9 +141,9 @@ type Repository interface {
 	SetPrivate(val interface{})
 	PrivateInput() interface{}
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -170,7 +170,7 @@ type Repository interface {
 	Template() RepositoryTemplateOutputReference
 	TemplateInput() *RepositoryTemplate
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -195,7 +195,7 @@ type Repository interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -213,9 +213,9 @@ type Repository interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -290,7 +290,7 @@ type Repository interface {
 
 // The jsii proxy struct for Repository
 type jsiiProxy_Repository struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_Repository) AllowAutoMerge() interface{} {
@@ -473,8 +473,8 @@ func (j *jsiiProxy_Repository) AutoInitInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_Repository) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_Repository) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -603,8 +603,8 @@ func (j *jsiiProxy_Repository) EtagInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Repository) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_Repository) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -913,8 +913,8 @@ func (j *jsiiProxy_Repository) LicenseTemplateInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Repository) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_Repository) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -1053,8 +1053,8 @@ func (j *jsiiProxy_Repository) PrivateInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_Repository) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_Repository) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -1233,8 +1233,8 @@ func (j *jsiiProxy_Repository) TemplateInput() *RepositoryTemplate {
 	return returns
 }
 
-func (j *jsiiProxy_Repository) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_Repository) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1546,7 +1546,7 @@ func (j *jsiiProxy_Repository)SetEtag(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Repository)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_Repository)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1686,7 +1686,7 @@ func (j *jsiiProxy_Repository)SetLicenseTemplate(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Repository)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_Repository)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1741,7 +1741,7 @@ func (j *jsiiProxy_Repository)SetPrivate(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_Repository)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_Repository)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1848,14 +1848,14 @@ func (j *jsiiProxy_Repository)SetWebCommitSignoffRequired(val interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a Repository resource upon running "cdktf plan <stack-name>".
-func Repository_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a Repository resource upon running "cdktn plan <stack-name>".
+func Repository_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateRepository_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-github.repository.Repository",
@@ -1989,11 +1989,11 @@ func (r *jsiiProxy_Repository) GetAnyMapAttribute(terraformAttribute *string) *m
 	return returns
 }
 
-func (r *jsiiProxy_Repository) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_Repository) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -2130,7 +2130,7 @@ func (r *jsiiProxy_Repository) HasResourceMove() interface{} {
 	return returns
 }
 
-func (r *jsiiProxy_Repository) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (r *jsiiProxy_Repository) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := r.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -2141,11 +2141,11 @@ func (r *jsiiProxy_Repository) ImportFrom(id *string, provider cdktf.TerraformPr
 	)
 }
 
-func (r *jsiiProxy_Repository) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_Repository) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,

@@ -5,14 +5,14 @@ package actionsorganizationpermissions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/actionsorganizationpermissions/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizationpermissions/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ActionsOrganizationPermissionsAllowedActionsConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type ActionsOrganizationPermissionsAllowedActionsConfigOutputReference interface
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VerifiedAllowed() interface{}
 	SetVerifiedAllowed(val interface{})
 	VerifiedAllowedInput() interface{}
@@ -54,7 +54,7 @@ type ActionsOrganizationPermissionsAllowedActionsConfigOutputReference interface
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,14 +70,14 @@ type ActionsOrganizationPermissionsAllowedActionsConfigOutputReference interface
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetPatternsAllowed()
 	ResetVerifiedAllowed()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type ActionsOrganizationPermissionsAllowedActionsConfigOutputReference interface
 
 // The jsii proxy struct for ActionsOrganizationPermissionsAllowedActionsConfigOutputReference
 type jsiiProxy_ActionsOrganizationPermissionsAllowedActionsConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ActionsOrganizationPermissionsAllowedActionsConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -190,8 +190,8 @@ func (j *jsiiProxy_ActionsOrganizationPermissionsAllowedActionsConfigOutputRefer
 	return returns
 }
 
-func (j *jsiiProxy_ActionsOrganizationPermissionsAllowedActionsConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ActionsOrganizationPermissionsAllowedActionsConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -221,7 +221,7 @@ func (j *jsiiProxy_ActionsOrganizationPermissionsAllowedActionsConfigOutputRefer
 }
 
 
-func NewActionsOrganizationPermissionsAllowedActionsConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ActionsOrganizationPermissionsAllowedActionsConfigOutputReference {
+func NewActionsOrganizationPermissionsAllowedActionsConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ActionsOrganizationPermissionsAllowedActionsConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewActionsOrganizationPermissionsAllowedActionsConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -238,7 +238,7 @@ func NewActionsOrganizationPermissionsAllowedActionsConfigOutputReference(terraf
 	return &j
 }
 
-func NewActionsOrganizationPermissionsAllowedActionsConfigOutputReference_Override(a ActionsOrganizationPermissionsAllowedActionsConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewActionsOrganizationPermissionsAllowedActionsConfigOutputReference_Override(a ActionsOrganizationPermissionsAllowedActionsConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -314,7 +314,7 @@ func (j *jsiiProxy_ActionsOrganizationPermissionsAllowedActionsConfigOutputRefer
 	)
 }
 
-func (j *jsiiProxy_ActionsOrganizationPermissionsAllowedActionsConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ActionsOrganizationPermissionsAllowedActionsConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -365,11 +365,11 @@ func (a *jsiiProxy_ActionsOrganizationPermissionsAllowedActionsConfigOutputRefer
 	return returns
 }
 
-func (a *jsiiProxy_ActionsOrganizationPermissionsAllowedActionsConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ActionsOrganizationPermissionsAllowedActionsConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -493,8 +493,8 @@ func (a *jsiiProxy_ActionsOrganizationPermissionsAllowedActionsConfigOutputRefer
 	return returns
 }
 
-func (a *jsiiProxy_ActionsOrganizationPermissionsAllowedActionsConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ActionsOrganizationPermissionsAllowedActionsConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -506,11 +506,11 @@ func (a *jsiiProxy_ActionsOrganizationPermissionsAllowedActionsConfigOutputRefer
 	return returns
 }
 
-func (a *jsiiProxy_ActionsOrganizationPermissionsAllowedActionsConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ActionsOrganizationPermissionsAllowedActionsConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -538,7 +538,7 @@ func (a *jsiiProxy_ActionsOrganizationPermissionsAllowedActionsConfigOutputRefer
 	)
 }
 
-func (a *jsiiProxy_ActionsOrganizationPermissionsAllowedActionsConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ActionsOrganizationPermissionsAllowedActionsConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

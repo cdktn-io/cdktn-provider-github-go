@@ -111,7 +111,7 @@ func (j *jsiiProxy_RepositoryEnvironmentDeploymentPolicy) validateSetIdParameter
 	return nil
 }
 
-func (j *jsiiProxy_RepositoryEnvironmentDeploymentPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RepositoryEnvironmentDeploymentPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

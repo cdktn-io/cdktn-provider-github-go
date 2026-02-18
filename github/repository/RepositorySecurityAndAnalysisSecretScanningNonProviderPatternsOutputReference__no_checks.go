@@ -47,7 +47,7 @@ func (r *jsiiProxy_RepositorySecurityAndAnalysisSecretScanningNonProviderPattern
 	return nil
 }
 
-func (r *jsiiProxy_RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_RepositorySecurityAndAnalysisSecretScanningNonProviderPattern
 	return nil
 }
 
-func (j *jsiiProxy_RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

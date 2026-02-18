@@ -107,7 +107,7 @@ func (j *jsiiProxy_ActionsOrganizationOidcSubjectClaimCustomizationTemplate) val
 	return nil
 }
 
-func (j *jsiiProxy_ActionsOrganizationOidcSubjectClaimCustomizationTemplate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ActionsOrganizationOidcSubjectClaimCustomizationTemplate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

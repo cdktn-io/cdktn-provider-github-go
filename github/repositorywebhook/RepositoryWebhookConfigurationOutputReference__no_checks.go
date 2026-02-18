@@ -47,7 +47,7 @@ func (r *jsiiProxy_RepositoryWebhookConfigurationOutputReference) validateInterp
 	return nil
 }
 
-func (r *jsiiProxy_RepositoryWebhookConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RepositoryWebhookConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_RepositoryWebhookConfigurationOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_RepositoryWebhookConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RepositoryWebhookConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_RepositoryWebhookConfigurationOutputReference) validateSetUrl
 	return nil
 }
 
-func validateNewRepositoryWebhookConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRepositoryWebhookConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (o *jsiiProxy_OrganizationRulesetRulesRequiredCodeScanningRequiredCodeScann
 	return nil
 }
 
-func (o *jsiiProxy_OrganizationRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OrganizationRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_OrganizationRulesetRulesRequiredCodeScanningRequiredCodeScann
 	return nil
 }
 
-func (j *jsiiProxy_OrganizationRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OrganizationRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_OrganizationRulesetRulesRequiredCodeScanningRequiredCodeScann
 	return nil
 }
 
-func validateNewOrganizationRulesetRulesRequiredCodeScanningRequiredCodeScanningToolListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOrganizationRulesetRulesRequiredCodeScanningRequiredCodeScanningToolListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

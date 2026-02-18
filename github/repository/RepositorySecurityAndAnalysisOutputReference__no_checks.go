@@ -71,7 +71,7 @@ func (r *jsiiProxy_RepositorySecurityAndAnalysisOutputReference) validatePutSecr
 	return nil
 }
 
-func (r *jsiiProxy_RepositorySecurityAndAnalysisOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RepositorySecurityAndAnalysisOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_RepositorySecurityAndAnalysisOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_RepositorySecurityAndAnalysisOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RepositorySecurityAndAnalysisOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRepositorySecurityAndAnalysisOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRepositorySecurityAndAnalysisOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

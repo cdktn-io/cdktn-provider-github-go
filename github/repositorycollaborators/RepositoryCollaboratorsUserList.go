@@ -5,14 +5,14 @@ package repositorycollaborators
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/repositorycollaborators/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositorycollaborators/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type RepositoryCollaboratorsUserList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type RepositoryCollaboratorsUserList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type RepositoryCollaboratorsUserList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) RepositoryCollaboratorsUserOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type RepositoryCollaboratorsUserList interface {
 
 // The jsii proxy struct for RepositoryCollaboratorsUserList
 type jsiiProxy_RepositoryCollaboratorsUserList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_RepositoryCollaboratorsUserList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_RepositoryCollaboratorsUserList) TerraformAttribute() *string
 	return returns
 }
 
-func (j *jsiiProxy_RepositoryCollaboratorsUserList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_RepositoryCollaboratorsUserList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_RepositoryCollaboratorsUserList) WrapsSet() *bool {
 }
 
 
-func NewRepositoryCollaboratorsUserList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RepositoryCollaboratorsUserList {
+func NewRepositoryCollaboratorsUserList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RepositoryCollaboratorsUserList {
 	_init_.Initialize()
 
 	if err := validateNewRepositoryCollaboratorsUserListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewRepositoryCollaboratorsUserList(terraformResource cdktf.IInterpolatingPa
 	return &j
 }
 
-func NewRepositoryCollaboratorsUserList_Override(r RepositoryCollaboratorsUserList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewRepositoryCollaboratorsUserList_Override(r RepositoryCollaboratorsUserList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_RepositoryCollaboratorsUserList)SetTerraformAttribute(val *st
 	)
 }
 
-func (j *jsiiProxy_RepositoryCollaboratorsUserList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_RepositoryCollaboratorsUserList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_RepositoryCollaboratorsUserList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (r *jsiiProxy_RepositoryCollaboratorsUserList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (r *jsiiProxy_RepositoryCollaboratorsUserList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := r.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		r,
@@ -231,7 +231,7 @@ func (r *jsiiProxy_RepositoryCollaboratorsUserList) Get(index *float64) Reposito
 	return returns
 }
 
-func (r *jsiiProxy_RepositoryCollaboratorsUserList) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_RepositoryCollaboratorsUserList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

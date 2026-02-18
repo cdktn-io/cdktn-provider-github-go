@@ -15,7 +15,7 @@ func (b *jsiiProxy_BranchProtectionRequiredStatusChecksList) validateGetParamete
 	return nil
 }
 
-func (b *jsiiProxy_BranchProtectionRequiredStatusChecksList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BranchProtectionRequiredStatusChecksList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BranchProtectionRequiredStatusChecksList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_BranchProtectionRequiredStatusChecksList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BranchProtectionRequiredStatusChecksList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BranchProtectionRequiredStatusChecksList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewBranchProtectionRequiredStatusChecksListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBranchProtectionRequiredStatusChecksListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

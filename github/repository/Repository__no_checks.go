@@ -211,7 +211,7 @@ func (j *jsiiProxy_Repository) validateSetLicenseTemplateParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_Repository) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Repository) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

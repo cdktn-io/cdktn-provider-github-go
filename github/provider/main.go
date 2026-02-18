@@ -78,7 +78,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GithubProvider{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformProvider)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformProvider)
 			return &j
 		},
 	)

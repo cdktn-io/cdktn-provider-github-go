@@ -47,7 +47,7 @@ func (r *jsiiProxy_RepositoryPagesSourceOutputReference) validateInterpolationFo
 	return nil
 }
 
-func (r *jsiiProxy_RepositoryPagesSourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RepositoryPagesSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_RepositoryPagesSourceOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_RepositoryPagesSourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RepositoryPagesSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRepositoryPagesSourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRepositoryPagesSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

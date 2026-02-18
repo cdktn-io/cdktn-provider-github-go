@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataGithubRepositoryAutolinkReferences) validateSetIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_DataGithubRepositoryAutolinkReferences) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGithubRepositoryAutolinkReferences) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

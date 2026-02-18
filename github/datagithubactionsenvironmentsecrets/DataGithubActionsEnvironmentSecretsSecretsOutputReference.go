@@ -5,14 +5,14 @@ package datagithubactionsenvironmentsecrets
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubactionsenvironmentsecrets/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubactionsenvironmentsecrets/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataGithubActionsEnvironmentSecretsSecretsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,16 +39,16 @@ type DataGithubActionsEnvironmentSecretsSecretsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UpdatedAt() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type DataGithubActionsEnvironmentSecretsSecretsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type DataGithubActionsEnvironmentSecretsSecretsOutputReference interface {
 
 // The jsii proxy struct for DataGithubActionsEnvironmentSecretsSecretsOutputReference
 type jsiiProxy_DataGithubActionsEnvironmentSecretsSecretsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataGithubActionsEnvironmentSecretsSecretsOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_DataGithubActionsEnvironmentSecretsSecretsOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_DataGithubActionsEnvironmentSecretsSecretsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataGithubActionsEnvironmentSecretsSecretsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -183,7 +183,7 @@ func (j *jsiiProxy_DataGithubActionsEnvironmentSecretsSecretsOutputReference) Up
 }
 
 
-func NewDataGithubActionsEnvironmentSecretsSecretsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataGithubActionsEnvironmentSecretsSecretsOutputReference {
+func NewDataGithubActionsEnvironmentSecretsSecretsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataGithubActionsEnvironmentSecretsSecretsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataGithubActionsEnvironmentSecretsSecretsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -200,7 +200,7 @@ func NewDataGithubActionsEnvironmentSecretsSecretsOutputReference(terraformResou
 	return &j
 }
 
-func NewDataGithubActionsEnvironmentSecretsSecretsOutputReference_Override(d DataGithubActionsEnvironmentSecretsSecretsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataGithubActionsEnvironmentSecretsSecretsOutputReference_Override(d DataGithubActionsEnvironmentSecretsSecretsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -254,7 +254,7 @@ func (j *jsiiProxy_DataGithubActionsEnvironmentSecretsSecretsOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_DataGithubActionsEnvironmentSecretsSecretsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataGithubActionsEnvironmentSecretsSecretsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -294,11 +294,11 @@ func (d *jsiiProxy_DataGithubActionsEnvironmentSecretsSecretsOutputReference) Ge
 	return returns
 }
 
-func (d *jsiiProxy_DataGithubActionsEnvironmentSecretsSecretsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGithubActionsEnvironmentSecretsSecretsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -422,8 +422,8 @@ func (d *jsiiProxy_DataGithubActionsEnvironmentSecretsSecretsOutputReference) Ge
 	return returns
 }
 
-func (d *jsiiProxy_DataGithubActionsEnvironmentSecretsSecretsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataGithubActionsEnvironmentSecretsSecretsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -435,11 +435,11 @@ func (d *jsiiProxy_DataGithubActionsEnvironmentSecretsSecretsOutputReference) In
 	return returns
 }
 
-func (d *jsiiProxy_DataGithubActionsEnvironmentSecretsSecretsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGithubActionsEnvironmentSecretsSecretsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -451,7 +451,7 @@ func (d *jsiiProxy_DataGithubActionsEnvironmentSecretsSecretsOutputReference) In
 	return returns
 }
 
-func (d *jsiiProxy_DataGithubActionsEnvironmentSecretsSecretsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataGithubActionsEnvironmentSecretsSecretsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

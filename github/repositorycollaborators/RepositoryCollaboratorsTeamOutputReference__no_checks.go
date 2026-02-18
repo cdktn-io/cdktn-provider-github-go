@@ -47,7 +47,7 @@ func (r *jsiiProxy_RepositoryCollaboratorsTeamOutputReference) validateInterpola
 	return nil
 }
 
-func (r *jsiiProxy_RepositoryCollaboratorsTeamOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RepositoryCollaboratorsTeamOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_RepositoryCollaboratorsTeamOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_RepositoryCollaboratorsTeamOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RepositoryCollaboratorsTeamOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRepositoryCollaboratorsTeamOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRepositoryCollaboratorsTeamOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

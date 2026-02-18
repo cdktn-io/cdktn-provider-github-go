@@ -111,7 +111,7 @@ func (j *jsiiProxy_RepositoryAutolinkReference) validateSetKeyPrefixParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_RepositoryAutolinkReference) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RepositoryAutolinkReference) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

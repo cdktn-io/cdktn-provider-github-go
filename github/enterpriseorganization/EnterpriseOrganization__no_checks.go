@@ -119,7 +119,7 @@ func (j *jsiiProxy_EnterpriseOrganization) validateSetEnterpriseIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_EnterpriseOrganization) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EnterpriseOrganization) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

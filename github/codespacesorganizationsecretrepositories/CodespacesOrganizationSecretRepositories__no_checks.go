@@ -103,7 +103,7 @@ func (j *jsiiProxy_CodespacesOrganizationSecretRepositories) validateSetIdParame
 	return nil
 }
 
-func (j *jsiiProxy_CodespacesOrganizationSecretRepositories) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CodespacesOrganizationSecretRepositories) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

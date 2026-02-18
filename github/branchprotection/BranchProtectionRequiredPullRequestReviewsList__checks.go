@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (b *jsiiProxy_BranchProtectionRequiredPullRequestReviewsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (b *jsiiProxy_BranchProtectionRequiredPullRequestReviewsList) validateGetPa
 	return nil
 }
 
-func (b *jsiiProxy_BranchProtectionRequiredPullRequestReviewsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BranchProtectionRequiredPullRequestReviewsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (b *jsiiProxy_BranchProtectionRequiredPullRequestReviewsList) validateResol
 
 func (j *jsiiProxy_BranchProtectionRequiredPullRequestReviewsList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*BranchProtectionRequiredPullRequestReviews:
 		val := val.(*[]*BranchProtectionRequiredPullRequestReviews)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_BranchProtectionRequiredPullRequestReviewsList) validateSetIn
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*BranchProtectionRequiredPullRequestReviews; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*BranchProtectionRequiredPullRequestReviews; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_BranchProtectionRequiredPullRequestReviewsList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_BranchProtectionRequiredPullRequestReviewsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BranchProtectionRequiredPullRequestReviewsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_BranchProtectionRequiredPullRequestReviewsList) validateSetWr
 	return nil
 }
 
-func validateNewBranchProtectionRequiredPullRequestReviewsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBranchProtectionRequiredPullRequestReviewsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}
