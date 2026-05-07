@@ -131,6 +131,14 @@ func (j *jsiiProxy_DependabotSecret) validateSetSecretNameParameters(val *string
 	return nil
 }
 
+func (j *jsiiProxy_DependabotSecret) validateSetValueParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DependabotSecret) validateSetValueEncryptedParameters(val *string) error {
+	return nil
+}
+
 func validateNewDependabotSecretParameters(scope constructs.Construct, id *string, config *DependabotSecretConfig) error {
 	return nil
 }

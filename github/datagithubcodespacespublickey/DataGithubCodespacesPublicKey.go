@@ -5,14 +5,14 @@ package datagithubcodespacespublickey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubcodespacespublickey/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubcodespacespublickey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/codespaces_public_key github_codespaces_public_key}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/codespaces_public_key github_codespaces_public_key}.
 type DataGithubCodespacesPublicKey interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -102,6 +102,15 @@ type DataGithubCodespacesPublicKey interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataGithubCodespacesPublicKey
@@ -310,7 +319,7 @@ func (j *jsiiProxy_DataGithubCodespacesPublicKey) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/codespaces_public_key github_codespaces_public_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/codespaces_public_key github_codespaces_public_key} Data Source.
 func NewDataGithubCodespacesPublicKey(scope constructs.Construct, id *string, config *DataGithubCodespacesPublicKeyConfig) DataGithubCodespacesPublicKey {
 	_init_.Initialize()
 
@@ -328,7 +337,7 @@ func NewDataGithubCodespacesPublicKey(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/codespaces_public_key github_codespaces_public_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/codespaces_public_key github_codespaces_public_key} Data Source.
 func NewDataGithubCodespacesPublicKey_Override(d DataGithubCodespacesPublicKey, scope constructs.Construct, id *string, config *DataGithubCodespacesPublicKeyConfig) {
 	_init_.Initialize()
 
@@ -780,6 +789,24 @@ func (d *jsiiProxy_DataGithubCodespacesPublicKey) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataGithubCodespacesPublicKey) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -3,7 +3,7 @@
 
 //go:build !no_runtime_type_checking
 
-package repositoryenvironment
+package organizationruleset
 
 import (
 	"fmt"
@@ -13,7 +13,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-func (r *jsiiProxy_RepositoryEnvironmentReviewersList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
+func (o *jsiiProxy_OrganizationRulesetConditionsRepositoryPropertyExcludeList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
 	if mapKeyAttributeName == nil {
 		return fmt.Errorf("parameter mapKeyAttributeName is required, but nil was provided")
 	}
@@ -21,7 +21,7 @@ func (r *jsiiProxy_RepositoryEnvironmentReviewersList) validateAllWithMapKeyPara
 	return nil
 }
 
-func (r *jsiiProxy_RepositoryEnvironmentReviewersList) validateGetParameters(index *float64) error {
+func (o *jsiiProxy_OrganizationRulesetConditionsRepositoryPropertyExcludeList) validateGetParameters(index *float64) error {
 	if index == nil {
 		return fmt.Errorf("parameter index is required, but nil was provided")
 	}
@@ -29,7 +29,7 @@ func (r *jsiiProxy_RepositoryEnvironmentReviewersList) validateGetParameters(ind
 	return nil
 }
 
-func (r *jsiiProxy_RepositoryEnvironmentReviewersList) validateResolveParameters(context cdktn.IResolveContext) error {
+func (o *jsiiProxy_OrganizationRulesetConditionsRepositoryPropertyExcludeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -37,19 +37,19 @@ func (r *jsiiProxy_RepositoryEnvironmentReviewersList) validateResolveParameters
 	return nil
 }
 
-func (j *jsiiProxy_RepositoryEnvironmentReviewersList) validateSetInternalValueParameters(val interface{}) error {
+func (j *jsiiProxy_OrganizationRulesetConditionsRepositoryPropertyExcludeList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
 	case cdktn.IResolvable:
 		// ok
-	case *[]*RepositoryEnvironmentReviewers:
-		val := val.(*[]*RepositoryEnvironmentReviewers)
+	case *[]*OrganizationRulesetConditionsRepositoryPropertyExclude:
+		val := val.(*[]*OrganizationRulesetConditionsRepositoryPropertyExclude)
 		for idx_97dfc6, v := range *val {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
 				return err
 			}
 		}
-	case []*RepositoryEnvironmentReviewers:
-		val_ := val.([]*RepositoryEnvironmentReviewers)
+	case []*OrganizationRulesetConditionsRepositoryPropertyExclude:
+		val_ := val.([]*OrganizationRulesetConditionsRepositoryPropertyExclude)
 		val := &val_
 		for idx_97dfc6, v := range *val {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
@@ -58,14 +58,14 @@ func (j *jsiiProxy_RepositoryEnvironmentReviewersList) validateSetInternalValueP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*RepositoryEnvironmentReviewers; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*OrganizationRulesetConditionsRepositoryPropertyExclude; received %#v (a %T)", val, val)
 		}
 	}
 
 	return nil
 }
 
-func (j *jsiiProxy_RepositoryEnvironmentReviewersList) validateSetTerraformAttributeParameters(val *string) error {
+func (j *jsiiProxy_OrganizationRulesetConditionsRepositoryPropertyExcludeList) validateSetTerraformAttributeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -73,7 +73,7 @@ func (j *jsiiProxy_RepositoryEnvironmentReviewersList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_RepositoryEnvironmentReviewersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+func (j *jsiiProxy_OrganizationRulesetConditionsRepositoryPropertyExcludeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -81,7 +81,7 @@ func (j *jsiiProxy_RepositoryEnvironmentReviewersList) validateSetTerraformResou
 	return nil
 }
 
-func (j *jsiiProxy_RepositoryEnvironmentReviewersList) validateSetWrapsSetParameters(val *bool) error {
+func (j *jsiiProxy_OrganizationRulesetConditionsRepositoryPropertyExcludeList) validateSetWrapsSetParameters(val *bool) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_RepositoryEnvironmentReviewersList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewRepositoryEnvironmentReviewersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOrganizationRulesetConditionsRepositoryPropertyExcludeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

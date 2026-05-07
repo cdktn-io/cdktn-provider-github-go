@@ -459,6 +459,22 @@ func (j *jsiiProxy_ActionsOrganizationSecret) validateSetSelectedRepositoryIdsPa
 	return nil
 }
 
+func (j *jsiiProxy_ActionsOrganizationSecret) validateSetValueParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_ActionsOrganizationSecret) validateSetValueEncryptedParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ActionsOrganizationSecret) validateSetVisibilityParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

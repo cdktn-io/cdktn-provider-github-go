@@ -5,14 +5,14 @@ package issuelabel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/issuelabel/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/issuelabel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/issue_label github_issue_label}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/issue_label github_issue_label}.
 type IssueLabel interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -140,6 +140,15 @@ type IssueLabel interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for IssueLabel
@@ -438,7 +447,7 @@ func (j *jsiiProxy_IssueLabel) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/issue_label github_issue_label} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/issue_label github_issue_label} Resource.
 func NewIssueLabel(scope constructs.Construct, id *string, config *IssueLabelConfig) IssueLabel {
 	_init_.Initialize()
 
@@ -456,7 +465,7 @@ func NewIssueLabel(scope constructs.Construct, id *string, config *IssueLabelCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/issue_label github_issue_label} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/issue_label github_issue_label} Resource.
 func NewIssueLabel_Override(i IssueLabel, scope constructs.Construct, id *string, config *IssueLabelConfig) {
 	_init_.Initialize()
 
@@ -1058,6 +1067,24 @@ func (i *jsiiProxy_IssueLabel) ToTerraform() interface{} {
 		i,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (i *jsiiProxy_IssueLabel) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		i,
+		"with",
+		args,
 		&returns,
 	)
 

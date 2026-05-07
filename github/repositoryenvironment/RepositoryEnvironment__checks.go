@@ -218,32 +218,12 @@ func (r *jsiiProxy_RepositoryEnvironment) validatePutDeploymentBranchPolicyParam
 	return nil
 }
 
-func (r *jsiiProxy_RepositoryEnvironment) validatePutReviewersParameters(value interface{}) error {
+func (r *jsiiProxy_RepositoryEnvironment) validatePutReviewersParameters(value *RepositoryEnvironmentReviewers) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
-	switch value.(type) {
-	case cdktn.IResolvable:
-		// ok
-	case *[]*RepositoryEnvironmentReviewers:
-		value := value.(*[]*RepositoryEnvironmentReviewers)
-		for idx_cd4240, v := range *value {
-			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
-				return err
-			}
-		}
-	case []*RepositoryEnvironmentReviewers:
-		value_ := value.([]*RepositoryEnvironmentReviewers)
-		value := &value_
-		for idx_cd4240, v := range *value {
-			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
-				return err
-			}
-		}
-	default:
-		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*RepositoryEnvironmentReviewers; received %#v (a %T)", value, value)
-		}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
 	}
 
 	return nil

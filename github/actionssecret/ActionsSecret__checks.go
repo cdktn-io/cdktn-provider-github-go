@@ -459,6 +459,22 @@ func (j *jsiiProxy_ActionsSecret) validateSetSecretNameParameters(val *string) e
 	return nil
 }
 
+func (j *jsiiProxy_ActionsSecret) validateSetValueParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_ActionsSecret) validateSetValueEncryptedParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateNewActionsSecretParameters(scope constructs.Construct, id *string, config *ActionsSecretConfig) error {
 	if scope == nil {
 		return fmt.Errorf("parameter scope is required, but nil was provided")

@@ -5,14 +5,14 @@ package actionsorganizationsecretrepository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizationsecretrepository/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionsorganizationsecretrepository/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_secret_repository github_actions_organization_secret_repository}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_secret_repository github_actions_organization_secret_repository}.
 type ActionsOrganizationSecretRepository interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -128,6 +128,15 @@ type ActionsOrganizationSecretRepository interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ActionsOrganizationSecretRepository
@@ -356,7 +365,7 @@ func (j *jsiiProxy_ActionsOrganizationSecretRepository) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_secret_repository github_actions_organization_secret_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_secret_repository github_actions_organization_secret_repository} Resource.
 func NewActionsOrganizationSecretRepository(scope constructs.Construct, id *string, config *ActionsOrganizationSecretRepositoryConfig) ActionsOrganizationSecretRepository {
 	_init_.Initialize()
 
@@ -374,7 +383,7 @@ func NewActionsOrganizationSecretRepository(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_secret_repository github_actions_organization_secret_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_secret_repository github_actions_organization_secret_repository} Resource.
 func NewActionsOrganizationSecretRepository_Override(a ActionsOrganizationSecretRepository, scope constructs.Construct, id *string, config *ActionsOrganizationSecretRepositoryConfig) {
 	_init_.Initialize()
 
@@ -927,6 +936,24 @@ func (a *jsiiProxy_ActionsOrganizationSecretRepository) ToTerraform() interface{
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_ActionsOrganizationSecretRepository) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

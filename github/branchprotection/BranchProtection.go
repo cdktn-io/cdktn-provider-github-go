@@ -5,14 +5,14 @@ package branchprotection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/branchprotection/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/branchprotection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection github_branch_protection}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/branch_protection github_branch_protection}.
 type BranchProtection interface {
 	cdktn.TerraformResource
 	AllowsDeletions() interface{}
@@ -172,6 +172,15 @@ type BranchProtection interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for BranchProtection
@@ -620,7 +629,7 @@ func (j *jsiiProxy_BranchProtection) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection github_branch_protection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/branch_protection github_branch_protection} Resource.
 func NewBranchProtection(scope constructs.Construct, id *string, config *BranchProtectionConfig) BranchProtection {
 	_init_.Initialize()
 
@@ -638,7 +647,7 @@ func NewBranchProtection(scope constructs.Construct, id *string, config *BranchP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection github_branch_protection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/branch_protection github_branch_protection} Resource.
 func NewBranchProtection_Override(b BranchProtection, scope constructs.Construct, id *string, config *BranchProtectionConfig) {
 	_init_.Initialize()
 
@@ -1400,6 +1409,24 @@ func (b *jsiiProxy_BranchProtection) ToTerraform() interface{} {
 		b,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (b *jsiiProxy_BranchProtection) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		b,
+		"with",
+		args,
 		&returns,
 	)
 

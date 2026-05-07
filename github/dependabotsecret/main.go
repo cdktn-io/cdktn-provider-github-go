@@ -63,6 +63,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetKeyId", GoMethod: "ResetKeyId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPlaintextValue", GoMethod: "ResetPlaintextValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resetValue", GoMethod: "ResetValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resetValueEncrypted", GoMethod: "ResetValueEncrypted"},
 			_jsii_.MemberProperty{JsiiProperty: "secretName", GoGetter: "SecretName"},
 			_jsii_.MemberProperty{JsiiProperty: "secretNameInput", GoGetter: "SecretNameInput"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
@@ -75,6 +77,11 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "updatedAt", GoGetter: "UpdatedAt"},
+			_jsii_.MemberProperty{JsiiProperty: "value", GoGetter: "Value"},
+			_jsii_.MemberProperty{JsiiProperty: "valueEncrypted", GoGetter: "ValueEncrypted"},
+			_jsii_.MemberProperty{JsiiProperty: "valueEncryptedInput", GoGetter: "ValueEncryptedInput"},
+			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DependabotSecret{}

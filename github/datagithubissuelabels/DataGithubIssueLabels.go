@@ -5,14 +5,14 @@ package datagithubissuelabels
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubissuelabels/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubissuelabels/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/issue_labels github_issue_labels}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/issue_labels github_issue_labels}.
 type DataGithubIssueLabels interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -101,6 +101,15 @@ type DataGithubIssueLabels interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataGithubIssueLabels
@@ -299,7 +308,7 @@ func (j *jsiiProxy_DataGithubIssueLabels) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/issue_labels github_issue_labels} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/issue_labels github_issue_labels} Data Source.
 func NewDataGithubIssueLabels(scope constructs.Construct, id *string, config *DataGithubIssueLabelsConfig) DataGithubIssueLabels {
 	_init_.Initialize()
 
@@ -317,7 +326,7 @@ func NewDataGithubIssueLabels(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/issue_labels github_issue_labels} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/issue_labels github_issue_labels} Data Source.
 func NewDataGithubIssueLabels_Override(d DataGithubIssueLabels, scope constructs.Construct, id *string, config *DataGithubIssueLabelsConfig) {
 	_init_.Initialize()
 
@@ -769,6 +778,24 @@ func (d *jsiiProxy_DataGithubIssueLabels) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataGithubIssueLabels) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -135,6 +135,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "twitterUsernameInput", GoGetter: "TwitterUsernameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "webCommitSignoffRequired", GoGetter: "WebCommitSignoffRequired"},
 			_jsii_.MemberProperty{JsiiProperty: "webCommitSignoffRequiredInput", GoGetter: "WebCommitSignoffRequiredInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_OrganizationSettings{}

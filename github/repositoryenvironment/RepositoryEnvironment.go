@@ -5,14 +5,14 @@ package repositoryenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositoryenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryenvironment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment github_repository_environment}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_environment github_repository_environment}.
 type RepositoryEnvironment interface {
 	cdktn.TerraformResource
 	CanAdminsBypass() interface{}
@@ -71,9 +71,10 @@ type RepositoryEnvironment interface {
 	RawOverrides() interface{}
 	Repository() *string
 	SetRepository(val *string)
+	RepositoryId() *float64
 	RepositoryInput() *string
-	Reviewers() RepositoryEnvironmentReviewersList
-	ReviewersInput() interface{}
+	Reviewers() RepositoryEnvironmentReviewersOutputReference
+	ReviewersInput() *RepositoryEnvironmentReviewers
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -127,7 +128,7 @@ type RepositoryEnvironment interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutDeploymentBranchPolicy(value *RepositoryEnvironmentDeploymentBranchPolicy)
-	PutReviewers(value interface{})
+	PutReviewers(value *RepositoryEnvironmentReviewers)
 	ResetCanAdminsBypass()
 	ResetDeploymentBranchPolicy()
 	ResetId()
@@ -148,6 +149,15 @@ type RepositoryEnvironment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for RepositoryEnvironment
@@ -395,6 +405,16 @@ func (j *jsiiProxy_RepositoryEnvironment) Repository() *string {
 	return returns
 }
 
+func (j *jsiiProxy_RepositoryEnvironment) RepositoryId() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"repositoryId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_RepositoryEnvironment) RepositoryInput() *string {
 	var returns *string
 	_jsii_.Get(
@@ -405,8 +425,8 @@ func (j *jsiiProxy_RepositoryEnvironment) RepositoryInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_RepositoryEnvironment) Reviewers() RepositoryEnvironmentReviewersList {
-	var returns RepositoryEnvironmentReviewersList
+func (j *jsiiProxy_RepositoryEnvironment) Reviewers() RepositoryEnvironmentReviewersOutputReference {
+	var returns RepositoryEnvironmentReviewersOutputReference
 	_jsii_.Get(
 		j,
 		"reviewers",
@@ -415,8 +435,8 @@ func (j *jsiiProxy_RepositoryEnvironment) Reviewers() RepositoryEnvironmentRevie
 	return returns
 }
 
-func (j *jsiiProxy_RepositoryEnvironment) ReviewersInput() interface{} {
-	var returns interface{}
+func (j *jsiiProxy_RepositoryEnvironment) ReviewersInput() *RepositoryEnvironmentReviewers {
+	var returns *RepositoryEnvironmentReviewers
 	_jsii_.Get(
 		j,
 		"reviewersInput",
@@ -476,7 +496,7 @@ func (j *jsiiProxy_RepositoryEnvironment) WaitTimerInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment github_repository_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_environment github_repository_environment} Resource.
 func NewRepositoryEnvironment(scope constructs.Construct, id *string, config *RepositoryEnvironmentConfig) RepositoryEnvironment {
 	_init_.Initialize()
 
@@ -494,7 +514,7 @@ func NewRepositoryEnvironment(scope constructs.Construct, id *string, config *Re
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment github_repository_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_environment github_repository_environment} Resource.
 func NewRepositoryEnvironment_Override(r RepositoryEnvironment, scope constructs.Construct, id *string, config *RepositoryEnvironmentConfig) {
 	_init_.Initialize()
 
@@ -1003,7 +1023,7 @@ func (r *jsiiProxy_RepositoryEnvironment) PutDeploymentBranchPolicy(value *Repos
 	)
 }
 
-func (r *jsiiProxy_RepositoryEnvironment) PutReviewers(value interface{}) {
+func (r *jsiiProxy_RepositoryEnvironment) PutReviewers(value *RepositoryEnvironmentReviewers) {
 	if err := r.validatePutReviewersParameters(value); err != nil {
 		panic(err)
 	}
@@ -1142,6 +1162,24 @@ func (r *jsiiProxy_RepositoryEnvironment) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_RepositoryEnvironment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

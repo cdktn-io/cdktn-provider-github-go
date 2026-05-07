@@ -439,6 +439,22 @@ func (j *jsiiProxy_DependabotSecret) validateSetSecretNameParameters(val *string
 	return nil
 }
 
+func (j *jsiiProxy_DependabotSecret) validateSetValueParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_DependabotSecret) validateSetValueEncryptedParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateNewDependabotSecretParameters(scope constructs.Construct, id *string, config *DependabotSecretConfig) error {
 	if scope == nil {
 		return fmt.Errorf("parameter scope is required, but nil was provided")

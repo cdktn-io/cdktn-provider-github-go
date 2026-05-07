@@ -5,14 +5,14 @@ package workflowrepositorypermissions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/workflowrepositorypermissions/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/workflowrepositorypermissions/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/workflow_repository_permissions github_workflow_repository_permissions}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/workflow_repository_permissions github_workflow_repository_permissions}.
 type WorkflowRepositoryPermissions interface {
 	cdktn.TerraformResource
 	CanApprovePullRequestReviews() interface{}
@@ -133,6 +133,15 @@ type WorkflowRepositoryPermissions interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for WorkflowRepositoryPermissions
@@ -381,7 +390,7 @@ func (j *jsiiProxy_WorkflowRepositoryPermissions) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/workflow_repository_permissions github_workflow_repository_permissions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/workflow_repository_permissions github_workflow_repository_permissions} Resource.
 func NewWorkflowRepositoryPermissions(scope constructs.Construct, id *string, config *WorkflowRepositoryPermissionsConfig) WorkflowRepositoryPermissions {
 	_init_.Initialize()
 
@@ -399,7 +408,7 @@ func NewWorkflowRepositoryPermissions(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/workflow_repository_permissions github_workflow_repository_permissions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/workflow_repository_permissions github_workflow_repository_permissions} Resource.
 func NewWorkflowRepositoryPermissions_Override(w WorkflowRepositoryPermissions, scope constructs.Construct, id *string, config *WorkflowRepositoryPermissionsConfig) {
 	_init_.Initialize()
 
@@ -979,6 +988,24 @@ func (w *jsiiProxy_WorkflowRepositoryPermissions) ToTerraform() interface{} {
 		w,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WorkflowRepositoryPermissions) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		w,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -135,6 +135,14 @@ func (j *jsiiProxy_ActionsSecret) validateSetSecretNameParameters(val *string) e
 	return nil
 }
 
+func (j *jsiiProxy_ActionsSecret) validateSetValueParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ActionsSecret) validateSetValueEncryptedParameters(val *string) error {
+	return nil
+}
+
 func validateNewActionsSecretParameters(scope constructs.Construct, id *string, config *ActionsSecretConfig) error {
 	return nil
 }

@@ -186,6 +186,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vulnerabilityAlertsInput", GoGetter: "VulnerabilityAlertsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "webCommitSignoffRequired", GoGetter: "WebCommitSignoffRequired"},
 			_jsii_.MemberProperty{JsiiProperty: "webCommitSignoffRequiredInput", GoGetter: "WebCommitSignoffRequiredInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_Repository{}

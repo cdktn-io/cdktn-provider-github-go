@@ -5,14 +5,14 @@ package actionsorganizationoidcsubjectclaimcustomizationtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizationoidcsubjectclaimcustomizationtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionsorganizationoidcsubjectclaimcustomizationtemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_oidc_subject_claim_customization_template github_actions_organization_oidc_subject_claim_customization_template}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_oidc_subject_claim_customization_template github_actions_organization_oidc_subject_claim_customization_template}.
 type ActionsOrganizationOidcSubjectClaimCustomizationTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -125,6 +125,15 @@ type ActionsOrganizationOidcSubjectClaimCustomizationTemplate interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ActionsOrganizationOidcSubjectClaimCustomizationTemplate
@@ -333,7 +342,7 @@ func (j *jsiiProxy_ActionsOrganizationOidcSubjectClaimCustomizationTemplate) Ter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_oidc_subject_claim_customization_template github_actions_organization_oidc_subject_claim_customization_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_oidc_subject_claim_customization_template github_actions_organization_oidc_subject_claim_customization_template} Resource.
 func NewActionsOrganizationOidcSubjectClaimCustomizationTemplate(scope constructs.Construct, id *string, config *ActionsOrganizationOidcSubjectClaimCustomizationTemplateConfig) ActionsOrganizationOidcSubjectClaimCustomizationTemplate {
 	_init_.Initialize()
 
@@ -351,7 +360,7 @@ func NewActionsOrganizationOidcSubjectClaimCustomizationTemplate(scope construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_oidc_subject_claim_customization_template github_actions_organization_oidc_subject_claim_customization_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_oidc_subject_claim_customization_template github_actions_organization_oidc_subject_claim_customization_template} Resource.
 func NewActionsOrganizationOidcSubjectClaimCustomizationTemplate_Override(a ActionsOrganizationOidcSubjectClaimCustomizationTemplate, scope constructs.Construct, id *string, config *ActionsOrganizationOidcSubjectClaimCustomizationTemplateConfig) {
 	_init_.Initialize()
 
@@ -893,6 +902,24 @@ func (a *jsiiProxy_ActionsOrganizationOidcSubjectClaimCustomizationTemplate) ToT
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_ActionsOrganizationOidcSubjectClaimCustomizationTemplate) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

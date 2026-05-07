@@ -5,9 +5,9 @@ package repositoryenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositoryenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryenvironment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -30,8 +30,8 @@ type RepositoryEnvironmentReviewersOutputReference interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
-	InternalValue() interface{}
-	SetInternalValue(val interface{})
+	InternalValue() *RepositoryEnvironmentReviewers
+	SetInternalValue(val *RepositoryEnvironmentReviewers)
 	Teams() *[]*float64
 	SetTeams(val *[]*float64)
 	TeamsInput() *[]*float64
@@ -127,8 +127,8 @@ func (j *jsiiProxy_RepositoryEnvironmentReviewersOutputReference) Fqn() *string 
 	return returns
 }
 
-func (j *jsiiProxy_RepositoryEnvironmentReviewersOutputReference) InternalValue() interface{} {
-	var returns interface{}
+func (j *jsiiProxy_RepositoryEnvironmentReviewersOutputReference) InternalValue() *RepositoryEnvironmentReviewers {
+	var returns *RepositoryEnvironmentReviewers
 	_jsii_.Get(
 		j,
 		"internalValue",
@@ -198,29 +198,29 @@ func (j *jsiiProxy_RepositoryEnvironmentReviewersOutputReference) UsersInput() *
 }
 
 
-func NewRepositoryEnvironmentReviewersOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) RepositoryEnvironmentReviewersOutputReference {
+func NewRepositoryEnvironmentReviewersOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) RepositoryEnvironmentReviewersOutputReference {
 	_init_.Initialize()
 
-	if err := validateNewRepositoryEnvironmentReviewersOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
+	if err := validateNewRepositoryEnvironmentReviewersOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
 		panic(err)
 	}
 	j := jsiiProxy_RepositoryEnvironmentReviewersOutputReference{}
 
 	_jsii_.Create(
 		"@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference",
-		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
+		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
 
 	return &j
 }
 
-func NewRepositoryEnvironmentReviewersOutputReference_Override(r RepositoryEnvironmentReviewersOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewRepositoryEnvironmentReviewersOutputReference_Override(r RepositoryEnvironmentReviewersOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
 		"@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference",
-		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
+		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)
 }
@@ -247,7 +247,7 @@ func (j *jsiiProxy_RepositoryEnvironmentReviewersOutputReference)SetComplexObjec
 	)
 }
 
-func (j *jsiiProxy_RepositoryEnvironmentReviewersOutputReference)SetInternalValue(val interface{}) {
+func (j *jsiiProxy_RepositoryEnvironmentReviewersOutputReference)SetInternalValue(val *RepositoryEnvironmentReviewers) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
 	}

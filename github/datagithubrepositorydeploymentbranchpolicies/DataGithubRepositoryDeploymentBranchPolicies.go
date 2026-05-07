@@ -5,14 +5,14 @@ package datagithubrepositorydeploymentbranchpolicies
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorydeploymentbranchpolicies/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorydeploymentbranchpolicies/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repository_deployment_branch_policies github_repository_deployment_branch_policies}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_deployment_branch_policies github_repository_deployment_branch_policies}.
 type DataGithubRepositoryDeploymentBranchPolicies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -104,6 +104,15 @@ type DataGithubRepositoryDeploymentBranchPolicies interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataGithubRepositoryDeploymentBranchPolicies
@@ -322,7 +331,7 @@ func (j *jsiiProxy_DataGithubRepositoryDeploymentBranchPolicies) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repository_deployment_branch_policies github_repository_deployment_branch_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_deployment_branch_policies github_repository_deployment_branch_policies} Data Source.
 func NewDataGithubRepositoryDeploymentBranchPolicies(scope constructs.Construct, id *string, config *DataGithubRepositoryDeploymentBranchPoliciesConfig) DataGithubRepositoryDeploymentBranchPolicies {
 	_init_.Initialize()
 
@@ -340,7 +349,7 @@ func NewDataGithubRepositoryDeploymentBranchPolicies(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repository_deployment_branch_policies github_repository_deployment_branch_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_deployment_branch_policies github_repository_deployment_branch_policies} Data Source.
 func NewDataGithubRepositoryDeploymentBranchPolicies_Override(d DataGithubRepositoryDeploymentBranchPolicies, scope constructs.Construct, id *string, config *DataGithubRepositoryDeploymentBranchPoliciesConfig) {
 	_init_.Initialize()
 
@@ -803,6 +812,24 @@ func (d *jsiiProxy_DataGithubRepositoryDeploymentBranchPolicies) ToTerraform() i
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataGithubRepositoryDeploymentBranchPolicies) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

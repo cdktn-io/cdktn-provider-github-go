@@ -17,6 +17,9 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "actions", GoGetter: "Actions"},
 			_jsii_.MemberProperty{JsiiProperty: "actionsIpv4", GoGetter: "ActionsIpv4"},
 			_jsii_.MemberProperty{JsiiProperty: "actionsIpv6", GoGetter: "ActionsIpv6"},
+			_jsii_.MemberProperty{JsiiProperty: "actionsMacos", GoGetter: "ActionsMacos"},
+			_jsii_.MemberProperty{JsiiProperty: "actionsMacosIpv4", GoGetter: "ActionsMacosIpv4"},
+			_jsii_.MemberProperty{JsiiProperty: "actionsMacosIpv6", GoGetter: "ActionsMacosIpv6"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "api", GoGetter: "Api"},
 			_jsii_.MemberProperty{JsiiProperty: "apiIpv4", GoGetter: "ApiIpv4"},
@@ -41,6 +44,9 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "git", GoGetter: "Git"},
+			_jsii_.MemberProperty{JsiiProperty: "githubEnterpriseImporter", GoGetter: "GithubEnterpriseImporter"},
+			_jsii_.MemberProperty{JsiiProperty: "githubEnterpriseImporterIpv4", GoGetter: "GithubEnterpriseImporterIpv4"},
+			_jsii_.MemberProperty{JsiiProperty: "githubEnterpriseImporterIpv6", GoGetter: "GithubEnterpriseImporterIpv6"},
 			_jsii_.MemberProperty{JsiiProperty: "gitIpv4", GoGetter: "GitIpv4"},
 			_jsii_.MemberProperty{JsiiProperty: "gitIpv6", GoGetter: "GitIpv6"},
 			_jsii_.MemberProperty{JsiiProperty: "hooks", GoGetter: "Hooks"},
@@ -77,6 +83,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "web", GoGetter: "Web"},
 			_jsii_.MemberProperty{JsiiProperty: "webIpv4", GoGetter: "WebIpv4"},
 			_jsii_.MemberProperty{JsiiProperty: "webIpv6", GoGetter: "WebIpv6"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGithubIpRanges{}

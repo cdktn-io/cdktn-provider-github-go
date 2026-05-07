@@ -5,14 +5,14 @@ package codespacessecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/codespacessecret/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/codespacessecret/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/codespaces_secret github_codespaces_secret}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/codespaces_secret github_codespaces_secret}.
 type CodespacesSecret interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -138,6 +138,15 @@ type CodespacesSecret interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for CodespacesSecret
@@ -426,7 +435,7 @@ func (j *jsiiProxy_CodespacesSecret) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/codespaces_secret github_codespaces_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/codespaces_secret github_codespaces_secret} Resource.
 func NewCodespacesSecret(scope constructs.Construct, id *string, config *CodespacesSecretConfig) CodespacesSecret {
 	_init_.Initialize()
 
@@ -444,7 +453,7 @@ func NewCodespacesSecret(scope constructs.Construct, id *string, config *Codespa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/codespaces_secret github_codespaces_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/codespaces_secret github_codespaces_secret} Resource.
 func NewCodespacesSecret_Override(c CodespacesSecret, scope constructs.Construct, id *string, config *CodespacesSecretConfig) {
 	_init_.Initialize()
 
@@ -1035,6 +1044,24 @@ func (c *jsiiProxy_CodespacesSecret) ToTerraform() interface{} {
 		c,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_CodespacesSecret) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		c,
+		"with",
+		args,
 		&returns,
 	)
 

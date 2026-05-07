@@ -5,14 +5,14 @@ package repositoryenvironmentdeploymentpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositoryenvironmentdeploymentpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryenvironmentdeploymentpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment_deployment_policy github_repository_environment_deployment_policy}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_environment_deployment_policy github_repository_environment_deployment_policy}.
 type RepositoryEnvironmentDeploymentPolicy interface {
 	cdktn.TerraformResource
 	BranchPattern() *string
@@ -54,6 +54,7 @@ type RepositoryEnvironmentDeploymentPolicy interface {
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
+	PolicyId() *float64
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -66,6 +67,7 @@ type RepositoryEnvironmentDeploymentPolicy interface {
 	RawOverrides() interface{}
 	Repository() *string
 	SetRepository(val *string)
+	RepositoryId() *float64
 	RepositoryInput() *string
 	TagPattern() *string
 	SetTagPattern(val *string)
@@ -136,6 +138,15 @@ type RepositoryEnvironmentDeploymentPolicy interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for RepositoryEnvironmentDeploymentPolicy
@@ -303,6 +314,16 @@ func (j *jsiiProxy_RepositoryEnvironmentDeploymentPolicy) Node() constructs.Node
 	return returns
 }
 
+func (j *jsiiProxy_RepositoryEnvironmentDeploymentPolicy) PolicyId() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"policyId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_RepositoryEnvironmentDeploymentPolicy) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -338,6 +359,16 @@ func (j *jsiiProxy_RepositoryEnvironmentDeploymentPolicy) Repository() *string {
 	_jsii_.Get(
 		j,
 		"repository",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RepositoryEnvironmentDeploymentPolicy) RepositoryId() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"repositoryId",
 		&returns,
 	)
 	return returns
@@ -404,7 +435,7 @@ func (j *jsiiProxy_RepositoryEnvironmentDeploymentPolicy) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment_deployment_policy github_repository_environment_deployment_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_environment_deployment_policy github_repository_environment_deployment_policy} Resource.
 func NewRepositoryEnvironmentDeploymentPolicy(scope constructs.Construct, id *string, config *RepositoryEnvironmentDeploymentPolicyConfig) RepositoryEnvironmentDeploymentPolicy {
 	_init_.Initialize()
 
@@ -422,7 +453,7 @@ func NewRepositoryEnvironmentDeploymentPolicy(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment_deployment_policy github_repository_environment_deployment_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_environment_deployment_policy github_repository_environment_deployment_policy} Resource.
 func NewRepositoryEnvironmentDeploymentPolicy_Override(r RepositoryEnvironmentDeploymentPolicy, scope constructs.Construct, id *string, config *RepositoryEnvironmentDeploymentPolicyConfig) {
 	_init_.Initialize()
 
@@ -1013,6 +1044,24 @@ func (r *jsiiProxy_RepositoryEnvironmentDeploymentPolicy) ToTerraform() interfac
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_RepositoryEnvironmentDeploymentPolicy) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

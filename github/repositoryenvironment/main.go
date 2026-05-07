@@ -58,6 +58,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putReviewers", GoMethod: "PutReviewers"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberProperty{JsiiProperty: "repository", GoGetter: "Repository"},
+			_jsii_.MemberProperty{JsiiProperty: "repositoryId", GoGetter: "RepositoryId"},
 			_jsii_.MemberProperty{JsiiProperty: "repositoryInput", GoGetter: "RepositoryInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCanAdminsBypass", GoMethod: "ResetCanAdminsBypass"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDeploymentBranchPolicy", GoMethod: "ResetDeploymentBranchPolicy"},
@@ -79,6 +80,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "waitTimer", GoGetter: "WaitTimer"},
 			_jsii_.MemberProperty{JsiiProperty: "waitTimerInput", GoGetter: "WaitTimerInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_RepositoryEnvironment{}
@@ -133,28 +135,6 @@ func init() {
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers",
 		reflect.TypeOf((*RepositoryEnvironmentReviewers)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList",
-		reflect.TypeOf((*RepositoryEnvironmentReviewersList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_RepositoryEnvironmentReviewersList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
 	)
 	_jsii_.RegisterClass(
 		"@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference",

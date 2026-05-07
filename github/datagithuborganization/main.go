@@ -84,6 +84,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "twoFactorRequirementEnabled", GoGetter: "TwoFactorRequirementEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "users", GoGetter: "Users"},
 			_jsii_.MemberProperty{JsiiProperty: "webCommitSignoffRequired", GoGetter: "WebCommitSignoffRequired"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGithubOrganization{}

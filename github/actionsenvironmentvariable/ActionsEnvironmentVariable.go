@@ -5,14 +5,14 @@ package actionsenvironmentvariable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsenvironmentvariable/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionsenvironmentvariable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_environment_variable github_actions_environment_variable}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_environment_variable github_actions_environment_variable}.
 type ActionsEnvironmentVariable interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -137,6 +137,15 @@ type ActionsEnvironmentVariable interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ActionsEnvironmentVariable
@@ -435,7 +444,7 @@ func (j *jsiiProxy_ActionsEnvironmentVariable) VariableNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_environment_variable github_actions_environment_variable} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_environment_variable github_actions_environment_variable} Resource.
 func NewActionsEnvironmentVariable(scope constructs.Construct, id *string, config *ActionsEnvironmentVariableConfig) ActionsEnvironmentVariable {
 	_init_.Initialize()
 
@@ -453,7 +462,7 @@ func NewActionsEnvironmentVariable(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_environment_variable github_actions_environment_variable} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_environment_variable github_actions_environment_variable} Resource.
 func NewActionsEnvironmentVariable_Override(a ActionsEnvironmentVariable, scope constructs.Construct, id *string, config *ActionsEnvironmentVariableConfig) {
 	_init_.Initialize()
 
@@ -1028,6 +1037,24 @@ func (a *jsiiProxy_ActionsEnvironmentVariable) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_ActionsEnvironmentVariable) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

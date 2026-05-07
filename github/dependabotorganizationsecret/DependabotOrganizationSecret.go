@@ -5,14 +5,14 @@ package dependabotorganizationsecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/dependabotorganizationsecret/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/dependabotorganizationsecret/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/dependabot_organization_secret github_dependabot_organization_secret}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_organization_secret github_dependabot_organization_secret}.
 type DependabotOrganizationSecret interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -82,6 +82,12 @@ type DependabotOrganizationSecret interface {
 	// Experimental.
 	TerraformResourceType() *string
 	UpdatedAt() *string
+	Value() *string
+	SetValue(val *string)
+	ValueEncrypted() *string
+	SetValueEncrypted(val *string)
+	ValueEncryptedInput() *string
+	ValueInput() *string
 	Visibility() *string
 	SetVisibility(val *string)
 	VisibilityInput() *string
@@ -136,6 +142,8 @@ type DependabotOrganizationSecret interface {
 	ResetOverrideLogicalId()
 	ResetPlaintextValue()
 	ResetSelectedRepositoryIds()
+	ResetValue()
+	ResetValueEncrypted()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -147,6 +155,15 @@ type DependabotOrganizationSecret interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DependabotOrganizationSecret
@@ -464,6 +481,46 @@ func (j *jsiiProxy_DependabotOrganizationSecret) UpdatedAt() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DependabotOrganizationSecret) Value() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"value",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DependabotOrganizationSecret) ValueEncrypted() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"valueEncrypted",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DependabotOrganizationSecret) ValueEncryptedInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"valueEncryptedInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DependabotOrganizationSecret) ValueInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"valueInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DependabotOrganizationSecret) Visibility() *string {
 	var returns *string
 	_jsii_.Get(
@@ -485,7 +542,7 @@ func (j *jsiiProxy_DependabotOrganizationSecret) VisibilityInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/dependabot_organization_secret github_dependabot_organization_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_organization_secret github_dependabot_organization_secret} Resource.
 func NewDependabotOrganizationSecret(scope constructs.Construct, id *string, config *DependabotOrganizationSecretConfig) DependabotOrganizationSecret {
 	_init_.Initialize()
 
@@ -503,7 +560,7 @@ func NewDependabotOrganizationSecret(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/dependabot_organization_secret github_dependabot_organization_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_organization_secret github_dependabot_organization_secret} Resource.
 func NewDependabotOrganizationSecret_Override(d DependabotOrganizationSecret, scope constructs.Construct, id *string, config *DependabotOrganizationSecretConfig) {
 	_init_.Initialize()
 
@@ -644,6 +701,28 @@ func (j *jsiiProxy_DependabotOrganizationSecret)SetSelectedRepositoryIds(val *[]
 	_jsii_.Set(
 		j,
 		"selectedRepositoryIds",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DependabotOrganizationSecret)SetValue(val *string) {
+	if err := j.validateSetValueParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"value",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DependabotOrganizationSecret)SetValueEncrypted(val *string) {
+	if err := j.validateSetValueEncryptedParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"valueEncrypted",
 		val,
 	)
 }
@@ -1060,6 +1139,22 @@ func (d *jsiiProxy_DependabotOrganizationSecret) ResetSelectedRepositoryIds() {
 	)
 }
 
+func (d *jsiiProxy_DependabotOrganizationSecret) ResetValue() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetValue",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DependabotOrganizationSecret) ResetValueEncrypted() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetValueEncrypted",
+		nil, // no parameters
+	)
+}
+
 func (d *jsiiProxy_DependabotOrganizationSecret) SynthesizeAttributes() *map[string]interface{} {
 	var returns *map[string]interface{}
 
@@ -1132,6 +1227,24 @@ func (d *jsiiProxy_DependabotOrganizationSecret) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DependabotOrganizationSecret) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -59,7 +59,7 @@ func (j *jsiiProxy_RepositoryEnvironmentReviewersOutputReference) validateSetCom
 	return nil
 }
 
-func (j *jsiiProxy_RepositoryEnvironmentReviewersOutputReference) validateSetInternalValueParameters(val interface{}) error {
+func (j *jsiiProxy_RepositoryEnvironmentReviewersOutputReference) validateSetInternalValueParameters(val *RepositoryEnvironmentReviewers) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_RepositoryEnvironmentReviewersOutputReference) validateSetUse
 	return nil
 }
 
-func validateNewRepositoryEnvironmentReviewersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRepositoryEnvironmentReviewersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

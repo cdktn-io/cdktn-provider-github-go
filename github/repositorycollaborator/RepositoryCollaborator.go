@@ -5,14 +5,14 @@ package repositorycollaborator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositorycollaborator/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositorycollaborator/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_collaborator github_repository_collaborator}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_collaborator github_repository_collaborator}.
 type RepositoryCollaborator interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -137,6 +137,15 @@ type RepositoryCollaborator interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for RepositoryCollaborator
@@ -415,7 +424,7 @@ func (j *jsiiProxy_RepositoryCollaborator) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_collaborator github_repository_collaborator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_collaborator github_repository_collaborator} Resource.
 func NewRepositoryCollaborator(scope constructs.Construct, id *string, config *RepositoryCollaboratorConfig) RepositoryCollaborator {
 	_init_.Initialize()
 
@@ -433,7 +442,7 @@ func NewRepositoryCollaborator(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_collaborator github_repository_collaborator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_collaborator github_repository_collaborator} Resource.
 func NewRepositoryCollaborator_Override(r RepositoryCollaborator, scope constructs.Construct, id *string, config *RepositoryCollaboratorConfig) {
 	_init_.Initialize()
 
@@ -1024,6 +1033,24 @@ func (r *jsiiProxy_RepositoryCollaborator) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_RepositoryCollaborator) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

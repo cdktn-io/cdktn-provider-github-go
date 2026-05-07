@@ -69,6 +69,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 			_jsii_.MemberProperty{JsiiProperty: "variableName", GoGetter: "VariableName"},
 			_jsii_.MemberProperty{JsiiProperty: "variableNameInput", GoGetter: "VariableNameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ActionsEnvironmentVariable{}

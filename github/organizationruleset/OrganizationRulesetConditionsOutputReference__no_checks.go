@@ -55,6 +55,10 @@ func (o *jsiiProxy_OrganizationRulesetConditionsOutputReference) validatePutRepo
 	return nil
 }
 
+func (o *jsiiProxy_OrganizationRulesetConditionsOutputReference) validatePutRepositoryPropertyParameters(value *OrganizationRulesetConditionsRepositoryProperty) error {
+	return nil
+}
+
 func (o *jsiiProxy_OrganizationRulesetConditionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

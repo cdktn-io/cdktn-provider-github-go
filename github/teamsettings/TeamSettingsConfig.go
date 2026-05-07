@@ -24,16 +24,20 @@ type TeamSettingsConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The GitHub team id or the GitHub team slug.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings#team_id TeamSettings#team_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_settings#team_id TeamSettings#team_id}
 	TeamId *string `field:"required" json:"teamId" yaml:"teamId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings#id TeamSettings#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_settings#id TeamSettings#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
+	// Whether to notify the entire team when at least one member is also assigned to the pull request.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_settings#notify TeamSettings#notify}
+	Notify interface{} `field:"optional" json:"notify" yaml:"notify"`
 	// review_request_delegation block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings#review_request_delegation TeamSettings#review_request_delegation}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_settings#review_request_delegation TeamSettings#review_request_delegation}
 	ReviewRequestDelegation *TeamSettingsReviewRequestDelegation `field:"optional" json:"reviewRequestDelegation" yaml:"reviewRequestDelegation"`
 }
 

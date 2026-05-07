@@ -79,7 +79,7 @@ func (r *jsiiProxy_RepositoryEnvironment) validatePutDeploymentBranchPolicyParam
 	return nil
 }
 
-func (r *jsiiProxy_RepositoryEnvironment) validatePutReviewersParameters(value interface{}) error {
+func (r *jsiiProxy_RepositoryEnvironment) validatePutReviewersParameters(value *RepositoryEnvironmentReviewers) error {
 	return nil
 }
 

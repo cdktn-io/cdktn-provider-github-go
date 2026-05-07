@@ -5,14 +5,14 @@ package datagithubactionsorganizationvariables
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubactionsorganizationvariables/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubactionsorganizationvariables/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/actions_organization_variables github_actions_organization_variables}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/actions_organization_variables github_actions_organization_variables}.
 type DataGithubActionsOrganizationVariables interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -98,6 +98,15 @@ type DataGithubActionsOrganizationVariables interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataGithubActionsOrganizationVariables
@@ -276,7 +285,7 @@ func (j *jsiiProxy_DataGithubActionsOrganizationVariables) Variables() DataGithu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/actions_organization_variables github_actions_organization_variables} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/actions_organization_variables github_actions_organization_variables} Data Source.
 func NewDataGithubActionsOrganizationVariables(scope constructs.Construct, id *string, config *DataGithubActionsOrganizationVariablesConfig) DataGithubActionsOrganizationVariables {
 	_init_.Initialize()
 
@@ -294,7 +303,7 @@ func NewDataGithubActionsOrganizationVariables(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/actions_organization_variables github_actions_organization_variables} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/actions_organization_variables github_actions_organization_variables} Data Source.
 func NewDataGithubActionsOrganizationVariables_Override(d DataGithubActionsOrganizationVariables, scope constructs.Construct, id *string, config *DataGithubActionsOrganizationVariablesConfig) {
 	_init_.Initialize()
 
@@ -735,6 +744,24 @@ func (d *jsiiProxy_DataGithubActionsOrganizationVariables) ToTerraform() interfa
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataGithubActionsOrganizationVariables) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

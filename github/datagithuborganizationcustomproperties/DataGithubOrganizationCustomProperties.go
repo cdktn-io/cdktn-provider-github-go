@@ -5,14 +5,14 @@ package datagithuborganizationcustomproperties
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationcustomproperties/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationcustomproperties/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_custom_properties github_organization_custom_properties}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/organization_custom_properties github_organization_custom_properties}.
 type DataGithubOrganizationCustomProperties interface {
 	cdktn.TerraformDataSource
 	AllowedValues() *[]*string
@@ -124,6 +124,15 @@ type DataGithubOrganizationCustomProperties interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataGithubOrganizationCustomProperties
@@ -432,7 +441,7 @@ func (j *jsiiProxy_DataGithubOrganizationCustomProperties) ValueTypeInput() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_custom_properties github_organization_custom_properties} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/organization_custom_properties github_organization_custom_properties} Data Source.
 func NewDataGithubOrganizationCustomProperties(scope constructs.Construct, id *string, config *DataGithubOrganizationCustomPropertiesConfig) DataGithubOrganizationCustomProperties {
 	_init_.Initialize()
 
@@ -450,7 +459,7 @@ func NewDataGithubOrganizationCustomProperties(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_custom_properties github_organization_custom_properties} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/organization_custom_properties github_organization_custom_properties} Data Source.
 func NewDataGithubOrganizationCustomProperties_Override(d DataGithubOrganizationCustomProperties, scope constructs.Construct, id *string, config *DataGithubOrganizationCustomPropertiesConfig) {
 	_init_.Initialize()
 
@@ -1016,6 +1025,24 @@ func (d *jsiiProxy_DataGithubOrganizationCustomProperties) ToTerraform() interfa
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataGithubOrganizationCustomProperties) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

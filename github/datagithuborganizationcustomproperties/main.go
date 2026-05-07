@@ -70,6 +70,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesEditableByInput", GoGetter: "ValuesEditableByInput"},
 			_jsii_.MemberProperty{JsiiProperty: "valueType", GoGetter: "ValueType"},
 			_jsii_.MemberProperty{JsiiProperty: "valueTypeInput", GoGetter: "ValueTypeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGithubOrganizationCustomProperties{}

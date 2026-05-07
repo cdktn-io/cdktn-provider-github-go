@@ -56,6 +56,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "unknownLogins", GoGetter: "UnknownLogins"},
 			_jsii_.MemberProperty{JsiiProperty: "usernames", GoGetter: "Usernames"},
 			_jsii_.MemberProperty{JsiiProperty: "usernamesInput", GoGetter: "UsernamesInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGithubUsers{}

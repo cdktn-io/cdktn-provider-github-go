@@ -5,14 +5,14 @@ package datagithuborganizationwebhooks
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationwebhooks/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationwebhooks/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_webhooks github_organization_webhooks}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/organization_webhooks github_organization_webhooks}.
 type DataGithubOrganizationWebhooks interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -98,6 +98,15 @@ type DataGithubOrganizationWebhooks interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataGithubOrganizationWebhooks
@@ -276,7 +285,7 @@ func (j *jsiiProxy_DataGithubOrganizationWebhooks) Webhooks() DataGithubOrganiza
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_webhooks github_organization_webhooks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/organization_webhooks github_organization_webhooks} Data Source.
 func NewDataGithubOrganizationWebhooks(scope constructs.Construct, id *string, config *DataGithubOrganizationWebhooksConfig) DataGithubOrganizationWebhooks {
 	_init_.Initialize()
 
@@ -294,7 +303,7 @@ func NewDataGithubOrganizationWebhooks(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_webhooks github_organization_webhooks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/organization_webhooks github_organization_webhooks} Data Source.
 func NewDataGithubOrganizationWebhooks_Override(d DataGithubOrganizationWebhooks, scope constructs.Construct, id *string, config *DataGithubOrganizationWebhooksConfig) {
 	_init_.Initialize()
 
@@ -735,6 +744,24 @@ func (d *jsiiProxy_DataGithubOrganizationWebhooks) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataGithubOrganizationWebhooks) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

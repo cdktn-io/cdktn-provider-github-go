@@ -5,14 +5,14 @@ package organizationroleteamassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/organizationroleteamassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/organizationroleteamassignment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_role_team_assignment github_organization_role_team_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role_team_assignment github_organization_role_team_assignment}.
 type OrganizationRoleTeamAssignment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -128,6 +128,15 @@ type OrganizationRoleTeamAssignment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for OrganizationRoleTeamAssignment
@@ -356,7 +365,7 @@ func (j *jsiiProxy_OrganizationRoleTeamAssignment) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_role_team_assignment github_organization_role_team_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role_team_assignment github_organization_role_team_assignment} Resource.
 func NewOrganizationRoleTeamAssignment(scope constructs.Construct, id *string, config *OrganizationRoleTeamAssignmentConfig) OrganizationRoleTeamAssignment {
 	_init_.Initialize()
 
@@ -374,7 +383,7 @@ func NewOrganizationRoleTeamAssignment(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_role_team_assignment github_organization_role_team_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role_team_assignment github_organization_role_team_assignment} Resource.
 func NewOrganizationRoleTeamAssignment_Override(o OrganizationRoleTeamAssignment, scope constructs.Construct, id *string, config *OrganizationRoleTeamAssignmentConfig) {
 	_init_.Initialize()
 
@@ -927,6 +936,24 @@ func (o *jsiiProxy_OrganizationRoleTeamAssignment) ToTerraform() interface{} {
 		o,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (o *jsiiProxy_OrganizationRoleTeamAssignment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		o,
+		"with",
+		args,
 		&returns,
 	)
 

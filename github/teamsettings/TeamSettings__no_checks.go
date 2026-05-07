@@ -111,6 +111,10 @@ func (j *jsiiProxy_TeamSettings) validateSetLifecycleParameters(val *cdktn.Terra
 	return nil
 }
 
+func (j *jsiiProxy_TeamSettings) validateSetNotifyParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_TeamSettings) validateSetProvisionersParameters(val *[]interface{}) error {
 	return nil
 }

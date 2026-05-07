@@ -131,6 +131,14 @@ func (j *jsiiProxy_DependabotOrganizationSecret) validateSetSelectedRepositoryId
 	return nil
 }
 
+func (j *jsiiProxy_DependabotOrganizationSecret) validateSetValueParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DependabotOrganizationSecret) validateSetValueEncryptedParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DependabotOrganizationSecret) validateSetVisibilityParameters(val *string) error {
 	return nil
 }

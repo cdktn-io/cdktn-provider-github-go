@@ -5,14 +5,14 @@ package repositorypullrequest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositorypullrequest/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositorypullrequest/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_pull_request github_repository_pull_request}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pull_request github_repository_pull_request}.
 type RepositoryPullRequest interface {
 	cdktn.TerraformResource
 	BaseRef() *string
@@ -155,6 +155,15 @@ type RepositoryPullRequest interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for RepositoryPullRequest
@@ -573,7 +582,7 @@ func (j *jsiiProxy_RepositoryPullRequest) UpdatedAt() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_pull_request github_repository_pull_request} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pull_request github_repository_pull_request} Resource.
 func NewRepositoryPullRequest(scope constructs.Construct, id *string, config *RepositoryPullRequestConfig) RepositoryPullRequest {
 	_init_.Initialize()
 
@@ -591,7 +600,7 @@ func NewRepositoryPullRequest(scope constructs.Construct, id *string, config *Re
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_pull_request github_repository_pull_request} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pull_request github_repository_pull_request} Resource.
 func NewRepositoryPullRequest_Override(r RepositoryPullRequest, scope constructs.Construct, id *string, config *RepositoryPullRequestConfig) {
 	_init_.Initialize()
 
@@ -1223,6 +1232,24 @@ func (r *jsiiProxy_RepositoryPullRequest) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_RepositoryPullRequest) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

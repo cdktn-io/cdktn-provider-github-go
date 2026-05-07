@@ -5,9 +5,9 @@ package organizationruleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/organizationruleset/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/organizationruleset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -39,6 +39,8 @@ type OrganizationRulesetConditionsOutputReference interface {
 	RepositoryIdInput() *[]*float64
 	RepositoryName() OrganizationRulesetConditionsRepositoryNameOutputReference
 	RepositoryNameInput() *OrganizationRulesetConditionsRepositoryName
+	RepositoryProperty() OrganizationRulesetConditionsRepositoryPropertyOutputReference
+	RepositoryPropertyInput() *OrganizationRulesetConditionsRepositoryProperty
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -73,9 +75,11 @@ type OrganizationRulesetConditionsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutRefName(value *OrganizationRulesetConditionsRefName)
 	PutRepositoryName(value *OrganizationRulesetConditionsRepositoryName)
+	PutRepositoryProperty(value *OrganizationRulesetConditionsRepositoryProperty)
 	ResetRefName()
 	ResetRepositoryId()
 	ResetRepositoryName()
+	ResetRepositoryProperty()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -196,6 +200,26 @@ func (j *jsiiProxy_OrganizationRulesetConditionsOutputReference) RepositoryNameI
 	_jsii_.Get(
 		j,
 		"repositoryNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrganizationRulesetConditionsOutputReference) RepositoryProperty() OrganizationRulesetConditionsRepositoryPropertyOutputReference {
+	var returns OrganizationRulesetConditionsRepositoryPropertyOutputReference
+	_jsii_.Get(
+		j,
+		"repositoryProperty",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrganizationRulesetConditionsOutputReference) RepositoryPropertyInput() *OrganizationRulesetConditionsRepositoryProperty {
+	var returns *OrganizationRulesetConditionsRepositoryProperty
+	_jsii_.Get(
+		j,
+		"repositoryPropertyInput",
 		&returns,
 	)
 	return returns
@@ -523,6 +547,17 @@ func (o *jsiiProxy_OrganizationRulesetConditionsOutputReference) PutRepositoryNa
 	)
 }
 
+func (o *jsiiProxy_OrganizationRulesetConditionsOutputReference) PutRepositoryProperty(value *OrganizationRulesetConditionsRepositoryProperty) {
+	if err := o.validatePutRepositoryPropertyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		o,
+		"putRepositoryProperty",
+		[]interface{}{value},
+	)
+}
+
 func (o *jsiiProxy_OrganizationRulesetConditionsOutputReference) ResetRefName() {
 	_jsii_.InvokeVoid(
 		o,
@@ -543,6 +578,14 @@ func (o *jsiiProxy_OrganizationRulesetConditionsOutputReference) ResetRepository
 	_jsii_.InvokeVoid(
 		o,
 		"resetRepositoryName",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OrganizationRulesetConditionsOutputReference) ResetRepositoryProperty() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetRepositoryProperty",
 		nil, // no parameters
 	)
 }

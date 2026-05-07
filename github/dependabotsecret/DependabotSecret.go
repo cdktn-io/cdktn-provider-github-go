@@ -5,14 +5,14 @@ package dependabotsecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/dependabotsecret/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/dependabotsecret/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/dependabot_secret github_dependabot_secret}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_secret github_dependabot_secret}.
 type DependabotSecret interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -83,6 +83,12 @@ type DependabotSecret interface {
 	// Experimental.
 	TerraformResourceType() *string
 	UpdatedAt() *string
+	Value() *string
+	SetValue(val *string)
+	ValueEncrypted() *string
+	SetValueEncrypted(val *string)
+	ValueEncryptedInput() *string
+	ValueInput() *string
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -133,6 +139,8 @@ type DependabotSecret interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetPlaintextValue()
+	ResetValue()
+	ResetValueEncrypted()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -144,6 +152,15 @@ type DependabotSecret interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DependabotSecret
@@ -471,8 +488,48 @@ func (j *jsiiProxy_DependabotSecret) UpdatedAt() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DependabotSecret) Value() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"value",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/dependabot_secret github_dependabot_secret} Resource.
+func (j *jsiiProxy_DependabotSecret) ValueEncrypted() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"valueEncrypted",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DependabotSecret) ValueEncryptedInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"valueEncryptedInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DependabotSecret) ValueInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"valueInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_secret github_dependabot_secret} Resource.
 func NewDependabotSecret(scope constructs.Construct, id *string, config *DependabotSecretConfig) DependabotSecret {
 	_init_.Initialize()
 
@@ -490,7 +547,7 @@ func NewDependabotSecret(scope constructs.Construct, id *string, config *Dependa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/dependabot_secret github_dependabot_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_secret github_dependabot_secret} Resource.
 func NewDependabotSecret_Override(d DependabotSecret, scope constructs.Construct, id *string, config *DependabotSecretConfig) {
 	_init_.Initialize()
 
@@ -631,6 +688,28 @@ func (j *jsiiProxy_DependabotSecret)SetSecretName(val *string) {
 	_jsii_.Set(
 		j,
 		"secretName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DependabotSecret)SetValue(val *string) {
+	if err := j.validateSetValueParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"value",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DependabotSecret)SetValueEncrypted(val *string) {
+	if err := j.validateSetValueEncryptedParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"valueEncrypted",
 		val,
 	)
 }
@@ -1028,6 +1107,22 @@ func (d *jsiiProxy_DependabotSecret) ResetPlaintextValue() {
 	)
 }
 
+func (d *jsiiProxy_DependabotSecret) ResetValue() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetValue",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DependabotSecret) ResetValueEncrypted() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetValueEncrypted",
+		nil, // no parameters
+	)
+}
+
 func (d *jsiiProxy_DependabotSecret) SynthesizeAttributes() *map[string]interface{} {
 	var returns *map[string]interface{}
 
@@ -1100,6 +1195,24 @@ func (d *jsiiProxy_DependabotSecret) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DependabotSecret) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

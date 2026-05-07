@@ -5,19 +5,22 @@ package datagithubipranges
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubipranges/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubipranges/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/ip_ranges github_ip_ranges}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/ip_ranges github_ip_ranges}.
 type DataGithubIpRanges interface {
 	cdktn.TerraformDataSource
 	Actions() *[]*string
 	ActionsIpv4() *[]*string
 	ActionsIpv6() *[]*string
+	ActionsMacos() *[]*string
+	ActionsMacosIpv4() *[]*string
+	ActionsMacosIpv6() *[]*string
 	Api() *[]*string
 	ApiIpv4() *[]*string
 	ApiIpv6() *[]*string
@@ -45,6 +48,9 @@ type DataGithubIpRanges interface {
 	// Experimental.
 	FriendlyUniqueId() *string
 	Git() *[]*string
+	GithubEnterpriseImporter() *[]*string
+	GithubEnterpriseImporterIpv4() *[]*string
+	GithubEnterpriseImporterIpv6() *[]*string
 	GitIpv4() *[]*string
 	GitIpv6() *[]*string
 	Hooks() *[]*string
@@ -124,6 +130,15 @@ type DataGithubIpRanges interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataGithubIpRanges
@@ -156,6 +171,36 @@ func (j *jsiiProxy_DataGithubIpRanges) ActionsIpv6() *[]*string {
 	_jsii_.Get(
 		j,
 		"actionsIpv6",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGithubIpRanges) ActionsMacos() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"actionsMacos",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGithubIpRanges) ActionsMacosIpv4() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"actionsMacosIpv4",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGithubIpRanges) ActionsMacosIpv6() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"actionsMacosIpv6",
 		&returns,
 	)
 	return returns
@@ -296,6 +341,36 @@ func (j *jsiiProxy_DataGithubIpRanges) Git() *[]*string {
 	_jsii_.Get(
 		j,
 		"git",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGithubIpRanges) GithubEnterpriseImporter() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"githubEnterpriseImporter",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGithubIpRanges) GithubEnterpriseImporterIpv4() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"githubEnterpriseImporterIpv4",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGithubIpRanges) GithubEnterpriseImporterIpv6() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"githubEnterpriseImporterIpv6",
 		&returns,
 	)
 	return returns
@@ -562,7 +637,7 @@ func (j *jsiiProxy_DataGithubIpRanges) WebIpv6() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/ip_ranges github_ip_ranges} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/ip_ranges github_ip_ranges} Data Source.
 func NewDataGithubIpRanges(scope constructs.Construct, id *string, config *DataGithubIpRangesConfig) DataGithubIpRanges {
 	_init_.Initialize()
 
@@ -580,7 +655,7 @@ func NewDataGithubIpRanges(scope constructs.Construct, id *string, config *DataG
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/ip_ranges github_ip_ranges} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/ip_ranges github_ip_ranges} Data Source.
 func NewDataGithubIpRanges_Override(d DataGithubIpRanges, scope constructs.Construct, id *string, config *DataGithubIpRangesConfig) {
 	_init_.Initialize()
 
@@ -1021,6 +1096,24 @@ func (d *jsiiProxy_DataGithubIpRanges) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataGithubIpRanges) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -5,14 +5,14 @@ package actionsorganizationsecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizationsecret/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionsorganizationsecret/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_secret github_actions_organization_secret}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_secret github_actions_organization_secret}.
 type ActionsOrganizationSecret interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -85,6 +85,12 @@ type ActionsOrganizationSecret interface {
 	// Experimental.
 	TerraformResourceType() *string
 	UpdatedAt() *string
+	Value() *string
+	SetValue(val *string)
+	ValueEncrypted() *string
+	SetValueEncrypted(val *string)
+	ValueEncryptedInput() *string
+	ValueInput() *string
 	Visibility() *string
 	SetVisibility(val *string)
 	VisibilityInput() *string
@@ -140,6 +146,8 @@ type ActionsOrganizationSecret interface {
 	ResetOverrideLogicalId()
 	ResetPlaintextValue()
 	ResetSelectedRepositoryIds()
+	ResetValue()
+	ResetValueEncrypted()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -151,6 +159,15 @@ type ActionsOrganizationSecret interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ActionsOrganizationSecret
@@ -488,6 +505,46 @@ func (j *jsiiProxy_ActionsOrganizationSecret) UpdatedAt() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ActionsOrganizationSecret) Value() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"value",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ActionsOrganizationSecret) ValueEncrypted() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"valueEncrypted",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ActionsOrganizationSecret) ValueEncryptedInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"valueEncryptedInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ActionsOrganizationSecret) ValueInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"valueInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ActionsOrganizationSecret) Visibility() *string {
 	var returns *string
 	_jsii_.Get(
@@ -509,7 +566,7 @@ func (j *jsiiProxy_ActionsOrganizationSecret) VisibilityInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_secret github_actions_organization_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_secret github_actions_organization_secret} Resource.
 func NewActionsOrganizationSecret(scope constructs.Construct, id *string, config *ActionsOrganizationSecretConfig) ActionsOrganizationSecret {
 	_init_.Initialize()
 
@@ -527,7 +584,7 @@ func NewActionsOrganizationSecret(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_secret github_actions_organization_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_secret github_actions_organization_secret} Resource.
 func NewActionsOrganizationSecret_Override(a ActionsOrganizationSecret, scope constructs.Construct, id *string, config *ActionsOrganizationSecretConfig) {
 	_init_.Initialize()
 
@@ -679,6 +736,28 @@ func (j *jsiiProxy_ActionsOrganizationSecret)SetSelectedRepositoryIds(val *[]*fl
 	_jsii_.Set(
 		j,
 		"selectedRepositoryIds",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ActionsOrganizationSecret)SetValue(val *string) {
+	if err := j.validateSetValueParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"value",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ActionsOrganizationSecret)SetValueEncrypted(val *string) {
+	if err := j.validateSetValueEncryptedParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"valueEncrypted",
 		val,
 	)
 }
@@ -1103,6 +1182,22 @@ func (a *jsiiProxy_ActionsOrganizationSecret) ResetSelectedRepositoryIds() {
 	)
 }
 
+func (a *jsiiProxy_ActionsOrganizationSecret) ResetValue() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetValue",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ActionsOrganizationSecret) ResetValueEncrypted() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetValueEncrypted",
+		nil, // no parameters
+	)
+}
+
 func (a *jsiiProxy_ActionsOrganizationSecret) SynthesizeAttributes() *map[string]interface{} {
 	var returns *map[string]interface{}
 
@@ -1175,6 +1270,24 @@ func (a *jsiiProxy_ActionsOrganizationSecret) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_ActionsOrganizationSecret) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

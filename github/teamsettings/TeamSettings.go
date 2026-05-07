@@ -5,14 +5,14 @@ package teamsettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/teamsettings/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/teamsettings/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings github_team_settings}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_settings github_team_settings}.
 type TeamSettings interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -48,6 +48,9 @@ type TeamSettings interface {
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
+	Notify() interface{}
+	SetNotify(val interface{})
+	NotifyInput() interface{}
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -116,6 +119,7 @@ type TeamSettings interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutReviewRequestDelegation(value *TeamSettingsReviewRequestDelegation)
 	ResetId()
+	ResetNotify()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -131,6 +135,15 @@ type TeamSettings interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for TeamSettings
@@ -258,6 +271,26 @@ func (j *jsiiProxy_TeamSettings) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_TeamSettings) Notify() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"notify",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TeamSettings) NotifyInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"notifyInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_TeamSettings) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -379,7 +412,7 @@ func (j *jsiiProxy_TeamSettings) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings github_team_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_settings github_team_settings} Resource.
 func NewTeamSettings(scope constructs.Construct, id *string, config *TeamSettingsConfig) TeamSettings {
 	_init_.Initialize()
 
@@ -397,7 +430,7 @@ func NewTeamSettings(scope constructs.Construct, id *string, config *TeamSetting
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings github_team_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_settings github_team_settings} Resource.
 func NewTeamSettings_Override(t TeamSettings, scope constructs.Construct, id *string, config *TeamSettingsConfig) {
 	_init_.Initialize()
 
@@ -464,6 +497,17 @@ func (j *jsiiProxy_TeamSettings)SetLifecycle(val *cdktn.TerraformResourceLifecyc
 	_jsii_.Set(
 		j,
 		"lifecycle",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TeamSettings)SetNotify(val interface{}) {
+	if err := j.validateSetNotifyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"notify",
 		val,
 	)
 }
@@ -870,6 +914,14 @@ func (t *jsiiProxy_TeamSettings) ResetId() {
 	)
 }
 
+func (t *jsiiProxy_TeamSettings) ResetNotify() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetNotify",
+		nil, // no parameters
+	)
+}
+
 func (t *jsiiProxy_TeamSettings) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		t,
@@ -958,6 +1010,24 @@ func (t *jsiiProxy_TeamSettings) ToTerraform() interface{} {
 		t,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (t *jsiiProxy_TeamSettings) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		t,
+		"with",
+		args,
 		&returns,
 	)
 

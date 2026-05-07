@@ -5,14 +5,14 @@ package datagithuborganizationteams
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationteams/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationteams/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_teams github_organization_teams}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/organization_teams github_organization_teams}.
 type DataGithubOrganizationTeams interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -110,6 +110,15 @@ type DataGithubOrganizationTeams interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataGithubOrganizationTeams
@@ -348,7 +357,7 @@ func (j *jsiiProxy_DataGithubOrganizationTeams) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_teams github_organization_teams} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/organization_teams github_organization_teams} Data Source.
 func NewDataGithubOrganizationTeams(scope constructs.Construct, id *string, config *DataGithubOrganizationTeamsConfig) DataGithubOrganizationTeams {
 	_init_.Initialize()
 
@@ -366,7 +375,7 @@ func NewDataGithubOrganizationTeams(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_teams github_organization_teams} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/organization_teams github_organization_teams} Data Source.
 func NewDataGithubOrganizationTeams_Override(d DataGithubOrganizationTeams, scope constructs.Construct, id *string, config *DataGithubOrganizationTeamsConfig) {
 	_init_.Initialize()
 
@@ -864,6 +873,24 @@ func (d *jsiiProxy_DataGithubOrganizationTeams) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataGithubOrganizationTeams) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 
