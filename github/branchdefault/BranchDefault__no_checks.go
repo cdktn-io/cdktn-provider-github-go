@@ -127,6 +127,10 @@ func (j *jsiiProxy_BranchDefault) validateSetRepositoryParameters(val *string) e
 	return nil
 }
 
+func (j *jsiiProxy_BranchDefault) validateSetWaitForRenameParameters(val interface{}) error {
+	return nil
+}
+
 func validateNewBranchDefaultParameters(scope constructs.Construct, id *string, config *BranchDefaultConfig) error {
 	return nil
 }

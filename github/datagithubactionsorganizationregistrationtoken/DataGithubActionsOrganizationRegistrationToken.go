@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/actions_organization_registration_token github_actions_organization_registration_token}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/actions_organization_registration_token github_actions_organization_registration_token}.
 type DataGithubActionsOrganizationRegistrationToken interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -296,7 +296,7 @@ func (j *jsiiProxy_DataGithubActionsOrganizationRegistrationToken) Token() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/actions_organization_registration_token github_actions_organization_registration_token} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/actions_organization_registration_token github_actions_organization_registration_token} Data Source.
 func NewDataGithubActionsOrganizationRegistrationToken(scope constructs.Construct, id *string, config *DataGithubActionsOrganizationRegistrationTokenConfig) DataGithubActionsOrganizationRegistrationToken {
 	_init_.Initialize()
 
@@ -314,7 +314,7 @@ func NewDataGithubActionsOrganizationRegistrationToken(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/actions_organization_registration_token github_actions_organization_registration_token} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/actions_organization_registration_token github_actions_organization_registration_token} Data Source.
 func NewDataGithubActionsOrganizationRegistrationToken_Override(d DataGithubActionsOrganizationRegistrationToken, scope constructs.Construct, id *string, config *DataGithubActionsOrganizationRegistrationTokenConfig) {
 	_init_.Initialize()
 

@@ -5,13 +5,13 @@ package teammembers
 
 
 type TeamMembersMembers struct {
-	// The user to add to the team.
+	// User to add to the team.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_members#username TeamMembers#username}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/team_members#username TeamMembers#username}
 	Username *string `field:"required" json:"username" yaml:"username"`
-	// The role of the user within the team. Must be one of 'member' or 'maintainer'.
+	// Role to grant the user within the team; must be one of `member` or `maintainer`.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_members#role TeamMembers#role}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/team_members#role TeamMembers#role}
 	Role *string `field:"optional" json:"role" yaml:"role"`
 }
 

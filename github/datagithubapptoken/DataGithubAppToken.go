@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/app_token github_app_token}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/app_token github_app_token}.
 type DataGithubAppToken interface {
 	cdktn.TerraformDataSource
 	AppId() *string
@@ -354,7 +354,7 @@ func (j *jsiiProxy_DataGithubAppToken) Token() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/app_token github_app_token} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/app_token github_app_token} Data Source.
 func NewDataGithubAppToken(scope constructs.Construct, id *string, config *DataGithubAppTokenConfig) DataGithubAppToken {
 	_init_.Initialize()
 
@@ -372,7 +372,7 @@ func NewDataGithubAppToken(scope constructs.Construct, id *string, config *DataG
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/app_token github_app_token} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/app_token github_app_token} Data Source.
 func NewDataGithubAppToken_Override(d DataGithubAppToken, scope constructs.Construct, id *string, config *DataGithubAppTokenConfig) {
 	_init_.Initialize()
 

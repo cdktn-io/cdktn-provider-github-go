@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_deploy_keys github_repository_deploy_keys}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/repository_deploy_keys github_repository_deploy_keys}.
 type DataGithubRepositoryDeployKeys interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataGithubRepositoryDeployKeys) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_deploy_keys github_repository_deploy_keys} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/repository_deploy_keys github_repository_deploy_keys} Data Source.
 func NewDataGithubRepositoryDeployKeys(scope constructs.Construct, id *string, config *DataGithubRepositoryDeployKeysConfig) DataGithubRepositoryDeployKeys {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataGithubRepositoryDeployKeys(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_deploy_keys github_repository_deploy_keys} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/repository_deploy_keys github_repository_deploy_keys} Data Source.
 func NewDataGithubRepositoryDeployKeys_Override(d DataGithubRepositoryDeployKeys, scope constructs.Construct, id *string, config *DataGithubRepositoryDeployKeysConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_sync_group_mapping github_team_sync_group_mapping}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/team_sync_group_mapping github_team_sync_group_mapping}.
 type TeamSyncGroupMapping interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -377,7 +377,7 @@ func (j *jsiiProxy_TeamSyncGroupMapping) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_sync_group_mapping github_team_sync_group_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/team_sync_group_mapping github_team_sync_group_mapping} Resource.
 func NewTeamSyncGroupMapping(scope constructs.Construct, id *string, config *TeamSyncGroupMappingConfig) TeamSyncGroupMapping {
 	_init_.Initialize()
 
@@ -395,7 +395,7 @@ func NewTeamSyncGroupMapping(scope constructs.Construct, id *string, config *Tea
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_sync_group_mapping github_team_sync_group_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/team_sync_group_mapping github_team_sync_group_mapping} Resource.
 func NewTeamSyncGroupMapping_Override(t TeamSyncGroupMapping, scope constructs.Construct, id *string, config *TeamSyncGroupMappingConfig) {
 	_init_.Initialize()
 

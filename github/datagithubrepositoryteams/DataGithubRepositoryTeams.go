@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_teams github_repository_teams}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/repository_teams github_repository_teams}.
 type DataGithubRepositoryTeams interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -333,7 +333,7 @@ func (j *jsiiProxy_DataGithubRepositoryTeams) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_teams github_repository_teams} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/repository_teams github_repository_teams} Data Source.
 func NewDataGithubRepositoryTeams(scope constructs.Construct, id *string, config *DataGithubRepositoryTeamsConfig) DataGithubRepositoryTeams {
 	_init_.Initialize()
 
@@ -351,7 +351,7 @@ func NewDataGithubRepositoryTeams(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_teams github_repository_teams} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/repository_teams github_repository_teams} Data Source.
 func NewDataGithubRepositoryTeams_Override(d DataGithubRepositoryTeams, scope constructs.Construct, id *string, config *DataGithubRepositoryTeamsConfig) {
 	_init_.Initialize()
 

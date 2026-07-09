@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_organization_secret_repository github_dependabot_organization_secret_repository}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/dependabot_organization_secret_repository github_dependabot_organization_secret_repository}.
 type DependabotOrganizationSecretRepository interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -365,7 +365,7 @@ func (j *jsiiProxy_DependabotOrganizationSecretRepository) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_organization_secret_repository github_dependabot_organization_secret_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/dependabot_organization_secret_repository github_dependabot_organization_secret_repository} Resource.
 func NewDependabotOrganizationSecretRepository(scope constructs.Construct, id *string, config *DependabotOrganizationSecretRepositoryConfig) DependabotOrganizationSecretRepository {
 	_init_.Initialize()
 
@@ -383,7 +383,7 @@ func NewDependabotOrganizationSecretRepository(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_organization_secret_repository github_dependabot_organization_secret_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/dependabot_organization_secret_repository github_dependabot_organization_secret_repository} Resource.
 func NewDependabotOrganizationSecretRepository_Override(d DependabotOrganizationSecretRepository, scope constructs.Construct, id *string, config *DependabotOrganizationSecretRepositoryConfig) {
 	_init_.Initialize()
 

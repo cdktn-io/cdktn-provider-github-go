@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_members github_team_members}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/team_members github_team_members}.
 type TeamMembers interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -63,6 +63,9 @@ type TeamMembers interface {
 	TeamId() *string
 	SetTeamId(val *string)
 	TeamIdInput() *string
+	TeamSlug() *string
+	SetTeamSlug(val *string)
+	TeamSlugInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -117,6 +120,8 @@ type TeamMembers interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetTeamId()
+	ResetTeamSlug()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -334,6 +339,26 @@ func (j *jsiiProxy_TeamMembers) TeamIdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_TeamMembers) TeamSlug() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"teamSlug",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TeamMembers) TeamSlugInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"teamSlugInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_TeamMembers) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -365,7 +390,7 @@ func (j *jsiiProxy_TeamMembers) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_members github_team_members} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/team_members github_team_members} Resource.
 func NewTeamMembers(scope constructs.Construct, id *string, config *TeamMembersConfig) TeamMembers {
 	_init_.Initialize()
 
@@ -383,7 +408,7 @@ func NewTeamMembers(scope constructs.Construct, id *string, config *TeamMembersC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_members github_team_members} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/team_members github_team_members} Resource.
 func NewTeamMembers_Override(t TeamMembers, scope constructs.Construct, id *string, config *TeamMembersConfig) {
 	_init_.Initialize()
 
@@ -480,6 +505,17 @@ func (j *jsiiProxy_TeamMembers)SetTeamId(val *string) {
 	_jsii_.Set(
 		j,
 		"teamId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TeamMembers)SetTeamSlug(val *string) {
+	if err := j.validateSetTeamSlugParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"teamSlug",
 		val,
 	)
 }
@@ -860,6 +896,22 @@ func (t *jsiiProxy_TeamMembers) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		t,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TeamMembers) ResetTeamId() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetTeamId",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TeamMembers) ResetTeamSlug() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetTeamSlug",
 		nil, // no parameters
 	)
 }

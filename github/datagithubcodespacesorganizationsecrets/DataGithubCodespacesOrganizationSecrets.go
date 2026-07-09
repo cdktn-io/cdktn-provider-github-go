@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/codespaces_organization_secrets github_codespaces_organization_secrets}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/codespaces_organization_secrets github_codespaces_organization_secrets}.
 type DataGithubCodespacesOrganizationSecrets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataGithubCodespacesOrganizationSecrets) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/codespaces_organization_secrets github_codespaces_organization_secrets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/codespaces_organization_secrets github_codespaces_organization_secrets} Data Source.
 func NewDataGithubCodespacesOrganizationSecrets(scope constructs.Construct, id *string, config *DataGithubCodespacesOrganizationSecretsConfig) DataGithubCodespacesOrganizationSecrets {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataGithubCodespacesOrganizationSecrets(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/codespaces_organization_secrets github_codespaces_organization_secrets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/codespaces_organization_secrets github_codespaces_organization_secrets} Data Source.
 func NewDataGithubCodespacesOrganizationSecrets_Override(d DataGithubCodespacesOrganizationSecrets, scope constructs.Construct, id *string, config *DataGithubCodespacesOrganizationSecretsConfig) {
 	_init_.Initialize()
 

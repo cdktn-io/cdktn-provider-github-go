@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_variable github_actions_organization_variable}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_organization_variable github_actions_organization_variable}.
 type ActionsOrganizationVariable interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -434,7 +434,7 @@ func (j *jsiiProxy_ActionsOrganizationVariable) VisibilityInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_variable github_actions_organization_variable} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_organization_variable github_actions_organization_variable} Resource.
 func NewActionsOrganizationVariable(scope constructs.Construct, id *string, config *ActionsOrganizationVariableConfig) ActionsOrganizationVariable {
 	_init_.Initialize()
 
@@ -452,7 +452,7 @@ func NewActionsOrganizationVariable(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_variable github_actions_organization_variable} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_organization_variable github_actions_organization_variable} Resource.
 func NewActionsOrganizationVariable_Override(a ActionsOrganizationVariable, scope constructs.Construct, id *string, config *ActionsOrganizationVariableConfig) {
 	_init_.Initialize()
 

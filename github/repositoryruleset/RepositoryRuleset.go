@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_ruleset github_repository_ruleset}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_ruleset github_repository_ruleset}.
 type RepositoryRuleset interface {
 	cdktn.TerraformResource
 	BypassActors() RepositoryRulesetBypassActorsList
@@ -515,7 +515,7 @@ func (j *jsiiProxy_RepositoryRuleset) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_ruleset github_repository_ruleset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_ruleset github_repository_ruleset} Resource.
 func NewRepositoryRuleset(scope constructs.Construct, id *string, config *RepositoryRulesetConfig) RepositoryRuleset {
 	_init_.Initialize()
 
@@ -533,7 +533,7 @@ func NewRepositoryRuleset(scope constructs.Construct, id *string, config *Reposi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_ruleset github_repository_ruleset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_ruleset github_repository_ruleset} Resource.
 func NewRepositoryRuleset_Override(r RepositoryRuleset, scope constructs.Construct, id *string, config *RepositoryRulesetConfig) {
 	_init_.Initialize()
 

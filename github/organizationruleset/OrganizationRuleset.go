@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_ruleset github_organization_ruleset}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_ruleset github_organization_ruleset}.
 type OrganizationRuleset interface {
 	cdktn.TerraformResource
 	BypassActors() OrganizationRulesetBypassActorsList
@@ -492,7 +492,7 @@ func (j *jsiiProxy_OrganizationRuleset) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_ruleset github_organization_ruleset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_ruleset github_organization_ruleset} Resource.
 func NewOrganizationRuleset(scope constructs.Construct, id *string, config *OrganizationRulesetConfig) OrganizationRuleset {
 	_init_.Initialize()
 
@@ -510,7 +510,7 @@ func NewOrganizationRuleset(scope constructs.Construct, id *string, config *Orga
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_ruleset github_organization_ruleset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_ruleset github_organization_ruleset} Resource.
 func NewOrganizationRuleset_Override(o OrganizationRuleset, scope constructs.Construct, id *string, config *OrganizationRulesetConfig) {
 	_init_.Initialize()
 

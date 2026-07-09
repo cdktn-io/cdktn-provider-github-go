@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/branch_default github_branch_default}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/branch_default github_branch_default}.
 type BranchDefault interface {
 	cdktn.TerraformResource
 	Branch() *string
@@ -69,6 +69,7 @@ type BranchDefault interface {
 	RenameInput() interface{}
 	Repository() *string
 	SetRepository(val *string)
+	RepositoryId() *float64
 	RepositoryInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -76,6 +77,9 @@ type BranchDefault interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	WaitForRename() interface{}
+	SetWaitForRename(val interface{})
+	WaitForRenameInput() interface{}
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -125,6 +129,7 @@ type BranchDefault interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetRename()
+	ResetWaitForRename()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -372,6 +377,16 @@ func (j *jsiiProxy_BranchDefault) Repository() *string {
 	return returns
 }
 
+func (j *jsiiProxy_BranchDefault) RepositoryId() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"repositoryId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BranchDefault) RepositoryInput() *string {
 	var returns *string
 	_jsii_.Get(
@@ -412,8 +427,28 @@ func (j *jsiiProxy_BranchDefault) TerraformResourceType() *string {
 	return returns
 }
 
+func (j *jsiiProxy_BranchDefault) WaitForRename() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"waitForRename",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/branch_default github_branch_default} Resource.
+func (j *jsiiProxy_BranchDefault) WaitForRenameInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"waitForRenameInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/branch_default github_branch_default} Resource.
 func NewBranchDefault(scope constructs.Construct, id *string, config *BranchDefaultConfig) BranchDefault {
 	_init_.Initialize()
 
@@ -431,7 +466,7 @@ func NewBranchDefault(scope constructs.Construct, id *string, config *BranchDefa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/branch_default github_branch_default} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/branch_default github_branch_default} Resource.
 func NewBranchDefault_Override(b BranchDefault, scope constructs.Construct, id *string, config *BranchDefaultConfig) {
 	_init_.Initialize()
 
@@ -561,6 +596,17 @@ func (j *jsiiProxy_BranchDefault)SetRepository(val *string) {
 	_jsii_.Set(
 		j,
 		"repository",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BranchDefault)SetWaitForRename(val interface{}) {
+	if err := j.validateSetWaitForRenameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"waitForRename",
 		val,
 	)
 }
@@ -946,6 +992,14 @@ func (b *jsiiProxy_BranchDefault) ResetRename() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetRename",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BranchDefault) ResetWaitForRename() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetWaitForRename",
 		nil, // no parameters
 	)
 }

@@ -119,6 +119,10 @@ func (j *jsiiProxy_TeamMembers) validateSetTeamIdParameters(val *string) error {
 	return nil
 }
 
+func (j *jsiiProxy_TeamMembers) validateSetTeamSlugParameters(val *string) error {
+	return nil
+}
+
 func validateNewTeamMembersParameters(scope constructs.Construct, id *string, config *TeamMembersConfig) error {
 	return nil
 }

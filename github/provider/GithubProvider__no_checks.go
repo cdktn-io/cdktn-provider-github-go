@@ -39,6 +39,10 @@ func (j *jsiiProxy_GithubProvider) validateSetInsecureParameters(val interface{}
 	return nil
 }
 
+func (j *jsiiProxy_GithubProvider) validateSetLegacyClientParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GithubProvider) validateSetParallelRequestsParameters(val interface{}) error {
 	return nil
 }

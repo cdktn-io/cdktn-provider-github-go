@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_variable github_actions_variable}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_variable github_actions_variable}.
 type ActionsVariable interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -421,7 +421,7 @@ func (j *jsiiProxy_ActionsVariable) VariableNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_variable github_actions_variable} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_variable github_actions_variable} Resource.
 func NewActionsVariable(scope constructs.Construct, id *string, config *ActionsVariableConfig) ActionsVariable {
 	_init_.Initialize()
 
@@ -439,7 +439,7 @@ func NewActionsVariable(scope constructs.Construct, id *string, config *ActionsV
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_variable github_actions_variable} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_variable github_actions_variable} Resource.
 func NewActionsVariable_Override(a ActionsVariable, scope constructs.Construct, id *string, config *ActionsVariableConfig) {
 	_init_.Initialize()
 

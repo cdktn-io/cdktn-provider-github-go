@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/issue_labels github_issue_labels}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/issue_labels github_issue_labels}.
 type IssueLabels interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -366,7 +366,7 @@ func (j *jsiiProxy_IssueLabels) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/issue_labels github_issue_labels} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/issue_labels github_issue_labels} Resource.
 func NewIssueLabels(scope constructs.Construct, id *string, config *IssueLabelsConfig) IssueLabels {
 	_init_.Initialize()
 
@@ -384,7 +384,7 @@ func NewIssueLabels(scope constructs.Construct, id *string, config *IssueLabelsC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/issue_labels github_issue_labels} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/issue_labels github_issue_labels} Resource.
 func NewIssueLabels_Override(i IssueLabels, scope constructs.Construct, id *string, config *IssueLabelsConfig) {
 	_init_.Initialize()
 

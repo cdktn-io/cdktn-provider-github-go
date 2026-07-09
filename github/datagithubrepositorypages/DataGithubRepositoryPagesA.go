@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_pages github_repository_pages}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/repository_pages github_repository_pages}.
 type DataGithubRepositoryPagesA interface {
 	cdktn.TerraformDataSource
 	ApiUrl() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataGithubRepositoryPagesA) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_pages github_repository_pages} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/repository_pages github_repository_pages} Data Source.
 func NewDataGithubRepositoryPagesA(scope constructs.Construct, id *string, config *DataGithubRepositoryPagesAConfig) DataGithubRepositoryPagesA {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataGithubRepositoryPagesA(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_pages github_repository_pages} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/repository_pages github_repository_pages} Data Source.
 func NewDataGithubRepositoryPagesA_Override(d DataGithubRepositoryPagesA, scope constructs.Construct, id *string, config *DataGithubRepositoryPagesAConfig) {
 	_init_.Initialize()
 

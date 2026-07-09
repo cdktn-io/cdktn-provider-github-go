@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/enterprise_ip_allow_list_entry github_enterprise_ip_allow_list_entry}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/enterprise_ip_allow_list_entry github_enterprise_ip_allow_list_entry}.
 type EnterpriseIpAllowListEntry interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -435,7 +435,7 @@ func (j *jsiiProxy_EnterpriseIpAllowListEntry) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/enterprise_ip_allow_list_entry github_enterprise_ip_allow_list_entry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/enterprise_ip_allow_list_entry github_enterprise_ip_allow_list_entry} Resource.
 func NewEnterpriseIpAllowListEntry(scope constructs.Construct, id *string, config *EnterpriseIpAllowListEntryConfig) EnterpriseIpAllowListEntry {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewEnterpriseIpAllowListEntry(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/enterprise_ip_allow_list_entry github_enterprise_ip_allow_list_entry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/enterprise_ip_allow_list_entry github_enterprise_ip_allow_list_entry} Resource.
 func NewEnterpriseIpAllowListEntry_Override(e EnterpriseIpAllowListEntry, scope constructs.Construct, id *string, config *EnterpriseIpAllowListEntryConfig) {
 	_init_.Initialize()
 

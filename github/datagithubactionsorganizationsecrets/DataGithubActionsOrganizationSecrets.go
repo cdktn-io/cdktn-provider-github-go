@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/actions_organization_secrets github_actions_organization_secrets}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/actions_organization_secrets github_actions_organization_secrets}.
 type DataGithubActionsOrganizationSecrets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataGithubActionsOrganizationSecrets) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/actions_organization_secrets github_actions_organization_secrets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/actions_organization_secrets github_actions_organization_secrets} Data Source.
 func NewDataGithubActionsOrganizationSecrets(scope constructs.Construct, id *string, config *DataGithubActionsOrganizationSecretsConfig) DataGithubActionsOrganizationSecrets {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataGithubActionsOrganizationSecrets(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/actions_organization_secrets github_actions_organization_secrets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/actions_organization_secrets github_actions_organization_secrets} Data Source.
 func NewDataGithubActionsOrganizationSecrets_Override(d DataGithubActionsOrganizationSecrets, scope constructs.Construct, id *string, config *DataGithubActionsOrganizationSecretsConfig) {
 	_init_.Initialize()
 

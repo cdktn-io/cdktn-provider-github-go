@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/release_asset github_release_asset}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/release_asset github_release_asset}.
 type DataGithubReleaseAsset interface {
 	cdktn.TerraformDataSource
 	AssetId() *float64
@@ -477,7 +477,7 @@ func (j *jsiiProxy_DataGithubReleaseAsset) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/release_asset github_release_asset} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/release_asset github_release_asset} Data Source.
 func NewDataGithubReleaseAsset(scope constructs.Construct, id *string, config *DataGithubReleaseAssetConfig) DataGithubReleaseAsset {
 	_init_.Initialize()
 
@@ -495,7 +495,7 @@ func NewDataGithubReleaseAsset(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/release_asset github_release_asset} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/release_asset github_release_asset} Data Source.
 func NewDataGithubReleaseAsset_Override(d DataGithubReleaseAsset, scope constructs.Construct, id *string, config *DataGithubReleaseAssetConfig) {
 	_init_.Initialize()
 

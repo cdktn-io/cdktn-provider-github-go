@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_dependabot_security_updates github_repository_dependabot_security_updates}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_dependabot_security_updates github_repository_dependabot_security_updates}.
 type RepositoryDependabotSecurityUpdates interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -365,7 +365,7 @@ func (j *jsiiProxy_RepositoryDependabotSecurityUpdates) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_dependabot_security_updates github_repository_dependabot_security_updates} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_dependabot_security_updates github_repository_dependabot_security_updates} Resource.
 func NewRepositoryDependabotSecurityUpdates(scope constructs.Construct, id *string, config *RepositoryDependabotSecurityUpdatesConfig) RepositoryDependabotSecurityUpdates {
 	_init_.Initialize()
 
@@ -383,7 +383,7 @@ func NewRepositoryDependabotSecurityUpdates(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_dependabot_security_updates github_repository_dependabot_security_updates} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_dependabot_security_updates github_repository_dependabot_security_updates} Resource.
 func NewRepositoryDependabotSecurityUpdates_Override(r RepositoryDependabotSecurityUpdates, scope constructs.Construct, id *string, config *RepositoryDependabotSecurityUpdatesConfig) {
 	_init_.Initialize()
 

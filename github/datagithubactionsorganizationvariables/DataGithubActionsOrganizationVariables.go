@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/actions_organization_variables github_actions_organization_variables}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/actions_organization_variables github_actions_organization_variables}.
 type DataGithubActionsOrganizationVariables interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataGithubActionsOrganizationVariables) Variables() DataGithu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/actions_organization_variables github_actions_organization_variables} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/actions_organization_variables github_actions_organization_variables} Data Source.
 func NewDataGithubActionsOrganizationVariables(scope constructs.Construct, id *string, config *DataGithubActionsOrganizationVariablesConfig) DataGithubActionsOrganizationVariables {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataGithubActionsOrganizationVariables(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/actions_organization_variables github_actions_organization_variables} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/actions_organization_variables github_actions_organization_variables} Data Source.
 func NewDataGithubActionsOrganizationVariables_Override(d DataGithubActionsOrganizationVariables, scope constructs.Construct, id *string, config *DataGithubActionsOrganizationVariablesConfig) {
 	_init_.Initialize()
 

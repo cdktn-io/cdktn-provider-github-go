@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/actions_environment_public_key github_actions_environment_public_key}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/actions_environment_public_key github_actions_environment_public_key}.
 type DataGithubActionsEnvironmentPublicKey interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -342,7 +342,7 @@ func (j *jsiiProxy_DataGithubActionsEnvironmentPublicKey) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/actions_environment_public_key github_actions_environment_public_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/actions_environment_public_key github_actions_environment_public_key} Data Source.
 func NewDataGithubActionsEnvironmentPublicKey(scope constructs.Construct, id *string, config *DataGithubActionsEnvironmentPublicKeyConfig) DataGithubActionsEnvironmentPublicKey {
 	_init_.Initialize()
 
@@ -360,7 +360,7 @@ func NewDataGithubActionsEnvironmentPublicKey(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/actions_environment_public_key github_actions_environment_public_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/actions_environment_public_key github_actions_environment_public_key} Data Source.
 func NewDataGithubActionsEnvironmentPublicKey_Override(d DataGithubActionsEnvironmentPublicKey, scope constructs.Construct, id *string, config *DataGithubActionsEnvironmentPublicKeyConfig) {
 	_init_.Initialize()
 

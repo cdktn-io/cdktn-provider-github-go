@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_project github_organization_project}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_project github_organization_project}.
 type OrganizationProject interface {
 	cdktn.TerraformResource
 	Body() *string
@@ -388,7 +388,7 @@ func (j *jsiiProxy_OrganizationProject) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_project github_organization_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_project github_organization_project} Resource.
 func NewOrganizationProject(scope constructs.Construct, id *string, config *OrganizationProjectConfig) OrganizationProject {
 	_init_.Initialize()
 
@@ -406,7 +406,7 @@ func NewOrganizationProject(scope constructs.Construct, id *string, config *Orga
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_project github_organization_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_project github_organization_project} Resource.
 func NewOrganizationProject_Override(o OrganizationProject, scope constructs.Construct, id *string, config *OrganizationProjectConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs github}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs github}.
 type GithubProvider interface {
 	cdktn.TerraformProvider
 	Alias() *string
@@ -24,6 +24,9 @@ type GithubProvider interface {
 	BaseUrl() *string
 	SetBaseUrl(val *string)
 	BaseUrlInput() *string
+	CachePath() *string
+	SetCachePath(val *string)
+	CachePathInput() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -35,6 +38,9 @@ type GithubProvider interface {
 	Insecure() interface{}
 	SetInsecure(val interface{})
 	InsecureInput() interface{}
+	LegacyClient() interface{}
+	SetLegacyClient(val interface{})
+	LegacyClientInput() interface{}
 	MaxPerPage() *float64
 	SetMaxPerPage(val *float64)
 	MaxPerPageInput() *float64
@@ -85,7 +91,9 @@ type GithubProvider interface {
 	ResetAlias()
 	ResetAppAuth()
 	ResetBaseUrl()
+	ResetCachePath()
 	ResetInsecure()
+	ResetLegacyClient()
 	ResetMaxPerPage()
 	ResetMaxRetries()
 	ResetOrganization()
@@ -186,6 +194,26 @@ func (j *jsiiProxy_GithubProvider) BaseUrlInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GithubProvider) CachePath() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"cachePath",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GithubProvider) CachePathInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"cachePathInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GithubProvider) CdktfStack() cdktn.TerraformStack {
 	var returns cdktn.TerraformStack
 	_jsii_.Get(
@@ -241,6 +269,26 @@ func (j *jsiiProxy_GithubProvider) InsecureInput() interface{} {
 	_jsii_.Get(
 		j,
 		"insecureInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GithubProvider) LegacyClient() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"legacyClient",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GithubProvider) LegacyClientInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"legacyClientInput",
 		&returns,
 	)
 	return returns
@@ -507,7 +555,7 @@ func (j *jsiiProxy_GithubProvider) WriteDelayMsInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs github} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs github} Resource.
 func NewGithubProvider(scope constructs.Construct, id *string, config *GithubProviderConfig) GithubProvider {
 	_init_.Initialize()
 
@@ -525,7 +573,7 @@ func NewGithubProvider(scope constructs.Construct, id *string, config *GithubPro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs github} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs github} Resource.
 func NewGithubProvider_Override(g GithubProvider, scope constructs.Construct, id *string, config *GithubProviderConfig) {
 	_init_.Initialize()
 
@@ -563,6 +611,14 @@ func (j *jsiiProxy_GithubProvider)SetBaseUrl(val *string) {
 	)
 }
 
+func (j *jsiiProxy_GithubProvider)SetCachePath(val *string) {
+	_jsii_.Set(
+		j,
+		"cachePath",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GithubProvider)SetInsecure(val interface{}) {
 	if err := j.validateSetInsecureParameters(val); err != nil {
 		panic(err)
@@ -570,6 +626,17 @@ func (j *jsiiProxy_GithubProvider)SetInsecure(val interface{}) {
 	_jsii_.Set(
 		j,
 		"insecure",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GithubProvider)SetLegacyClient(val interface{}) {
+	if err := j.validateSetLegacyClientParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"legacyClient",
 		val,
 	)
 }
@@ -806,10 +873,26 @@ func (g *jsiiProxy_GithubProvider) ResetBaseUrl() {
 	)
 }
 
+func (g *jsiiProxy_GithubProvider) ResetCachePath() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetCachePath",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GithubProvider) ResetInsecure() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetInsecure",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GithubProvider) ResetLegacyClient() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetLegacyClient",
 		nil, // no parameters
 	)
 }

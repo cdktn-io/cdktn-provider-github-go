@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/organization_role github_organization_role}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/organization_role github_organization_role}.
 type DataGithubOrganizationRole interface {
 	cdktn.TerraformDataSource
 	BaseRole() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataGithubOrganizationRole) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/organization_role github_organization_role} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/organization_role github_organization_role} Data Source.
 func NewDataGithubOrganizationRole(scope constructs.Construct, id *string, config *DataGithubOrganizationRoleConfig) DataGithubOrganizationRole {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataGithubOrganizationRole(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/organization_role github_organization_role} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/organization_role github_organization_role} Data Source.
 func NewDataGithubOrganizationRole_Override(d DataGithubOrganizationRole, scope constructs.Construct, id *string, config *DataGithubOrganizationRoleConfig) {
 	_init_.Initialize()
 

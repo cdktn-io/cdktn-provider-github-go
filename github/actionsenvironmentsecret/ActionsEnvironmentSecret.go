@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_environment_secret github_actions_environment_secret}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_environment_secret github_actions_environment_secret}.
 type ActionsEnvironmentSecret interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -552,7 +552,7 @@ func (j *jsiiProxy_ActionsEnvironmentSecret) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_environment_secret github_actions_environment_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_environment_secret github_actions_environment_secret} Resource.
 func NewActionsEnvironmentSecret(scope constructs.Construct, id *string, config *ActionsEnvironmentSecretConfig) ActionsEnvironmentSecret {
 	_init_.Initialize()
 
@@ -570,7 +570,7 @@ func NewActionsEnvironmentSecret(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_environment_secret github_actions_environment_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_environment_secret github_actions_environment_secret} Resource.
 func NewActionsEnvironmentSecret_Override(a ActionsEnvironmentSecret, scope constructs.Construct, id *string, config *ActionsEnvironmentSecretConfig) {
 	_init_.Initialize()
 

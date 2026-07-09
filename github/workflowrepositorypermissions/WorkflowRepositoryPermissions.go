@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/workflow_repository_permissions github_workflow_repository_permissions}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/workflow_repository_permissions github_workflow_repository_permissions}.
 type WorkflowRepositoryPermissions interface {
 	cdktn.TerraformResource
 	CanApprovePullRequestReviews() interface{}
@@ -390,7 +390,7 @@ func (j *jsiiProxy_WorkflowRepositoryPermissions) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/workflow_repository_permissions github_workflow_repository_permissions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/workflow_repository_permissions github_workflow_repository_permissions} Resource.
 func NewWorkflowRepositoryPermissions(scope constructs.Construct, id *string, config *WorkflowRepositoryPermissionsConfig) WorkflowRepositoryPermissions {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewWorkflowRepositoryPermissions(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/workflow_repository_permissions github_workflow_repository_permissions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/workflow_repository_permissions github_workflow_repository_permissions} Resource.
 func NewWorkflowRepositoryPermissions_Override(w WorkflowRepositoryPermissions, scope constructs.Construct, id *string, config *WorkflowRepositoryPermissionsConfig) {
 	_init_.Initialize()
 

@@ -7,19 +7,19 @@ package organizationruleset
 type OrganizationRulesetConditions struct {
 	// ref_name block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_ruleset#ref_name OrganizationRuleset#ref_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_ruleset#ref_name OrganizationRuleset#ref_name}
 	RefName *OrganizationRulesetConditionsRefName `field:"optional" json:"refName" yaml:"refName"`
 	// The repository IDs that the ruleset applies to. One of these IDs must match for the ruleset to apply.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_ruleset#repository_id OrganizationRuleset#repository_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_ruleset#repository_id OrganizationRuleset#repository_id}
 	RepositoryId *[]*float64 `field:"optional" json:"repositoryId" yaml:"repositoryId"`
 	// repository_name block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_ruleset#repository_name OrganizationRuleset#repository_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_ruleset#repository_name OrganizationRuleset#repository_name}
 	RepositoryName *OrganizationRulesetConditionsRepositoryName `field:"optional" json:"repositoryName" yaml:"repositoryName"`
 	// repository_property block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_ruleset#repository_property OrganizationRuleset#repository_property}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_ruleset#repository_property OrganizationRuleset#repository_property}
 	RepositoryProperty *OrganizationRulesetConditionsRepositoryProperty `field:"optional" json:"repositoryProperty" yaml:"repositoryProperty"`
 }
 

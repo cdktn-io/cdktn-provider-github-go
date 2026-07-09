@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_environment_deployment_policies github_repository_environment_deployment_policies}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/repository_environment_deployment_policies github_repository_environment_deployment_policies}.
 type DataGithubRepositoryEnvironmentDeploymentPolicies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -331,7 +331,7 @@ func (j *jsiiProxy_DataGithubRepositoryEnvironmentDeploymentPolicies) TerraformR
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_environment_deployment_policies github_repository_environment_deployment_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/repository_environment_deployment_policies github_repository_environment_deployment_policies} Data Source.
 func NewDataGithubRepositoryEnvironmentDeploymentPolicies(scope constructs.Construct, id *string, config *DataGithubRepositoryEnvironmentDeploymentPoliciesConfig) DataGithubRepositoryEnvironmentDeploymentPolicies {
 	_init_.Initialize()
 
@@ -349,7 +349,7 @@ func NewDataGithubRepositoryEnvironmentDeploymentPolicies(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_environment_deployment_policies github_repository_environment_deployment_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/repository_environment_deployment_policies github_repository_environment_deployment_policies} Data Source.
 func NewDataGithubRepositoryEnvironmentDeploymentPolicies_Override(d DataGithubRepositoryEnvironmentDeploymentPolicies, scope constructs.Construct, id *string, config *DataGithubRepositoryEnvironmentDeploymentPoliciesConfig) {
 	_init_.Initialize()
 

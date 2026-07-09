@@ -75,10 +75,6 @@ func (j *jsiiProxy_DataGithubApp) validateSetCountParameters(val interface{}) er
 	return nil
 }
 
-func (j *jsiiProxy_DataGithubApp) validateSetIdParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_DataGithubApp) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }

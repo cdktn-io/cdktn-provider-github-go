@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/organization_app_installations github_organization_app_installations}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/organization_app_installations github_organization_app_installations}.
 type DataGithubOrganizationAppInstallations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataGithubOrganizationAppInstallations) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/organization_app_installations github_organization_app_installations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/organization_app_installations github_organization_app_installations} Data Source.
 func NewDataGithubOrganizationAppInstallations(scope constructs.Construct, id *string, config *DataGithubOrganizationAppInstallationsConfig) DataGithubOrganizationAppInstallations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataGithubOrganizationAppInstallations(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/organization_app_installations github_organization_app_installations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/organization_app_installations github_organization_app_installations} Data Source.
 func NewDataGithubOrganizationAppInstallations_Override(d DataGithubOrganizationAppInstallations, scope constructs.Construct, id *string, config *DataGithubOrganizationAppInstallationsConfig) {
 	_init_.Initialize()
 

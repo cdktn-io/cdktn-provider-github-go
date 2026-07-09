@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_environment_deployment_policy github_repository_environment_deployment_policy}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_environment_deployment_policy github_repository_environment_deployment_policy}.
 type RepositoryEnvironmentDeploymentPolicy interface {
 	cdktn.TerraformResource
 	BranchPattern() *string
@@ -435,7 +435,7 @@ func (j *jsiiProxy_RepositoryEnvironmentDeploymentPolicy) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_environment_deployment_policy github_repository_environment_deployment_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_environment_deployment_policy github_repository_environment_deployment_policy} Resource.
 func NewRepositoryEnvironmentDeploymentPolicy(scope constructs.Construct, id *string, config *RepositoryEnvironmentDeploymentPolicyConfig) RepositoryEnvironmentDeploymentPolicy {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewRepositoryEnvironmentDeploymentPolicy(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_environment_deployment_policy github_repository_environment_deployment_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_environment_deployment_policy github_repository_environment_deployment_policy} Resource.
 func NewRepositoryEnvironmentDeploymentPolicy_Override(r RepositoryEnvironmentDeploymentPolicy, scope constructs.Construct, id *string, config *RepositoryEnvironmentDeploymentPolicyConfig) {
 	_init_.Initialize()
 

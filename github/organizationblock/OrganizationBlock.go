@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_block github_organization_block}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_block github_organization_block}.
 type OrganizationBlock interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -353,7 +353,7 @@ func (j *jsiiProxy_OrganizationBlock) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_block github_organization_block} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_block github_organization_block} Resource.
 func NewOrganizationBlock(scope constructs.Construct, id *string, config *OrganizationBlockConfig) OrganizationBlock {
 	_init_.Initialize()
 
@@ -371,7 +371,7 @@ func NewOrganizationBlock(scope constructs.Construct, id *string, config *Organi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_block github_organization_block} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_block github_organization_block} Resource.
 func NewOrganizationBlock_Override(o OrganizationBlock, scope constructs.Construct, id *string, config *OrganizationBlockConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/codespaces_organization_secret github_codespaces_organization_secret}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/codespaces_organization_secret github_codespaces_organization_secret}.
 type CodespacesOrganizationSecret interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -459,7 +459,7 @@ func (j *jsiiProxy_CodespacesOrganizationSecret) VisibilityInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/codespaces_organization_secret github_codespaces_organization_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/codespaces_organization_secret github_codespaces_organization_secret} Resource.
 func NewCodespacesOrganizationSecret(scope constructs.Construct, id *string, config *CodespacesOrganizationSecretConfig) CodespacesOrganizationSecret {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewCodespacesOrganizationSecret(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/codespaces_organization_secret github_codespaces_organization_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/codespaces_organization_secret github_codespaces_organization_secret} Resource.
 func NewCodespacesOrganizationSecret_Override(c CodespacesOrganizationSecret, scope constructs.Construct, id *string, config *CodespacesOrganizationSecretConfig) {
 	_init_.Initialize()
 

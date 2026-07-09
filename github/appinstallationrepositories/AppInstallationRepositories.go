@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/app_installation_repositories github_app_installation_repositories}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/app_installation_repositories github_app_installation_repositories}.
 type AppInstallationRepositories interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -365,7 +365,7 @@ func (j *jsiiProxy_AppInstallationRepositories) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/app_installation_repositories github_app_installation_repositories} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/app_installation_repositories github_app_installation_repositories} Resource.
 func NewAppInstallationRepositories(scope constructs.Construct, id *string, config *AppInstallationRepositoriesConfig) AppInstallationRepositories {
 	_init_.Initialize()
 
@@ -383,7 +383,7 @@ func NewAppInstallationRepositories(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/app_installation_repositories github_app_installation_repositories} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/app_installation_repositories github_app_installation_repositories} Resource.
 func NewAppInstallationRepositories_Override(a AppInstallationRepositories, scope constructs.Construct, id *string, config *AppInstallationRepositoriesConfig) {
 	_init_.Initialize()
 

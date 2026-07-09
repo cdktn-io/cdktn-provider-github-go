@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_variable_repositories github_actions_organization_variable_repositories}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_organization_variable_repositories github_actions_organization_variable_repositories}.
 type ActionsOrganizationVariableRepositories interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -365,7 +365,7 @@ func (j *jsiiProxy_ActionsOrganizationVariableRepositories) VariableNameInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_variable_repositories github_actions_organization_variable_repositories} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_organization_variable_repositories github_actions_organization_variable_repositories} Resource.
 func NewActionsOrganizationVariableRepositories(scope constructs.Construct, id *string, config *ActionsOrganizationVariableRepositoriesConfig) ActionsOrganizationVariableRepositories {
 	_init_.Initialize()
 
@@ -383,7 +383,7 @@ func NewActionsOrganizationVariableRepositories(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_variable_repositories github_actions_organization_variable_repositories} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_organization_variable_repositories github_actions_organization_variable_repositories} Resource.
 func NewActionsOrganizationVariableRepositories_Override(a ActionsOrganizationVariableRepositories, scope constructs.Construct, id *string, config *ActionsOrganizationVariableRepositoriesConfig) {
 	_init_.Initialize()
 

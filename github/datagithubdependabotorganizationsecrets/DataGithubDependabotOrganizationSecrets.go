@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/dependabot_organization_secrets github_dependabot_organization_secrets}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/dependabot_organization_secrets github_dependabot_organization_secrets}.
 type DataGithubDependabotOrganizationSecrets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataGithubDependabotOrganizationSecrets) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/dependabot_organization_secrets github_dependabot_organization_secrets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/dependabot_organization_secrets github_dependabot_organization_secrets} Data Source.
 func NewDataGithubDependabotOrganizationSecrets(scope constructs.Construct, id *string, config *DataGithubDependabotOrganizationSecretsConfig) DataGithubDependabotOrganizationSecrets {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataGithubDependabotOrganizationSecrets(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/dependabot_organization_secrets github_dependabot_organization_secrets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/dependabot_organization_secrets github_dependabot_organization_secrets} Data Source.
 func NewDataGithubDependabotOrganizationSecrets_Override(d DataGithubDependabotOrganizationSecrets, scope constructs.Construct, id *string, config *DataGithubDependabotOrganizationSecretsConfig) {
 	_init_.Initialize()
 

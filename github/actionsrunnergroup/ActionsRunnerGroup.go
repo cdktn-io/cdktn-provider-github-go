@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_runner_group github_actions_runner_group}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_runner_group github_actions_runner_group}.
 type ActionsRunnerGroup interface {
 	cdktn.TerraformResource
 	AllowsPublicRepositories() interface{}
@@ -503,7 +503,7 @@ func (j *jsiiProxy_ActionsRunnerGroup) VisibilityInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_runner_group github_actions_runner_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_runner_group github_actions_runner_group} Resource.
 func NewActionsRunnerGroup(scope constructs.Construct, id *string, config *ActionsRunnerGroupConfig) ActionsRunnerGroup {
 	_init_.Initialize()
 
@@ -521,7 +521,7 @@ func NewActionsRunnerGroup(scope constructs.Construct, id *string, config *Actio
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_runner_group github_actions_runner_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_runner_group github_actions_runner_group} Resource.
 func NewActionsRunnerGroup_Override(a ActionsRunnerGroup, scope constructs.Construct, id *string, config *ActionsRunnerGroupConfig) {
 	_init_.Initialize()
 

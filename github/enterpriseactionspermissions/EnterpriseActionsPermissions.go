@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/enterprise_actions_permissions github_enterprise_actions_permissions}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/enterprise_actions_permissions github_enterprise_actions_permissions}.
 type EnterpriseActionsPermissions interface {
 	cdktn.TerraformResource
 	AllowedActions() *string
@@ -437,7 +437,7 @@ func (j *jsiiProxy_EnterpriseActionsPermissions) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/enterprise_actions_permissions github_enterprise_actions_permissions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/enterprise_actions_permissions github_enterprise_actions_permissions} Resource.
 func NewEnterpriseActionsPermissions(scope constructs.Construct, id *string, config *EnterpriseActionsPermissionsConfig) EnterpriseActionsPermissions {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewEnterpriseActionsPermissions(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/enterprise_actions_permissions github_enterprise_actions_permissions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/enterprise_actions_permissions github_enterprise_actions_permissions} Resource.
 func NewEnterpriseActionsPermissions_Override(e EnterpriseActionsPermissions, scope constructs.Construct, id *string, config *EnterpriseActionsPermissionsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_collaborators github_repository_collaborators}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_collaborators github_repository_collaborators}.
 type RepositoryCollaborators interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -51,6 +51,7 @@ type RepositoryCollaborators interface {
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
+	OwnerConfigured() cdktn.IResolvable
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -305,6 +306,16 @@ func (j *jsiiProxy_RepositoryCollaborators) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_RepositoryCollaborators) OwnerConfigured() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"ownerConfigured",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_RepositoryCollaborators) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -436,7 +447,7 @@ func (j *jsiiProxy_RepositoryCollaborators) UserInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_collaborators github_repository_collaborators} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_collaborators github_repository_collaborators} Resource.
 func NewRepositoryCollaborators(scope constructs.Construct, id *string, config *RepositoryCollaboratorsConfig) RepositoryCollaborators {
 	_init_.Initialize()
 
@@ -454,7 +465,7 @@ func NewRepositoryCollaborators(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_collaborators github_repository_collaborators} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_collaborators github_repository_collaborators} Resource.
 func NewRepositoryCollaborators_Override(r RepositoryCollaborators, scope constructs.Construct, id *string, config *RepositoryCollaboratorsConfig) {
 	_init_.Initialize()
 

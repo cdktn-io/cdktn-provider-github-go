@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/dependabot_public_key github_dependabot_public_key}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/dependabot_public_key github_dependabot_public_key}.
 type DataGithubDependabotPublicKey interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataGithubDependabotPublicKey) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/dependabot_public_key github_dependabot_public_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/dependabot_public_key github_dependabot_public_key} Data Source.
 func NewDataGithubDependabotPublicKey(scope constructs.Construct, id *string, config *DataGithubDependabotPublicKeyConfig) DataGithubDependabotPublicKey {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataGithubDependabotPublicKey(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/dependabot_public_key github_dependabot_public_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/dependabot_public_key github_dependabot_public_key} Data Source.
 func NewDataGithubDependabotPublicKey_Override(d DataGithubDependabotPublicKey, scope constructs.Construct, id *string, config *DataGithubDependabotPublicKeyConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_custom_property github_repository_custom_property}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_custom_property github_repository_custom_property}.
 type RepositoryCustomProperty interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -69,6 +69,7 @@ type RepositoryCustomProperty interface {
 	RawOverrides() interface{}
 	Repository() *string
 	SetRepository(val *string)
+	RepositoryId() *float64
 	RepositoryInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -370,6 +371,16 @@ func (j *jsiiProxy_RepositoryCustomProperty) Repository() *string {
 	return returns
 }
 
+func (j *jsiiProxy_RepositoryCustomProperty) RepositoryId() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"repositoryId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_RepositoryCustomProperty) RepositoryInput() *string {
 	var returns *string
 	_jsii_.Get(
@@ -411,7 +422,7 @@ func (j *jsiiProxy_RepositoryCustomProperty) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_custom_property github_repository_custom_property} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_custom_property github_repository_custom_property} Resource.
 func NewRepositoryCustomProperty(scope constructs.Construct, id *string, config *RepositoryCustomPropertyConfig) RepositoryCustomProperty {
 	_init_.Initialize()
 
@@ -429,7 +440,7 @@ func NewRepositoryCustomProperty(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_custom_property github_repository_custom_property} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_custom_property github_repository_custom_property} Resource.
 func NewRepositoryCustomProperty_Override(r RepositoryCustomProperty, scope constructs.Construct, id *string, config *RepositoryCustomPropertyConfig) {
 	_init_.Initialize()
 

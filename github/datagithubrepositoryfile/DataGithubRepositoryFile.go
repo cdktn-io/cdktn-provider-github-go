@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_file github_repository_file}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/repository_file github_repository_file}.
 type DataGithubRepositoryFile interface {
 	cdktn.TerraformDataSource
 	Branch() *string
@@ -421,7 +421,7 @@ func (j *jsiiProxy_DataGithubRepositoryFile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_file github_repository_file} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/repository_file github_repository_file} Data Source.
 func NewDataGithubRepositoryFile(scope constructs.Construct, id *string, config *DataGithubRepositoryFileConfig) DataGithubRepositoryFile {
 	_init_.Initialize()
 
@@ -439,7 +439,7 @@ func NewDataGithubRepositoryFile(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_file github_repository_file} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/repository_file github_repository_file} Data Source.
 func NewDataGithubRepositoryFile_Override(d DataGithubRepositoryFile, scope constructs.Construct, id *string, config *DataGithubRepositoryFileConfig) {
 	_init_.Initialize()
 

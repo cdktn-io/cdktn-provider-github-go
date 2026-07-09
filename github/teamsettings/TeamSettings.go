@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_settings github_team_settings}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/team_settings github_team_settings}.
 type TeamSettings interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -412,7 +412,7 @@ func (j *jsiiProxy_TeamSettings) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_settings github_team_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/team_settings github_team_settings} Resource.
 func NewTeamSettings(scope constructs.Construct, id *string, config *TeamSettingsConfig) TeamSettings {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewTeamSettings(scope constructs.Construct, id *string, config *TeamSetting
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_settings github_team_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/team_settings github_team_settings} Resource.
 func NewTeamSettings_Override(t TeamSettings, scope constructs.Construct, id *string, config *TeamSettingsConfig) {
 	_init_.Initialize()
 

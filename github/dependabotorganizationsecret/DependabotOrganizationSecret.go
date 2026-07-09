@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_organization_secret github_dependabot_organization_secret}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/dependabot_organization_secret github_dependabot_organization_secret}.
 type DependabotOrganizationSecret interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -542,7 +542,7 @@ func (j *jsiiProxy_DependabotOrganizationSecret) VisibilityInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_organization_secret github_dependabot_organization_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/dependabot_organization_secret github_dependabot_organization_secret} Resource.
 func NewDependabotOrganizationSecret(scope constructs.Construct, id *string, config *DependabotOrganizationSecretConfig) DependabotOrganizationSecret {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewDependabotOrganizationSecret(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_organization_secret github_dependabot_organization_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/dependabot_organization_secret github_dependabot_organization_secret} Resource.
 func NewDependabotOrganizationSecret_Override(d DependabotOrganizationSecret, scope constructs.Construct, id *string, config *DependabotOrganizationSecretConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/user github_user}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/user github_user}.
 type DataGithubUser interface {
 	cdktn.TerraformDataSource
 	AvatarUrl() *string
@@ -517,7 +517,7 @@ func (j *jsiiProxy_DataGithubUser) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/user github_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/user github_user} Data Source.
 func NewDataGithubUser(scope constructs.Construct, id *string, config *DataGithubUserConfig) DataGithubUser {
 	_init_.Initialize()
 
@@ -535,7 +535,7 @@ func NewDataGithubUser(scope constructs.Construct, id *string, config *DataGithu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/user github_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/user github_user} Data Source.
 func NewDataGithubUser_Override(d DataGithubUser, scope constructs.Construct, id *string, config *DataGithubUserConfig) {
 	_init_.Initialize()
 

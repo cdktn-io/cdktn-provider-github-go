@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_deploy_key github_repository_deploy_key}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_deploy_key github_repository_deploy_key}.
 type RepositoryDeployKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_RepositoryDeployKey) TitleInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_deploy_key github_repository_deploy_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_deploy_key github_repository_deploy_key} Resource.
 func NewRepositoryDeployKey(scope constructs.Construct, id *string, config *RepositoryDeployKeyConfig) RepositoryDeployKey {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewRepositoryDeployKey(scope constructs.Construct, id *string, config *Repo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_deploy_key github_repository_deploy_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_deploy_key github_repository_deploy_key} Resource.
 func NewRepositoryDeployKey_Override(r RepositoryDeployKey, scope constructs.Construct, id *string, config *RepositoryDeployKeyConfig) {
 	_init_.Initialize()
 

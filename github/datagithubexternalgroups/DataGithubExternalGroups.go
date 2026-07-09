@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/external_groups github_external_groups}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/external_groups github_external_groups}.
 type DataGithubExternalGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataGithubExternalGroups) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/external_groups github_external_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/external_groups github_external_groups} Data Source.
 func NewDataGithubExternalGroups(scope constructs.Construct, id *string, config *DataGithubExternalGroupsConfig) DataGithubExternalGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataGithubExternalGroups(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/external_groups github_external_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/external_groups github_external_groups} Data Source.
 func NewDataGithubExternalGroups_Override(d DataGithubExternalGroups, scope constructs.Construct, id *string, config *DataGithubExternalGroupsConfig) {
 	_init_.Initialize()
 

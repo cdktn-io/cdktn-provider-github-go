@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_secret_repository github_actions_organization_secret_repository}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_organization_secret_repository github_actions_organization_secret_repository}.
 type ActionsOrganizationSecretRepository interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -365,7 +365,7 @@ func (j *jsiiProxy_ActionsOrganizationSecretRepository) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_secret_repository github_actions_organization_secret_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_organization_secret_repository github_actions_organization_secret_repository} Resource.
 func NewActionsOrganizationSecretRepository(scope constructs.Construct, id *string, config *ActionsOrganizationSecretRepositoryConfig) ActionsOrganizationSecretRepository {
 	_init_.Initialize()
 
@@ -383,7 +383,7 @@ func NewActionsOrganizationSecretRepository(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_secret_repository github_actions_organization_secret_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_organization_secret_repository github_actions_organization_secret_repository} Resource.
 func NewActionsOrganizationSecretRepository_Override(a ActionsOrganizationSecretRepository, scope constructs.Construct, id *string, config *ActionsOrganizationSecretRepositoryConfig) {
 	_init_.Initialize()
 

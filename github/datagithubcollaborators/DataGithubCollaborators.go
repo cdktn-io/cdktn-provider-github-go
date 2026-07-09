@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/collaborators github_collaborators}.
+// Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/collaborators github_collaborators}.
 type DataGithubCollaborators interface {
 	cdktn.TerraformDataSource
 	Affiliation() *string
@@ -379,7 +379,7 @@ func (j *jsiiProxy_DataGithubCollaborators) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/collaborators github_collaborators} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/collaborators github_collaborators} Data Source.
 func NewDataGithubCollaborators(scope constructs.Construct, id *string, config *DataGithubCollaboratorsConfig) DataGithubCollaborators {
 	_init_.Initialize()
 
@@ -397,7 +397,7 @@ func NewDataGithubCollaborators(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/collaborators github_collaborators} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/collaborators github_collaborators} Data Source.
 func NewDataGithubCollaborators_Override(d DataGithubCollaborators, scope constructs.Construct, id *string, config *DataGithubCollaboratorsConfig) {
 	_init_.Initialize()
 
