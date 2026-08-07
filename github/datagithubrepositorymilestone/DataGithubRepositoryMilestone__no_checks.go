@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGithubRepositoryMilestone) validateOverrideLogicalIdParam
 	return nil
 }
 
+func (d *jsiiProxy_DataGithubRepositoryMilestone) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGithubRepositoryMilestone_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (r *jsiiProxy_RepositoryCollaborators) validateInterpolationForAttributePar
 	return nil
 }
 
+func (r *jsiiProxy_RepositoryCollaborators) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RepositoryCollaborators) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (r *jsiiProxy_RepositoryCollaborators) validatePutTeamParameters(value inte
 }
 
 func (r *jsiiProxy_RepositoryCollaborators) validatePutUserParameters(value interface{}) error {
+	return nil
+}
+
+func (r *jsiiProxy_RepositoryCollaborators) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

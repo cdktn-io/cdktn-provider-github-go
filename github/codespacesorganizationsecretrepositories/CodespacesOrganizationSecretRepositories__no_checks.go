@@ -59,6 +59,10 @@ func (c *jsiiProxy_CodespacesOrganizationSecretRepositories) validateInterpolati
 	return nil
 }
 
+func (c *jsiiProxy_CodespacesOrganizationSecretRepositories) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CodespacesOrganizationSecretRepositories) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (c *jsiiProxy_CodespacesOrganizationSecretRepositories) validateMoveToIdPar
 }
 
 func (c *jsiiProxy_CodespacesOrganizationSecretRepositories) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodespacesOrganizationSecretRepositories) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

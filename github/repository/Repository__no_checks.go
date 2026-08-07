@@ -59,6 +59,10 @@ func (r *jsiiProxy_Repository) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (r *jsiiProxy_Repository) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_Repository) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (r *jsiiProxy_Repository) validatePutSecurityAndAnalysisParameters(value *R
 }
 
 func (r *jsiiProxy_Repository) validatePutTemplateParameters(value *RepositoryTemplate) error {
+	return nil
+}
+
+func (r *jsiiProxy_Repository) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

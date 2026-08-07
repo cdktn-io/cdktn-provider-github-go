@@ -59,6 +59,10 @@ func (e *jsiiProxy_EmuGroupMapping) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (e *jsiiProxy_EmuGroupMapping) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EmuGroupMapping) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (e *jsiiProxy_EmuGroupMapping) validateMoveToIdParameters(id *string) error
 }
 
 func (e *jsiiProxy_EmuGroupMapping) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EmuGroupMapping) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

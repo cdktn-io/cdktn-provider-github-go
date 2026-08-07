@@ -122,6 +122,14 @@ func (u *jsiiProxy_UserInvitationAccepter) validateInterpolationForAttributePara
 	return nil
 }
 
+func (u *jsiiProxy_UserInvitationAccepter) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (u *jsiiProxy_UserInvitationAccepter) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (u *jsiiProxy_UserInvitationAccepter) validateMoveToIdParameters(id *string
 func (u *jsiiProxy_UserInvitationAccepter) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (u *jsiiProxy_UserInvitationAccepter) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

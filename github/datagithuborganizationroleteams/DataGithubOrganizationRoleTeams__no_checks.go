@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGithubOrganizationRoleTeams) validateOverrideLogicalIdPar
 	return nil
 }
 
+func (d *jsiiProxy_DataGithubOrganizationRoleTeams) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGithubOrganizationRoleTeams_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

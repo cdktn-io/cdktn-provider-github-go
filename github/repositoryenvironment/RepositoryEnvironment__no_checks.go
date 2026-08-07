@@ -59,6 +59,10 @@ func (r *jsiiProxy_RepositoryEnvironment) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (r *jsiiProxy_RepositoryEnvironment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RepositoryEnvironment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (r *jsiiProxy_RepositoryEnvironment) validatePutDeploymentBranchPolicyParam
 }
 
 func (r *jsiiProxy_RepositoryEnvironment) validatePutReviewersParameters(value *RepositoryEnvironmentReviewers) error {
+	return nil
+}
+
+func (r *jsiiProxy_RepositoryEnvironment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

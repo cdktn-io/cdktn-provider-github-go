@@ -122,6 +122,14 @@ func (r *jsiiProxy_RepositoryCollaborators) validateInterpolationForAttributePar
 	return nil
 }
 
+func (r *jsiiProxy_RepositoryCollaborators) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (r *jsiiProxy_RepositoryCollaborators) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -295,6 +303,14 @@ func (r *jsiiProxy_RepositoryCollaborators) validatePutUserParameters(value inte
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*RepositoryCollaboratorsUser; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (r *jsiiProxy_RepositoryCollaborators) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

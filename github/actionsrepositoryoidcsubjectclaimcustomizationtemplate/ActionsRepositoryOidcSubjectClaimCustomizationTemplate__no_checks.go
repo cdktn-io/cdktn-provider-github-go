@@ -59,6 +59,10 @@ func (a *jsiiProxy_ActionsRepositoryOidcSubjectClaimCustomizationTemplate) valid
 	return nil
 }
 
+func (a *jsiiProxy_ActionsRepositoryOidcSubjectClaimCustomizationTemplate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ActionsRepositoryOidcSubjectClaimCustomizationTemplate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (a *jsiiProxy_ActionsRepositoryOidcSubjectClaimCustomizationTemplate) valid
 }
 
 func (a *jsiiProxy_ActionsRepositoryOidcSubjectClaimCustomizationTemplate) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_ActionsRepositoryOidcSubjectClaimCustomizationTemplate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

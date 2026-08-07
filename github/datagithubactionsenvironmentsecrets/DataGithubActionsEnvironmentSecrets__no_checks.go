@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGithubActionsEnvironmentSecrets) validateOverrideLogicalI
 	return nil
 }
 
+func (d *jsiiProxy_DataGithubActionsEnvironmentSecrets) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGithubActionsEnvironmentSecrets_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

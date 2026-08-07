@@ -59,6 +59,10 @@ func (a *jsiiProxy_ActionsOrganizationPermissions) validateInterpolationForAttri
 	return nil
 }
 
+func (a *jsiiProxy_ActionsOrganizationPermissions) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ActionsOrganizationPermissions) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_ActionsOrganizationPermissions) validatePutAllowedActionsConf
 }
 
 func (a *jsiiProxy_ActionsOrganizationPermissions) validatePutEnabledRepositoriesConfigParameters(value *ActionsOrganizationPermissionsEnabledRepositoriesConfig) error {
+	return nil
+}
+
+func (a *jsiiProxy_ActionsOrganizationPermissions) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

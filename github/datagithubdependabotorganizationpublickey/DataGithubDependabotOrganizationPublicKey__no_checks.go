@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGithubDependabotOrganizationPublicKey) validateOverrideLo
 	return nil
 }
 
+func (d *jsiiProxy_DataGithubDependabotOrganizationPublicKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGithubDependabotOrganizationPublicKey_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

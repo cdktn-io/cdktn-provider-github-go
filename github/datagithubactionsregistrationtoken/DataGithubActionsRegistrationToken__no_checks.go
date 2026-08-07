@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGithubActionsRegistrationToken) validateOverrideLogicalId
 	return nil
 }
 
+func (d *jsiiProxy_DataGithubActionsRegistrationToken) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGithubActionsRegistrationToken_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

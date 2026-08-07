@@ -59,6 +59,10 @@ func (u *jsiiProxy_UserInvitationAccepter) validateInterpolationForAttributePara
 	return nil
 }
 
+func (u *jsiiProxy_UserInvitationAccepter) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (u *jsiiProxy_UserInvitationAccepter) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (u *jsiiProxy_UserInvitationAccepter) validateMoveToIdParameters(id *string
 }
 
 func (u *jsiiProxy_UserInvitationAccepter) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (u *jsiiProxy_UserInvitationAccepter) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

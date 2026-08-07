@@ -59,6 +59,10 @@ func (t *jsiiProxy_TeamSettings) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (t *jsiiProxy_TeamSettings) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (t *jsiiProxy_TeamSettings) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (t *jsiiProxy_TeamSettings) validateOverrideLogicalIdParameters(newLogicalI
 }
 
 func (t *jsiiProxy_TeamSettings) validatePutReviewRequestDelegationParameters(value *TeamSettingsReviewRequestDelegation) error {
+	return nil
+}
+
+func (t *jsiiProxy_TeamSettings) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

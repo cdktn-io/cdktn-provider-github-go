@@ -5,9 +5,9 @@ package teammembers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v17/teammembers/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v18/teammembers/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 

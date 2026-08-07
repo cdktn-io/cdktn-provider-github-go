@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGithubActionsOrganizationRegistrationToken) validateOverr
 	return nil
 }
 
+func (d *jsiiProxy_DataGithubActionsOrganizationRegistrationToken) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGithubActionsOrganizationRegistrationToken_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

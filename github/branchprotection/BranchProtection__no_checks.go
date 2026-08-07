@@ -59,6 +59,10 @@ func (b *jsiiProxy_BranchProtection) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (b *jsiiProxy_BranchProtection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BranchProtection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (b *jsiiProxy_BranchProtection) validatePutRequiredStatusChecksParameters(v
 }
 
 func (b *jsiiProxy_BranchProtection) validatePutRestrictPushesParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BranchProtection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

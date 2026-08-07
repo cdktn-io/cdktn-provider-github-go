@@ -59,6 +59,10 @@ func (d *jsiiProxy_DependabotOrganizationSecret) validateInterpolationForAttribu
 	return nil
 }
 
+func (d *jsiiProxy_DependabotOrganizationSecret) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DependabotOrganizationSecret) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (d *jsiiProxy_DependabotOrganizationSecret) validateMoveToIdParameters(id *
 }
 
 func (d *jsiiProxy_DependabotOrganizationSecret) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DependabotOrganizationSecret) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

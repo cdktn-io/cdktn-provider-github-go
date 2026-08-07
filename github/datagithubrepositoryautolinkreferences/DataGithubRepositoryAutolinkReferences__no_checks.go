@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGithubRepositoryAutolinkReferences) validateOverrideLogic
 	return nil
 }
 
+func (d *jsiiProxy_DataGithubRepositoryAutolinkReferences) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGithubRepositoryAutolinkReferences_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

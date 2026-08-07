@@ -59,6 +59,10 @@ func (u *jsiiProxy_UserGpgKey) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (u *jsiiProxy_UserGpgKey) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (u *jsiiProxy_UserGpgKey) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (u *jsiiProxy_UserGpgKey) validateMoveToIdParameters(id *string) error {
 }
 
 func (u *jsiiProxy_UserGpgKey) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (u *jsiiProxy_UserGpgKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

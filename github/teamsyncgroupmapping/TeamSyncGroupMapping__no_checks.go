@@ -59,6 +59,10 @@ func (t *jsiiProxy_TeamSyncGroupMapping) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (t *jsiiProxy_TeamSyncGroupMapping) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (t *jsiiProxy_TeamSyncGroupMapping) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (t *jsiiProxy_TeamSyncGroupMapping) validateOverrideLogicalIdParameters(new
 }
 
 func (t *jsiiProxy_TeamSyncGroupMapping) validatePutGroupParameters(value interface{}) error {
+	return nil
+}
+
+func (t *jsiiProxy_TeamSyncGroupMapping) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

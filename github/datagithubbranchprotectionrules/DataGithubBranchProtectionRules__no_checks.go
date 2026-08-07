@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGithubBranchProtectionRules) validateOverrideLogicalIdPar
 	return nil
 }
 
+func (d *jsiiProxy_DataGithubBranchProtectionRules) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGithubBranchProtectionRules_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }
