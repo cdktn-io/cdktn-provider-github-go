@@ -5,9 +5,9 @@ package datagithubrepositoryenvironments
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-github-go/github/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-github-go/github/v18/datagithubrepositoryenvironments/internal"
+	"github.com/cdktn-io/cdktn-provider-github-go/github/v19/datagithubrepositoryenvironments/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
